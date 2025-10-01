@@ -38,10 +38,10 @@ create table if not exists public.roots (
 -- 3) Bảng vocab (từ vựng)
 -- =========================
 create table if not exists public.vocab (
-                                            id               uuid primary key default gen_random_uuid(),
+    id               uuid primary key default gen_random_uuid(),
     root_id          uuid not null references public.roots(id) on delete restrict,
-    token            text not null,              -- từ đầy đủ
 -- cấu phần từ
+    word             text not null unique,       -- từ đầy đủ
     prefix           text,
     origin           text,
     suffix           text,
@@ -49,28 +49,32 @@ create table if not exists public.vocab (
     origin_meaning   text,
     suffix_meaning   text,
     phonetic         text,                       -- phiên âm (IPA)
-    created_at       timestamptz not null default now(),
-    unique (root_id, token)
+    created_at       timestamptz not null default now()
     );
-
-create index if not exists idx_vocab_root_id on public.vocab(root_id);
-create index if not exists idx_vocab_token on public.vocab(token);
 
 -- =========================
 -- 4) Vocab senses (nghĩa theo loại từ)
 -- =========================
 create table if not exists public.vocab_senses (
-                                                   id           uuid primary key default gen_random_uuid(),
+    id           uuid primary key default gen_random_uuid(),
     vocab_id     uuid not null references public.vocab(id) on delete cascade,
+    word         text not null,           -- từ đầy đủ, và từ liên quan, ví dụ: administer, administration, administrative
     pos          pos_type not null,          -- noun | verb | adjective
     definition   text not null,              -- nghĩa của từ ở POS này
-    examples     text[],                     -- ví dụ câu (tùy chọn)
     sense_order  smallint default 1,         -- để sắp xếp các sense (1,2,3…)
+    created_at   timestamptz not null default now(),
+    unique (vocab_id, word, pos)
+    );
+
+create table if not exists public.vocab_examples (
+    id           uuid primary key default gen_random_uuid(),
+    vocab_id     uuid not null references public.vocab(id) on delete cascade,
+    example_en      text not null,              -- ví dụ minh họa
+    example_vi      text,                   -- ví dụ dịch sang tiếng Việt
+    example_order smallint default 1,        -- để sắp xếp các ví dụ (1,2,3…)
     created_at   timestamptz not null default now()
     );
 
 -- Nếu bạn muốn mỗi POS chỉ 1 nghĩa duy nhất cho 1 từ:
 -- alter table public.vocab_senses add constraint uq_vocab_pos unique (vocab_id, pos);
 
-create index if not exists idx_sense_vocab on public.vocab_senses(vocab_id);
-create index if not exists idx_sense_pos on public.vocab_senses(pos);
