@@ -1,0 +1,427 @@
+-- revoke delete on table "public"."profile_root_progress" from "anon";
+--
+-- revoke insert on table "public"."profile_root_progress" from "anon";
+--
+-- revoke references on table "public"."profile_root_progress" from "anon";
+--
+-- revoke select on table "public"."profile_root_progress" from "anon";
+--
+-- revoke trigger on table "public"."profile_root_progress" from "anon";
+--
+-- revoke truncate on table "public"."profile_root_progress" from "anon";
+--
+-- revoke update on table "public"."profile_root_progress" from "anon";
+--
+-- revoke delete on table "public"."profile_root_progress" from "authenticated";
+--
+-- revoke insert on table "public"."profile_root_progress" from "authenticated";
+--
+-- revoke references on table "public"."profile_root_progress" from "authenticated";
+--
+-- revoke select on table "public"."profile_root_progress" from "authenticated";
+--
+-- revoke trigger on table "public"."profile_root_progress" from "authenticated";
+--
+-- revoke truncate on table "public"."profile_root_progress" from "authenticated";
+--
+-- revoke update on table "public"."profile_root_progress" from "authenticated";
+--
+-- revoke delete on table "public"."profile_root_progress" from "service_role";
+--
+-- revoke insert on table "public"."profile_root_progress" from "service_role";
+--
+-- revoke references on table "public"."profile_root_progress" from "service_role";
+--
+-- revoke select on table "public"."profile_root_progress" from "service_role";
+--
+-- revoke trigger on table "public"."profile_root_progress" from "service_role";
+--
+-- revoke truncate on table "public"."profile_root_progress" from "service_role";
+--
+-- revoke update on table "public"."profile_root_progress" from "service_role";
+--
+-- revoke delete on table "public"."profile_vocab_progress" from "anon";
+--
+-- revoke insert on table "public"."profile_vocab_progress" from "anon";
+--
+-- revoke references on table "public"."profile_vocab_progress" from "anon";
+--
+-- revoke select on table "public"."profile_vocab_progress" from "anon";
+--
+-- revoke trigger on table "public"."profile_vocab_progress" from "anon";
+--
+-- revoke truncate on table "public"."profile_vocab_progress" from "anon";
+--
+-- revoke update on table "public"."profile_vocab_progress" from "anon";
+--
+-- revoke delete on table "public"."profile_vocab_progress" from "authenticated";
+--
+-- revoke insert on table "public"."profile_vocab_progress" from "authenticated";
+--
+-- revoke references on table "public"."profile_vocab_progress" from "authenticated";
+--
+-- revoke select on table "public"."profile_vocab_progress" from "authenticated";
+--
+-- revoke trigger on table "public"."profile_vocab_progress" from "authenticated";
+--
+-- revoke truncate on table "public"."profile_vocab_progress" from "authenticated";
+--
+-- revoke update on table "public"."profile_vocab_progress" from "authenticated";
+--
+-- revoke delete on table "public"."profile_vocab_progress" from "service_role";
+--
+-- revoke insert on table "public"."profile_vocab_progress" from "service_role";
+--
+-- revoke references on table "public"."profile_vocab_progress" from "service_role";
+--
+-- revoke select on table "public"."profile_vocab_progress" from "service_role";
+--
+-- revoke trigger on table "public"."profile_vocab_progress" from "service_role";
+--
+-- revoke truncate on table "public"."profile_vocab_progress" from "service_role";
+--
+-- revoke update on table "public"."profile_vocab_progress" from "service_role";
+--
+-- revoke delete on table "public"."profiles" from "anon";
+--
+-- revoke insert on table "public"."profiles" from "anon";
+--
+-- revoke references on table "public"."profiles" from "anon";
+--
+-- revoke select on table "public"."profiles" from "anon";
+--
+-- revoke trigger on table "public"."profiles" from "anon";
+--
+-- revoke truncate on table "public"."profiles" from "anon";
+--
+-- revoke update on table "public"."profiles" from "anon";
+--
+-- revoke delete on table "public"."profiles" from "authenticated";
+--
+-- revoke insert on table "public"."profiles" from "authenticated";
+--
+-- revoke references on table "public"."profiles" from "authenticated";
+--
+-- revoke select on table "public"."profiles" from "authenticated";
+--
+-- revoke trigger on table "public"."profiles" from "authenticated";
+--
+-- revoke truncate on table "public"."profiles" from "authenticated";
+--
+-- revoke update on table "public"."profiles" from "authenticated";
+--
+-- revoke delete on table "public"."profiles" from "service_role";
+--
+-- revoke insert on table "public"."profiles" from "service_role";
+--
+-- revoke references on table "public"."profiles" from "service_role";
+--
+-- revoke select on table "public"."profiles" from "service_role";
+--
+-- revoke trigger on table "public"."profiles" from "service_role";
+--
+-- revoke truncate on table "public"."profiles" from "service_role";
+--
+-- revoke update on table "public"."profiles" from "service_role";
+--
+-- revoke delete on table "public"."roots" from "anon";
+--
+-- revoke insert on table "public"."roots" from "anon";
+--
+-- revoke references on table "public"."roots" from "anon";
+--
+-- revoke select on table "public"."roots" from "anon";
+--
+-- revoke trigger on table "public"."roots" from "anon";
+--
+-- revoke truncate on table "public"."roots" from "anon";
+--
+-- revoke update on table "public"."roots" from "anon";
+--
+-- revoke delete on table "public"."roots" from "authenticated";
+--
+-- revoke insert on table "public"."roots" from "authenticated";
+--
+-- revoke references on table "public"."roots" from "authenticated";
+--
+-- revoke select on table "public"."roots" from "authenticated";
+--
+-- revoke trigger on table "public"."roots" from "authenticated";
+--
+-- revoke truncate on table "public"."roots" from "authenticated";
+--
+-- revoke update on table "public"."roots" from "authenticated";
+--
+-- revoke delete on table "public"."roots" from "service_role";
+--
+-- revoke insert on table "public"."roots" from "service_role";
+--
+-- revoke references on table "public"."roots" from "service_role";
+--
+-- revoke select on table "public"."roots" from "service_role";
+--
+-- revoke trigger on table "public"."roots" from "service_role";
+--
+-- revoke truncate on table "public"."roots" from "service_role";
+--
+-- revoke update on table "public"."roots" from "service_role";
+--
+-- revoke delete on table "public"."vocab" from "anon";
+--
+-- revoke insert on table "public"."vocab" from "anon";
+--
+-- revoke references on table "public"."vocab" from "anon";
+--
+-- revoke select on table "public"."vocab" from "anon";
+--
+-- revoke trigger on table "public"."vocab" from "anon";
+--
+-- revoke truncate on table "public"."vocab" from "anon";
+--
+-- revoke update on table "public"."vocab" from "anon";
+--
+-- revoke delete on table "public"."vocab" from "authenticated";
+--
+-- revoke insert on table "public"."vocab" from "authenticated";
+--
+-- revoke references on table "public"."vocab" from "authenticated";
+--
+-- revoke select on table "public"."vocab" from "authenticated";
+--
+-- revoke trigger on table "public"."vocab" from "authenticated";
+--
+-- revoke truncate on table "public"."vocab" from "authenticated";
+--
+-- revoke update on table "public"."vocab" from "authenticated";
+--
+-- revoke delete on table "public"."vocab" from "service_role";
+--
+-- revoke insert on table "public"."vocab" from "service_role";
+--
+-- revoke references on table "public"."vocab" from "service_role";
+--
+-- revoke select on table "public"."vocab" from "service_role";
+--
+-- revoke trigger on table "public"."vocab" from "service_role";
+--
+-- revoke truncate on table "public"."vocab" from "service_role";
+--
+-- revoke update on table "public"."vocab" from "service_role";
+--
+-- revoke delete on table "public"."vocab_examples" from "anon";
+--
+-- revoke insert on table "public"."vocab_examples" from "anon";
+--
+-- revoke references on table "public"."vocab_examples" from "anon";
+--
+-- revoke select on table "public"."vocab_examples" from "anon";
+--
+-- revoke trigger on table "public"."vocab_examples" from "anon";
+--
+-- revoke truncate on table "public"."vocab_examples" from "anon";
+--
+-- revoke update on table "public"."vocab_examples" from "anon";
+--
+-- revoke delete on table "public"."vocab_examples" from "authenticated";
+--
+-- revoke insert on table "public"."vocab_examples" from "authenticated";
+--
+-- revoke references on table "public"."vocab_examples" from "authenticated";
+--
+-- revoke select on table "public"."vocab_examples" from "authenticated";
+--
+-- revoke trigger on table "public"."vocab_examples" from "authenticated";
+--
+-- revoke truncate on table "public"."vocab_examples" from "authenticated";
+--
+-- revoke update on table "public"."vocab_examples" from "authenticated";
+--
+-- revoke delete on table "public"."vocab_examples" from "service_role";
+--
+-- revoke insert on table "public"."vocab_examples" from "service_role";
+--
+-- revoke references on table "public"."vocab_examples" from "service_role";
+--
+-- revoke select on table "public"."vocab_examples" from "service_role";
+--
+-- revoke trigger on table "public"."vocab_examples" from "service_role";
+--
+-- revoke truncate on table "public"."vocab_examples" from "service_role";
+--
+-- revoke update on table "public"."vocab_examples" from "service_role";
+--
+-- revoke delete on table "public"."vocab_senses" from "anon";
+--
+-- revoke insert on table "public"."vocab_senses" from "anon";
+--
+-- revoke references on table "public"."vocab_senses" from "anon";
+--
+-- revoke select on table "public"."vocab_senses" from "anon";
+--
+-- revoke trigger on table "public"."vocab_senses" from "anon";
+--
+-- revoke truncate on table "public"."vocab_senses" from "anon";
+--
+-- revoke update on table "public"."vocab_senses" from "anon";
+--
+-- revoke delete on table "public"."vocab_senses" from "authenticated";
+--
+-- revoke insert on table "public"."vocab_senses" from "authenticated";
+--
+-- revoke references on table "public"."vocab_senses" from "authenticated";
+--
+-- revoke select on table "public"."vocab_senses" from "authenticated";
+--
+-- revoke trigger on table "public"."vocab_senses" from "authenticated";
+--
+-- revoke truncate on table "public"."vocab_senses" from "authenticated";
+--
+-- revoke update on table "public"."vocab_senses" from "authenticated";
+--
+-- revoke delete on table "public"."vocab_senses" from "service_role";
+--
+-- revoke insert on table "public"."vocab_senses" from "service_role";
+--
+-- revoke references on table "public"."vocab_senses" from "service_role";
+--
+-- revoke select on table "public"."vocab_senses" from "service_role";
+--
+-- revoke trigger on table "public"."vocab_senses" from "service_role";
+--
+-- revoke truncate on table "public"."vocab_senses" from "service_role";
+--
+-- revoke update on table "public"."vocab_senses" from "service_role";
+--
+-- alter table "public"."profile_root_progress" drop constraint "profile_root_progress_profile_id_fkey";
+--
+-- alter table "public"."profile_root_progress" drop constraint "profile_root_progress_profile_id_root_id_key";
+--
+-- alter table "public"."profile_root_progress" drop constraint "profile_root_progress_root_id_fkey";
+--
+-- alter table "public"."profile_vocab_progress" drop constraint "profile_vocab_progress_profile_id_fkey";
+--
+-- alter table "public"."profile_vocab_progress" drop constraint "profile_vocab_progress_profile_id_vocab_id_key";
+--
+-- alter table "public"."profile_vocab_progress" drop constraint "profile_vocab_progress_vocab_id_fkey";
+--
+-- alter table "public"."roots" drop constraint "roots_root_code_key";
+--
+-- alter table "public"."vocab" drop constraint "vocab_root_id_fkey";
+--
+-- alter table "public"."vocab" drop constraint "vocab_word_key";
+--
+-- alter table "public"."vocab_examples" drop constraint "vocab_examples_vocab_id_fkey";
+--
+-- alter table "public"."vocab_senses" drop constraint "vocab_senses_vocab_id_fkey";
+--
+-- alter table "public"."vocab_senses" drop constraint "vocab_senses_vocab_id_word_pos_key";
+--
+-- alter table "public"."roots" drop constraint "roots_pkey";
+--
+-- alter table "public"."vocab" drop constraint "vocab_pkey";
+--
+-- alter table "public"."vocab_examples" drop constraint "vocab_examples_pkey";
+--
+-- alter table "public"."vocab_senses" drop constraint "vocab_senses_pkey";
+--
+-- drop index if exists "public"."idx_urp_profile";
+--
+-- drop index if exists "public"."idx_urp_root";
+--
+-- drop index if exists "public"."idx_uvp_profile";
+--
+-- drop index if exists "public"."idx_uvp_vocab";
+--
+-- drop index if exists "public"."profile_root_progress_profile_id_root_id_key";
+--
+-- drop index if exists "public"."profile_vocab_progress_profile_id_vocab_id_key";
+--
+-- drop index if exists "public"."roots_pkey";
+--
+-- drop index if exists "public"."roots_root_code_key";
+--
+-- drop index if exists "public"."vocab_examples_pkey";
+--
+-- drop index if exists "public"."vocab_pkey";
+--
+-- drop index if exists "public"."vocab_senses_pkey";
+--
+-- drop index if exists "public"."vocab_senses_vocab_id_word_pos_key";
+--
+-- drop index if exists "public"."vocab_word_key";
+
+-- drop table "public"."profile_root_progress";
+--
+-- drop table "public"."profile_vocab_progress";
+--
+-- drop table "public"."roots";
+--
+-- drop table "public"."vocab";
+--
+-- drop table "public"."vocab_examples";
+--
+-- drop table "public"."vocab_senses";
+
+-- create table "public"."vocabulary" (
+--     "id" uuid not null default gen_random_uuid(),
+--     "created_at" timestamp with time zone not null default now(),
+--     "word" text,
+--     "pos" text,
+--     "prefix" text,
+--     "infix" text,
+--     "postfix" text,
+--     "prefix_meaning" text,
+--     "infix_meaning" text,
+--     "postfix_meaning" text,
+--     "ipa" text,
+--     "definition_vi" text,
+--     "example_en" text,
+--     "example_vi" text
+-- );
+
+
+-- alter table "public"."profiles" enable row level security;
+
+-- drop type "public"."pos_type";
+
+-- CREATE UNIQUE INDEX vocabulary_pkey ON public.vocabulary USING btree (id);
+
+-- alter table "public"."vocabulary" add constraint "vocabulary_pkey" PRIMARY KEY using index "vocabulary_pkey";
+
+set check_function_bodies = off;
+
+CREATE OR REPLACE FUNCTION public.handle_new_user()
+ RETURNS trigger
+ LANGUAGE plpgsql
+ SECURITY DEFINER
+ SET search_path TO 'public'
+AS $function$BEGIN
+  INSERT INTO public.profiles (id, email, full_name, avatar_url)
+  VALUES (
+    NEW.id,
+    NEW.email,
+    COALESCE(NEW.raw_user_meta_data->>'full_name', NEW.email),
+    NEW.raw_user_meta_data->>'avatar_url'
+  );
+  RETURN NEW;
+END;$function$
+;
+
+
+CREATE TRIGGER on_auth_user_created AFTER INSERT ON auth.users FOR EACH ROW EXECUTE FUNCTION handle_new_user();
+
+-- CREATE TRIGGER enforce_bucket_name_length_trigger BEFORE INSERT OR UPDATE OF name ON storage.buckets FOR EACH ROW EXECUTE FUNCTION storage.enforce_bucket_name_length();
+
+-- CREATE TRIGGER objects_delete_delete_prefix AFTER DELETE ON storage.objects FOR EACH ROW EXECUTE FUNCTION storage.delete_prefix_hierarchy_trigger();
+--
+-- CREATE TRIGGER objects_insert_create_prefix BEFORE INSERT ON storage.objects FOR EACH ROW EXECUTE FUNCTION storage.objects_insert_prefix_trigger();
+--
+-- CREATE TRIGGER objects_update_create_prefix BEFORE UPDATE ON storage.objects FOR EACH ROW WHEN (((new.name <> old.name) OR (new.bucket_id <> old.bucket_id))) EXECUTE FUNCTION storage.objects_update_prefix_trigger();
+--
+-- CREATE TRIGGER update_objects_updated_at BEFORE UPDATE ON storage.objects FOR EACH ROW EXECUTE FUNCTION storage.update_updated_at_column();
+--
+-- CREATE TRIGGER prefixes_create_hierarchy BEFORE INSERT ON storage.prefixes FOR EACH ROW WHEN ((pg_trigger_depth() < 1)) EXECUTE FUNCTION storage.prefixes_insert_trigger();
+--
+-- CREATE TRIGGER prefixes_delete_hierarchy AFTER DELETE ON storage.prefixes FOR EACH ROW EXECUTE FUNCTION storage.delete_prefix_hierarchy_trigger();
+
+

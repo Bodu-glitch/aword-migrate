@@ -1,8 +1,8 @@
 -- =========================
 -- N-N: Người ↔ Từ (trạng thái hiện tại)
 -- =========================
-create table if not exists public.user_vocab_progress (
-    user_id         uuid not null references public.users(id) on delete cascade,
+create table if not exists public.profile_vocab_progress (
+    profile_id         uuid not null references public.profiles(id) on delete cascade,
     vocab_id        uuid not null references public.vocab(id) on delete cascade,
 
 --     status          text not null default 'learning',  -- learning|review|mastered (tùy bạn)
@@ -11,19 +11,19 @@ create table if not exists public.user_vocab_progress (
 --     next_review_at  timestamptz,
     first_learned_at timestamptz default now(),
 
-    unique (user_id, vocab_id)
+    unique (profile_id, vocab_id)
     );
 
-create index if not exists idx_uvp_user on public.user_vocab_progress(user_id);
-create index if not exists idx_uvp_vocab on public.user_vocab_progress(vocab_id);
--- create index if not exists idx_uvp_next_review on public.user_vocab_progress(next_review_at);
+create index if not exists idx_uvp_profile on public.profile_vocab_progress(profile_id);
+create index if not exists idx_uvp_vocab on public.profile_vocab_progress(vocab_id);
+-- create index if not exists idx_uvp_next_review on public.profile_vocab_progress(next_review_at);
 
 -- =========================
 -- Lịch sử: Người ↔ Từ (mỗi lượt ôn/làm bài)
 -- =========================
--- create table if not exists public.user_vocab_reviews (
+-- create table if not exists public.profile_vocab_reviews (
 --                                                          id              uuid primary key default gen_random_uuid(),
---     user_id         uuid not null references public.users(id) on delete cascade,
+--     profile_id         uuid not null references public.profiles(id) on delete cascade,
 --     vocab_id        uuid not null references public.vocab(id) on delete cascade,
 --
 --     reviewed_at     timestamptz not null default now(),
@@ -32,14 +32,14 @@ create index if not exists idx_uvp_vocab on public.user_vocab_progress(vocab_id)
 --     note            text
 --     );
 --
--- create index if not exists idx_uvr_user_vocab_time
---     on public.user_vocab_reviews(user_id, vocab_id, reviewed_at desc);
+-- create index if not exists idx_uvr_profile_vocab_time
+--     on public.profile_vocab_reviews(profile_id, vocab_id, reviewed_at desc);
 
 -- =========================
 -- N-N: Người ↔ Gốc (trạng thái hiện tại)
 -- =========================
-create table if not exists public.user_root_progress (
-    user_id         uuid not null references public.users(id) on delete cascade,
+create table if not exists public.profile_root_progress (
+    profile_id         uuid not null references public.profiles(id) on delete cascade,
     root_id         uuid not null references public.roots(id) on delete cascade,
 
     started_at      timestamptz not null default now(),
@@ -47,11 +47,11 @@ create table if not exists public.user_root_progress (
     mastered_ratio  numeric(5,2) default 0.00,    -- % từ của gốc đã mastered
     is_learning     boolean not null default true,            -- còn học gốc này không
 
-    unique (user_id, root_id)
+    unique (profile_id, root_id)
     );
 
-create index if not exists idx_urp_user on public.user_root_progress(user_id);
-create index if not exists idx_urp_root on public.user_root_progress(root_id);
+create index if not exists idx_urp_profile on public.profile_root_progress(profile_id);
+create index if not exists idx_urp_root on public.profile_root_progress(root_id);
 
 
 -- create table if not exists public.vocab_children (

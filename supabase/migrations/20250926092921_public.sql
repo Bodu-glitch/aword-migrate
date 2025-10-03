@@ -9,20 +9,21 @@ create extension if not exists pgcrypto;
 do $$
 begin
   if not exists (select 1 from pg_type where typname = 'pos_type') then
-create type pos_type as enum ('noun', 'verb', 'adjective');
+create type pos_type as enum ('noun', 'verb', 'adj');
 end if;
 end $$;
 
 -- =========================
 -- 1) Bảng users
 -- =========================
-create table if not exists public.users (
-                                            id           uuid primary key default gen_random_uuid(),
-    displayname  text not null,
-    name         text,
-    created_at   timestamptz not null default now(),
-    avatar_path  text
-    );
+create table public.profiles (
+                                 id uuid not null default gen_random_uuid (),
+                                 created_at timestamp with time zone not null default now(),
+                                 email text null,
+                                 full_name text null,
+                                 avatar_url text null,
+                                 constraint profiles_pkey primary key (id)
+) TABLESPACE pg_default;
 
 -- =========================
 -- 2) Bảng roots (gốc từ)
@@ -43,11 +44,11 @@ create table if not exists public.vocab (
 -- cấu phần từ
     word             text not null unique,       -- từ đầy đủ
     prefix           text,
-    origin           text,
-    suffix           text,
+    infix           text,
+    postfix           text,
     prefix_meaning   text,
-    origin_meaning   text,
-    suffix_meaning   text,
+    infix_meaning   text,
+    postfix_meaning   text,
     phonetic         text,                       -- phiên âm (IPA)
     created_at       timestamptz not null default now()
     );
