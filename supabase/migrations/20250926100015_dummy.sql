@@ -32,7 +32,7 @@ insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_mean
 values
     (gen_random_uuid(), (select root_id from r1), 'administer', 'ad', 'minister', '', 'hướng đến', 'bộ trưởng', '', '/ədˈmɪn.ɪ.stər/'),
     (gen_random_uuid(), (select root_id from r1), 'adverb', 'ad', 'verb', '', 'hướng đến', 'động từ', '', '/ˈæd.vɜːb/'),
-    (gen_random_uuid(), (select root_id from r1), 'amaze', 'a', 'maze', '', 'hướng đến', 'mê cung', '', '/əˈmeɪz/'),
+    (gen_random_uuid(), (select root_id from r1), 'amaze', 'a', 'maze', '', 'hướng đến', 'mê cung', '', '/əˈmeɪz/');
 
 insert into public.vocab_senses (id, vocab_id, word, pos, definition,  sense_order)
 values
@@ -49,7 +49,7 @@ values
     (gen_random_uuid(), (select id from public.vocab where word = 'amaze' limit 1), 'amazing', 'adj',
     'Đáng ngạc nhiên, kì thú', 1),
     (gen_random_uuid(), (select id from public.vocab where word = 'amaze' limit 1), 'amazement', 'n',
-    'Sự kinh ngạc, sự sửng sốt', 2),
+    'Sự kinh ngạc, sự sửng sốt', 2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
