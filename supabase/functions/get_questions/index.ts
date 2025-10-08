@@ -230,6 +230,12 @@ Deno.serve(async (req) => {
           progressingRoot = [];
         }
       }
+    } else {
+      reviewWords = await getReviewWords(
+        user.id,
+        supabaseClient,
+        10,
+      );
     }
 
     const allWords = [...(randomWords || []), ...(reviewWords || [])];
