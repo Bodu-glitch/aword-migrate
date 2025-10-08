@@ -3,13 +3,14 @@ export const getUser = async (supabaseClient, Deno, req) => {
 
         const token = req.headers.get("Authorization").replace("Bearer ", "");
 
-        console.log("Token:", token);
+        console.log({token});
         const {
             data: {user},
         } = await supabaseClient.auth.getUser(token);
 
+        console.log({user});
         return user
     } catch (error) {
-        throw error;
+        return null;
     }
 }
