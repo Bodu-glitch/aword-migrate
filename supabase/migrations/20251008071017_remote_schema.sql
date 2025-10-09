@@ -570,4 +570,67 @@ END;$function$
 ;
 
 
-
+CREATE OR REPLACE FUNCTION public.get_random_vocab_by_roots(
+  root_ids uuid[],
+  exclude_ids uuid[] DEFAULT '{}',
+  limit_count integer DEFAULT 5
+)
+RETURNS TABLE (
+  id uuid,
+  root_id uuid,
+  word text,
+  prefix text,
+  infix text,
+  postfix text,
+  prefix_meaning text,
+  infix_meaning text,
+  postfix_meaning text,
+  phonetic text,
+  created_at timestamp with time zone,
+  vocab_senses jsonb
+)
+LANGUAGE sql
+STABLE
+AS $function$
+SELECT
+    v.id,
+    v.root_id,
+    v.word,
+    v.prefix,
+    v.infix,
+    v.postfix,
+    v.prefix_meaning,
+    v.infix_meaning,
+    v.postfix_meaning,
+    v.phonetic,
+    v.created_at,
+    COALESCE(
+            (
+                SELECT jsonb_agg(
+                               jsonb_build_object(
+                                       'id', vs.id,
+                                       'word', vs.word,
+                                       'pos', vs.pos,
+                                       'definition', vs.definition
+                               ) ORDER BY vs.id
+                       )
+                FROM public.vocab_senses vs
+                WHERE vs.vocab_id = v.id
+            ),
+            '[]'::jsonb
+    ) AS vocab_senses
+FROM public.vocab v
+WHERE
+    (
+        root_ids IS NULL
+            OR cardinality(array_remove(root_ids, NULL)) = 0
+            OR v.root_id = ANY(array_remove(root_ids, NULL))
+        )
+  AND (
+    exclude_ids IS NULL
+        OR cardinality(array_remove(exclude_ids, NULL)) = 0
+        OR NOT (v.id = ANY(array_remove(exclude_ids, NULL)))
+    )
+ORDER BY random()
+    LIMIT greatest(limit_count, 0);
+$function$;

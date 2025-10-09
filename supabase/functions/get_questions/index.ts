@@ -181,10 +181,11 @@ Deno.serve(async (req) => {
     let progressingRoot = await findProgressingRoot(user.id, supabaseClient);
     let randomWords = [];
     let reviewWords = [];
+    let newRoot = null;
     const apiKey = Deno.env.get("OPENAI_API_KEY");
 
     if (progressingRoot.length == 0) {
-      const newRoot = await addNewProgressingRoot(user.id, supabaseClient);
+      newRoot = await addNewProgressingRoot(user.id, supabaseClient);
       if (newRoot) {
         progressingRoot.push(newRoot);
       }
@@ -218,7 +219,7 @@ Deno.serve(async (req) => {
         }
 
         // try to add a new root
-        const newRoot = await addNewProgressingRoot(user.id, supabaseClient);
+        newRoot = await addNewProgressingRoot(user.id, supabaseClient);
         if (newRoot) {
           progressingRoot = [newRoot];
           randomWords = await getRandomVocabByRoot(
@@ -271,8 +272,10 @@ Deno.serve(async (req) => {
 
     return new Response(
       JSON.stringify({
+        newRoot: newRoot,
+        newWords: randomWords,
         allWords,
-        allSenses,
+        // allSenses,
         questions: JSON.parse(raw),
       }),
       {
