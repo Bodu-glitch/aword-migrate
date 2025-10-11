@@ -121,11 +121,6 @@ Deno.serve(async (req) => {
     return vocabData;
   }
 
-  if (req.method === "OPTIONS") {
-    // Handle CORS preflight requests
-    return new Response("ok", { headers: corsHeaders });
-  }
-
   async function getReviewWords(
     userId: string,
     supabase: SupabaseClient<any, "public", "public", any, any>,
@@ -154,6 +149,11 @@ Deno.serve(async (req) => {
     }
 
     return data?.map((p) => p.vocab) || [];
+  }
+
+  if (req.method === "OPTIONS") {
+    // Handle CORS preflight requests
+    return new Response("ok", { headers: corsHeaders });
   }
 
   const supabaseClient = createClient(
@@ -206,6 +206,7 @@ Deno.serve(async (req) => {
         ),
       ]);
 
+      // if no random words, mark this root as not learning
       if (randomWords && randomWords.length == 0) {
         // all words for this root have been learned, mark this root as not learning
         const { error } = await supabaseClient
@@ -218,25 +219,20 @@ Deno.serve(async (req) => {
           throw error;
         }
 
-        // try to add a new root
-        newRoot = await addNewProgressingRoot(user.id, supabaseClient);
-        if (newRoot) {
-          progressingRoot = [newRoot];
-          randomWords = await getRandomVocabByRoot(
-            user.id,
-            progressingRoot.map((r) => r.root_id),
-            supabaseClient,
-          );
-        } else {
-          progressingRoot = [];
-        }
+        progressingRoot = [];
+        randomWords = [];
+        reviewWords = await getReviewWords(
+          user.id,
+          supabaseClient,
+          10,
+        ); 
       }
     } else {
       reviewWords = await getReviewWords(
         user.id,
         supabaseClient,
         10,
-      );
+      );  
     }
 
     const allWords = [...(randomWords || []), ...(reviewWords || [])];
