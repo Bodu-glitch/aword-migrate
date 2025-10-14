@@ -62,6 +62,7 @@ Deno.serve(async (req) => {
         .insert({
           profile_id: userId,
           root_id: newRoot.id,
+          is_learning: true,
         })
         .select("*")
         .single();
@@ -225,14 +226,14 @@ Deno.serve(async (req) => {
           user.id,
           supabaseClient,
           10,
-        ); 
+        );
       }
     } else {
       reviewWords = await getReviewWords(
         user.id,
         supabaseClient,
         10,
-      );  
+      );
     }
 
     const allWords = [...(randomWords || []), ...(reviewWords || [])];
@@ -254,7 +255,7 @@ Deno.serve(async (req) => {
       model: "gpt-4o",
       prompt: {
         id: "pmpt_68537407f234819691ff9829e4209ea008585d5829f3b9db",
-        version: "8",
+        version: "9",
       },
       input: [
         {

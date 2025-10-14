@@ -54,3 +54,8 @@ values
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
     (gen_random_uuid(), (select id from public.vocab where word = 'administer' limit 1), 'The teacher administered corporal punishment.', 'Giáo viên đó đã thực hiện một hình phạt về thể xác.', 0);
+
+
+
+
+
