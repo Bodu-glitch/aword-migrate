@@ -138,7 +138,8 @@ Deno.serve(async (req) => {
           id,
           root_code,
           root_meaning
-        )
+        ),
+        vocab_senses (*)
       )
     `)
       .eq("profile_id", userId)
@@ -150,6 +151,32 @@ Deno.serve(async (req) => {
     }
 
     return data?.map((p) => p.vocab) || [];
+  }
+
+  // Check if the user has learned any new vocab today (UTC)
+  async function hasLearnedNewVocabToday(
+    userId: string,
+    supabase: SupabaseClient<any, "public", "public", any, any>,
+  ) {
+    const now = new Date();
+    const startOfTodayUTC = new Date(Date.UTC(
+      now.getUTCFullYear(),
+      now.getUTCMonth(),
+      now.getUTCDate(),
+      0,
+      0,
+      0,
+      0,
+    ));
+
+    const { count, error } = await supabase
+      .from("profile_vocab_progress")
+      .select("vocab_id", { count: "exact", head: true })
+      .eq("profile_id", userId)
+      .gte("last_seen_at", startOfTodayUTC.toISOString());
+
+    if (error) throw error;
+    return (count ?? 0) > 0;
   }
 
   if (req.method === "OPTIONS") {
@@ -194,46 +221,58 @@ Deno.serve(async (req) => {
 
     console.log({ progressingRoot });
 
-    if (progressingRoot.length > 0) {
-      [randomWords, reviewWords] = await Promise.all([
-        getRandomVocabByRoot(
-          user.id,
-          progressingRoot.map((r) => r.root_id),
-          supabaseClient,
-        ),
-        getReviewWords(
-          user.id,
-          supabaseClient,
-        ),
-      ]);
+    // kiểm tra nếu như trong ngày hôm đó người dùng đã học từ mới rồi thì không lấy từ mới nữa mà chỉ lấy từ 10 review
+    const learnedToday = await hasLearnedNewVocabToday(user.id, supabaseClient);
 
-      // if no random words, mark this root as not learning
-      if (randomWords && randomWords.length == 0) {
-        // all words for this root have been learned, mark this root as not learning
-        const { error } = await supabaseClient
-          .from("profile_root_progress")
-          .update({ is_learning: false })
-          .eq("profile_id", user.id)
-          .eq("root_id", progressingRoot[0].root_id);
+    if (learnedToday) {
+      randomWords = [];
+      reviewWords = await getReviewWords(
+        user.id,
+        supabaseClient,
+        10,
+      );
+    } else {
+      if (progressingRoot.length > 0) {
+        [randomWords, reviewWords] = await Promise.all([
+          getRandomVocabByRoot(
+            user.id,
+            progressingRoot.map((r) => r.root_id),
+            supabaseClient,
+          ),
+          getReviewWords(
+            user.id,
+            supabaseClient,
+          ),
+        ]);
 
-        if (error) {
-          throw error;
+        // if no random words, mark this root as not learning
+        if (randomWords && randomWords.length == 0) {
+          // all words for this root have been learned, mark this root as not learning
+          const { error } = await supabaseClient
+            .from("profile_root_progress")
+            .update({ is_learning: false })
+            .eq("profile_id", user.id)
+            .eq("root_id", progressingRoot[0].root_id);
+
+          if (error) {
+            throw error;
+          }
+
+          progressingRoot = [];
+          randomWords = [];
+          reviewWords = await getReviewWords(
+            user.id,
+            supabaseClient,
+            10,
+          );
         }
-
-        progressingRoot = [];
-        randomWords = [];
+      } else {
         reviewWords = await getReviewWords(
           user.id,
           supabaseClient,
           10,
         );
       }
-    } else {
-      reviewWords = await getReviewWords(
-        user.id,
-        supabaseClient,
-        10,
-      );
     }
 
     const allWords = [...(randomWords || []), ...(reviewWords || [])];
@@ -245,35 +284,37 @@ Deno.serve(async (req) => {
     const allSenses = allWords.flatMap((w) =>
       w.vocab_senses
         ? w.vocab_senses.map((s) => ({
+          vocab_id: w.id,
           word: s.word,
           definition: s.definition,
         }))
         : []
     );
 
-    const response = await openai.responses.create({
-      model: "gpt-4o",
-      prompt: {
-        id: "pmpt_68537407f234819691ff9829e4209ea008585d5829f3b9db",
-        version: "9",
-      },
-      input: [
-        {
-          role: "user",
-          content: JSON.stringify(allSenses),
-        },
-      ],
-    });
-
-    const raw = response.output_text.replace(/```json|```/g, "").trim();
+    // const response = await openai.responses.create({
+    //   model: "gpt-4o",
+    //   prompt: {
+    //     id: "pmpt_68537407f234819691ff9829e4209ea008585d5829f3b9db",
+    //     version: "9",
+    //   },
+    //   input: [
+    //     {
+    //       role: "user",
+    //       content: JSON.stringify(allSenses),
+    //     },
+    //   ],
+    // });
+    //
+    // const raw = response.output_text.replace(/```json|```/g, "").trim();
 
     return new Response(
       JSON.stringify({
         newRoot: newRoot,
         newWords: randomWords,
+        reviewWords,
         allWords,
-        // allSenses,
-        questions: JSON.parse(raw),
+        allSenses,
+        // questions: JSON.parse(raw),
       }),
       {
         headers: { ...corsHeaders, "Content-Type": "application/json" },
