@@ -8,10 +8,11 @@ import {createClient, SupabaseClient} from "npm:@supabase/supabase-js@2";
 import {corsHeaders} from "../_shared/cors.ts";
 import {getUser} from "../_shared/get-user.ts";
 import OpenAI from "jsr:@openai/openai";
+import "npm:tslib@2.6.0";
 
 console.log("Hello from Functions!");
 
-Deno.serve(async (req) => {
+Deno.serve(async (req: Request) => {
     async function findProgressingRoot(
         userId: string,
         supabase: SupabaseClient<any, "public", "public", any, any>,
@@ -43,7 +44,7 @@ Deno.serve(async (req) => {
             throw existingRootsError;
         }
 
-        const existingRootIds = existingRoots?.map((r) => r.root_id) || [];
+    const existingRootIds = existingRoots?.map((r: any) => r.root_id) || [];
 
         const {data: newRoots, error: newRootsError} = await supabase
             .rpc("get_random_root", {
@@ -81,10 +82,10 @@ Deno.serve(async (req) => {
     async function getRandomVocabByRoot(
         userId: string,
         rootIds: string[],
-        supabase: SupabaseClient<any, "public", "public", any, any>,
+        supabase: SupabaseClient<any, "public", "public", any, any>
     ) {
-        // get words already learned by user
-        const {data, error} = await supabase
+        // 1️⃣ Lấy danh sách vocab user đã học (theo root)
+        const { data: learned, error: learnedError } = await supabase
             .from("profile_vocab_progress")
             .select(`
       vocab:vocab_id (
@@ -100,26 +101,72 @@ Deno.serve(async (req) => {
             .eq("profile_id", userId)
             .in("vocab.root_id", rootIds);
 
-        if (error) {
-            throw error;
-        }
-        const learnedVocabIds = data?.map((p) => p.vocab.id) || [];
+        if (learnedError) throw learnedError;
+        const learnedVocabIds = (learned ?? []).map((p: any) => p.vocab.id);
 
-        // call the get_random_vocab_by_roots rpc function
-        const {data: vocabData, error: vocabError} = await supabase
-            .rpc("get_random_vocab_by_roots", {
+        // 2️⃣ Gọi RPC get_random_vocab_by_roots
+        const { data: vocabData, error: vocabError } = await supabase.rpc(
+            "get_random_vocab_by_roots",
+            {
                 root_ids: rootIds,
                 exclude_ids: learnedVocabIds,
                 limit_count: 5,
-            });
+            }
+        );
 
-        if (vocabError) {
-            throw vocabError;
+        if (vocabError) throw vocabError;
+        if (!vocabData || vocabData.length === 0) return vocabData;
+
+        // 3️⃣ Lấy sub_roots của các vocab
+        const vocabIds = vocabData.map((v: any) => v.id);
+        const { data: subRoots, error: subRootError } = await supabase
+            .from("vocab_sub_roots")
+            .select("*")
+            .in("vocab_id", vocabIds);
+
+        if (subRootError) throw subRootError;
+
+        // Nếu không có sub_root nào → trả luôn vocabData
+        if (!subRoots || subRoots.length === 0) return vocabData;
+
+        // 🔹 Chọn 1 vocab có sub_root (ví dụ vocab đầu tiên có sub_root)
+        const vocabIdWithSubRoot = subRoots[0].vocab_id;
+
+        // Lọc lại vocabData chỉ giữ 1 vocab này
+        const parentVocab = vocabData.find((v: any) => v.id === vocabIdWithSubRoot);
+        if (!parentVocab) return vocabData; // fallback an toàn
+
+        // Lọc subRoots chỉ của vocab đó
+        const subRootsOfVocab = subRoots.filter(
+            (s: any) => s.vocab_id === vocabIdWithSubRoot
+        );
+
+        // 4️⃣ Lấy sub_vocab theo sub_root_id
+    const subRootIds = subRootsOfVocab.map((s: any) => s.id);
+        const { data: subVocabs, error: subVocabError } = await supabase
+            .from("sub_vocab")
+            .select("*, vocab_senses:sub_vocab_sense (*)")
+            .in("sub_root_id", subRootIds);
+
+        if (subVocabError) throw subVocabError;
+
+        // 5️⃣ Gộp lại
+        const combined: any[] = [];
+        combined.push(parentVocab);
+
+        for (const subRoot of subRootsOfVocab) {
+            const subVocabsOfSubRoot =
+                subVocabs?.filter((sv: any) => sv.sub_root_id === subRoot.id) ?? [];
+
+            const enrichedSubVocabs = subVocabsOfSubRoot.map((sv: any) => ({
+                ...sv,
+                                parent_vocab_id: parentVocab.id
+            }));
+
+            combined.push(...enrichedSubVocabs);
         }
 
-        console.log("Learned vocab IDs:", vocabData);
-
-        return vocabData;
+        return combined;
     }
 
     async function getReviewWords(
@@ -127,30 +174,83 @@ Deno.serve(async (req) => {
         supabase: SupabaseClient<any, "public", "public", any, any>,
         limit = 5,
     ) {
-        // get words due for review by user
-        const {data, error} = await supabase
-            .from("profile_vocab_progress")
-            .select(`
-      proficiency,
-      vocab:vocab_id (
-        *,
-        root:root_id (
-          id,
-          root_code,
-          root_meaning
-        ),
-        vocab_senses (*)
-      )
-    `)
-            .eq("profile_id", userId)
-            .order("proficiency", {ascending: true})
-            .limit(limit);
+                // Lấy danh sách từ cần ôn từ 2 bảng: profile_vocab_progress và profile_sub_vocab_progress
+                // Sau đó trộn theo độ thành thạo (proficiency) thấp nhất và lấy ra 'limit' mục
 
-        if (error) {
-            throw error;
-        }
+                const [vocabRes, subVocabRes] = await Promise.all([
+                        supabase
+                                .from("profile_vocab_progress")
+                                .select(`
+                    proficiency,
+                    vocab:vocab_id (
+                        *,
+                        root:root_id (
+                            id,
+                            root_code,
+                            root_meaning
+                        ),
+                        vocab_senses (*)
+                    )
+                `)
+                                .eq("profile_id", userId)
+                                .order("proficiency", {ascending: true})
+                                .limit(Math.max(limit, 5)),
+                        supabase
+                                .from("profile_sub_vocab_progress")
+                                .select(`
+                    proficiency,
+                    subvocab:sub_vocab_id (
+                        *,
+                        vocab_senses:sub_vocab_sense (*),
+                        sub_root:sub_root_id (
+                            id,
+                            vocab:vocab_id (
+                                id,
+                                root:root_id (
+                                    id,
+                                    root_code,
+                                    root_meaning
+                                )
+                            )
+                        )
+                    )
+                `)
+                                .eq("profile_id", userId)
+                                .order("proficiency", {ascending: true})
+                                .limit(Math.max(limit, 5)),
+                ] as const);
 
-        return data?.map((p) => p.vocab) || [];
+                const vocabError = (vocabRes as any).error;
+                const subVocabError = (subVocabRes as any).error;
+
+                if (vocabError) throw vocabError;
+                if (subVocabError) throw subVocabError;
+
+                const vocabRows = (vocabRes as any).data ?? [];
+                const subVocabRows = (subVocabRes as any).data ?? [];
+
+                type RankedItem = { proficiency: number; item: any };
+
+                const ranked: RankedItem[] = [];
+
+                for (const r of vocabRows) {
+                        const p = typeof r.proficiency === "number" ? r.proficiency : 0;
+                        ranked.push({proficiency: p, item: r.vocab});
+                }
+
+                for (const r of subVocabRows) {
+                        const p = typeof r.proficiency === "number" ? r.proficiency : 0;
+                        // Chuẩn hoá một số trường để client xử lý thống nhất
+                        // Thêm trường root nếu có thể lấy được qua sub_root.vocab.root
+                        if (r.subvocab?.sub_root?.vocab?.root) {
+                                r.subvocab.root = r.subvocab.sub_root.vocab.root;
+                        }
+                        ranked.push({proficiency: p, item: r.subvocab});
+                }
+
+                ranked.sort((a, b) => (a.proficiency ?? 0) - (b.proficiency ?? 0));
+
+                return ranked.slice(0, limit).map((x) => x.item);
     }
 
     // Check if the user has learned any new vocab today (UTC)
@@ -236,7 +336,7 @@ Deno.serve(async (req) => {
                 [randomWords, reviewWords] = await Promise.all([
                     getRandomVocabByRoot(
                         user.id,
-                        progressingRoot.map((r) => r.root_id),
+                        progressingRoot.map((r: any) => r.root_id),
                         supabaseClient,
                     ),
                     getReviewWords(
@@ -281,9 +381,9 @@ Deno.serve(async (req) => {
             apiKey: apiKey,
         });
 
-        const allSenses = allWords.flatMap((w) =>
+        const allSenses = allWords.flatMap((w: any) =>
             w.vocab_senses
-                ? w.vocab_senses.map((s) => ({
+                ? w.vocab_senses.map((s: any) => ({
                     vocab_id: w.id,
                     word: s.word,
                     definition: s.definition,
@@ -291,14 +391,14 @@ Deno.serve(async (req) => {
                 : []
         );
 
-        const respTest = await test();
-        return new Response(JSON.stringify({
-            ...respTest,
+        //const respTest = await test();
+        //return new Response(JSON.stringify({
+          //  ...respTest,
             // questions: JSON.parse(raw),
 
-        }), {
-            headers: {...corsHeaders, "Content-Type": "application/json"},
-        });
+        //}), {
+          //  headers: {...corsHeaders, "Content-Type": "application/json"},
+        //});
 
         // ========== TEMPORARY DISABLE AI QUESTION GENERATION ==========
 
@@ -315,22 +415,22 @@ Deno.serve(async (req) => {
         //         },
         //     ],
         // });
-        //
+
         // const raw = response.output_text.replace(/```json|```/g, "").trim();
 
-        // return new Response(
-        //     JSON.stringify({
-        //         newRoot: newRoot,
-        //         newWords: randomWords,
-        //         reviewWords,
-        //         allWords,
-        //         // allSenses,
-        //         questions: JSON.parse(raw),
-        //     }),
-        //     {
-        //         headers: {...corsHeaders, "Content-Type": "application/json"},
-        //     },
-        // );
+        return new Response(
+             JSON.stringify({
+                 newRoot: newRoot,
+                 newWords: randomWords,
+                 reviewWords,
+                 allWords,
+                  // allSenses,
+                // questions: JSON.parse(raw),
+             }),
+             {
+                 headers: {...corsHeaders, "Content-Type": "application/json"},
+             },
+         );
     } catch (e) {
         console.error(e);
         return new Response(JSON.stringify({error: e}), {
