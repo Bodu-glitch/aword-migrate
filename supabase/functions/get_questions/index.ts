@@ -402,21 +402,21 @@ Deno.serve(async (req: Request) => {
 
         // ========== TEMPORARY DISABLE AI QUESTION GENERATION ==========
 
-        // const response = await openai.responses.create({
-        //     model: "gpt-4o",
-        //     prompt: {
-        //         id: "pmpt_68537407f234819691ff9829e4209ea008585d5829f3b9db",
-        //         version: "11",
-        //     },
-        //     input: [
-        //         {
-        //             role: "user",
-        //             content: JSON.stringify(allSenses),
-        //         },
-        //     ],
-        // });
+        const response = await openai.responses.create({
+            model: "gpt-4o",
+            prompt: {
+                id: "pmpt_68537407f234819691ff9829e4209ea008585d5829f3b9db",
+                version: "11",
+            },
+            input: [
+                {
+                    role: "user",
+                    content: JSON.stringify(allSenses),
+                },
+            ],
+        });
 
-        // const raw = response.output_text.replace(/```json|```/g, "").trim();
+        const raw = response.output_text.replace(/```json|```/g, "").trim();
 
         return new Response(
              JSON.stringify({
