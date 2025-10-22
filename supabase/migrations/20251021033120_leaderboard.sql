@@ -162,17 +162,66 @@ RETURN new_id;
 END;
 $$;
 
+CREATE OR REPLACE FUNCTION leaderboard.ensure_week_and_join(p_user_id UUID, ts TIMESTAMPTZ)
+RETURNS UUID
+LANGUAGE plpgsql
+AS $$
+DECLARE
+  v_week_id UUID;
+  bronze_league_id UUID;
+  bronze_cohort_id UUID;
+BEGIN
+  -- 1️⃣ Đảm bảo tuần tồn tại
+  v_week_id := leaderboard.ensure_week(ts);
+
+  -- 2️⃣ Lấy ID của league 'bronze'
+  SELECT id INTO bronze_league_id
+  FROM leaderboard.leagues
+  WHERE code = 'bronze'
+  LIMIT 1;
+
+  IF bronze_league_id IS NULL THEN
+    RAISE EXCEPTION 'League "bronze" not found in leaderboard.leagues';
+  END IF;
+
+  -- 3️⃣ Tìm cohort “bronze” của tuần này
+  SELECT id INTO bronze_cohort_id
+  FROM leaderboard.cohorts c
+  WHERE c.week_id = v_week_id AND c.league_id = bronze_league_id
+  LIMIT 1;
+
+  -- 4️⃣ Nếu chưa có thì tạo cohort mới
+  IF bronze_cohort_id IS NULL THEN
+    INSERT INTO leaderboard.cohorts (week_id, league_id, title)
+    VALUES (v_week_id, bronze_league_id, 'Bronze Cohort')
+    RETURNING id INTO bronze_cohort_id;
+  END IF;
+
+  -- 5️⃣ Thêm user vào cohort (nếu chưa có trong tuần)
+  INSERT INTO leaderboard.cohort_members (cohort_id, week_id, user_id)
+  VALUES (bronze_cohort_id, v_week_id, p_user_id)
+  ON CONFLICT (user_id, week_id) DO NOTHING;
+
+  RETURN v_week_id;
+END;
+$$;
+
+
 CREATE OR REPLACE FUNCTION leaderboard.set_xp_event_week_id()
 RETURNS TRIGGER
 LANGUAGE plpgsql
 AS $$
 DECLARE
-computed_week UUID;
+  computed_week UUID;
 BEGIN
-  computed_week := leaderboard.ensure_week(NEW.occurred_at);
+  -- 1️⃣ Đảm bảo tuần tồn tại + thêm user vào cohort nếu cần
+  computed_week := leaderboard.ensure_week_and_join(NEW.user_id, NEW.occurred_at);
+
+  -- 2️⃣ Nếu week_id khác → cập nhật lại
   IF NEW.week_id IS DISTINCT FROM computed_week THEN
     NEW.week_id := computed_week;
   END IF;
+
   RETURN NEW;
 END;
 $$;
@@ -259,3 +308,137 @@ END $$;
 -- DROP SCHEMA IF EXISTS leaderboard CASCADE;
 
 COMMIT;
+
+
+-- =========================
+-- update weekly user points 
+-- =========================
+
+CREATE OR REPLACE FUNCTION leaderboard.update_weekly_user_points(target_week UUID)
+RETURNS VOID
+LANGUAGE plpgsql
+AS $$
+BEGIN
+  -- Xoá dữ liệu cũ nếu có
+  DELETE FROM leaderboard.user_week_results WHERE week_id = target_week;
+
+  -- Tính tổng điểm
+  INSERT INTO leaderboard.user_week_results (week_id, user_id, league_id, cohort_id, final_rank, points_total)
+  SELECT
+    cm.week_id,
+    cm.user_id,
+    c.league_id,
+    cm.cohort_id,
+    RANK() OVER (PARTITION BY cm.cohort_id ORDER BY SUM(e.points) DESC) AS final_rank,
+    COALESCE(SUM(e.points), 0)::INT AS points_total
+  FROM leaderboard.cohort_members cm
+  JOIN leaderboard.cohorts c ON c.id = cm.cohort_id
+  LEFT JOIN leaderboard.xp_events e ON e.user_id = cm.user_id AND e.week_id = cm.week_id
+  WHERE cm.week_id = target_week
+  GROUP BY cm.week_id, cm.user_id, c.league_id, cm.cohort_id;
+
+END;
+$$;
+-- =========================
+
+
+-- =========================
+-- create next week cohorts
+CREATE OR REPLACE FUNCTION leaderboard.create_next_week_cohorts(prev_week UUID, next_week UUID)
+RETURNS VOID
+LANGUAGE plpgsql
+AS $$
+DECLARE
+  l RECORD;
+  members UUID[];
+  cohort_id UUID;
+  size INT := 0;
+BEGIN
+  FOR l IN SELECT * FROM leaderboard.leagues ORDER BY rank LOOP
+    -- Lấy danh sách user sẽ vào league này tuần sau
+    SELECT ARRAY_AGG(user_id) INTO members
+    FROM leaderboard.user_week_results
+    WHERE week_id = prev_week AND to_league_id = l.id;
+
+    size := 0;
+    IF members IS NOT NULL THEN
+      FOR i IN 1..array_length(members, 1) LOOP
+        IF size = 0 OR size >= l.max_cohort_size THEN
+          INSERT INTO leaderboard.cohorts (week_id, league_id, title)
+          VALUES (next_week, l.id, l.name || ' Cohort ' || floor(random()*1000)) RETURNING id INTO cohort_id;
+          size := 0;
+        END IF;
+        INSERT INTO leaderboard.cohort_members (cohort_id, week_id, user_id)
+        VALUES (cohort_id, next_week, members[i]);
+        size := size + 1;
+      END LOOP;
+    END IF;
+  END LOOP;
+END;
+$$;
+-- =========================
+CREATE OR REPLACE FUNCTION leaderboard.close_week(target_week UUID)
+RETURNS VOID
+LANGUAGE plpgsql
+AS $$
+DECLARE
+  next_week_id UUID;
+BEGIN
+  -- Cập nhật tuần hiện tại thành closed
+  UPDATE leaderboard.weeks SET status = 'closed' WHERE id = target_week;
+
+  -- Cập nhật điểm & thứ hạng
+  PERFORM leaderboard.update_weekly_user_points(target_week);
+
+  -- Xác định league tiếp theo (promote/relegate) và đảm bảo to_league_id không NULL
+  UPDATE leaderboard.user_week_results r
+  SET
+    to_league_id = CASE
+      WHEN r.final_rank <= 5 THEN COALESCE(lup.id, r.league_id)
+      WHEN r.final_rank >= 21 THEN COALESCE(ldn.id, r.league_id)
+      ELSE r.league_id
+    END,
+    transition = CASE
+      WHEN r.final_rank <= 5 AND lup.id IS NOT NULL THEN 'promote'
+      WHEN r.final_rank >= 21 AND ldn.id IS NOT NULL THEN 'relegate'
+      ELSE 'stay'
+    END
+  FROM leaderboard.leagues l1
+  LEFT JOIN leaderboard.leagues lup ON lup.rank = l1.rank + 1
+  LEFT JOIN leaderboard.leagues ldn ON ldn.rank = l1.rank - 1
+  WHERE l1.id = r.league_id
+    AND r.week_id = target_week;
+
+  -- Tạo tuần kế tiếp
+  INSERT INTO leaderboard.weeks (week_start, status)
+  VALUES (date_trunc('week', now() + interval '7 days'), 'open')
+  RETURNING id INTO next_week_id;
+
+  -- Tạo cohort mới theo league mới (dựa trên to_league_id đã được set ở trên)
+  PERFORM leaderboard.create_next_week_cohorts(target_week, next_week_id);
+END;
+$$;
+
+-- =========================
+-- close current week
+CREATE OR REPLACE FUNCTION leaderboard.close_current_week()
+RETURNS VOID
+LANGUAGE plpgsql
+AS $$
+DECLARE
+  current_week_id UUID;
+BEGIN
+  SELECT id INTO current_week_id
+  FROM leaderboard.weeks
+  WHERE status = 'open'
+  ORDER BY week_start DESC
+  LIMIT 1;
+
+  IF current_week_id IS NULL THEN
+    RAISE NOTICE 'No open week found to close.';
+    RETURN;
+  END IF;
+
+  PERFORM leaderboard.close_week(current_week_id);
+END;
+$$;
