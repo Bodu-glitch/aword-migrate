@@ -8,6 +8,14 @@ BEGIN;
 -- Ensure target schema exists
 CREATE SCHEMA IF NOT EXISTS leaderboard;
 
+GRANT USAGE ON SCHEMA leaderboard TO anon, authenticated, service_role;
+GRANT ALL ON ALL TABLES IN SCHEMA leaderboard TO anon, authenticated, service_role;
+GRANT ALL ON ALL ROUTINES IN SCHEMA leaderboard TO anon, authenticated, service_role;
+GRANT ALL ON ALL SEQUENCES IN SCHEMA leaderboard TO anon, authenticated, service_role;
+ALTER DEFAULT PRIVILEGES FOR ROLE postgres IN SCHEMA leaderboard GRANT ALL ON TABLES TO anon, authenticated, service_role;
+ALTER DEFAULT PRIVILEGES FOR ROLE postgres IN SCHEMA leaderboard GRANT ALL ON ROUTINES TO anon, authenticated, service_role;
+ALTER DEFAULT PRIVILEGES FOR ROLE postgres IN SCHEMA leaderboard GRANT ALL ON SEQUENCES TO anon, authenticated, service_role;
+
 -- 1) Weeks table in leaderboard
 CREATE TABLE IF NOT EXISTS leaderboard.weeks (
                                             id UUID PRIMARY KEY DEFAULT gen_random_uuid(),

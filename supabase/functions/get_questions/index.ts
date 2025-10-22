@@ -242,9 +242,9 @@ Deno.serve(async (req: Request) => {
                         const p = typeof r.proficiency === "number" ? r.proficiency : 0;
                         // Chuẩn hoá một số trường để client xử lý thống nhất
                         // Thêm trường root nếu có thể lấy được qua sub_root.vocab.root
-                        if (r.subvocab?.sub_root?.vocab?.root) {
-                                r.subvocab.root = r.subvocab.sub_root.vocab.root;
-                        }
+                        // if (r.subvocab?.sub_root?.vocab?.root) {
+                        //         r.subvocab.root = r.subvocab.sub_root.vocab.root;
+                        // }
                         ranked.push({proficiency: p, item: r.subvocab});
                 }
 
@@ -391,46 +391,46 @@ Deno.serve(async (req: Request) => {
                 : []
         );
 
-        //const respTest = await test();
-        //return new Response(JSON.stringify({
-          //  ...respTest,
+        const respTest = await test();
+        return new Response(JSON.stringify({
+           ...respTest,
             // questions: JSON.parse(raw),
 
-        //}), {
-          //  headers: {...corsHeaders, "Content-Type": "application/json"},
-        //});
+        }), {
+           headers: {...corsHeaders, "Content-Type": "application/json"},
+        });
 
         // ========== TEMPORARY DISABLE AI QUESTION GENERATION ==========
 
-        const response = await openai.responses.create({
-            model: "gpt-4o",
-            prompt: {
-                id: "pmpt_68537407f234819691ff9829e4209ea008585d5829f3b9db",
-                version: "11",
-            },
-            input: [
-                {
-                    role: "user",
-                    content: JSON.stringify(allSenses),
-                },
-            ],
-        });
+        // const response = await openai.responses.create({
+        //     model: "gpt-4o",
+        //     prompt: {
+        //         id: "pmpt_68537407f234819691ff9829e4209ea008585d5829f3b9db",
+        //         version: "11",
+        //     },
+        //     input: [
+        //         {
+        //             role: "user",
+        //             content: JSON.stringify(allSenses),
+        //         },
+        //     ],
+        // });
 
-        const raw = response.output_text.replace(/```json|```/g, "").trim();
-
-        return new Response(
-             JSON.stringify({
-                 newRoot: newRoot,
-                 newWords: randomWords,
-                 reviewWords,
-                 allWords,
-                  // allSenses,
-                // questions: JSON.parse(raw),
-             }),
-             {
-                 headers: {...corsHeaders, "Content-Type": "application/json"},
-             },
-         );
+        // const raw = response.output_text.replace(/```json|```/g, "").trim();
+        //
+        // return new Response(
+        //      JSON.stringify({
+        //          newRoot: newRoot,
+        //          newWords: randomWords,
+        //          reviewWords,
+        //          allWords,
+        //           // allSenses,
+        //         questions: JSON.parse(raw),
+        //      }),
+        //      {
+        //          headers: {...corsHeaders, "Content-Type": "application/json"},
+        //      },
+        //  );
     } catch (e) {
         console.error(e);
         return new Response(JSON.stringify({error: e}), {
@@ -456,949 +456,163 @@ Deno.serve(async (req: Request) => {
 const test = async () => {
     const resp = {
         "newRoot": null,
-        "newWords": [],
-        "reviewWords": [
+        "newWords": [
             {
-                "id": "f65327c1-037d-47fd-9835-3261e4be278b",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "depart",
-                "infix": "part",
-                "prefix": "de",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/dɪˈpɑːt/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
+                "id": "4a50a59a-9415-42f9-9127-f019082aa846",
+                "root_id": "8ecfe6b1-9d37-463b-a21a-12afe0f0790b",
+                "word": "advocate",
+                "prefix": "ad",
+                "infix": "voc",
+                "postfix": "ate",
+                "prefix_meaning": "hướng đến",
+                "infix_meaning": "âm thanh/tiếng nói",
+                "postfix_meaning": "biến thành động từ",
+                "phonetic": "/ˈæd.və.keɪt/",
+                "created_at": "2025-10-22T13:35:10.931824+00:00",
                 "vocab_senses": [
                     {
-                        "id": "b9a7e605-9897-4fa2-9c41-9e55e31c8d4b",
+                        "id": "2472783f-a116-4661-9983-0d831ce7fc32",
                         "pos": "v",
-                        "word": "depart",
-                        "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "khởi hành",
-                        "sense_order": 0
+                        "word": "advocate",
+                        "definition": "ủng hộ, biện hộ"
                     },
                     {
-                        "id": "bd034464-ba8e-4e59-9c58-950c4c8dfd82",
+                        "id": "f51b5d35-1d16-464c-b512-98b5d2699d40",
                         "pos": "n",
-                        "word": "departure",
-                        "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "việc khởi hành",
-                        "sense_order": 1
-                    },
+                        "word": "advocate",
+                        "definition": "người biện hộ, người ủng hộ"
+                    }
+                ]
+            },
+            {
+                "id": "7aba5189-33a2-435d-98bb-28e44695ec12",
+                "sub_root_id": "fb3e2eda-8837-4fe2-9fca-748d712cc0e3",
+                "word": "vocation",
+                "prefix": "",
+                "infix": "voc",
+                "postfix": "tion",
+                "prefix_meaning": "",
+                "infix_meaning": "âm thanh/tiếng nói",
+                "postfix_meaning": "danh từ",
+                "phonetic": "/vəʊˈkeɪʃn/",
+                "created_at": "2025-10-22T13:35:10.931824+00:00",
+                "vocab_senses": [
                     {
-                        "id": "db902b75-a7f3-4d43-8818-f11b6c2f67db",
+                        "id": "4b7b2c37-7dd1-4f85-a624-9e27cb0f1514",
                         "pos": "n",
-                        "word": "department",
-                        "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "bộ môn, sở,cục,khoa",
-                        "sense_order": 2
+                        "word": "vocation",
+                        "created_at": "2025-10-22T13:35:10.931824+00:00",
+                        "definition": "nghề nghiệp; thiên hướng",
+                        "sense_order": 0,
+                        "sub_vocab_id": "7aba5189-33a2-435d-98bb-28e44695ec12"
                     }
                 ],
-                "infix_meaning": "chia tách",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "c6fee8d6-e72a-4897-b28e-0a03fde65099",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "submarine",
-                "infix": "marine",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/ˌsʌbməˈriːn/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "0f21c7ab-86c2-4182-abf3-c390cf88bbcd",
-                        "pos": "n",
-                        "word": "submarine",
-                        "vocab_id": "c6fee8d6-e72a-4897-b28e-0a03fde65099",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "tàu ngầm",
-                        "sense_order": 0
-                    },
-                    {
-                        "id": "fa2da6c9-7d8d-478a-8265-cd1bd984f24f",
-                        "pos": "adj",
-                        "word": "submarine",
-                        "vocab_id": "c6fee8d6-e72a-4897-b28e-0a03fde65099",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "dưới đáy biển",
-                        "sense_order": 1
-                    }
-                ],
-                "infix_meaning": "biển",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "d0783726-9437-4161-9594-e58d40a46eef",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "declare",
-                "infix": "clare",
-                "prefix": "de",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/dɪˈkleə(r)/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "4189d559-c61a-40fb-ba92-e0e0a629b5de",
-                        "pos": "v",
-                        "word": "declare",
-                        "vocab_id": "d0783726-9437-4161-9594-e58d40a46eef",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "tuyên bố, khai báo",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "rõ ràng",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "b8a73356-e816-4e68-85ff-5ddc1f9015dc",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "subcommittee",
-                "infix": "committee",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/ˈsʌbkəˌmɪti/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "2e7919ee-e79b-4e44-a9f9-4c647a4e2fa3",
-                        "pos": "n",
-                        "word": "subcommittee",
-                        "vocab_id": "b8a73356-e816-4e68-85ff-5ddc1f9015dc",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "tiểu ban",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "ủy ban",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "9f72d58c-5c57-4a44-ac2d-5bb764b5fdb5",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "subnormal",
-                "infix": "normal",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/ˌsʌbˈnɔːməl/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "e9a5cfc0-379c-44cc-80c5-84b6a8caf812",
-                        "pos": "adj",
-                        "word": "subnormal",
-                        "vocab_id": "9f72d58c-5c57-4a44-ac2d-5bb764b5fdb5",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "dưới mức tiêu chuẩn",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "tiêu chuẩn",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "384f6582-6cdb-4784-9a13-70c5e5e1447d",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "sustain",
-                "infix": "tain",
-                "prefix": "sus",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/səˈsteɪn/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "90bc297f-0d9e-46c3-8354-97f000566b40",
-                        "pos": "v",
-                        "word": "sustain",
-                        "vocab_id": "384f6582-6cdb-4784-9a13-70c5e5e1447d",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "đỡ, duy trì, chịu đựng, gìn giữ",
-                        "sense_order": 0
-                    },
-                    {
-                        "id": "3813103d-1942-4a5e-a587-cd941bdde85b",
-                        "pos": "n",
-                        "word": "sustenance",
-                        "vocab_id": "384f6582-6cdb-4784-9a13-70c5e5e1447d",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "thực phẩm, phương tiện sự sống, duy trì sự sống",
-                        "sense_order": 1
-                    }
-                ],
-                "infix_meaning": "giữ/bảo vệ",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "478e16d2-d6d5-4a92-8fc8-3311f995933f",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "substitute",
-                "infix": "stitute",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/ˈsʌbstɪtjuːt/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "e5933921-bcfa-45fd-bc2f-c524d6fe8c0f",
-                        "pos": "adj",
-                        "word": "substitute",
-                        "vocab_id": "478e16d2-d6d5-4a92-8fc8-3311f995933f",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "có tính thay thế",
-                        "sense_order": 0
-                    },
-                    {
-                        "id": "d9b3ea16-9cce-4b7d-baae-322b008b6c78",
-                        "pos": "v",
-                        "word": "substitute",
-                        "vocab_id": "478e16d2-d6d5-4a92-8fc8-3311f995933f",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "dùng thay thế",
-                        "sense_order": 1
-                    },
-                    {
-                        "id": "2d8d47ac-9e2e-4cde-b168-52795f35a783",
-                        "pos": "n",
-                        "word": "substitute",
-                        "vocab_id": "478e16d2-d6d5-4a92-8fc8-3311f995933f",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "vật thay thế, bổ sung",
-                        "sense_order": 2
-                    }
-                ],
-                "infix_meaning": "đứng",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "4c91be81-abb0-4dff-b10d-0580f55f62fa",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "suburban",
-                "infix": "urban",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/səˈbɜːbən/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "0e9c82c1-a809-4462-b744-ff34311a0b4a",
-                        "pos": "adj",
-                        "word": "suburban",
-                        "vocab_id": "4c91be81-abb0-4dff-b10d-0580f55f62fa",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "(thuộc) khu ngoại ô",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "đô thị",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "6021d8d5-5f72-4caf-8d62-d436407974c2",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "degrade",
-                "infix": "grade",
-                "prefix": "de",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/dɪˈɡreɪd/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "ff0be9fe-6db2-4400-b732-6040425fa7df",
-                        "pos": "v",
-                        "word": "degrade",
-                        "vocab_id": "6021d8d5-5f72-4caf-8d62-d436407974c2",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "hạ thấp địa vị, giáng chức",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "giai đoạn/ mức độ",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "97edf217-2e2c-46a7-8862-2eb2eff0c9d9",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "subtropical",
-                "infix": "tropical",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/ˌsʌbˈtrɒpɪkəl/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "e60cd0fa-524f-48b0-8858-995d760fe46a",
-                        "pos": "adj",
-                        "word": "subtropical",
-                        "vocab_id": "97edf217-2e2c-46a7-8862-2eb2eff0c9d9",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "cận nhiệt đới",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "nhiệt đới",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
+                "parent_vocab_id": "4a50a59a-9415-42f9-9127-f019082aa846"
             }
         ],
+        "reviewWords": [],
         "allWords": [
             {
-                "id": "f65327c1-037d-47fd-9835-3261e4be278b",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "depart",
-                "infix": "part",
-                "prefix": "de",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/dɪˈpɑːt/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
+                "id": "4a50a59a-9415-42f9-9127-f019082aa846",
+                "root_id": "8ecfe6b1-9d37-463b-a21a-12afe0f0790b",
+                "word": "advocate",
+                "prefix": "ad",
+                "infix": "voc",
+                "postfix": "ate",
+                "prefix_meaning": "hướng đến",
+                "infix_meaning": "âm thanh/tiếng nói",
+                "postfix_meaning": "biến thành động từ",
+                "phonetic": "/ˈæd.və.keɪt/",
+                "created_at": "2025-10-22T13:35:10.931824+00:00",
                 "vocab_senses": [
                     {
-                        "id": "b9a7e605-9897-4fa2-9c41-9e55e31c8d4b",
+                        "id": "2472783f-a116-4661-9983-0d831ce7fc32",
                         "pos": "v",
-                        "word": "depart",
-                        "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "khởi hành",
-                        "sense_order": 0
+                        "word": "advocate",
+                        "definition": "ủng hộ, biện hộ"
                     },
                     {
-                        "id": "bd034464-ba8e-4e59-9c58-950c4c8dfd82",
+                        "id": "f51b5d35-1d16-464c-b512-98b5d2699d40",
                         "pos": "n",
-                        "word": "departure",
-                        "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "việc khởi hành",
-                        "sense_order": 1
-                    },
+                        "word": "advocate",
+                        "definition": "người biện hộ, người ủng hộ"
+                    }
+                ]
+            },
+            {
+                "id": "7aba5189-33a2-435d-98bb-28e44695ec12",
+                "sub_root_id": "fb3e2eda-8837-4fe2-9fca-748d712cc0e3",
+                "word": "vocation",
+                "prefix": "",
+                "infix": "voc",
+                "postfix": "tion",
+                "prefix_meaning": "",
+                "infix_meaning": "âm thanh/tiếng nói",
+                "postfix_meaning": "danh từ",
+                "phonetic": "/vəʊˈkeɪʃn/",
+                "created_at": "2025-10-22T13:35:10.931824+00:00",
+                "vocab_senses": [
                     {
-                        "id": "db902b75-a7f3-4d43-8818-f11b6c2f67db",
+                        "id": "4b7b2c37-7dd1-4f85-a624-9e27cb0f1514",
                         "pos": "n",
-                        "word": "department",
-                        "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "bộ môn, sở,cục,khoa",
-                        "sense_order": 2
+                        "word": "vocation",
+                        "created_at": "2025-10-22T13:35:10.931824+00:00",
+                        "definition": "nghề nghiệp; thiên hướng",
+                        "sense_order": 0,
+                        "sub_vocab_id": "7aba5189-33a2-435d-98bb-28e44695ec12"
                     }
                 ],
-                "infix_meaning": "chia tách",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "c6fee8d6-e72a-4897-b28e-0a03fde65099",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "submarine",
-                "infix": "marine",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/ˌsʌbməˈriːn/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "0f21c7ab-86c2-4182-abf3-c390cf88bbcd",
-                        "pos": "n",
-                        "word": "submarine",
-                        "vocab_id": "c6fee8d6-e72a-4897-b28e-0a03fde65099",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "tàu ngầm",
-                        "sense_order": 0
-                    },
-                    {
-                        "id": "fa2da6c9-7d8d-478a-8265-cd1bd984f24f",
-                        "pos": "adj",
-                        "word": "submarine",
-                        "vocab_id": "c6fee8d6-e72a-4897-b28e-0a03fde65099",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "dưới đáy biển",
-                        "sense_order": 1
-                    }
-                ],
-                "infix_meaning": "biển",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "d0783726-9437-4161-9594-e58d40a46eef",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "declare",
-                "infix": "clare",
-                "prefix": "de",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/dɪˈkleə(r)/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "4189d559-c61a-40fb-ba92-e0e0a629b5de",
-                        "pos": "v",
-                        "word": "declare",
-                        "vocab_id": "d0783726-9437-4161-9594-e58d40a46eef",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "tuyên bố, khai báo",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "rõ ràng",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "b8a73356-e816-4e68-85ff-5ddc1f9015dc",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "subcommittee",
-                "infix": "committee",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/ˈsʌbkəˌmɪti/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "2e7919ee-e79b-4e44-a9f9-4c647a4e2fa3",
-                        "pos": "n",
-                        "word": "subcommittee",
-                        "vocab_id": "b8a73356-e816-4e68-85ff-5ddc1f9015dc",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "tiểu ban",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "ủy ban",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "9f72d58c-5c57-4a44-ac2d-5bb764b5fdb5",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "subnormal",
-                "infix": "normal",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/ˌsʌbˈnɔːməl/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "e9a5cfc0-379c-44cc-80c5-84b6a8caf812",
-                        "pos": "adj",
-                        "word": "subnormal",
-                        "vocab_id": "9f72d58c-5c57-4a44-ac2d-5bb764b5fdb5",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "dưới mức tiêu chuẩn",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "tiêu chuẩn",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "384f6582-6cdb-4784-9a13-70c5e5e1447d",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "sustain",
-                "infix": "tain",
-                "prefix": "sus",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/səˈsteɪn/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "90bc297f-0d9e-46c3-8354-97f000566b40",
-                        "pos": "v",
-                        "word": "sustain",
-                        "vocab_id": "384f6582-6cdb-4784-9a13-70c5e5e1447d",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "đỡ, duy trì, chịu đựng, gìn giữ",
-                        "sense_order": 0
-                    },
-                    {
-                        "id": "3813103d-1942-4a5e-a587-cd941bdde85b",
-                        "pos": "n",
-                        "word": "sustenance",
-                        "vocab_id": "384f6582-6cdb-4784-9a13-70c5e5e1447d",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "thực phẩm, phương tiện sự sống, duy trì sự sống",
-                        "sense_order": 1
-                    }
-                ],
-                "infix_meaning": "giữ/bảo vệ",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "478e16d2-d6d5-4a92-8fc8-3311f995933f",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "substitute",
-                "infix": "stitute",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/ˈsʌbstɪtjuːt/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "e5933921-bcfa-45fd-bc2f-c524d6fe8c0f",
-                        "pos": "adj",
-                        "word": "substitute",
-                        "vocab_id": "478e16d2-d6d5-4a92-8fc8-3311f995933f",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "có tính thay thế",
-                        "sense_order": 0
-                    },
-                    {
-                        "id": "d9b3ea16-9cce-4b7d-baae-322b008b6c78",
-                        "pos": "v",
-                        "word": "substitute",
-                        "vocab_id": "478e16d2-d6d5-4a92-8fc8-3311f995933f",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "dùng thay thế",
-                        "sense_order": 1
-                    },
-                    {
-                        "id": "2d8d47ac-9e2e-4cde-b168-52795f35a783",
-                        "pos": "n",
-                        "word": "substitute",
-                        "vocab_id": "478e16d2-d6d5-4a92-8fc8-3311f995933f",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "vật thay thế, bổ sung",
-                        "sense_order": 2
-                    }
-                ],
-                "infix_meaning": "đứng",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "4c91be81-abb0-4dff-b10d-0580f55f62fa",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "suburban",
-                "infix": "urban",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/səˈbɜːbən/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "0e9c82c1-a809-4462-b744-ff34311a0b4a",
-                        "pos": "adj",
-                        "word": "suburban",
-                        "vocab_id": "4c91be81-abb0-4dff-b10d-0580f55f62fa",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "(thuộc) khu ngoại ô",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "đô thị",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "6021d8d5-5f72-4caf-8d62-d436407974c2",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "degrade",
-                "infix": "grade",
-                "prefix": "de",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/dɪˈɡreɪd/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "ff0be9fe-6db2-4400-b732-6040425fa7df",
-                        "pos": "v",
-                        "word": "degrade",
-                        "vocab_id": "6021d8d5-5f72-4caf-8d62-d436407974c2",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "hạ thấp địa vị, giáng chức",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "giai đoạn/ mức độ",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            },
-            {
-                "id": "97edf217-2e2c-46a7-8862-2eb2eff0c9d9",
-                "root": {
-                    "id": "bba8d988-3528-4298-a743-3f73815000e7",
-                    "root_code": "de-, sub-",
-                    "root_meaning": "bên dưới"
-                },
-                "word": "subtropical",
-                "infix": "tropical",
-                "prefix": "sub",
-                "postfix": "",
-                "root_id": "bba8d988-3528-4298-a743-3f73815000e7",
-                "phonetic": "/ˌsʌbˈtrɒpɪkəl/",
-                "created_at": "2025-10-14T21:57:12.444378+00:00",
-                "vocab_senses": [
-                    {
-                        "id": "e60cd0fa-524f-48b0-8858-995d760fe46a",
-                        "pos": "adj",
-                        "word": "subtropical",
-                        "vocab_id": "97edf217-2e2c-46a7-8862-2eb2eff0c9d9",
-                        "created_at": "2025-10-14T21:57:12.444378+00:00",
-                        "definition": "cận nhiệt đới",
-                        "sense_order": 0
-                    }
-                ],
-                "infix_meaning": "nhiệt đới",
-                "prefix_meaning": "bên dưới",
-                "postfix_meaning": ""
-            }
-        ],
-        "allSenses": [
-            {
-                "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b",
-                "word": "depart",
-                "definition": "khởi hành"
-            },
-            {
-                "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b",
-                "word": "departure",
-                "definition": "việc khởi hành"
-            },
-            {
-                "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b",
-                "word": "department",
-                "definition": "bộ môn, sở,cục,khoa"
-            },
-            {
-                "vocab_id": "c6fee8d6-e72a-4897-b28e-0a03fde65099",
-                "word": "submarine",
-                "definition": "tàu ngầm"
-            },
-            {
-                "vocab_id": "c6fee8d6-e72a-4897-b28e-0a03fde65099",
-                "word": "submarine",
-                "definition": "dưới đáy biển"
-            },
-            {
-                "vocab_id": "d0783726-9437-4161-9594-e58d40a46eef",
-                "word": "declare",
-                "definition": "tuyên bố, khai báo"
-            },
-            {
-                "vocab_id": "b8a73356-e816-4e68-85ff-5ddc1f9015dc",
-                "word": "subcommittee",
-                "definition": "tiểu ban"
-            },
-            {
-                "vocab_id": "9f72d58c-5c57-4a44-ac2d-5bb764b5fdb5",
-                "word": "subnormal",
-                "definition": "dưới mức tiêu chuẩn"
-            },
-            {
-                "vocab_id": "384f6582-6cdb-4784-9a13-70c5e5e1447d",
-                "word": "sustain",
-                "definition": "đỡ, duy trì, chịu đựng, gìn giữ"
-            },
-            {
-                "vocab_id": "384f6582-6cdb-4784-9a13-70c5e5e1447d",
-                "word": "sustenance",
-                "definition": "thực phẩm, phương tiện sự sống, duy trì sự sống"
-            },
-            {
-                "vocab_id": "478e16d2-d6d5-4a92-8fc8-3311f995933f",
-                "word": "substitute",
-                "definition": "có tính thay thế"
-            },
-            {
-                "vocab_id": "478e16d2-d6d5-4a92-8fc8-3311f995933f",
-                "word": "substitute",
-                "definition": "dùng thay thế"
-            },
-            {
-                "vocab_id": "478e16d2-d6d5-4a92-8fc8-3311f995933f",
-                "word": "substitute",
-                "definition": "vật thay thế, bổ sung"
-            },
-            {
-                "vocab_id": "4c91be81-abb0-4dff-b10d-0580f55f62fa",
-                "word": "suburban",
-                "definition": "(thuộc) khu ngoại ô"
-            },
-            {
-                "vocab_id": "6021d8d5-5f72-4caf-8d62-d436407974c2",
-                "word": "degrade",
-                "definition": "hạ thấp địa vị, giáng chức"
-            },
-            {
-                "vocab_id": "97edf217-2e2c-46a7-8862-2eb2eff0c9d9",
-                "word": "subtropical",
-                "definition": "cận nhiệt đới"
+                "parent_vocab_id": "4a50a59a-9415-42f9-9127-f019082aa846"
             }
         ],
         "questions": [
             {
-                "question": "The team will !empty the meeting at noon.",
+                "question": "Anh ấy thường xuyên !empty cho quyền động vật trên khắp thế giới.",
                 "answer_blocks": [
-                    "depart",
-                    "departed",
-                    "departing",
-                    "departures"
+                    "vocation",
+                    "advocate",
+                    "departure",
+                    "deprive"
                 ],
-                "correct_answer": "depart",
+                "correct_answer": "advocate",
                 "type": "fill_in_blank",
-                "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b"
+                "vocab_id": "4a50a59a-9415-42f9-9127-f019082aa846"
             },
             {
-                "question": "What is the meaning of the word 'departure'?",
+                "question": "Nghĩa nào sau đây là nghĩa của từ 'advocate'?",
                 "answer_blocks": [
-                    "tiểu ban",
-                    "bộ môn, sở,cục,khoa",
-                    "việc khởi hành",
-                    "dưới mức tiêu chuẩn"
+                    "ủng hộ, biện hộ",
+                    "khởi hành",
+                    "nghề nghiệp",
+                    "cướp bóc"
                 ],
-                "correct_answer": "việc khởi hành",
+                "correct_answer": "ủng hộ, biện hộ",
                 "type": "multiple_choice",
-                "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b"
+                "vocab_id": "4a50a59a-9415-42f9-9127-f019082aa846"
             },
             {
-                "question": "The new !empty will focus on sustainable development.",
+                "question": "Cô ấy tìm thấy niềm đam mê thực sự của mình trong lĩnh vực y tế, đó chính là !empty.",
                 "answer_blocks": [
-                    "suburban",
-                    "degrade",
-                    "department",
-                    "subtropical"
+                    "vocation",
+                    "departure",
+                    "advocate",
+                    "deprive"
                 ],
-                "correct_answer": "department",
+                "correct_answer": "vocation",
                 "type": "fill_in_blank",
-                "vocab_id": "f65327c1-037d-47fd-9835-3261e4be278b"
+                "vocab_id": "7aba5189-33a2-435d-98bb-28e44695ec12"
             },
             {
-                "question": "What is the definition of the word 'submarine'?",
+                "question": "Nghĩa nào sau đây là nghĩa của từ 'vocation'?",
                 "answer_blocks": [
-                    "tàu ngầm",
-                    "bộ môn, sở,cục,khoa",
-                    "dưới mức tiêu chuẩn",
-                    "thuộc khu ngoại ô"
+                    "nghề nghiệp; thiên hướng",
+                    "cướp bóc",
+                    "khởi hành",
+                    "ủng hộ, biện hộ"
                 ],
-                "correct_answer": "tàu ngầm",
+                "correct_answer": "nghề nghiệp; thiên hướng",
                 "type": "multiple_choice",
-                "vocab_id": "c6fee8d6-e72a-4897-b28e-0a03fde65099"
-            },
-            {
-                "question": "The document was !empty for further analysis.",
-                "answer_blocks": [
-                    "declare",
-                    "declared",
-                    "declaring",
-                    "declaration"
-                ],
-                "correct_answer": "declared",
-                "type": "fill_in_blank",
-                "vocab_id": "d0783726-9437-4161-9594-e58d40a46eef"
-            },
-            {
-                "question": "What does the word 'subtropical' refer to?",
-                "answer_blocks": [
-                    "cận nhiệt đới",
-                    "dưới đáy biển",
-                    "bộ môn, sở,cục,khoa",
-                    "thực phẩm, phương tiện sự sống"
-                ],
-                "correct_answer": "cận nhiệt đới",
-                "type": "multiple_choice",
-                "vocab_id": "97edf217-2e2c-46a7-8862-2eb2eff0c9d9"
-            },
-            {
-                "question": "The committee formed a !empty to address specific issues.",
-                "answer_blocks": [
-                    "subtropical",
-                    "subcommittee",
-                    "suburban",
-                    "submarine"
-                ],
-                "correct_answer": "subcommittee",
-                "type": "fill_in_blank",
-                "vocab_id": "b8a73356-e816-4e68-85ff-5ddc1f9015dc"
-            },
-            {
-                "question": "Choose the correct meaning of 'sustenance'.",
-                "answer_blocks": [
-                    "hạ thấp địa vị, giáng chức",
-                    "cận nhiệt đới",
-                    "thực phẩm, phương tiện sự sống, duy trì sự sống",
-                    "tiểu ban"
-                ],
-                "correct_answer": "thực phẩm, phương tiện sự sống, duy trì sự sống",
-                "type": "multiple_choice",
-                "vocab_id": "384f6582-6cdb-4784-9a13-70c5e5e1447d"
-            },
-            {
-                "question": "The report aims to !empty the issues discussed.",
-                "answer_blocks": [
-                    "sustain",
-                    "sustenance",
-                    "sustaining",
-                    "sustained"
-                ],
-                "correct_answer": "sustain",
-                "type": "fill_in_blank",
-                "vocab_id": "384f6582-6cdb-4784-9a13-70c5e5e1447d"
-            },
-            {
-                "question": "What is the meaning of the word 'subnormal'?",
-                "answer_blocks": [
-                    "dưới mức tiêu chuẩn",
-                    "bộ môn, sở,cục,khoa",
-                    "việc khởi hành",
-                    "tiểu ban"
-                ],
-                "correct_answer": "dưới mức tiêu chuẩn",
-                "type": "multiple_choice",
-                "vocab_id": "9f72d58c-5c57-4a44-ac2d-5bb764b5fdb5"
-            },
-            {
-                "question": "We need to find a !empty teacher for the class.",
-                "answer_blocks": [
-                    "subsequent",
-                    "subcommittee",
-                    "substitute",
-                    "submarine"
-                ],
-                "correct_answer": "substitute",
-                "type": "fill_in_blank",
-                "vocab_id": "478e16d2-d6d5-4a92-8fc8-3311f995933f"
-            },
-            {
-                "question": "Select the correct definition for 'suburban'.",
-                "answer_blocks": [
-                    "(thuộc) khu ngoại ô",
-                    "dưới đáy biển",
-                    "dưới mức tiêu chuẩn",
-                    "cận nhiệt đới"
-                ],
-                "correct_answer": "(thuộc) khu ngoại ô",
-                "type": "multiple_choice",
-                "vocab_id": "4c91be81-abb0-4dff-b10d-0580f55f62fa"
-            },
-            {
-                "question": "The company's policies !empty employees of their rights.",
-                "answer_blocks": [
-                    "degrade",
-                    "degraded",
-                    "degrading",
-                    "degrades"
-                ],
-                "correct_answer": "degrade",
-                "type": "fill_in_blank",
-                "vocab_id": "6021d8d5-5f72-4caf-8d62-d436407974c2"
-            },
-            {
-                "question": "What does 'declare' mean?",
-                "answer_blocks": [
-                    "tuyên bố, khai báo",
-                    "bộ môn, sở,cục,khoa",
-                    "tiểu ban",
-                    "dưới mức tiêu chuẩn"
-                ],
-                "correct_answer": "tuyên bố, khai báo",
-                "type": "multiple_choice",
-                "vocab_id": "d0783726-9437-4161-9594-e58d40a46eef"
+                "vocab_id": "7aba5189-33a2-435d-98bb-28e44695ec12"
             }
         ]
     }
