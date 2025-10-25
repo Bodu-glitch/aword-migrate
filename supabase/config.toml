@@ -125,7 +125,8 @@ site_url = "http://127.0.0.1:3000"
 additional_redirect_urls = [
   "https://127.0.0.1:3000",
   "aword://home",
-  "https://chitinoid-funiculate-dakota.ngrok-free.dev/auth/v1/callback"
+  "https://chitinoid-funiculate-dakota.ngrok-free.dev/auth/v1/callback",
+  "https://unignited-leonore-unsportful.ngrok-free.dev/auth/v1/callback"
 ]
 # How long tokens are valid for, in seconds. Defaults to 3600 (1 hour), maximum 604,800 (1 week).
 jwt_expiry = 3600
@@ -349,3 +350,14 @@ entrypoint = "./functions/get_questions/index.ts"
 # Specifies static files to be bundled with the function. Supports glob patterns.
 # For example, if you want to serve static HTML pages in your function:
 # static_files = [ "./functions/get_questions/*.html" ]
+
+[functions.get_questions_v2]
+enabled = true
+verify_jwt = true
+import_map = "./functions/get_questions_v2/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/get_questions_v2/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/get_questions_v2/*.html" ]
