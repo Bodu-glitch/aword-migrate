@@ -73,7 +73,7 @@ create index if not exists idx_vchildroot_vocab on public.vocab_sub_roots(vocab_
 create table if not exists public.sub_vocab (
     id uuid primary key default gen_random_uuid(),
     sub_root_id uuid not null references public.vocab_sub_roots(id) on delete cascade,
-    word text not null unique,
+    word text not null,
     prefix text,
     infix text,
     postfix text,
@@ -81,7 +81,8 @@ create table if not exists public.sub_vocab (
     infix_meaning text,
     postfix_meaning text,
     phonetic text,
-    created_at timestamptz not null default now()
+    created_at timestamptz not null default now(),
+    unique (sub_root_id, word)
 );
 
 create index if not exists idx_subvocab_subroot on public.sub_vocab(sub_root_id);
@@ -112,7 +113,7 @@ create table if not exists public.sub_vocab_sense (
     definition text not null,
     sense_order smallint default 1,
     created_at timestamptz not null default now(),
-    unique (sub_vocab_id, word, pos)
+    unique (sub_vocab_id, word, pos, definition)
 );
 
 create index if not exists idx_subvocabsense_subvocab on public.sub_vocab_sense(sub_vocab_id);

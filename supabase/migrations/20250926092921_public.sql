@@ -9,7 +9,7 @@ create extension if not exists pgcrypto;
 do $$
 begin
   if not exists (select 1 from pg_type where typname = 'pos_type') then
-create type pos_type as enum ('n', 'v', 'adj','prep');
+create type pos_type as enum ('n', 'v', 'adj','prep','adv');
 end if;
 end $$;
 
@@ -42,7 +42,7 @@ create table if not exists public.vocab (
     id               uuid primary key default gen_random_uuid(),
     root_id          uuid not null references public.roots(id) on delete restrict,
 -- cấu phần từ
-    word             text not null unique,       -- từ đầy đủ
+    word             text not null,       -- từ đầy đủ
     prefix           text,
     infix           text,
     postfix           text,
@@ -50,7 +50,8 @@ create table if not exists public.vocab (
     infix_meaning   text,
     postfix_meaning   text,
     phonetic         text,                       -- phiên âm (IPA)
-    created_at       timestamptz not null default now()
+    created_at       timestamptz not null default now(),
+    unique (word, root_id)
     );
 
 -- =========================
@@ -64,7 +65,7 @@ create table if not exists public.vocab_senses (
     definition   text not null,              -- nghĩa của từ ở POS này
     sense_order  smallint default 1,         -- để sắp xếp các sense (1,2,3…)
     created_at   timestamptz not null default now(),
-    unique (vocab_id, word, pos)
+    unique (vocab_id, word, pos, definition)
     );
 
 create table if not exists public.vocab_examples (
