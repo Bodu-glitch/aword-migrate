@@ -9,7 +9,7 @@ create extension if not exists pgcrypto;
 do $$
 begin
   if not exists (select 1 from pg_type where typname = 'pos_type') then
-create type pos_type as enum ('n', 'v', 'adj','prep','adv');
+create type pos_type as enum ('n', 'v', 'adj','prep','adv','n pl');
 end if;
 end $$;
 

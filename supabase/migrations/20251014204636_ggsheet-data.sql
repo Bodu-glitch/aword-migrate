@@ -873,8 +873,139 @@ values
 insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
 values
     (gen_random_uuid(), (select id from public.roots where root_code = 're-1' limit 1), 'relieve', 're', 'lieve', '', 'hoàn toàn', 'nhẹ', '', '/rɪˈliːv/');
--- vocab_sense
 
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'adverb', 'ad', 'verb', '', 'hướng đến', 'động từ', '', '/ˈædvɜːb/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'amaze', 'a', 'maze', '', 'hướng đến', 'mê cung', '', '/əˈmeɪz/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'ad-lib', 'ad', 'libtium', '', 'hướng đến', 'niềm vui', '', '/ˈæd lɪb/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'adorn', 'ad', 'orn', '', 'hướng đến', 'trình tự, trật tự', '', '/əˈdɔːn/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'adore', 'ad', 'ore', '', 'hướng đến', 'nói chuyện', '', '/əˈdɔː(r)/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'assure', 'a(s)', 'sure', '', 'hướng đến', 'chắc chắn', '', '/əˈʃɔː(r)/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'attempt', 'a(t)', 'tempt', '', 'hướng đến', 'quyến rũ, hấp dẫn', '', '/əˈtempt/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'arrange', 'a(r)', 'range', '', 'hướng đến', 'chủng loại,phạm vi', '', '/əˈreɪndʒ/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'abridge', 'a', 'bridge', '', 'hướng đến', 'ngắn', '', '/əˈbrɪdʒ/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'accident', 'a(c)', 'cid', 'ent', 'hướng đến', 'rơi', 'tạo thành danh từ', '/ˈæksɪdənt/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'adequate', 'ad', 'equ', 'ate', 'hướng đến', 'bằng nhau', 'tạo thành tính từ', '/ˈædɪkwət/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'accompany', 'a(c)', 'company', '', 'hướng đến', 'bạn bè', '', '/əˈkʌmpəni/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'affirm', 'a(f)', 'firm', '', 'hướng đến', 'cố định', '', '/əˈfɜːm/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'aggravate', 'a(g)', 'grave', 'ate', 'hướng đến', 'nặng', 'tạo thành động từ', '/ˈæɡrəveɪt/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'approximate', 'a(p)', 'proxim', 'ate', 'hướng đến', 'gần', 'tạo thành tính từ', '/əˈprɒksɪmət/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'ad-, a-' limit 1), 'approve', 'a(p)', 'prove', '', 'chỉ đối tượng hành động', 'chứng minh', '', '/əˈpruːv/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'preschool', 'pre', 'school', '', 'trước', 'trường học', '', '/ˈpriːskuːl/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'provide', 'pro', 'vide', '', 'trước', 'nhìn', '', '/prəˈvaɪd/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'prophecy', 'pro', 'phe', 'cy', 'trước', 'nói', 'tạo thành danh từ', '/ˈprɒfəsi/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'proverb', 'pro', 'verb', '', 'trước', 'lời nói', '', '/ˈprɒvɜːb/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'protein', 'pro', 'in(e)', '', 'trước', 'vật chất hóa học', '', '/ˈprəʊtiːn/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'prehistory', 'pre', 'history', '', 'trước', 'lịch sử', '', '/ˌpriːˈhɪstri/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'prewar', 'pre', 'war', '', 'trước', 'chiến tranh', '', '/ˌpriːˈwɔː(r)/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'prepaid', 'pre', 'paid', '', 'trước', 'trả', '', '/ˌpriːˈpeɪd/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'prominent', 'pro', 'min', 'ent', 'trước', 'nhô ra', 'tạo thành tính từ', '/ˈprɒmɪnənt/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'presume', 'pre', 'sume', '', 'trước', 'lấy', '', '/prɪˈzjuːm/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'proclaim', 'pro', 'claim', '', 'trước', 'kêu gọi', '', '/prəˈkleɪm/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'predominate', 'pre', 'dom', 'ate', 'trước', 'người chủ', 'tạo thành danh từ', '/prɪˈdɒmɪneɪt/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'prescribe', 'pre', 'scribe', '', 'trước', 'viết', '', '/prɪˈskraɪb/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'pursue', 'pur ', 'sue', '', '[= pro (trước)]', 'đi theo', '', '/pəˈsjuː/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'profound', 'pro', 'found', '', 'trước', 'đáy', '', '/prəˈfaʊnd/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'prevail', 'pre', 'vail', '', 'phía trước', 'lực', '', '/prɪˈveɪl/');
+
+insert into public.vocab (id, root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+values
+    (gen_random_uuid(), (select id from public.roots where root_code = 'pre-, pro-' limit 1), 'precipitate', 'pre', 'cip', 'ate', 'trước', 'đầu', 'tạo thành động từ', '/prɪˈsɪpɪteɪt/');
+---
 insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
 values
     (gen_random_uuid(), (select id from public.vocab where word = 'derive' limit 1),
@@ -2860,7 +2991,346 @@ values
     (gen_random_uuid(), (select id from public.vocab where word = 'relieve' limit 1),
     'relief', 'n', 'sự giải tỏa, sự giảm bớt', 1);
 
--- vocab_example
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'adverb' limit 1),
+    'adverb', 'n', 'phó từ', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'amaze' limit 1),
+    'amaze', 'v', 'làm kinh ngạc', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'amaze' limit 1),
+    'amazing', 'adj', 'đáng ngạc nhiên, kì thú', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'amaze' limit 1),
+    'amazement', 'n', 'sự kinh ngạc, sự sửng sốt', 2);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'ad-lib' limit 1),
+    'ad-lib', 'adj', 'ngẫu hứng, tùy hứng', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'ad-lib' limit 1),
+    'ad-lib', 'adv', 'một cách ngẫu hứng', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'ad-lib' limit 1),
+    'ad-lib', 'v', 'làm ngẫu hứng', 2);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'adorn' limit 1),
+    'adorn', 'v', 'trang trí, trang điểm', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'adore' limit 1),
+    'adore', 'v', 'tôn kính, tôn sùng, yêu nồng cháy', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'adore' limit 1),
+    'adorable', 'adj', 'vô cùng, đáng yêu', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'assure' limit 1),
+    'assure', 'v', 'cam đoan, bảo đảm', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'attempt' limit 1),
+    'attempt', 'v', 'thử', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'attempt' limit 1),
+    'attempt', 'n', 'việc thử', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'arrange' limit 1),
+    'arrange', 'v', 'sắp xếp, thỏa thuận', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'arrange' limit 1),
+    'arrangement', 'n', 'sự thỏa thuận, sự sắp xếp', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'abridge' limit 1),
+    'abridge', 'v', 'rút ngắn, tóm lược', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'abridge' limit 1),
+    'abridged', 'adj', 'đơn giản, giản lược', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'accident' limit 1),
+    'accident', 'n', 'tai nạn, sự tình cờ', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'accident' limit 1),
+    'accidental', 'adj', 'tình cơg, ngãu nhiên', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'accident' limit 1),
+    'accident', 'adv', 'một cách vô ý, một cách tình cờ', 2);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'adequate' limit 1),
+    'adequate', 'adj', 'đầy đủ, thích hợp, tương xứng', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'adequate' limit 1),
+    'adequately', 'adj', 'một cách đầy đủ, một cách thích hợp', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'accompany' limit 1),
+    'accompany', 'v', 'đi theo, đi cùng, kèm theo', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'accompany' limit 1),
+    'accompaniment', 'n', 'vật kèm theo, sự đệm đàn', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'affirm' limit 1),
+    'affirm', 'v', 'khẳng định, tuyên bố', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'affirm' limit 1),
+    'affirmative', 'adj', 'quả quyết', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'affirm' limit 1),
+    'affirmative', 'n', 'lời khẳng định', 2);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'aggravate' limit 1),
+    'aggravate', 'v', 'lời trầm trọng thêm, làm bực mình', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'aggravate' limit 1),
+    'aggravating', 'adj', 'khó chịu', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'approximate' limit 1),
+    'approximate', 'adj', 'xấp xỉ,gần bằng, gần đúng', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'approximate' limit 1),
+    'approximate', 'v', 'xấp xỉ với,gần đúng với', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'approximate' limit 1),
+    'approximately', 'adv', 'khoảng chừng, ước chừng', 2);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'approve' limit 1),
+    'approve', 'v', 'tán thành, phê chuẩn', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'approve' limit 1),
+    'approval', 'n', 'sự tán thành, sự chấp thuận', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'preschool' limit 1),
+    'preschool', 'n', 'mẫu giáo, nhà trẻ', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'preschool' limit 1),
+    'preschool', 'adj', 'trước tuổi đến trường, trước tuổi đi học', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'provide' limit 1),
+    'provide', 'v', 'cung cấp', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'provide' limit 1),
+    'provision', 'n', 'sự cung cấp', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prophecy' limit 1),
+    'prophecy', 'n', 'lời tiên đoán', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prophecy' limit 1),
+    'prophet', 'n', 'nhà tiên tri', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prophecy' limit 1),
+    'prophesy', 'v', 'tiên đoán, tiên tri', 2);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'proverb' limit 1),
+    'proverb', 'n', 'tục ngữ', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'protein' limit 1),
+    'protein', 'n', 'chất đạm', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prehistory' limit 1),
+    'prehistory', 'n', 'giai đoạn tiền sử', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prewar' limit 1),
+    'prewar', 'adj', 'tiền chiến, trước chiến tranh', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prepaid' limit 1),
+    'prepaid', 'adj', 'trả trước', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prominent' limit 1),
+    'prominent', 'adj', 'xuất chúng, nổi bật', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prominent' limit 1),
+    'prominenence', 'n', 'sự xuất chúng, sự nổi bật, sự nổi tiếng', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'presume' limit 1),
+    'presume', 'v', 'ước đoán, coi như là, giả định', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'presume' limit 1),
+    'presumption', 'n', 'điều giả định, điều cho là đúng', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'presume' limit 1),
+    'presumptuous', 'adj', 'tự phụ, kiêu ngạo', 2);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'proclaim' limit 1),
+    'proclaim', 'v', 'công bố, tuyên bố, chỉ ra', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'proclaim' limit 1),
+    'proclaimation', 'n', 'sự tuyên bố, lời công bố', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'predominate' limit 1),
+    'predominate', 'v', 'chiếm ưu thế, trợi hơn hẳn(số lượng...), chi phối', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'predominate' limit 1),
+    'predominant', 'adj', 'nổi trội, có tính chiếm ưu thế hơn', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'predominate' limit 1),
+    'predominance', 'n', 'ưu thế', 2);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prescribe' limit 1),
+    'prescribe', 'v', 'cho, kê đơn, quy định', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prescribe' limit 1),
+    'prescription', 'n', 'đơn thuốc, thuốc được kê đơn, sự quy định', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'pursue' limit 1),
+    'pursue', 'v', 'đi theo, theo đuổi, đi tìm', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'pursue' limit 1),
+    'pursuit', 'n', 'sự theo đuổi, mưu cầu', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'profound' limit 1),
+    'profound', 'adj', 'sâu, sấu sắc, uyên thâm', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'profound' limit 1),
+    'profoundly', 'adv', 'một cách sâu sắc, uyên thâm', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prevail' limit 1),
+    'prevail', 'v', 'đánh bại, thắng thế, thịnh hành, phổ biến', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prevail' limit 1),
+    'prevalent', 'adj', 'phổ biến, thường thấy', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'prevail' limit 1),
+    'prevailing', 'adj', 'thông dụng, đang thịnh hành', 2);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'precipitate' limit 1),
+    'precipitate', 'v', 'làm nhanh, làm gấp, lao xuống, ném xuống', 0);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'precipitate' limit 1),
+    'precipitation', 'n', 'lượng mưa, sự kết tủa', 1);
+
+insert into public.vocab_senses (id, vocab_id, word, pos, definition, sense_order)
+values
+    (gen_random_uuid(), (select id from public.vocab where word = 'precipitate' limit 1),
+    'precipitatious', 'adj', 'thuộc vách đá, dốc đứng', 2);
+---
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
     (gen_random_uuid(),
@@ -3995,7 +4465,7 @@ values
      (select id from public.vocab where word = 'administer' limit 1),
     'The administration of the company is very efficient.',
     'Bộ phận quản lý của công ty hoạt động rất hiệu quả.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4003,7 +4473,7 @@ values
      (select id from public.vocab where word = 'administer' limit 1),
     'She works in the administrative department.',
     'Cô ấy làm việc ở phòng hành chính.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4043,7 +4513,7 @@ values
      (select id from public.vocab where word = 'adjust' limit 1),
     'The height of the bicycle seat is adjustable',
     'Độ cao yên xe đạp có thể điều chỉnh được',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4051,7 +4521,7 @@ values
      (select id from public.vocab where word = 'adjust' limit 1),
     'he made a few adjustments to her schedule to have more free time.',
     'Cô ấy đã điều chỉnh một chút lịch trình của mình để có thêm thời gian rảnh.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4067,7 +4537,7 @@ values
      (select id from public.vocab where word = 'appoint' limit 1),
     'I have a dentist appointment at 3 p.m.',
     'Tôi có cuộc hẹn với nha sĩ lúc 3 giờ chiều.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4083,7 +4553,7 @@ values
      (select id from public.vocab where word = 'attend' limit 1),
     'She paid no attention to me',
     'Cô ấy không chú ý đến tôi',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4091,7 +4561,7 @@ values
      (select id from public.vocab where word = 'attend' limit 1),
     'The flight attendant asked everyone to fasten their seatbelts.',
     'Tiếp viên hàng không yêu cầu mọi người thắt dây an toàn',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4107,7 +4577,7 @@ values
      (select id from public.vocab where word = 'accurate' limit 1),
     'The accuracy of the test results is very important.',
     'Độ chính xác của kết quả kiểm tra là rất quan trọng',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4123,7 +4593,7 @@ values
      (select id from public.vocab where word = 'achieve' limit 1),
     'Graduating from university is a great achievement.',
     'Tốt nghiệp đại học là một thành tựu lớn',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4139,7 +4609,7 @@ values
      (select id from public.vocab where word = 'accept' limit 1),
     'Her acceptance of the job offer made everyone happy.',
     'Việc cô ấy chấp nhận lời mời làm việc khiến mọi người rất vui.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4147,7 +4617,7 @@ values
      (select id from public.vocab where word = 'accept' limit 1),
     'Your behavior is not acceptable.',
     'Hành vi của bạn là không thể chấp nhận được.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4163,7 +4633,7 @@ values
      (select id from public.vocab where word = 'assign' limit 1),
     'I have to finish my English assignment tonight.',
     'Tôi phải hoàn thành bài tập tiếng Anh tối nay.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4179,7 +4649,7 @@ values
      (select id from public.vocab where word = 'observe' limit 1),
     'Accurate observation is essential in science.',
     'Quan sát chính xác là điều thiết yếu trong khoa học.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4187,7 +4657,7 @@ values
      (select id from public.vocab where word = 'observe' limit 1),
     'The observance of traffic laws is important for safety.',
     'Việc tuân thủ luật giao thông rất quan trọng cho an toàn.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4203,7 +4673,7 @@ values
      (select id from public.vocab where word = 'occur' limit 1),
     'Flooding is a common occurrence during the rainy season.',
     'Lũ lụt là một hiện tượng phổ biến trong mùa mưa.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4219,7 +4689,7 @@ values
      (select id from public.vocab where word = 'offend' limit 1),
     'His words caused deep offense.',
     'Lời nói của anh ta đã gây tổn thương sâu sắc.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4227,7 +4697,7 @@ values
      (select id from public.vocab where word = 'offend' limit 1),
     'That joke was very offensive to women.',
     'Câu đùa đó xúc phạm phụ nữ.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4275,7 +4745,7 @@ values
      (select id from public.vocab where word = 'combine' limit 1),
     'Success is often the result of a combination of hard work and luck.',
     'Thành công thường là kết quả của sự kết hợp giữa chăm chỉ và may mắn.',
-    0);
+    3);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4291,7 +4761,7 @@ values
      (select id from public.vocab where word = 'cooperate' limit 1),
     'She is very cooperative and always helps others.',
     'Cô ấy rất hợp tác và luôn giúp đỡ người khác.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4307,7 +4777,7 @@ values
      (select id from public.vocab where word = 'collaborate' limit 1),
     'This product is the result of a collaboration between two major brands.',
     'Sản phẩm này là kết quả của sự hợp tác giữa hai thương hiệu lớn.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4331,7 +4801,7 @@ values
      (select id from public.vocab where word = 'conform' limit 1),
     'The company checks all products for conformity with safety standards.',
     'Công ty kiểm tra tất cả sản phẩm để đảm bảo chúng tuân thủ các tiêu chuẩn an toàn.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4355,7 +4825,7 @@ values
      (select id from public.vocab where word = 'contract' limit 1),
     'The contraction of the muscles caused him pain.',
     'Sự co lại của các cơ khiến anh ấy đau',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4363,7 +4833,7 @@ values
      (select id from public.vocab where word = 'contract' limit 1),
     'The contractor finished building the house on time.',
     'Nhà thầu đã hoàn thành việc xây dựng ngôi nhà đúng hạn',
-    0);
+    3);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4379,7 +4849,7 @@ values
      (select id from public.vocab where word = 'congress' limit 1),
     'The congressional committee reviewed the proposed budget.',
     'Ủy ban Quốc hội đã xem xét ngân sách đề xuất',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4395,7 +4865,7 @@ values
      (select id from public.vocab where word = 'confine' limit 1),
     'During his confinement in the hospital, he read several books to pass the time.',
     'Trong thời gian bị hạn chế trong bệnh viện, anh ấy đã đọc vài cuốn sách để giết thời gian',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4451,7 +4921,7 @@ values
      (select id from public.vocab where word = 'compete' limit 1),
     'The school held a spelling competition last week.',
     'Trường đã tổ chức một cuộc thi đánh vần vào tuần trước.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4459,7 +4929,7 @@ values
      (select id from public.vocab where word = 'compete' limit 1),
     'She is very competitive and always wants to win.',
     'Cô ấy rất cạnh tranh và luôn muốn chiến thắng',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4475,7 +4945,7 @@ values
      (select id from public.vocab where word = 'conquest' limit 1),
     'The Roman Empire achieved many conquests across Europe.',
     'Đế chế La Mã đã đạt được nhiều chiến thắng trên khắp châu Âu.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4491,7 +4961,7 @@ values
      (select id from public.vocab where word = 'conclude' limit 1),
     'The report reached the conclusion that the project was a success.',
     'Báo cáo đi đến kết luận rằng dự án đã thành công.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4499,7 +4969,7 @@ values
      (select id from public.vocab where word = 'conclude' limit 1),
     'The evidence was conclusive and proved his innocence.',
     'Bằng chứng mang tính kết luận và chứng minh anh ấy vô tội.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4515,7 +4985,7 @@ values
      (select id from public.vocab where word = 'commemorate' limit 1),
     'A special ceremony was held in commemoration of the late president.',
     'Một buổi lễ đặc biệt được tổ chức để tưởng nhớ cố tổng thống.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4523,7 +4993,7 @@ values
      (select id from public.vocab where word = 'commemorate' limit 1),
     'They issued a commemorative stamp to honor the national hero.',
     'Họ phát hành một con tem kỷ niệm để vinh danh anh hùng dân tộc',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4531,7 +5001,7 @@ values
      (select id from public.vocab where word = 'commemorate' limit 1),
     'I bought a commemorative of the festival as a souvenir.',
     'Tôi mua một món đồ kỷ niệm của lễ hội làm quà lưu niệm.',
-    1);
+    3);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4547,7 +5017,7 @@ values
      (select id from public.vocab where word = 'compel' limit 1),
     'Education is compulsory for children up to the age of 15.',
     'Việc học là bắt buộc đối với trẻ em đến 15 tuổi',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4571,7 +5041,7 @@ values
      (select id from public.vocab where word = 'corrupt' limit 1),
     'The government is taking strong measures to fight corruption.',
     'Chính phủ đang thực hiện các biện pháp mạnh mẽ để chống tham nhũng',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4651,7 +5121,7 @@ values
      (select id from public.vocab where word = 'inspire' limit 1),
     'My mother is my biggest inspiration in life.',
     'Mẹ tôi là nguồn cảm hứng lớn nhất trong cuộc đời tôi.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4667,7 +5137,7 @@ values
      (select id from public.vocab where word = 'incline' limit 1),
     'He has an inclination to help others in need.',
     'Anh ấy có khuynh hướng giúp đỡ những người đang cần',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4707,7 +5177,7 @@ values
      (select id from public.vocab where word = 'impediment' limit 1),
     'Heavy traffic can impede the delivery of goods.',
     'Giao thông đông đúc có thể cản trở việc giao hàng',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4739,7 +5209,7 @@ values
      (select id from public.vocab where word = 'initiate' limit 1),
     'Her initial reaction was surprise, but she quickly calmed down.',
     'Phản ứng ban đầu của cô ấy là ngạc nhiên, nhưng cô nhanh chóng bình tĩnh lại',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4747,7 +5217,7 @@ values
      (select id from public.vocab where word = 'initiate' limit 1),
     'Please write your initials at the bottom of the form.',
     'Hãy viết chữ cái đầu của tên bạn ở cuối mẫu đơn',
-    1);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4755,7 +5225,7 @@ values
      (select id from public.vocab where word = 'initiate' limit 1),
     'Taking the initiative is important in the workplace.',
     'Việc chủ động là rất quan trọng trong công việc',
-    0);
+    3);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4771,7 +5241,7 @@ values
      (select id from public.vocab where word = 'impose' limit 1),
     'The building looked very imposing from a distance.',
     'Toà nhà trông rất ấn tượng và uy nghi từ xa.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4787,7 +5257,7 @@ values
      (select id from public.vocab where word = 'instruct' limit 1),
     'Please read the instructions carefully before assembling the furniture.',
     'Vui lòng đọc kỹ hướng dẫn trước khi lắp ráp đồ nội thất',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4795,7 +5265,7 @@ values
      (select id from public.vocab where word = 'instruct' limit 1),
     'The documentary was very instructive about wildlife conservation.',
     'Bộ phim tài liệu rất bổ ích về bảo tồn động vật hoang dã',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4811,7 +5281,7 @@ values
      (select id from public.vocab where word = 'invent' limit 1),
     'The telephone was a remarkable invention.',
     'Điện thoại là một phát minh đáng chú ý.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4819,7 +5289,7 @@ values
      (select id from public.vocab where word = 'invent' limit 1),
     'He is very inventive and always finds new solutions.',
     'Anh ấy rất sáng tạo và luôn tìm ra giải pháp mới',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4915,7 +5385,7 @@ values
      (select id from public.vocab where word = 'abort' limit 1),
     'Abortion is a sensitive and controversial topic in many countries.',
     'Phá thai là một chủ đề nhạy cảm và gây tranh cãi ở nhiều quốc gia.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -4923,7 +5393,7 @@ values
      (select id from public.vocab where word = 'abort' limit 1),
     'Their attempt to start a new business was abortive.',
     'Nỗ lực của họ để khởi nghiệp đã thất bại',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5035,7 +5505,7 @@ values
      (select id from public.vocab where word = 'supervise' limit 1),
     'The children were playing under the supervision of their teacher.',
     'Bọn trẻ đang chơi dưới sự giám sát của giáo viên.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5131,7 +5601,7 @@ values
      (select id from public.vocab where word = 'exceed' limit 1),
     'After the party, there was an excess of food left over.',
     'Sau bữa tiệc, có một lượng thức ăn dư thừa còn lại.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5139,7 +5609,7 @@ values
      (select id from public.vocab where word = 'exceed' limit 1),
     'Excessive screen time can be harmful to your eyes.',
     'Thời gian sử dụng màn hình quá mức có thể gây hại cho mắt của bạn.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5155,7 +5625,7 @@ values
      (select id from public.vocab where word = 'exist' limit 1),
     'The existence of dark matter is still a scientific mystery.',
     'Sự tồn tại của vật chất tối vẫn là một bí ẩn khoa học.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5179,7 +5649,7 @@ values
      (select id from public.vocab where word = 'evacuate' limit 1),
     'The evacuation of the building was orderly and quick.',
     'Sự sơ tán khỏi tòa nhà diễn ra có trật tự và nhanh chóng.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5195,7 +5665,7 @@ values
      (select id from public.vocab where word = 'emancipate' limit 1),
     'The emancipation of the slaves was a turning point in history.',
     'Sự giải phóng nô lệ là một bước ngoặt trong lịch sử.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5427,7 +5897,7 @@ values
      (select id from public.vocab where word = 'promote' limit 1),
     'He got a promotion last month.',
     'Anh ấy được thăng chức tháng trước.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5459,7 +5929,7 @@ values
      (select id from public.vocab where word = 'prospect' limit 1),
     'They interviewed several prospective employees.',
     'Họ đã phỏng vấn một số nhân viên tiềm năng.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5475,7 +5945,7 @@ values
      (select id from public.vocab where word = 'prolong' limit 1),
     'He suffered from a prolonged illness.',
     'Anh ta chịu đựng một căn bệnh kéo dài.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5507,7 +5977,7 @@ values
      (select id from public.vocab where word = 'produce' limit 1),
     'This is our best-selling product.',
     'Đây là sản phẩm bán chạy nhất của chúng tôi.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5515,7 +5985,7 @@ values
      (select id from public.vocab where word = 'produce' limit 1),
     'Car production increased last year',
     'Sản lượng ô tô tăng trong năm ngoái.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5547,7 +6017,7 @@ values
      (select id from public.vocab where word = 'prohibit' limit 1),
     'There’s a prohibition on alcohol sales',
     'Có lệnh cấm bán rượu.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5563,7 +6033,7 @@ values
      (select id from public.vocab where word = 'prefer' limit 1),
     'She has a preference for classical music',
     'Cô ấy có sở thích với nhạc cổ điển.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5571,7 +6041,7 @@ values
      (select id from public.vocab where word = 'prefer' limit 1),
     'Members get preferential treatment.',
     'Thành viên được ưu tiên phục vụ.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5579,7 +6049,7 @@ values
      (select id from public.vocab where word = 'prefer' limit 1),
     'It’s preferable to arrive early.',
     'Tốt hơn là đến sớm.',
-    0);
+    3);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5595,7 +6065,7 @@ values
      (select id from public.vocab where word = 'predict' limit 1),
     'Her prediction came true.',
     'Dự đoán của cô ấy đã thành sự thật.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5603,7 +6073,7 @@ values
      (select id from public.vocab where word = 'predict' limit 1),
     'he ending was too predictable.',
     'Kết thúc quá dễ đoán.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5619,7 +6089,7 @@ values
      (select id from public.vocab where word = 'preside' limit 1),
     'The president gave a speech',
     'Tổng thống đã phát biểu.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5635,7 +6105,7 @@ values
      (select id from public.vocab where word = 'pregnant' limit 1),
     'Her pregnancy was announced yesterday.',
     'Việc cô ấy mang thai được thông báo hôm qua.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5723,7 +6193,7 @@ values
      (select id from public.vocab where word = 'perform' limit 1),
     'Her performance was outstanding.',
     'Phần trình diễn của cô ấy thật xuất sắc.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5763,7 +6233,7 @@ values
      (select id from public.vocab where word = 'interpret' limit 1),
     'We need an interpreter for the meeting.',
     'Chúng ta cần một phiên dịch cho cuộc họp.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5771,7 +6241,7 @@ values
      (select id from public.vocab where word = 'interpret' limit 1),
     'Her interpretation of the law is different.',
     'Cách hiểu của cô ấy về luật khác nhau.',
-    0);
+    3);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5787,7 +6257,7 @@ values
      (select id from public.vocab where word = 'intersection' limit 1),
     'The two roads intersect near the park.',
     'Hai con đường giao nhau gần công viên.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5803,7 +6273,7 @@ values
      (select id from public.vocab where word = 'intelligence' limit 1),
     'She’s one of the most intelligent students.',
     'Cô ấy là một trong những học sinh thông minh nhất.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5819,7 +6289,7 @@ values
      (select id from public.vocab where word = 'diagnosis' limit 1),
     'He was diagnosed with diabetes.',
     'Anh ta được chẩn đoán mắc bệnh tiểu đường',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5835,7 +6305,7 @@ values
      (select id from public.vocab where word = 'diameter' limit 1),
     'They hold diametrical opinions on politics.',
     'Họ có quan điểm chính trị hoàn toàn trái ngược.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5843,7 +6313,7 @@ values
      (select id from public.vocab where word = 'diameter' limit 1),
     'Their views are diametrically opposed.',
     'Quan điểm của họ hoàn toàn đối lập.',
-    0);
+    3);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5859,7 +6329,7 @@ values
      (select id from public.vocab where word = 'dialect' limit 1),
     'There are many dialectal differences in vocabulary.',
     'Có nhiều khác biệt phương ngữ trong từ vựng.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5875,7 +6345,7 @@ values
      (select id from public.vocab where word = 'diagonal' limit 1),
     'He ran diagonally across the field.',
     'Anh ta chạy chéo qua cánh đồng.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5899,7 +6369,7 @@ values
      (select id from public.vocab where word = 'permanent' limit 1),
     'She permed her hair yesterday.',
     'Cô ấy uốn tóc hôm qua.',
-    0);
+    3);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5907,7 +6377,7 @@ values
      (select id from public.vocab where word = 'permanent' limit 1),
     'Her perm looks great!',
     'Kiểu tóc uốn của cô ấy trông rất đẹp!',
-    1);
+    4);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -5923,7 +6393,7 @@ values
      (select id from public.vocab where word = 'persecute' limit 1),
     'The persecution of minorities must end.',
     'Sự đàn áp các nhóm thiểu số phải chấm dứt.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -6027,7 +6497,7 @@ values
      (select id from public.vocab where word = 'restrict' limit 1),
     'There are strict restrictions on imports.',
     'Có những hạn chế nghiêm ngặt về nhập khẩu.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -6043,7 +6513,7 @@ values
      (select id from public.vocab where word = 'resemble' limit 1),
     'There’s a strong resemblance between the twins.',
     'Cặp song sinh trông rất giống nhau.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -6075,7 +6545,7 @@ values
      (select id from public.vocab where word = 'reinforce' limit 1),
     'They sent reinforcements to the battle.',
     'Họ gửi quân tiếp viện đến chiến trường.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -6091,7 +6561,7 @@ values
      (select id from public.vocab where word = 'revolve' limit 1),
     'The Industrial Revolution changed the world.',
     'Cuộc Cách mạng Công nghiệp đã thay đổi thế giới.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -6115,7 +6585,7 @@ values
      (select id from public.vocab where word = 'rely' limit 1),
     'He’s a reliable worker.',
     'Anh ấy là một nhân viên đáng tin cậy.',
-    0);
+    1);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -6123,7 +6593,7 @@ values
      (select id from public.vocab where word = 'rely' limit 1),
     'Their reliance on technology is growing.',
     'Sự phụ thuộc của họ vào công nghệ ngày càng tăng.',
-    0);
+    2);
 
 insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
 values
@@ -6139,10 +6609,512 @@ values
      (select id from public.vocab where word = 'relieve' limit 1),
     'It was a great relief to hear the news.',
     'Thật nhẹ nhõm khi nghe tin đó.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'adverb' limit 1),
+    'She speaks English fluently. ("fluently" is an adverb.)',
+    'Cô ấy nói tiếng Anh lưu loát. ("lưu loát" là một trạng từ.)',
     0);
 
--- vocab_sub_roots
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'amaze' limit 1),
+    'His skill on the guitar continues to amaze me.',
+    'Kỹ năng chơi guitar của anh ấy tiếp tục làm tôi kinh ngạc.',
+    0);
 
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'amaze' limit 1),
+    'The view from the top of the mountain was amazing.',
+    'Khung cảnh từ đỉnh núi thật đáng kinh ngạc.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'amaze' limit 1),
+    'He stared in amazement at the magician''s trick.',
+    'Anh ấy nhìn chằm chằm trong sự kinh ngạc trước trò ảo thuật của ảo thuật gia.',
+    2);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'ad-lib' limit 1),
+    'The actor forgot his lines and had to ad-lib his speech.',
+    'Diễn viên quên lời thoại và phải ứng biến bài phát biểu của mình.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'adorn' limit 1),
+    'The Christmas tree was adorned with colorful lights.',
+    'Cây thông Noel được trang hoàng bằng đèn nhiều màu sắc.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'adore' limit 1),
+    'She absolutely adores her new puppy.',
+    'Cô ấy cực kỳ yêu quý chú chó con mới của mình.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'adore' limit 1),
+    'The baby''s tiny shoes were adorable.',
+    'Đôi giày nhỏ xíu của em bé thật đáng yêu.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'assure' limit 1),
+    'I assure you that we are doing everything we can.',
+    'Tôi đảm bảo với bạn rằng chúng tôi đang làm mọi thứ có thể.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'attempt' limit 1),
+    'His first attempt to bake bread was a disaster.',
+    'Nỗ lực nướng bánh mì lần đầu tiên của anh ấy là một thảm họa.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'attempt' limit 1),
+    'He will attempt to break the world record tomorrow.',
+    'Anh ấy sẽ cố gắng phá kỷ lục thế giới vào ngày mai.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'arrange' limit 1),
+    'Can you arrange a meeting with the director?',
+    'Bạn có thể sắp xếp một cuộc họp với giám đốc không?',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'arrange' limit 1),
+    'We made an arrangement to meet at 10 AM.',
+    'Chúng tôi đã thu xếp để gặp nhau lúc 10 giờ sáng.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'abridge' limit 1),
+    'The publisher decided to abridge the long novel for children.',
+    'Nhà xuất bản đã quyết định rút ngắn cuốn tiểu thuyết dài này cho trẻ em.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'abridge' limit 1),
+    'This is an abridged version of the full report.',
+    'Đây là phiên bản rút gọn của báo cáo đầy đủ.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'accident' limit 1),
+    'He was injured in a car accident last week.',
+    'Anh ấy bị thương trong một vụ tai nạn xe hơi tuần trước.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'accident' limit 1),
+    'The discovery was purely accidental.',
+    'Phát hiện này hoàn toàn là tình cờ.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'adequate' limit 1),
+    'The food supply was not adequate for all the refugees.',
+    'Nguồn cung cấp thực phẩm không đủ cho tất cả những người tị nạn.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'adequate' limit 1),
+    'Are you being adequately paid for your work?',
+    'Bạn có được trả lương tương xứng cho công việc của mình không?',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'accompany' limit 1),
+    'Children must accompany their parents to the event.',
+    'Trẻ em phải đi cùng cha mẹ đến sự kiện.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'accompany' limit 1),
+    'The song was performed with a simple piano accompaniment.',
+    'Bài hát được trình diễn với phần đệm piano đơn giản.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'affirm' limit 1),
+    'He affirmed his commitment to the project.',
+    'Ông khẳng định cam kết của mình đối với dự án.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'affirm' limit 1),
+    'She gave an affirmative answer to his proposal.',
+    'Cô ấy đã đưa ra câu trả lời đồng ý cho lời cầu hôn của anh ấy.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'aggravate' limit 1),
+    'His negative comments only aggravated the situation.',
+    'những bình luận tiêu cực của anh ấy chỉ làm tình hình thêm trầm trọng.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'aggravate' limit 1),
+    'The constant delays were extremely aggravating.',
+    'Việc trì hoãn liên tục cực kỳ khó chịu.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'approximate' limit 1),
+    'The approximate cost of the repairs will be $500.',
+    'Chi phí sửa chữa xấp xỉ sẽ là 500 đô la.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'approximate' limit 1),
+    'The results of the experiment approximate the theoretical model.',
+    'Kết quả của thí nghiệm tiệm cận với mô hình lý thuyết.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'approximate' limit 1),
+    'It takes approximately two hours to get there.',
+    'Mất khoảng hai giờ để đến đó.',
+    2);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'approve' limit 1),
+    'The committee will meet to approve the new budget.',
+    'Ủy ban sẽ họp để phê duyệt ngân sách mới.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'approve' limit 1),
+    'The plan is waiting for final approval from the board.',
+    'Kế hoạch đang chờ sự chấp thuận cuối cùng từ hội đồng quản trị.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'preschool' limit 1),
+    'Her youngest child is starting preschool in the fall.',
+    'Con út của cô ấy sẽ bắt đầu đi học mẫu giáo vào mùa thu.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'provide' limit 1),
+    'The hotel provides breakfast for all its guests.',
+    'Khách sạn cung cấp bữa sáng cho tất cả các khách của mình.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'provide' limit 1),
+    'The company made provisions for employee training.',
+    'Công ty đã có các điều khoản dự phòng cho việc đào tạo nhân viên.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prophecy' limit 1),
+    'The old woman''s prophecy came true.',
+    'Lời tiên tri của bà lão đã trở thành sự thật.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prophecy' limit 1),
+    'He was a prophet who warned the people of the coming disaster.',
+    'Ông là một nhà tiên tri đã cảnh báo mọi người về thảm họa sắp tới.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prophecy' limit 1),
+    'Nostradamus prophesied many events that later happened.',
+    'Nostradamus đã tiên tri nhiều sự kiện mà sau này đã xảy ra.',
+    2);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'proverb' limit 1),
+    '"Haste makes waste" is a well-known proverb.',
+    '"Dục tốc bất đạt" là một câu tục ngữ nổi tiếng.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'protein' limit 1),
+    'Meat, eggs, and beans are good sources of protein.',
+    'Thịt, trứng và đậu là những nguồn cung cấp protein tốt.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prehistory' limit 1),
+    'We study fossils to learn about prehistory.',
+    'Chúng ta nghiên cứu hóa thạch để tìm hiểu về thời tiền sử.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prewar' limit 1),
+    'The building was restored to its prewar condition.',
+    'Tòa nhà đã được khôi phục lại tình trạng trước chiến tranh.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prepaid' limit 1),
+    'I bought a prepaid phone card at the airport.',
+    'Tôi đã mua một thẻ điện thoại trả trước tại sân bay.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prominent' limit 1),
+    'She is a prominent figure in the fashion industry.',
+    'Bà là một nhân vật nổi bật trong ngành thời trang.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prominent' limit 1),
+    'The castle has a position of prominence overlooking the town.',
+    'Lâu đài có một vị trí nổi bật nhìn ra thị trấn.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'presume' limit 1),
+    'I presume you already know the news.',
+    'Tôi cho là bạn đã biết tin tức rồi.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'presume' limit 1),
+    'His presumption that he would win the election was wrong.',
+    'Giả định của anh ta rằng anh ta sẽ thắng cử là sai.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'presume' limit 1),
+    'It was presumptuous of him to ask such a personal question.',
+    'Thật là xấc xược khi anh ta hỏi một câu hỏi cá nhân như vậy.',
+    2);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'proclaim' limit 1),
+    'The king proclaimed a new national holiday.',
+    'Nhà vua tuyên bố một ngày lễ quốc gia mới.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'proclaim' limit 1),
+    'The government issued a proclamation ending the war.',
+    'Chính phủ đã ban hành một tuyên cáo chấm dứt chiến tranh.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'predominate' limit 1),
+    'In this area, small farms predominate over large ones.',
+    'Ở khu vực này, các trang trại nhỏ chiếm ưu thế hơn các trang trại lớn.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'predominate' limit 1),
+    'English is the predominant language in this country.',
+    'Tiếng Anh là ngôn ngữ chiếm ưu thế ở đất nước này.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'predominate' limit 1),
+    'The company has achieved predominance in the software market.',
+    'Công ty đã đạt được vị thế thống trị trên thị trường phần mềm.',
+    2);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prescribe' limit 1),
+    'The doctor prescribed antibiotics for the infection.',
+    'Bác sĩ kê đơn thuốc kháng sinh cho bệnh nhiễm trùng.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prescribe' limit 1),
+    'You need a doctor''s prescription to buy this medicine.',
+    'Bạn cần đơn thuốc của bác sĩ để mua loại thuốc này.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'pursue' limit 1),
+    'She plans to pursue a career in medicine.',
+    'Cô ấy dự định theo đuổi sự nghiệp trong ngành y.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'pursue' limit 1),
+    'The police were in pursuit of the stolen car.',
+    'Cảnh sát đang truy đuổi chiếc xe bị đánh cắp.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'profound' limit 1),
+    'His speech had a profound impact on the audience.',
+    'Bài phát biểu của ông có ảnh hưởng sâu sắc đến khán giả.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'profound' limit 1),
+    'We are profoundly grateful for your help.',
+    'Chúng tôi vô cùng biết ơn sự giúp đỡ của bạn.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prevail' limit 1),
+    'Justice will ultimately prevail.',
+    'Công lý cuối cùng sẽ thắng thế.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prevail' limit 1),
+    'Colds are very prevalent during the winter.',
+    'Cảm lạnh rất phổ biến trong mùa đông.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'prevail' limit 1),
+    'The prevailing opinion is that the economy will improve.',
+    'Ý kiến thịnh hành là nền kinh tế sẽ cải thiện.',
+    2);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'precipitate' limit 1),
+    'The scandal precipitated a political crisis.',
+    'Vụ bê bối đã gây ra một cuộc khủng hoảng chính trị.',
+    0);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'precipitate' limit 1),
+    'Annual precipitation in the desert is very low.',
+    'Lượng mưa hàng năm ở sa mạc rất thấp.',
+    1);
+
+insert into public.vocab_examples (id, vocab_id, example_en, example_vi, example_order)
+values
+    (gen_random_uuid(),
+     (select id from public.vocab where word = 'precipitate' limit 1),
+    'There was a precipitous drop in stock prices.',
+    'Đã có một sự sụt giảm đột ngột (dựng đứng) của giá cổ phiếu.',
+    2);
+---
 INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
 VALUES
     (gen_random_uuid(),
@@ -6948,8 +7920,125 @@ VALUES
     'lev(i)',
     'nhẹ, cầm lên');
 
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'abridge' LIMIT 1),
+    'bri,brev, brac',
+    'ngắn');
 
--- sub_vocab
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'accident' LIMIT 1),
+    'cas,cid',
+    'rơi');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'adequate' LIMIT 1),
+    'equ',
+    'bằng nhau, bằng phẳng');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'accompany' LIMIT 1),
+    'pan, pa',
+    'bánh mì , cho thức ăn');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'affirm' LIMIT 1),
+    'firm,farm',
+    'cố định');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'aggravate' LIMIT 1),
+    'grav(e)',
+    'nặng');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'approximate' LIMIT 1),
+    'prox, proach',
+    'gần');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'approve' LIMIT 1),
+    'prove, prob(e)',
+    'thử,chứng minh');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'prominent' LIMIT 1),
+    'mount,min(t)',
+    'nhô ra, núi, leo');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'presume' LIMIT 1),
+    'sume, em(pt)',
+    'mua, lấy');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'proclaim' LIMIT 1),
+    'claim',
+    'kêu, gọi');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'predominate' LIMIT 1),
+    'dome',
+    'nhà, người chủ');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'prescribe' LIMIT 1),
+    'scribe,script',
+    'viết');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'pursue' LIMIT 1),
+    'sui,sue',
+    'tiếp tục, đi theo');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'profound' LIMIT 1),
+    'fund,found',
+    'đáy');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'prevail' LIMIT 1),
+    'val,vail',
+    'mạnh, lực');
+
+INSERT INTO public.vocab_sub_roots (id, vocab_id, token, defination)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab WHERE word = 'precipitate' LIMIT 1),
+    'cip',
+    'nắm bắt, đầu');
+---
 INSERT INTO public.sub_vocab
 (id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
 VALUES
@@ -9071,10 +10160,10 @@ VALUES
      (SELECT id FROM public.vocab_sub_roots WHERE token = 'mon' LIMIT 1),
     'muster',
     '',
+    'muster',
     '',
     '',
-    '',
-    '',
+    'tụ họp',
     '',
     '/ˈmʌstər/');
 
@@ -9084,12 +10173,12 @@ VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.vocab_sub_roots WHERE token = 'just,jur' LIMIT 1),
     'jury',
+    '',
     'jur',
     'y',
     '',
     'đúng',
     'tập thể, tập đoàn',
-    '',
     '/ˈdʒʊəri/');
 
 INSERT INTO public.sub_vocab
@@ -9098,11 +10187,11 @@ VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.vocab_sub_roots WHERE token = 'just,jur' LIMIT 1),
     'justice',
+    '',
     'just',
-    '',
     'ice',
-    'đúng',
     '',
+    'đúng',
     'đuôi danh từ',
     '/ˈdʒʌstɪs/');
 
@@ -9112,11 +10201,11 @@ VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.vocab_sub_roots WHERE token = 'just,jur' LIMIT 1),
     'justify',
+    '',
     'just',
-    '',
     'ify',
-    'đúng đắn',
     '',
+    'đúng đắn',
     'đuôi động từ',
     '/ˈdʒʌstɪfaɪ/');
 
@@ -9141,7 +10230,7 @@ VALUES
      (SELECT id FROM public.vocab_sub_roots WHERE token = 'point,punct' LIMIT 1),
     'point',
     '',
-    '',
+    'point',
     '',
     '',
     'chỉ 1 điểm',
@@ -9168,11 +10257,11 @@ VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.vocab_sub_roots WHERE token = 'point,punct' LIMIT 1),
     'punctual',
+    '',
     'punct',
-    '',
     'ual',
-    'chỉ định',
     '',
+    'chỉ định',
     'đuôi tính từ',
     '/ˈpʌŋktʃuəl/');
 
@@ -9182,11 +10271,11 @@ VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.vocab_sub_roots WHERE token = 'point,punct' LIMIT 1),
     'pungent',
+    '',
     'pung',
-    '',
     'ent',
-    'chỉ định',
     '',
+    'chỉ định',
     'đuôi tính từ',
     '/ˈpʌndʒənt/');
 
@@ -9196,11 +10285,11 @@ VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.vocab_sub_roots WHERE token = 'tend,tens' LIMIT 1),
     'tend',
+    '',
     'tend',
     '',
     '',
     'kéo dài/hướng đến',
-    '',
     '',
     '/tend/');
 
@@ -9252,11 +10341,11 @@ VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.vocab_sub_roots WHERE token = 'cure, care' LIMIT 1),
     'cure',
+    '',
     'cur',
     '',
     '',
     'chú ý, chăm sóc',
-    '',
     '',
     '/kjʊə(r)/');
 
@@ -9266,11 +10355,11 @@ VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.vocab_sub_roots WHERE token = 'cure, care' LIMIT 1),
     'curious',
+    '',
     'cur',
-    '',
     'ious',
-    'chú ý ',
     '',
+    'chú ý ',
     'đuôi tính từ',
     '/ˈkjʊəriəs/');
 
@@ -10876,11 +11965,11 @@ VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.vocab_sub_roots WHERE token = 'struct' LIMIT 1),
     'structure',
+    '',
     'struct',
-    '',
     'ure',
-    'chất/xếp chồng lên',
     '',
+    'chất/xếp chồng lên',
     'đuôi danh từ',
     '/ˈstrʌktʃə(r)/');
 
@@ -11037,7 +12126,6 @@ VALUES
     'được bắt đầu ',
     'đuôi tính từ',
     '/ˌæb.əˈrɪdʒ.ən.əl/');
-
 
 INSERT INTO public.sub_vocab
 (id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
@@ -13405,7 +14493,958 @@ VALUES
     '',
     '/ˈlev.i/');
 
--- sub_vocab_senses
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'bri,brev, brac' LIMIT 1),
+    'brief',
+    'bri',
+    '',
+    '',
+    'ngắn',
+    '',
+    '',
+    '/briːf/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'bri,brev, brac' LIMIT 1),
+    'abbreviate',
+    'a(b)',
+    'brev',
+    'ate',
+    'chỉ đối tượng hướng đến',
+    'ngắn',
+    'tạo thành động từ',
+    '/əˈbriːvieɪt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'bri,brev, brac' LIMIT 1),
+    'brevity',
+    'brev',
+    '',
+    'ity',
+    'ngắn',
+    '',
+    '',
+    '/ˈbrevəti/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'bri,brev, brac' LIMIT 1),
+    'embrace',
+    'em',
+    'brace',
+    '',
+    'bên trong ',
+    'cánh tay ngắn',
+    'tạo thành danh từ',
+    '/ɪmˈbreɪs/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'cas,cid' LIMIT 1),
+    'decay',
+    'de',
+    'cay',
+    '',
+    'phía dưới',
+    'rơi',
+    '',
+    '/dɪˈkeɪ/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'cas,cid' LIMIT 1),
+    'coincide',
+    'co',
+    'in + cide',
+    '',
+    'cùng',
+    'phía trên + rơi',
+    '',
+    '/ˌkəʊɪnˈsaɪd/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'cas,cid' LIMIT 1),
+    'incident',
+    'in',
+    'in + cide',
+    'ent',
+    'phía trên',
+    'rơi',
+    'tạo thành danh từ',
+    '/ˈɪnsɪdənt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'cas,cid' LIMIT 1),
+    'occident',
+    'o(c)',
+    'cid',
+    'ent',
+    'hướng về',
+    'rơi xuống',
+    '',
+    '/ˈɒksɪdənt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'equ' LIMIT 1),
+    'equal',
+    'equ',
+    '',
+    'al',
+    'bằng nhau',
+    '',
+    'tạo thành tính từ',
+    '/ˈiːkwəl/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'equ' LIMIT 1),
+    'equation',
+    'equ',
+    '',
+    'ate + ion',
+    'bằng nhau',
+    '',
+    'tạo thành động từ + danh từ',
+    '/ɪˈkweɪʒn/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'equ' LIMIT 1),
+    'equinox',
+    'equi',
+    'nox',
+    '',
+    'bằng nhau',
+    'đêm',
+    '',
+    '/ˈiːkwɪnɒks/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'equ' LIMIT 1),
+    'equivalent',
+    'eui',
+    'val',
+    'ent',
+    'bằng nhau',
+    'giá trị',
+    'tạo thành tính từ',
+    '/ɪˈkwɪvələnt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'pan, pa' LIMIT 1),
+    'companion',
+    'com',
+    'pan',
+    'ion',
+    'cùng với',
+    'bánh mì',
+    'tạo thành danh từ',
+    '/kəmˈpænjən/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'pan, pa' LIMIT 1),
+    'pastoral',
+    'pa',
+    'stor',
+    'al',
+    'cho đồ ăn',
+    'người',
+    'tạo thành tính từ',
+    '/ˈpɑːstərəl/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'pan, pa' LIMIT 1),
+    'pantry',
+    'pan',
+    'try',
+    '',
+    'bánh mì',
+    'nơi',
+    '',
+    '/ˈpæntri/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'pan, pa' LIMIT 1),
+    'pasture',
+    'pa',
+    '',
+    '',
+    'cho thức ăn',
+    '',
+    '',
+    '/ˈpɑːstʃə(r)/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'firm,farm' LIMIT 1),
+    'firm',
+    'firm',
+    '',
+    '',
+    'cố định',
+    '',
+    '',
+    '/fɜːm/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'firm,farm' LIMIT 1),
+    'confirm',
+    'con',
+    'firm',
+    '',
+    'hoàn toàn, toàn diện',
+    'cố định',
+    '',
+    '/kənˈfɜːm/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'firm,farm' LIMIT 1),
+    'reconfirm',
+    're',
+    'confirm',
+    '',
+    'lại, lần nữa',
+    'xác nhận',
+    '',
+    '/ˌriːkənˈfɜːm/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'firm,farm' LIMIT 1),
+    'infirmary',
+    'in',
+    'firm + ary',
+    '',
+    'không',
+    'cố định + nơi',
+    '',
+    '/ɪnˈfɜːməri/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'grav(e)' LIMIT 1),
+    'grave',
+    'grave',
+    '',
+    '',
+    'nặng',
+    '',
+    '',
+    '/ɡreɪv/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'grav(e)' LIMIT 1),
+    'grief',
+    'grav',
+    '',
+    '',
+    'nặng',
+    '',
+    '',
+    '/ɡriːf/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'grav(e)' LIMIT 1),
+    'gravity',
+    'grave',
+    '',
+    'ity',
+    'nặng',
+    '',
+    'tạo thành danh từ',
+    '/ˈɡrævəti/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'grav(e)' LIMIT 1),
+    'gravitation',
+    'grave',
+    '',
+    'ate + ion',
+    'nặng',
+    '',
+    'tọa thành động từ + danh từ',
+    '/ˌɡrævɪˈteɪʃn/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'prox, proach' LIMIT 1),
+    'approach',
+    'a(p)',
+    'proach',
+    '',
+    'hướng đến',
+    'gần',
+    '',
+    '/əˈprəʊtʃ/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'prox, proach' LIMIT 1),
+    'reproach',
+    're',
+    'proach',
+    '',
+    'phía sau -> đối lập lại',
+    'đến gần',
+    '',
+    '/rɪˈprəʊtʃ/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'prox, proach' LIMIT 1),
+    'proximity',
+    'proxim',
+    '',
+    'ity',
+    'gần',
+    '',
+    'tạo thành danh từ',
+    '/prɒkˈsɪməti/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'prox, proach' LIMIT 1),
+    'proxy',
+    'prox',
+    '',
+    'y',
+    '',
+    '',
+    'tạo thành danh từ',
+    '/ˈprɒksi/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'prove, prob(e)' LIMIT 1),
+    'prove',
+    'prove',
+    '',
+    '',
+    'chứng minh',
+    '',
+    '',
+    '/pruːv/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'prove, prob(e)' LIMIT 1),
+    'probe',
+    'probe',
+    '',
+    '',
+    'thử, chứng minh',
+    '',
+    '',
+    '/prəʊb/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'prove, prob(e)' LIMIT 1),
+    'probable',
+    'probe',
+    'able',
+    '',
+    'chứng minh',
+    'có thể',
+    '',
+    '/ˈprɒbəbl/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'prove, prob(e)' LIMIT 1),
+    'reprove',
+    're',
+    'prove',
+    '',
+    'phía sau -> đối lập lại',
+    'chứng minh',
+    '',
+    '/rɪˈpruːv/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'mount,min(t)' LIMIT 1),
+    'amount',
+    'a',
+    'mount',
+    '',
+    'hướng đến',
+    'núi',
+    '',
+    '/əˈmaʊnt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'mount,min(t)' LIMIT 1),
+    'dismount',
+    'dis',
+    'mount',
+    '',
+    'không',
+    'núi',
+    '',
+    '/ˌdɪsˈmaʊnt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'mount,min(t)' LIMIT 1),
+    'eminent',
+    'e',
+    'min',
+    'ent',
+    'bên ngoài',
+    'nhô ra',
+    'tạo thành tính từ',
+    '/ˈemɪnənt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'mount,min(t)' LIMIT 1),
+    'imminent',
+    'im',
+    'min',
+    'ent',
+    'phía trên',
+    'nhô ra',
+    'tạo thành tính từ',
+    '/ˈɪmɪnənt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'sume, em(pt)' LIMIT 1),
+    'assume',
+    'a(s)',
+    'sume',
+    '',
+    'hướng đến',
+    'lấy',
+    '',
+    '/əˈsjuːm/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'sume, em(pt)' LIMIT 1),
+    'consume',
+    'con',
+    'sume',
+    '',
+    'một cách hoàn hảo, đầy đủ ',
+    'lấy',
+    '',
+    '/kənˈsjuːm/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'sume, em(pt)' LIMIT 1),
+    'resume',
+    're',
+    'sume',
+    '',
+    'lại',
+    'lấy',
+    '',
+    '/rɪˈzjuːm/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'sume, em(pt)' LIMIT 1),
+    'exempt',
+    'ex',
+    'empt',
+    '',
+    'bên ngoài',
+    'lấy',
+    '',
+    '/ɪɡˈzempt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'claim' LIMIT 1),
+    'clamor',
+    'clam',
+    '',
+    'or',
+    'kêu gọi',
+    '',
+    'tạo thành danh từ',
+    '/ˈklæmə(r)/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'claim' LIMIT 1),
+    'exclaim',
+    'ex',
+    'claim',
+    '',
+    'bên ngoài',
+    'kêu gọi',
+    '',
+    '/ɪkˈskleɪm/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'claim' LIMIT 1),
+    'acclaim',
+    'a(c)',
+    'claim',
+    '',
+    'hướng đến',
+    'kêu gọi',
+    '',
+    '/əˈkleɪm/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'claim' LIMIT 1),
+    'reclaim',
+    're',
+    'claim',
+    '',
+    'lại',
+    'kêu gọi',
+    '',
+    '/rɪˈkleɪm/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'dome' LIMIT 1),
+    'domestic',
+    'dome',
+    '',
+    'tic',
+    'nhà',
+    '',
+    'tạo thành tính từ',
+    '/dəˈmestɪk/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'dome' LIMIT 1),
+    'domesticate',
+    'domestic',
+    '',
+    'ate',
+    'thuộc về gia đình',
+    '',
+    'tạo thành động từ',
+    '/dəˈmestɪkeɪt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'dome' LIMIT 1),
+    'dominate',
+    'dom',
+    '',
+    'ate',
+    'người chủ',
+    '',
+    'tạo thành động từ',
+    '/ˈdɒmɪneɪt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'dome' LIMIT 1),
+    'condominium',
+    'con',
+    'dom + ium',
+    '',
+    'cùng',
+    'nhà + nơi',
+    '',
+    '/ˌkɒndəˈmɪniəm/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'scribe,script' LIMIT 1),
+    'describe',
+    'de',
+    'scribe',
+    '',
+    'dưới',
+    'viết',
+    '',
+    '/dɪˈskraɪb/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'scribe,script' LIMIT 1),
+    'ascribe',
+    'a',
+    'scribe',
+    '',
+    'hướng đến',
+    'viết',
+    '',
+    '/əˈskraɪb/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'scribe,script' LIMIT 1),
+    'subscribe',
+    'sub',
+    'scribe',
+    '',
+    'dưới',
+    'viết',
+    '',
+    '/səbˈskraɪb/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'scribe,script' LIMIT 1),
+    'conscript',
+    'con',
+    'script',
+    '',
+    'cùng',
+    'viết',
+    '',
+    '/kənˈskrɪpt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'sui,sue' LIMIT 1),
+    'sue',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '/suː/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'sui,sue' LIMIT 1),
+    'ensue',
+    'en',
+    'sue',
+    '',
+    'phía trên',
+    'tiếp tục',
+    '',
+    '/ɪnˈsjuː/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'sui,sue' LIMIT 1),
+    'suitable',
+    'suit',
+    'able',
+    '',
+    'tiếp tục',
+    'có thể',
+    '',
+    '/ˈsuːtəbl/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'sui,sue' LIMIT 1),
+    'suite',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '/swiːt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'fund,found' LIMIT 1),
+    'fund',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '/fʌnd/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'fund,found' LIMIT 1),
+    'foundation',
+    'found',
+    '',
+    'ation',
+    'đáy',
+    '',
+    'tạo thành danh từ',
+    '/faʊnˈdeɪʃn/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'fund,found' LIMIT 1),
+    'fundamental',
+    'fund',
+    '',
+    'ment + al',
+    'đáy',
+    '',
+    'tạo thành danh từ + tính từ',
+    '/ˌfʌndəˈmentl/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'fund,found' LIMIT 1),
+    'refundable',
+    're',
+    'fund + able',
+    '',
+    'lại',
+    'vốn + có thể',
+    '',
+    '/rɪˈfʌndəbl/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'val,vail' LIMIT 1),
+    'valid',
+    'val',
+    '',
+    'id',
+    'lực',
+    '',
+    '',
+    '/ˈvælɪd/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'val,vail' LIMIT 1),
+    'valuable',
+    'value',
+    'able',
+    '',
+    'giá trị',
+    'có thể',
+    '',
+    '/ˈvæljuəbl/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'val,vail' LIMIT 1),
+    'available',
+    'a',
+    'vail + able',
+    '',
+    'hướng đến',
+    'lực + có thể',
+    '',
+    '/əˈveɪləbl/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'val,vail' LIMIT 1),
+    'evaluate',
+    'e(x)',
+    'value',
+    'ate',
+    'ra phía ngoài',
+    'giá trị',
+    'tạo thành động từ',
+    '/ɪˈvæljueɪt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'cip' LIMIT 1),
+    'principle',
+    'pri',
+    'cip',
+    'le',
+    'đầu tiên',
+    'nắm bắt',
+    'hậu tố rút gọn',
+    '/ˈprɪnsəpl/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'cip' LIMIT 1),
+    'municipal',
+    'mun',
+    'cip',
+    'al',
+    'nghĩa vụ, sự gánh vác',
+    'nắm bắt',
+    'tạo thành tính từ',
+    '/mjuːˈnɪsɪpl/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'cip' LIMIT 1),
+    'anticipate',
+    'anti',
+    'cip',
+    'ate',
+    'trước',
+    'nắm bắt',
+    'tạo thành động từ',
+    '/ænˈtɪsɪpeɪt/');
+
+INSERT INTO public.sub_vocab
+(id, sub_root_id, word, prefix, infix, postfix, prefix_meaning, infix_meaning, postfix_meaning, phonetic)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.vocab_sub_roots WHERE token = 'cip' LIMIT 1),
+    'recipient',
+    're',
+    'cip + ent',
+    '',
+    'ở phía sau ',
+    'nắm bắt + người',
+    '',
+    '/rɪˈsɪpiənt/');
+---
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
@@ -14101,7 +16140,7 @@ INSERT INTO public.sub_vocab_sense
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'commit' LIMIT 1),
-    'committee',
+    'committe',
     'n',
     'ủy ban',
     1);
@@ -14531,7 +16570,7 @@ INSERT INTO public.sub_vocab_sense
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'downhill' LIMIT 1),
-    'downhill',
+    'uphill',
     'n',
     'con dốc(xuống)',
     2);
@@ -14551,7 +16590,7 @@ INSERT INTO public.sub_vocab_sense
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'downhill' LIMIT 1),
-    'uphill',
+    'downhill',
     'adj',
     'dốc lên',
     4);
@@ -16131,7 +18170,7 @@ INSERT INTO public.sub_vocab_sense
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'demonstrate' LIMIT 1),
-    'demonstrate',
+    'demonstration',
     'n',
     'sự chứng minh',
     1);
@@ -16151,7 +18190,7 @@ INSERT INTO public.sub_vocab_sense
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'summon' LIMIT 1),
-    'summon',
+    'summons',
     'n',
     'lệnh triệu tập',
     1);
@@ -16191,7 +18230,7 @@ INSERT INTO public.sub_vocab_sense
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
-    'justice',
+    'juror',
     'n',
     'sự công bằng',
     1);
@@ -16200,51 +18239,51 @@ INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
-    'injustice',
+     (SELECT id FROM public.sub_vocab WHERE word = 'justice' LIMIT 1),
+    'justice',
     'n',
     'sự không công bằng',
-    2);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
-    'justify',
+     (SELECT id FROM public.sub_vocab WHERE word = 'justice' LIMIT 1),
+    'injustice',
     'v',
     'biện hộ',
-    3);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'justify' LIMIT 1),
+    'justify',
+    'v',
+    'sự biện hộ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'justify' LIMIT 1),
     'justification',
     'n',
-    'sự biện hộ',
-    4);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
-    'prejudice',
-    'n',
     'định kiến',
-    5);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prejudice' LIMIT 1),
     'prejudice',
     'v',
     'có thành kiến',
-    6);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
@@ -16270,41 +18309,41 @@ INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'point' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'disappoint' LIMIT 1),
     'disappoint',
     'v',
     'làm thất vọng',
-    2);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'point' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'disappoint' LIMIT 1),
     'disappointment',
     'n',
     'sự thất vọng',
-    3);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'point' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'punctual' LIMIT 1),
     'punctual',
     'adj',
     'đúng giờ',
-    4);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'point' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pungent' LIMIT 1),
     'pungent',
     'adj',
     'kích thích mạnh, hăng say',
-    5);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
@@ -16330,71 +18369,71 @@ INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'extend' LIMIT 1),
     'extend',
     'v',
     'gia hạn, mở rộng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'extend' LIMIT 1),
+    'extent',
+    'n',
+    'phạm vi, mức độ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'extend' LIMIT 1),
+    'extension',
+    'n',
+    'sự mở rộng',
     2);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
-    'extent',
-    'n',
-    'phạm vi, mức độ',
-    3);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
-    'extension',
-    'n',
-    'sự mở rộng',
-    4);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'contend' LIMIT 1),
     'contend',
     'v',
     'đấu tranh, chiến đâu',
-    5);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'contend' LIMIT 1),
     'contention',
     'n',
     'tranh chấp, luận điểm',
-    6);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pretend' LIMIT 1),
     'pretend',
     'v',
     'giả vờ',
-    7);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pretend' LIMIT 1),
     'pretense',
     'n',
     'sự giả bộ',
-    8);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
@@ -16420,61 +18459,61 @@ INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'curious' LIMIT 1),
     'curious',
     'adj',
     'tò mò, hiếu kì',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'curious' LIMIT 1),
+    'curiosity',
+    'n',
+    'sự tò mò',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'secure' LIMIT 1),
+    'secure',
+    'adj',
+    'an toàn, chắc chắn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'secure' LIMIT 1),
+    'secure',
+    'v',
+    'bảo đảm',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'secure' LIMIT 1),
+    'security',
+    'n',
+    'sự an toàn, bảo vệ',
     2);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
-    'curiosity',
-    'n',
-    'sự tò mò',
-    3);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
-    'secure',
-    'adj',
-    'an toàn, chắc chắn',
-    4);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
-    'secure',
-    'v',
-    'bảo đảm',
-    5);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
-    'security',
-    'n',
-    'sự an toàn, bảo vệ',
-    6);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'scour' LIMIT 1),
     'scour',
     'v',
     'cọ rửa',
-    7);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
@@ -16530,71 +18569,71 @@ INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'escape' LIMIT 1),
     'escape',
     'v',
     'chạy trốn',
-    5);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'escape' LIMIT 1),
     'escape',
     'n',
     'lưu vong, sự chạy trốn',
-    6);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'occupy' LIMIT 1),
     'occupy',
     'v',
     'chiếm giữ',
-    7);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'occupy' LIMIT 1),
     'occupation',
     'n',
     'nghề nghiệp',
-    8);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'capable' LIMIT 1),
     'capable',
     'adj',
     'có khả năng',
-    9);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'capable' LIMIT 1),
     'capability',
     'n',
     'năng lực, năng khiếu',
-    10);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'capable' LIMIT 1),
     'capacity',
     'n',
     'khả năng tiếp nhận',
-    11);
+    2);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
@@ -16610,71 +18649,71 @@ INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'except' LIMIT 1),
     'except',
     'prep',
     'trừ ra, ngoài',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'except' LIMIT 1),
+    'exception',
+    'n',
+    'ngoại lệ',
     1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'exception',
+     (SELECT id FROM public.sub_vocab WHERE word = 'deceive' LIMIT 1),
+    'deceive',
+    'v',
+    'lừa dối, đánh lừa',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'deceive' LIMIT 1),
+    'deceit',
     'n',
-    'ngoại lệ',
+    'sự lừa đảo',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'deceive' LIMIT 1),
+    'deception',
+    'n',
+    'sự lừa đảo, sự bịa đặt',
     2);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'deceive',
-    'v',
-    'lừa dối, đánh lừa',
-    3);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'deceit',
-    'n',
-    'sự lừa đảo',
-    4);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'deception',
-    'n',
-    'sự lừa đảo, sự bịa đặt',
-    5);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'perceive' LIMIT 1),
     'perceive',
     'v',
     'hiểu được, nhận thức được',
-    6);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'perceive' LIMIT 1),
     'perception',
     'n',
     'tri giác, khả năng nhận thức',
-    7);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
@@ -16700,71 +18739,71 @@ INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'signify' LIMIT 1),
     'signify',
     'v',
     'biểu thị, có nghĩa là',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'signify' LIMIT 1),
+    'significant',
+    'adj',
+    'có ý nghĩa, quan trong',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'signify' LIMIT 1),
+    'significance',
+    'n',
+    'ý nghĩa, tính quan trọng',
     2);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
-    'significant',
-    'adj',
-    'có ý nghĩa, quan trong',
-    3);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
-    'significance',
-    'n',
-    'ý nghĩa, tính quan trọng',
-    4);
-
-INSERT INTO public.sub_vocab_sense
-(id, sub_vocab_id, word, pos, definition, sense_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resign' LIMIT 1),
     'resign',
     'v',
     'từ chức, rút lui',
-    5);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resign' LIMIT 1),
     'resignation',
     'n',
     'sự từ chức',
-    6);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'consign' LIMIT 1),
     'consign',
     'v',
     'gửi, giao',
-    7);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'consign' LIMIT 1),
     'consignment',
     'n',
     'ký gửi',
-    8);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
@@ -16800,51 +18839,51 @@ INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'conserve' LIMIT 1),
     'conserve',
     'v',
     'lưu giữ, bảo tồn',
-    3);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'conserve' LIMIT 1),
     'conservation',
     'n',
     'sự bảo tồn',
-    4);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'preserve' LIMIT 1),
     'preserve',
     'v',
     'lưu giữ, bảo vệ',
-    5);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'preserve' LIMIT 1),
     'preservation',
     'n',
     'sự lưu giữ',
-    6);
+    1);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'deserve' LIMIT 1),
     'deserve',
     'v',
     'xứng đáng, có giá trị',
-    7);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
@@ -16880,21 +18919,21 @@ INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'currency' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'excursion' LIMIT 1),
     'excursion',
     'n',
     'chuyến tham quan',
-    3);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'currency' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recourse' LIMIT 1),
     'recourse',
     'n',
     'sự cầu viện, sự nhờ cậy',
-    4);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
@@ -16950,11 +18989,11 @@ INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'defend' LIMIT 1),
+     (SELECT id FROM public.sub_vocab WHERE word = 'defendant' LIMIT 1),
     'defendant',
     'n',
     'bị cáo',
-    3);
+    0);
 
 INSERT INTO public.sub_vocab_sense
 (id, sub_vocab_id, word, pos, definition, sense_order)
@@ -16986,5248 +19025,6456 @@ VALUES
     'hoàn hành, phá hoại',
     0);
 
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'conform',
---     'v',
---     'tuân theo , làm cho phù hợp với , thống nhất',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'formula',
---     'n',
---     'công thức, qui định',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'formulate',
---     'v',
---     'tạo công thức, lắp ghép',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'reform',
---     'v',
---     'cải cách, cải thiện',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'reform',
---     'n',
---     'sự cải cách',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'inform',
---     'v',
---     'thông báo',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'information',
---     'n',
---     'thông tin, kiến thức',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'transform',
---     'v',
---     'làm biến đổi',
---     7);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'transformation',
---     'n',
---     'sự biến đổi',
---     8);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'attract',
---     'v',
---     'thu hút., mê hoặc',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'attraction',
---     'n',
---     'sự hấp dẫn',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'attractive',
---     'adj',
---     'lôi cuốn',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'abstract',
---     'adj',
---     'có tính trừu tượng',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'abstract',
---     'n',
---     'trừu tượng',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'abstract',
---     'v',
---     'tóm tắt',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'extract',
---     'v',
---     'kéo ra, trích dẫn',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'extract',
---     'n',
---     'đoạn văn trích ra',
---     7);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'distract',
---     'v',
---     'làm sao nhãng',
---     8);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'distraction',
---     'n',
---     'sự thanh thản',
---     9);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'progress',
---     'v',
---     'xúc tiến, tiến lên',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'progress',
---     'n',
---     'sự tiến bộ',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'progressive',
---     'adj',
---     'có tiến triển',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'gradual',
---     'adj',
---     'dần dần, đều đều',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'graduate',
---     'v',
---     'tốt nghiệp',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'graduate',
---     'n',
---     'người tốt nghiệp',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'graduation',
---     'n',
---     'việc tốt nghiệp',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'degree',
---     'n',
---     'mức độ, học vị',
---     7);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'define',
---     'v',
---     'dđịnh nghĩa, xác định',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'definition',
---     'n',
---     'sự định nghĩa',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'finance',
---     'n',
---     'tài chính, vốn liếng',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'financial',
---     'adj',
---     '(về mặt) tài chính',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'definite',
---     'adj',
---     'rõ ràng, mang tính hạn định',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'infinite',
---     'adj',
---     'vô hạn',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'resent',
---     'v',
---     'phẫn nộ, bực tức',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'resentful',
---     'adj',
---     'cảm thấy phẫn nộ',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'assent',
---     'v',
---     'đồng ý, tán thành',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'assent',
---     'n',
---     'sự tán thành',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'dissent',
---     'v',
---     'phản đối',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'dissent',
---     'n',
---     'sự phản đối',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'scent',
---     'v',
---     'phát hiện ra, đánh hơi, ngửi, hít',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'scent',
---     'n',
---     'mùi , hương thơm',
---     7);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'create',
---     'v',
---     'sáng tạo',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'createtive',
---     'adj',
---     'có tính sáng tạo',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'creation',
---     'n',
---     'sự sáng tạo',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'creature',
---     'n',
---     'sinh vật',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'creator',
---     'n',
---     'người sáng tạo',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'increase',
---     'v',
---     'gia tăng',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'increase',
---     'n',
---     'sự gia tăng',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'decrease',
---     'v',
---     'giảm thiểu',
---     7);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'decrease',
---     'n',
---     'sự giảm thiểu',
---     8);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'recruit',
---     'v',
---     'tăng cường, chiêu mộ',
---     9);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'repeat',
---     'v',
---     'lặp lại, tái diễn',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'repeatition',
---     'n',
---     'sự lặp lại',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'appetite',
---     'n',
---     'sự thèm ăn, thèm muốn',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'competent',
---     'adj',
---     'có năng lực, có khả năng',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'competence',
---     'n',
---     'năng lực, sức lực',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'petition',
---     'n',
---     '(đơn) thỉnh cầu, kiến nghị',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'petition',
---     'v',
---     'thỉnh cầu, kiến nghị',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'request',
---     'v',
---     'khẩn cầu, nhờ cậy',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'request',
---     'n',
---     'sự yêu cầu',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'require',
---     'v',
---     'bắt buộc, yêu cầu',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'requirement',
---     'n',
---     'sự yêu cầu',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'inquire',
---     'v',
---     'hỏi',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'inquiry',
---     'n',
---     'câu hỏi, sự truy vấn',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'acquire',
---     'v',
---     'giành đucợ, thu được',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'acquirement',
---     'n',
---     'sự đạt dược',
---     7);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'exclude',
---     'v',
---     'loại trừ, loại bỏ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'exclusive',
---     'adj',
---     'riêng biệt, độc chiếm',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'exclusion',
---     'n',
---     'sự loại trừ',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'include',
---     'v',
---     'bao gồm',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'enclose',
---     'v',
---     'bao quanh, gửi kèm',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'enclosure',
---     'n',
---     'sự bao quanh',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'disclose',
---     'v',
---     'vạch trần',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'disclosure',
---     'n',
---     'sự vạch trần',
---     7);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'memo, min(d)' LIMIT 1),
---     'remember',
---     'v',
---     'hồi tưởng, nhớ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'memo, min(d)' LIMIT 1),
---     'remembrance',
---     'n',
---     'sự nhớ, kí ức',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'memo, min(d)' LIMIT 1),
---     'remind',
---     'v',
---     'gợi nhớ lại',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'memo, min(d)' LIMIT 1),
---     'memorize',
---     'v',
---     'học thuộc lòng',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'memo, min(d)' LIMIT 1),
---     'immemorial',
---     'adj',
---     'thượng cổ, xa xưa',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'propel',
---     'v',
---     'thúc đẩy, đẩy đi',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'expel',
---     'v',
---     'trục xuất, đuổi ra',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'repel',
---     'v',
---     'đẩy lùi',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'repellent',
---     'adj',
---     'rất ghét, khó chịu',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'impulse',
---     'n',
---     'sự thúc đẩy',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'impulsive',
---     'adj',
---     'bốc đồng',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'bankrupt',
---     'adj',
---     'phá sản/vỡ nợ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'bankruptcy',
---     'n',
---     'sự phá sản',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'abrupt',
---     'adj',
---     'đột ngột',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'interrupt',
---     'v',
---     'làm gián đoạn',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'interruption',
---     'n',
---     'sự gián đoạn',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'erupt',
---     'v',
---     'phun trào, bộc phát',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'eruption',
---     'n',
---     'sự phun trào, sự bộc phát',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'aspire',
---     'v',
---     'khao khát, mong muốn',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'aspiration',
---     'n',
---     'khát vọng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'conspire',
---     'v',
---     'âm mưu, rắp tâm',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'conspiracy',
---     'n',
---     'âm mưu',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'expire',
---     'v',
---     'hết hạn, thở hắt ra',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'expiration',
---     'n',
---     'kết thúc, mãn hạn',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'perspire',
---     'v',
---     'ra mồ hôi, toát mồ hôi',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'perspiration',
---     'n',
---     'sự đổ mồ hôi',
---     7);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'recline',
---     'v',
---     'tựa, dựa, có khuynh hướng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'decline',
---     'v',
---     'từ chối',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'decline',
---     'n',
---     'sự suy nhược',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'climate',
---     'n',
---     'thời tiết, khí hậu',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'climatic',
---     'adj',
---     '(thuộc) khí hậu',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'client',
---     'n',
---     'khách hàng',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'generate',
---     'v',
---     'phát sinh, xảy ra',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'degenerate',
---     'v',
---     'thoái hóa, suy đồi',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'general',
---     'adj',
---     'chung, sơ sài',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'generalize',
---     'v',
---     'tổng quát hóa',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'generous',
---     'adj',
---     'rộng lượng, hào phóng',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'generosity',
---     'n',
---     'sự rộng lượng',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'congenital',
---     'adj',
---     'bẩm sinh',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'support',
---     'v',
---     'hỗ trợ, nuôi',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'support',
---     'n',
---     'sự hỗ trợ',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'export',
---     'v',
---     'xuất khẩu',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'export',
---     'n',
---     '(hàng) xuất khẩu',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'exportation',
---     'n',
---     'việc xuất khẩu',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'transport',
---     'v',
---     'vận chuyển',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'transport',
---     'n',
---     '(phương tiện) vận tải',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'transportation',
---     'n',
---     'sự vận tải',
---     7);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'opportunity',
---     'n',
---     'cơ hội',
---     8);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'opportune',
---     'adj',
---     'đúng lúc, thích hợp',
---     9);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ped' LIMIT 1),
---     'pedigree',
---     'n',
---     'phả hệ, lịch sử',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ped' LIMIT 1),
---     'pedestrian',
---     'n',
---     'người đi bộ',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ped' LIMIT 1),
---     'pedestrian',
---     'adj',
---     '(thuộc) đường đi bộ',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ped' LIMIT 1),
---     'expedient',
---     'adj',
---     'thích hợp, thượng sách',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ped' LIMIT 1),
---     'expedition',
---     'n',
---     'viễn chinh, chuyến thám hiểm',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'barrier',
---     'n',
---     'chướng ngại vật, hàng rào',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'barrier-free',
---     'adj',
---     'không có rào cản',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'barrel',
---     'n',
---     'thùng, thùng tròn',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'barrister',
---     'n',
---     'luật sư (tòa án)',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'embargo',
---     'v',
---     'cấm vận',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'embargo',
---     'n',
---     '(lệnh) cấm vận, sự cấm kinh doanh',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'courage',
---     'n',
---     'sự dũng cảm',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'courageous',
---     'adj',
---     'can đảm',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'discourage',
---     'v',
---     'làm chán nản',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'accord',
---     'v',
---     'thống nhất, làm cho phù hợp',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'accord',
---     'n',
---     'sự thống nhất, sự hòa hợp',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'cordial',
---     'adj',
---     'chân thành, thân ái',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'exit',
---     'v',
---     'thoát ra',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'exit',
---     'n',
---     'lối ra, sự thoát ra',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'transit',
---     'n',
---     'sự vận chuyển, sự vượt qua',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'transit',
---     'v',
---     'quá cảnh',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'orbit',
---     'n',
---     'quỹ đạo',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'orbit',
---     'v',
---     'vòng quanh quỹ đạo',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'itinerary',
---     'n',
---     'hành trình, kế hoạch',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'expose',
---     'v',
---     'phơi bày, vạch trần',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'exposure',
---     'n',
---     'sự phơi bày, sự vạch trần',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'oppose',
---     'v',
---     'phản đối',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'opposition',
---     'n',
---     'sự đối lập',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'opposite',
---     'adj',
---     'đối lập, ngược chiều',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'compose',
---     'v',
---     'cấu tạo, sáng tác',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'composition',
---     'n',
---     'sự cấu thành, tác phẩm',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'composure',
---     'n',
---     'sự bình tĩnh',
---     7);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'suppose',
---     'v',
---     'nghĩ, tưởng tượng',
---     8);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'construct',
---     'v',
---     'xây dựng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'construction',
---     'n',
---     'sự xây dựng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'constructive',
---     'adj',
---     'mang tính xây dựng',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'destructive',
---     'adj',
---     'có tính phá hủy',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'destroy',
---     'v',
---     'phá hủy',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'destruction',
---     'n',
---     'sự phá hủy',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'obstruct',
---     'v',
---     'cản trở, gây trở ngại',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'obstruction',
---     'n',
---     'sự cản trở, điều trở ngại',
---     7);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'structure',
---     'n',
---     'cấu trúc, công trình xây dựng',
---     8);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'prevent',
---     'v',
---     'ngăn chặn',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'prevention',
---     'n',
---     'sự ngăn ngừa, sự cản trở',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'convention',
---     'n',
---     'hội nghị, sự triệu tập',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'convene',
---     'v',
---     'tụ họp, triệu tập',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'convenient',
---     'adj',
---     'lợi, thuận tiện',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'convenience',
---     'n',
---     'sự tiện lợi',
---     5);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'souvenir',
---     'n',
---     'quà lưu niệm',
---     6);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'usage' LIMIT 1),
---     'usage',
---     'n',
---     'cách dùng , cách sử dụng , (lượng) sử dụng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'usual' LIMIT 1),
---     'usual',
---     'adj',
---     'thông thường',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'usual' LIMIT 1),
---     'unusual',
---     'adj',
---     'bất thường',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'usual' LIMIT 1),
---     'usually',
---     'prep',
---     'thường xuyên',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'utilize' LIMIT 1),
---     'utilize',
---     'v',
---     'sử dụng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'utensil' LIMIT 1),
---     'utensil',
---     'n',
---     'dụng cụ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
---     'origin',
---     'n',
---     'nguồn gốc',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
---     'original',
---     'adj',
---     ' đầu tiên , độc đáo',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
---     'original',
---     'n',
---     'nguyên bản',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
---     'originality',
---     'n ',
---     'tính độc đáo',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'originate' LIMIT 1),
---     'originate',
---     'v',
---     'sinh ra , bắt đầu',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'aboriginal' LIMIT 1),
---     'aboriginal',
---     'adj',
---     '(thuộc) thổ dân',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'envy' LIMIT 1),
---     'envy',
---     'v',
---     'ghen tị, đố kị',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'envy' LIMIT 1),
---     'envy',
---     'b',
---     'sự ghen tị, sự đố kị',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'envy' LIMIT 1),
---     'envious',
---     'adj',
---     'thèm muốn, đố kị',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'preview' LIMIT 1),
---     'preview',
---     'n',
---     'buối chiếu phim thử, đoạn quảng cáo phim trước (trailer)',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'preview' LIMIT 1),
---     'preview',
---     'v',
---     'xem trước',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'review' LIMIT 1),
---     'review',
---     'n',
---     'việc điều tra lại, sự đánh giá',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'review' LIMIT 1),
---     'review',
---     'v',
---     'điều tra lại, đánh giá',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'purview' LIMIT 1),
---     'purview',
---     'n',
---     'giới hạn, phạm vi',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revive' LIMIT 1),
---     'revive',
---     'v',
---     'sống lại, hồi sinh',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revive' LIMIT 1),
---     'revival',
---     'n',
---     'sự hồi sinh',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vivid' LIMIT 1),
---     'vivid',
---     'adj',
---     'sinh động, chói lọi',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vivid' LIMIT 1),
---     'vividly',
---     'adv',
---     'chói lọi',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vigorous' LIMIT 1),
---     'vigorous',
---     'adj',
---     'đầy sinh khó, mãnh liệt',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'invigorate' LIMIT 1),
---     'invigorate',
---     'v',
---     'tiếp thêm sinh lực, tạo hăng hái',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'passage' LIMIT 1),
---     'passage',
---     'n',
---     'đường đi, việv đi lại, đoạn(văn), chuyến đi ( đường thủy, đường hàng không).',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'passenger' LIMIT 1),
---     'passenger',
---     'n',
---     'hành khách',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pastime' LIMIT 1),
---     'pastime',
---     'n',
---     'sự giải trí, sự thư thái',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'passer-by' LIMIT 1),
---     'passer-by',
---     'n',
---     'người qua đường',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'advise' LIMIT 1),
---     'advise',
---     'v',
---     'khuyến khích, khuyên răn',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'advise' LIMIT 1),
---     'advice',
---     'n',
---     'lời khuyên',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revise' LIMIT 1),
---     'revise',
---     'v',
---     'xem lại, hiệu chỉnh',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revise' LIMIT 1),
---     'revision',
---     'n',
---     '(bản) hiệu chỉnh',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'improvise' LIMIT 1),
---     'improvise',
---     'v',
---     'sáng tác, tạo ra ngẫu hứng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'improvise' LIMIT 1),
---     'improvisation',
---     'n',
---     'ngẫu hứng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
---     'visible',
---     'adj',
---     'hữu hình',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
---     'visibility',
---     'n',
---     'tầm nhìn, việc hữu hình',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
---     'invisible',
---     'adj',
---     'vô hình',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
---     'influence',
---     'n',
---     '(sức) ảnh hưởng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
---     'influence',
---     'v',
---     'gây ảnh hưởng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
---     'influential',
---     'adj',
---     'có tầm ảnh hưởng lớn, có thế lực',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'affluent' LIMIT 1),
---     'affluent',
---     'adj',
---     'phong phú, giàu có',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fluid' LIMIT 1),
---     'fluid',
---     'n',
---     'chất lưu, chất lỏng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fluid' LIMIT 1),
---     'fluid',
---     'adj',
---     'lỏng lẻo, hay thay đổi',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fluctuate' LIMIT 1),
---     'fluctuate',
---     'v',
---     'biến động',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fluctuate' LIMIT 1),
---     'fluctuation',
---     'n',
---     'sự biến động, sự không ổn định',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
---     'succeed',
---     'v',
---     'nối tiếp, thành công',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
---     'success',
---     'n',
---     'sự thành công',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
---     'successful',
---     'adj',
---     'thuận lợi,',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
---     'successive',
---     'adj',
---     'liên tục',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'proceed' LIMIT 1),
---     'proceed',
---     'v',
---     'tiến hành, tiếp tục',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'proceed' LIMIT 1),
---     'procedure',
---     'n',
---     'trình tự, thủ tục',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'concede' LIMIT 1),
---     'concede',
---     'v',
---     'nhận, nhường, dung túng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'recession' LIMIT 1),
---     'recession',
---     'n',
---     'suy thoải kinh tế',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'recession' LIMIT 1),
---     'recess',
---     'n',
---     'giờ giải lao, thời gian ngừng họp, chỗ lõm',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insist' LIMIT 1),
---     'insist',
---     'v',
---     'khăng khăng, nhấn mạnh',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insist' LIMIT 1),
---     'insistent',
---     'adj',
---     'cứ khăng khăng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'resist' LIMIT 1),
---     'resist',
---     'v',
---     'phản kháng, chịu đựng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'resist' LIMIT 1),
---     'resistance',
---     'n',
---     'sự phản kháng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'persist' LIMIT 1),
---     'persist',
---     'v',
---     'kiên trì, tiếp tục, khăng khăng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'persist' LIMIT 1),
---     'persistent',
---     'adj',
---     'dai dẳng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subsist' LIMIT 1),
---     'subsist',
---     'v',
---     'tính kế sinh nhai',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subsist' LIMIT 1),
---     'subsistence',
---     'n',
---     'kế sinh nhai, lương thực',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'patriotic' LIMIT 1),
---     'patriotic',
---     'adj',
---     'ái quốc',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'patriotic' LIMIT 1),
---     'patriot',
---     'n',
---     'nhà ái quốc',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'compatriot' LIMIT 1),
---     'compatriot',
---     'n',
---     'đồng hương, đồng bào, đồng liêu',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'paternal' LIMIT 1),
---     'paternal',
---     'adj',
---     '(thuộc) cha, về phía đằng nội',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'paternal' LIMIT 1),
---     'paternity',
---     'n',
---     'quyền làm cha, tư cách làm cha',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'patronize' LIMIT 1),
---     'patronize',
---     'v',
---     'bảo vệ, bảo trợ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vacant' LIMIT 1),
---     'vacant',
---     'adj',
---     'trống không, vị trí còn trống',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vacant' LIMIT 1),
---     'vacancy',
---     'n',
---     'ghế trống, phòng trống',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vast' LIMIT 1),
---     'vast',
---     'adj',
---     'rộng lớn, mênh mông',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'devastate' LIMIT 1),
---     'devastate',
---     'v',
---     'phá hủy, đập nát',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'devastate' LIMIT 1),
---     'devastating',
---     'adj',
---     'bị tàn phá, gây sốc',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'avoid' LIMIT 1),
---     'avoid',
---     'v',
---     'tránh',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'avoid' LIMIT 1),
---     'avoidance',
---     'n',
---     'tránh né',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manipulate' LIMIT 1),
---     'manipulate',
---     'v',
---     'thao tác, xử lý',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manipulate' LIMIT 1),
---     'manipulation',
---     'n',
---     'sự thao tác, sự thao túng thị trường',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manuscript' LIMIT 1),
---     'manuscript',
---     'n',
---     'bản gốc, bản thảo',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
---     'manufacture',
---     'n',
---     'sự chế tạo, sự sản xuất',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
---     'manufacture',
---     'v',
---     'chế tạo, tạo dựng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
---     'manufacturer',
---     'n',
---     'người chế tạo, người sản xuất',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
---     'manage',
---     'v',
---     'quản lý, trông nom, có thể',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
---     'management',
---     'n',
---     'quản lý, điều hành',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
---     'manager',
---     'n',
---     'nhà quản lý, giám đốc',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'emotion' LIMIT 1),
---     'emotion',
---     'n',
---     'cảm xúc, cảm nhận',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'emotion' LIMIT 1),
---     'emotional',
---     'adj',
---     'dễ xúc động',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
---     'remote',
---     'adj',
---     'xa xôi, xa cách',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
---     'remove',
---     'v',
---     'lấy ra khỏi, loại bỏ',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
---     'removal',
---     'n',
---     'sự loại bỏ, sự bãi bỏ',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'demote' LIMIT 1),
---     'demote',
---     'v',
---     'giáng chức xuống hạng, hạ cấp',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'demote' LIMIT 1),
---     'demotion',
---     'n',
---     'sự giáng chức',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'reject' LIMIT 1),
---     'reject',
---     'v',
---     'không chấp thuận, vứt bỏ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'reject' LIMIT 1),
---     'reject',
---     'n',
---     'sự bác bỏ, sự không chấp thuận',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
---     'object',
---     'v',
---     'phản đối',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
---     'object',
---     'n',
---     'mục tiêu, đối tượng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
---     'objection',
---     'n',
---     'sự phản đối, sự dị nghị',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
---     'objective',
---     'adj',
---     'mang tính khách quan',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
---     'object',
---     'n',
---     'mục tiêu',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
---     'subject',
---     'adj',
---     'không trách khỏi',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
---     'subject',
---     'v',
---     'bắt phục tùng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
---     'subject',
---     'n',
---     'môn học, chủ đề',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inject' LIMIT 1),
---     'inject',
---     'v',
---     'tiêm, rót, ném vào',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inject' LIMIT 1),
---     'injection',
---     'n',
---     'sự tiêm, sự đổ vào, ném vào',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inspect' LIMIT 1),
---     'inspect',
---     'v',
---     'kiểm tra, kiểm điểm',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inspect' LIMIT 1),
---     'inspector',
---     'n',
---     'thanh tra, người kiểm tra',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
---     'respect',
---     'v',
---     'kính trọng, tôn trọng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
---     'respect',
---     'n',
---     'sự kính trọng, lời nhắn',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
---     'respectful',
---     'adj',
---     'lễ phép',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
---     'respective',
---     'adj',
---     'riêng từng',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
---     'respectable',
---     'adj',
---     'chỉnh tề, chỉn chu',
---     4);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
---     'suspect',
---     'v',
---     'hoài nghi, ngờ vực',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
---     'suspect',
---     'n',
---     'đáng ngờ',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
---     'suspicious',
---     'adj',
---     'sự nghi ngờ',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
---     'suspicion',
---     'n',
---     'dự đoán, nghĩ, kì vọng',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
---     'expect',
---     'v',
---     'dự đóa',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
---     'expectancy',
---     'n',
---     'dự đoán, kỳ vọng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
---     'expectation',
---     'n',
---     'sở hữu, thuộc về',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'belong' LIMIT 1),
---     'belong',
---     'v',
---     'vật sở hữu',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'belong' LIMIT 1),
---     'belongings',
---     'n',
---     'kéo dài, làm dài ra',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
---     'lengthen',
---     'v',
---     'độ dài, tổng chiều dài',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
---     'length',
---     'n',
---     'dài dòng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
---     'lengthy',
---     'adj',
---     'dài dòng',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'linger' LIMIT 1),
---     'linger',
---     'v',
---     'kéo dài, nán lại, chần chừ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'longitude' LIMIT 1),
---     'longitude',
---     'n',
---     'kinh độ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'contest' LIMIT 1),
---     'contest',
---     'v',
---     'tranh đấu, tranh luận',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'contest' LIMIT 1),
---     'contest',
---     'n',
---     'cuộc thi, cuộc tranh luận',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'detest' LIMIT 1),
---     'detest',
---     'v',
---     'căm ghét, ghê tởm',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'detest' LIMIT 1),
---     'detestable',
---     'adj',
---     'ghét cay ghét đắng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'testify' LIMIT 1),
---     'testify',
---     'v',
---     'làm chứng, chứng minh',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'attest' LIMIT 1),
---     'attest',
---     'v',
---     'chứng nhận',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'reduce' LIMIT 1),
---     'reduce',
---     'v',
---     'giảm nhiều, thay đổi',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'reduce' LIMIT 1),
---     'reduction',
---     'n',
---     'sự giảm thiểu',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'introduce' LIMIT 1),
---     'introduce',
---     'v',
---     'áp dụng, giới thiệu',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'introduce' LIMIT 1),
---     'introduction',
---     'n',
---     'sự áp dụng, việc giới thiệu',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'educate' LIMIT 1),
---     'educate',
---     'v',
---     'giáo dục, dạy dỗ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'educate' LIMIT 1),
---     'education',
---     'n',
---     'sự giáo dục',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'abduct' LIMIT 1),
---     'abduct',
---     'v',
---     'bắt cóc, lừa đem đi',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'abduct' LIMIT 1),
---     'abduction',
---     'n',
---     'sự bắt cóc, sự lừa đem đi',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
---     'telegram',
---     'n',
---     'bức điện báo',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
---     'telegraph',
---     'n',
---     'bức điện báo',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
---     'telegram',
---     'v',
---     'truyền tin bằng điện báo',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
---     'photograph',
---     'n',
---     'bức ảnh',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
---     'photographer',
---     'n',
---     'nhiếp ảnh gia',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
---     'photogenic',
---     'adj',
---     'ăn ảnh',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'autograph' LIMIT 1),
---     'autograph',
---     'n',
---     'tự tay viết, chữ ký riêng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'geography' LIMIT 1),
---     'geography',
---     'n',
---     'địa lý học',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'geography' LIMIT 1),
---     'geographic',
---     'adj',
---     '(thuộc) địa lý, có tính chất địa lý',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
---     'exhibit',
---     'v',
---     'triển lãm, trưng bày',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
---     'exhibit',
---     'n',
---     'vật triển lãm',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
---     'exhibition',
---     'n',
---     'buổi triển lãm, trưng bày',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
---     'habit',
---     'n',
---     'thói quen',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
---     'habitual',
---     'adj',
---     'quen thói',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
---     'habitate',
---     'v',
---     'tập quen với',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inhabit' LIMIT 1),
---     'inhabit',
---     'v',
---     'sống, ở',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inhabit' LIMIT 1),
---     'inhabitant',
---     'n',
---     'dân cư, động vật sống',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'habitat' LIMIT 1),
---     'habitat',
---     'n',
---     'môi trường sống ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suffer' LIMIT 1),
---     'suffer',
---     'v',
---     'buồn phiền, đau khổ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suffer' LIMIT 1),
---     'suffering',
---     'n',
---     'sự đau khổ',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'refer' LIMIT 1),
---     'refer',
---     'v',
---     'nói đến tham khảo',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'refer' LIMIT 1),
---     'reference',
---     'n',
---     'sự nhắc đén, sự tham khảo',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
---     'different',
---     'adj',
---     'khác biệt',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
---     'difference',
---     'n',
---     'sự khác biệt',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
---     'differ',
---     'v',
---     'làm khác',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'transfer' LIMIT 1),
---     'transfer',
---     'v',
---     'di chuyển, thuyên chuyển, chuyển xe, chuyển sang',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'transfer' LIMIT 1),
---     'transfer',
---     'n',
---     'sự di chuyển',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'addict' LIMIT 1),
---     'addict',
---     'n',
---     'người nghiện',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'addict' LIMIT 1),
---     'addict',
---     'v',
---     'làm gây nghiện',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'contradict' LIMIT 1),
---     'contradict',
---     'v',
---     'phản biện, mâu thuẫn',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'contradict' LIMIT 1),
---     'contradiction',
---     'n',
---     'sự phản biện, sự mâu thuẫn',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
---     'dictatorship',
---     'n',
---     'chính quyền độc tài',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
---     'dictate',
---     'v',
---     'đọc chính ta, ra mệnh lệnh',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
---     'dictation',
---     'n',
---     'việc đọc chính tả, sự ra lệnh',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'verdict' LIMIT 1),
---     'verdict',
---     'n',
---     'phán quyết, ý kiến',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
---     'resident',
---     'n',
---     'người cư trú, cư dân',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
---     'reside',
---     'v',
---     'cư trú',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
---     'residence',
---     'n',
---     'nhà ơ',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subside' LIMIT 1),
---     'subside',
---     'v',
---     'rút, rút xuống',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subside' LIMIT 1),
---     'subsidy',
---     'n',
---     'tiền trợ cấp',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'settle' LIMIT 1),
---     'settle',
---     'v',
---     'làm lắng xuống, thanh toán, định cư',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'settle' LIMIT 1),
---     'settlement',
---     'adj',
---     'giải quyết, quyết toán',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'possess' LIMIT 1),
---     'possess',
---     'v',
---     'có, sở hữu',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'possess' LIMIT 1),
---     'possession',
---     'n',
---     '(vật) sở hữu',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'native' LIMIT 1),
---     'native',
---     'adj',
---     'tự nhiên',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'native' LIMIT 1),
---     'native',
---     'n',
---     'người địa phương',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'naive' LIMIT 1),
---     'naive',
---     'adj',
---     'dễ bị lừa, ngây thơ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'naturalize' LIMIT 1),
---     'naturalize',
---     'v',
---     'nhập tịch',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'innate' LIMIT 1),
---     'innate',
---     'adj',
---     'bẩm sinh',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'effect' LIMIT 1),
---     'effect',
---     'n',
---     'hiệu quả, kết quả',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'effect' LIMIT 1),
---     'effective',
---     'adj',
---     'mang tính hiệu quả, hữu hiệu',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
---     'affect',
---     'v',
---     'gây ảnh hưởng, làm cảm động',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
---     'affection',
---     'n',
---     'ảnh hưởng, cảm tình ',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
---     'affectionate',
---     'adj',
---     'yêu mến, có cảm tình',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
---     'infect',
---     'v',
---     'bị lấy nhiễm, gây anh hưởng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
---     'infection',
---     'n',
---     'sự truyền nhiễm, sự lây nhiễm',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
---     'infectious',
---     'adj',
---     'dễ lây nhiễm',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
---     'defect',
---     'n',
---     'thiếu sót, khuyết điểm',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
---     'defect',
---     'v',
---     'lưu vong',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
---     'defective',
---     'adj',
---     'có thiếu sót',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cast' LIMIT 1),
---     'cast',
---     'v',
---     'ném, quăng, phân chia vai',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cast' LIMIT 1),
---     'cast',
---     'n',
---     'sự phân vai',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'broadcast' LIMIT 1),
---     'broadcast',
---     'v',
---     'phát thanh',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'broadcast' LIMIT 1),
---     'broadcast',
---     'n',
---     'việc phát thanh',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'overcast' LIMIT 1),
---     'overcast',
---     'adj',
---     'phủ mây, u ám',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'castaway' LIMIT 1),
---     'castaway',
---     'n',
---     'người bị trôi dạt sau vụ đắm tàu',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'praise' LIMIT 1),
---     'praise',
---     'v',
---     'tán dương, khen ngợi',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'praise' LIMIT 1),
---     'praise',
---     'n',
---     'lời tán dương, sự khen ngợi',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'precious' LIMIT 1),
---     'precious',
---     'adj',
---     'quý giá, quan trọng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'appreciate' LIMIT 1),
---     'appreciate',
---     'v',
---     'công nhận giá trị, cảm tạ, tăng giá',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'appreciate' LIMIT 1),
---     'appreciation',
---     'n',
---     'sự cảm tạ, sự tăng giá, sự đánh giá cao',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'depreciate' LIMIT 1),
---     'depreciate',
---     'v',
---     'giảm giá, rớt giá',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'depreciate' LIMIT 1),
---     'depreciation',
---     'n',
---     'sự rớt giá, sự xem thường',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sect' LIMIT 1),
---     'sect',
---     'n',
---     'giáo phái, phe phái, đảng phái',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insect' LIMIT 1),
---     'insect',
---     'n',
---     'côn trùng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insecticide' LIMIT 1),
---     'insecticide',
---     'n',
---     'thuốc trừ sâu',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'segment' LIMIT 1),
---     'segment',
---     'n',
---     'phần, bộ phận, sự phân chia',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'diligent' LIMIT 1),
---     'diligent',
---     'adj',
---     'siêng năng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'diligent' LIMIT 1),
---     'diligence',
---     'n',
---     'sự siêng năng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'eligible' LIMIT 1),
---     'eligible',
---     'adj',
---     'đủ điều kiện, đủ tư cách',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'eligible' LIMIT 1),
---     'ineligible',
---     'adj',
---     'không đủ điều kiện, không đủ tư cách',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'illegal' LIMIT 1),
---     'illegal',
---     'adj',
---     'bất hợp pháp',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'illegal' LIMIT 1),
---     'legal',
---     'adj',
---     'hợp pháp, thuộc pháp luật',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'privilege' LIMIT 1),
---     'privilege',
---     'n',
---     'đặc quyền, vinh dự',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'privilege' LIMIT 1),
---     'privilege',
---     'v',
---     'bạn đặc quyền, cho đặc quyền',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'privilege' LIMIT 1),
---     'privileged',
---     'adj',
---     'có đặc quyền',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ignore' LIMIT 1),
---     'ignore',
---     'v',
---     'phớt lờ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ignore' LIMIT 1),
---     'ignorant',
---     'adj',
---     'không biết',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ignore' LIMIT 1),
---     'ignorance',
---     'n',
---     'sự không biết',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'recognize' LIMIT 1),
---     'recognize',
---     'v',
---     'biết, công nhận',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'recognize' LIMIT 1),
---     'recognition',
---     'n',
---     'sự nhận thức, sự thừa nhận',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'knowledge' LIMIT 1),
---     'knowledge',
---     'n',
---     'tri thức, có hiểu biết',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'knowledge' LIMIT 1),
---     'knowledgeable',
---     'adj',
---     'thông thạo, có hiểu biết',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'acknowledge' LIMIT 1),
---     'acknowledge',
---     'v',
---     'công nhận, thừa nhận',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'acknowledge' LIMIT 1),
---     'acknowledgement',
---     'n',
---     'sự công nhận, sự thừa nhận',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'geometry' LIMIT 1),
---     'geometry',
---     'n',
---     'hình học, hình dạng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'geometry' LIMIT 1),
---     'geometric',
---     'adj',
---     'thuộc về hình học, có tính hình học',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'immense' LIMIT 1),
---     'immense',
---     'adj',
---     'rộng lớn, mênh mông',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'immense' LIMIT 1),
---     'immensity',
---     'n',
---     'sự rộng lớn, sự vô hạn',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'dimension' LIMIT 1),
---     'dimension',
---     'n',
---     'chiều, kích thước',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'measure' LIMIT 1),
---     'measure',
---     'n',
---     'tiêu chuẩn, mức độ, biện pháp ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'measure' LIMIT 1),
---     'measure',
---     'v',
---     'đo',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'elect' LIMIT 1),
---     'elect',
---     'v',
---     'chọn (bầu cử)',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'elect' LIMIT 1),
---     'election',
---     'n',
---     'sự bầu cử',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'select' LIMIT 1),
---     'select',
---     'v',
---     'tuyển chọn kĩ càng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'select' LIMIT 1),
---     'selective',
---     'adj',
---     'tốt nhất, chất lượng nhất',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'select' LIMIT 1),
---     'selection',
---     'n',
---     'tuyển chọn, người được chọn',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'recollect' LIMIT 1),
---     'recollect',
---     'v',
---     'nhớ lại, hồi tưởng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'recollect' LIMIT 1),
---     'recollection',
---     'n',
---     'kí ức, hồi ức',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'neglect' LIMIT 1),
---     'neglect',
---     'v',
---     'xao lãng, bỏ bê',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'neglect' LIMIT 1),
---     'negligence',
---     'n',
---     'sự cẩu thả, tính lơ đễnh',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'neglect' LIMIT 1),
---     'negligent',
---     'adj',
---     'cẩu thả',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'anchor' LIMIT 1),
---     'anchor',
---     'n',
---     'mỏ neo, chỗ dựa tinh thần, phát thanh viên',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ankle' LIMIT 1),
---     'ankle',
---     'n',
---     'cổ chân',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'angler' LIMIT 1),
---     'angler',
---     'n',
---     'người đi câu',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'angler' LIMIT 1),
---     'angle',
---     'v',
---     'câu (cá)',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'angler' LIMIT 1),
---     'angler fish',
---     'n',
---     'cá cần câu (bộ cá vây chân)',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rectangle' LIMIT 1),
---     'rectangle',
---     'n',
---     'hình chữ nhật',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rectangle' LIMIT 1),
---     'rectangular',
---     'adj',
---     'có hình dạng là hình chữ nhật',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remain' LIMIT 1),
---     'remain',
---     'v',
---     'còn lại, ở nguyên đấy',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remain' LIMIT 1),
---     'remain',
---     'danh từ số nhiều',
---     'phần còn lại, di tích',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remainder' LIMIT 1),
---     'remainder',
---     'n',
---     '(phần) còn lại',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remnant' LIMIT 1),
---     'remnant',
---     'n',
---     'vật còn lại, tàn dư, mảnh vụn',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manor' LIMIT 1),
---     'manor',
---     'n',
---     'điền viên, biệt thự, trang viên',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'prosecute' LIMIT 1),
---     'prosecute',
---     'v',
---     'khởi tố, thi hành',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'prosecute' LIMIT 1),
---     'prosecution',
---     'n',
---     'sự khởi tố, sự truy tố hình sự',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'prosecute' LIMIT 1),
---     'prosecutor',
---     'n',
---     'công tố viên, kiểm sát viên',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'execute' LIMIT 1),
---     'execute',
---     'v',
---     'hành hình, thực hiện',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'execute' LIMIT 1),
---     'execute',
---     'n',
---     'ban quản trị',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'execute' LIMIT 1),
---     'execute',
---     'adj',
---     'thuộc ban quản trị',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'execute' LIMIT 1),
---     'execution',
---     'n',
---     'sự hành hình, sự thực hiện',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'consequence' LIMIT 1),
---     'consequence',
---     'n',
---     'kết quả, tầm quan trọng',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'consequence' LIMIT 1),
---     'consequently',
---     'prep',
---     'do đó, vì vậy',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subsequent' LIMIT 1),
---     'subsequent',
---     'adj',
---     'sau đó, theo sau, tiếp theo đó',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subsequent' LIMIT 1),
---     'subsequently',
---     'prep',
---     'sau đó',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'trait' LIMIT 1),
---     'trait',
---     'n',
---     'đặc trưng, đặc tính',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'portrait' LIMIT 1),
---     'portrait',
---     'n',
---     'ảnh chân dung, việc phác họa',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'portrait' LIMIT 1),
---     'portray',
---     'v',
---     'phác họa',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'treaty' LIMIT 1),
---     'treaty',
---     'n',
---     'hiệp ước, hiệp định',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'entreat' LIMIT 1),
---     'entreat',
---     'v',
---     'khẩn cầu',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'entreat' LIMIT 1),
---     'entreaty',
---     'n',
---     'sự khẩn cầu',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'district' LIMIT 1),
---     'district',
---     'n',
---     'quận, địa phương',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'strain' LIMIT 1),
---     'strain',
---     'v',
---     'làm căng thẳng, bị tổn thương',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'restrain' LIMIT 1),
---     'restrain',
---     'v',
---     'kiểm soát, ngăn trở',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'restrain' LIMIT 1),
---     'restrain',
---     'n',
---     'sự kiềm chế, sự dè dặt',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'constrain' LIMIT 1),
---     'constrain',
---     'v',
---     'cưỡng ép, ngăn chặn',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'constrain' LIMIT 1),
---     'constraint',
---     'n',
---     'sự cưỡng ép, ngăn chặn',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assemble' LIMIT 1),
---     'assemble',
---     'v',
---     'tập trung, lắp ghép, tụ tập',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assemble' LIMIT 1),
---     'assembly',
---     'n',
---     'sự tập hợp, sự lắp ghép',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'similar' LIMIT 1),
---     'similar',
---     'adj',
---     'giống nhau, tương tự',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'similar' LIMIT 1),
---     'similarity',
---     'n',
---     'sự giống nhau, sự tương đồng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assimilate' LIMIT 1),
---     'assimilate',
---     'v',
---     'đồng hóa, hấp thu',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assimilate' LIMIT 1),
---     'assimilation',
---     'n',
---     'sự đồng hóa, sự hấp thu, sự hiểu biết',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'simultaneous' LIMIT 1),
---     'simultaneous',
---     'adj',
---     'đồng thời',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assault' LIMIT 1),
---     'assault',
---     'n',
---     'sự đột kích, sự bạo hành',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assault' LIMIT 1),
---     'assault',
---     'v',
---     'đột kích, bạo hành',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assail' LIMIT 1),
---     'assail',
---     'v',
---     'đột kích, phê phán',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insult' LIMIT 1),
---     'insult',
---     'v',
---     'lăng mạ/chê bai',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insult' LIMIT 1),
---     'insult',
---     'n',
---     'sự lăng mẹ',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'exult' LIMIT 1),
---     'exult',
---     'v',
---     'hân hoan, hoan hỉ',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'exult' LIMIT 1),
---     'exultant',
---     'adj',
---     'hân hoan, hoan hỉ',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'enforce' LIMIT 1),
---     'enforce',
---     'v',
---     'thực thi, thúc ép',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'enforce' LIMIT 1),
---     'enforcement',
---     'n',
---     'sự thực thi, sự thực hành',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fortress' LIMIT 1),
---     'fortress',
---     'n',
---     'pháo đài',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
---     'comfortable',
---     'adj',
---     'thoải mái',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
---     'comfort',
---     'n',
---     'sự thoải mái, sự an nhàn',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
---     'discomfort',
---     'n',
---     'sự khó chịu',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fortitude' LIMIT 1),
---     'fortitude',
---     'n',
---     'tinh thần khuất phục',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fortitude' LIMIT 1),
---     'fortify',
---     'v',
---     'tăng cường',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'evolve' LIMIT 1),
---     'evolve',
---     'v',
---     'làm tiến triển, làm tiến hóa',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'evolve' LIMIT 1),
---     'evolution',
---     'n',
---     'tiến hóa, phát triển',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'involve' LIMIT 1),
---     'involve',
---     'v',
---     'bao gồm, quấn vào, tham gia',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'involve' LIMIT 1),
---     'involvement',
---     'n',
---     'quan hệ, sự tham gia',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revolt' LIMIT 1),
---     'revolt',
---     'n',
---     'cuộc nổi loạn',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revolt' LIMIT 1),
---     'revolt',
---     'v',
---     'nổi loạn',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'devolve' LIMIT 1),
---     'devolve',
---     'v',
---     'nhượng qua, giao phó',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'modify' LIMIT 1),
---     'modify',
---     'v',
---     'sửa đổi, thay đổi, làm dịu đi',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'modify' LIMIT 1),
---     'modificaton',
---     'n',
---     'sự sửa đổi, sự dịu đi',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'moderate' LIMIT 1),
---     'moderate',
---     'adj',
---     'vừa phải, khiêm tốn, nhún nhường',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'moderate' LIMIT 1),
---     'moderate',
---     'v',
---     'làm dịu đi, làm vừa phải',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'accommodate' LIMIT 1),
---     'accommodate',
---     'v',
---     'chứa, cho trọ, làm cho thích hợp',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'accommodate' LIMIT 1),
---     'accommodation',
---     'n',
---     'chỗ trọ, sự chứa đựng, sự thích ứng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'commodity' LIMIT 1),
---     'commodity',
---     'n',
---     'nhu yếu phấm, hàng hóa',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
---     'oblige',
---     'v',
---     'bắt buộc, làm ơn',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
---     'obligation',
---     'n',
---     'nghĩa vụ, nghĩa lý',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
---     'obligatory',
---     'adj',
---     'mang tính nghĩa vụ',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'alliance' LIMIT 1),
---     'alliance',
---     'n',
---     'đồng minh, sự hợp tác, nước liên minh',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'alliance' LIMIT 1),
---     'ally',
---     'v',
---     'liên minh, liên kết',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'liable' LIMIT 1),
---     'liable',
---     'adj',
---     'có khả năng bị, có trách nhiệm về pháp lý',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'liable' LIMIT 1),
---     'liability',
---     'n',
---     'trách nhiệm pháp lý, nghĩa vụ pháp lý',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rally' LIMIT 1),
---     'rally',
---     'v',
---     'tập hợp, khôi phục, lấy lại',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rally' LIMIT 1),
---     'rally',
---     'n',
---     'đại hội',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'alleviate' LIMIT 1),
---     'alleviate',
---     'v',
---     'làm giảm bớt, làm khuây khỏa',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'alleviate' LIMIT 1),
---     'alleviation',
---     'n',
---     'sự giảm bớt, sự khuây khỏa',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'elevate' LIMIT 1),
---     'elevate',
---     'v',
---     'nâng cao, lên, nâng lên',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'elevate' LIMIT 1),
---     'elevation',
---     'n',
---     'sự nâng lên, sự thăng tiến',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
---     'relevant',
---     'adj',
---     'có liên quan',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
---     'irrelevant',
---     'adj',
---     'không liên quan',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
---     'relevance',
---     'n',
---     'tính liên quan',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'levy' LIMIT 1),
---     'levy',
---     'n',
---     'thuế',
---     0);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'levy' LIMIT 1),
---     'levy',
---     'v',
---     'thu(thuế), đánh(thuế)',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'praise' LIMIT 1),
---     'praise',
---     'v',
---     'tán dương, khen ngợi',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'praise' LIMIT 1),
---     'praise',
---     'n',
---     'lời tán dương, sự khen ngợi',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'precious' LIMIT 1),
---     'precious',
---     'adj',
---     'quý giá, quan trọng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'appreciate' LIMIT 1),
---     'appreciate',
---     'v',
---     'công nhận giá trị, cảm tạ, tăng giá',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'appreciate' LIMIT 1),
---     'appreciation',
---     'n',
---     'sự cảm tạ, sự tăng giá, sự đánh giá cao',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'depreciate' LIMIT 1),
---     'depreciate',
---     'v',
---     'giảm giá, rớt giá',
---     2);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'depreciate' LIMIT 1),
---     'depreciation',
---     'n',
---     'sự rớt giá, sự xem thường',
---     3);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sect' LIMIT 1),
---     'sect',
---     'n',
---     'giáo phái, phe phái, đảng phái',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insect' LIMIT 1),
---     'insect',
---     'n',
---     'côn trùng',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insecticide' LIMIT 1),
---     'insecticide',
---     'n',
---     'thuốc trừ sâu',
---     1);
---
--- INSERT INTO public.sub_vocab_sense
--- (id, sub_vocab_id, word, pos, definition, sense_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'segment' LIMIT 1),
---     'segment',
---     'n',
---     'phần, bộ phận, sự phân chia',
---     1);
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'conform' LIMIT 1),
+    'conform',
+    'v',
+    'tuân theo , làm cho phù hợp với , thống nhất',
+    0);
 
--- sub_vocab_examples
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'formula' LIMIT 1),
+    'formula',
+    'n',
+    'công thức, qui định',
+    0);
 
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'formula' LIMIT 1),
+    'formulate',
+    'v',
+    'tạo công thức, lắp ghép',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reform' LIMIT 1),
+    'reform',
+    'v',
+    'cải cách, cải thiện',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reform' LIMIT 1),
+    'reform',
+    'n',
+    'sự cải cách',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inform' LIMIT 1),
+    'inform',
+    'v',
+    'thông báo',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inform' LIMIT 1),
+    'information',
+    'n',
+    'thông tin, kiến thức',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transform' LIMIT 1),
+    'transform',
+    'v',
+    'làm biến đổi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transform' LIMIT 1),
+    'transformation',
+    'n',
+    'sự biến đổi',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'attract' LIMIT 1),
+    'attract',
+    'v',
+    'thu hút., mê hoặc',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'attract' LIMIT 1),
+    'attraction',
+    'n',
+    'sự hấp dẫn',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'attract' LIMIT 1),
+    'attractive',
+    'adj',
+    'lôi cuốn',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abstract' LIMIT 1),
+    'abstract',
+    'adj',
+    'có tính trừu tượng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abstract' LIMIT 1),
+    'abstract',
+    'n',
+    'trừu tượng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abstract' LIMIT 1),
+    'abstract',
+    'v',
+    'tóm tắt',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'extract' LIMIT 1),
+    'extract',
+    'v',
+    'kéo ra, trích dẫn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'extract' LIMIT 1),
+    'extract',
+    'n',
+    'đoạn văn trích ra',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'distract' LIMIT 1),
+    'distract',
+    'v',
+    'làm sao nhãng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'distract' LIMIT 1),
+    'distraction',
+    'n',
+    'sự thanh thản',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'progress' LIMIT 1),
+    'progress',
+    'v',
+    'xúc tiến, tiến lên',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'progress' LIMIT 1),
+    'progress',
+    'n',
+    'sự tiến bộ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'progress' LIMIT 1),
+    'progressive',
+    'adj',
+    'có tiến triển',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'gradual' LIMIT 1),
+    'gradual',
+    'adj',
+    'dần dần, đều đều',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'graduate' LIMIT 1),
+    'graduate',
+    'v',
+    'tốt nghiệp',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'graduate' LIMIT 1),
+    'graduate',
+    'n',
+    'người tốt nghiệp',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'graduate' LIMIT 1),
+    'graduation',
+    'n',
+    'việc tốt nghiệp',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'degree' LIMIT 1),
+    'degree',
+    'n',
+    'mức độ, học vị',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'define' LIMIT 1),
+    'define',
+    'v',
+    'dđịnh nghĩa, xác định',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'define' LIMIT 1),
+    'definition',
+    'n',
+    'sự định nghĩa',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'finance' LIMIT 1),
+    'finance',
+    'n',
+    'tài chính, vốn liếng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'finance' LIMIT 1),
+    'financial',
+    'adj',
+    '(về mặt) tài chính',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'definite' LIMIT 1),
+    'definite',
+    'adj',
+    'rõ ràng, mang tính hạn định',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'infinite' LIMIT 1),
+    'infinite',
+    'adj',
+    'vô hạn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resent' LIMIT 1),
+    'resent',
+    'v',
+    'phẫn nộ, bực tức',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resent' LIMIT 1),
+    'resentful',
+    'adj',
+    'cảm thấy phẫn nộ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assent' LIMIT 1),
+    'assent',
+    'v',
+    'đồng ý, tán thành',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assent' LIMIT 1),
+    'assent',
+    'n',
+    'sự tán thành',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dissent' LIMIT 1),
+    'dissent',
+    'v',
+    'phản đối',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dissent' LIMIT 1),
+    'dissent',
+    'n',
+    'sự phản đối',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'scent' LIMIT 1),
+    'scent',
+    'v',
+    'phát hiện ra, đánh hơi, ngửi, hít',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'scent' LIMIT 1),
+    'scent',
+    'n',
+    'mùi , hương thơm',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'create' LIMIT 1),
+    'create',
+    'v',
+    'sáng tạo',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'create' LIMIT 1),
+    'createtive',
+    'adj',
+    'có tính sáng tạo',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'create' LIMIT 1),
+    'creation',
+    'n',
+    'sự sáng tạo',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'create' LIMIT 1),
+    'creature',
+    'n',
+    'sinh vật',
+    3);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'create' LIMIT 1),
+    'creator',
+    'n',
+    'người sáng tạo',
+    4);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'increase' LIMIT 1),
+    'increase',
+    'v',
+    'gia tăng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'increase' LIMIT 1),
+    'increase',
+    'n',
+    'sự gia tăng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'decrease' LIMIT 1),
+    'decrease',
+    'v',
+    'giảm thiểu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'decrease' LIMIT 1),
+    'decrease',
+    'n',
+    'sự giảm thiểu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recruit' LIMIT 1),
+    'recruit',
+    'v',
+    'tăng cường, chiêu mộ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'repeat' LIMIT 1),
+    'repeat',
+    'v',
+    'lặp lại, tái diễn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'repeat' LIMIT 1),
+    'repeatition',
+    'n',
+    'sự lặp lại',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'appetite' LIMIT 1),
+    'appetite',
+    'n',
+    'sự thèm ăn, thèm muốn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'competent' LIMIT 1),
+    'competent',
+    'adj',
+    'có năng lực, có khả năng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'competent' LIMIT 1),
+    'competence',
+    'n',
+    'năng lực, sức lực',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'petition' LIMIT 1),
+    'petition',
+    'n',
+    '(đơn) thỉnh cầu, kiến nghị',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'petition' LIMIT 1),
+    'petition',
+    'v',
+    'thỉnh cầu, kiến nghị',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'request' LIMIT 1),
+    'request',
+    'v',
+    'khẩn cầu, nhờ cậy',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'request' LIMIT 1),
+    'request',
+    'n',
+    'sự yêu cầu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'require' LIMIT 1),
+    'require',
+    'v',
+    'bắt buộc, yêu cầu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'require' LIMIT 1),
+    'requirement',
+    'n',
+    'sự yêu cầu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inquire' LIMIT 1),
+    'inquire',
+    'v',
+    'hỏi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inquire' LIMIT 1),
+    'inquiry',
+    'n',
+    'câu hỏi, sự truy vấn',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acquire' LIMIT 1),
+    'acquire',
+    'v',
+    'giành đucợ, thu được',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acquire' LIMIT 1),
+    'acquirement',
+    'n',
+    'sự đạt dược',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exclude' LIMIT 1),
+    'exclude',
+    'v',
+    'loại trừ, loại bỏ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exclude' LIMIT 1),
+    'exclusive',
+    'adj',
+    'riêng biệt, độc chiếm',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exclude' LIMIT 1),
+    'exclusion',
+    'n',
+    'sự loại trừ',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'include' LIMIT 1),
+    'include',
+    'v',
+    'bao gồm',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'enclose' LIMIT 1),
+    'enclose',
+    'v',
+    'bao quanh, gửi kèm',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'enclose' LIMIT 1),
+    'enclosure',
+    'n',
+    'sự bao quanh',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'disclose' LIMIT 1),
+    'disclose',
+    'v',
+    'vạch trần',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'disclose' LIMIT 1),
+    'disclosure',
+    'n',
+    'sự vạch trần',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remember' LIMIT 1),
+    'remember',
+    'v',
+    'hồi tưởng, nhớ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remember' LIMIT 1),
+    'remembrance',
+    'n',
+    'sự nhớ, kí ức',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remind' LIMIT 1),
+    'remind',
+    'v',
+    'gợi nhớ lại',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'memorize' LIMIT 1),
+    'memorize',
+    'v',
+    'học thuộc lòng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'immemorial' LIMIT 1),
+    'immemorial',
+    'adj',
+    'thượng cổ, xa xưa',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'propel' LIMIT 1),
+    'propel',
+    'v',
+    'thúc đẩy, đẩy đi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expel' LIMIT 1),
+    'expel',
+    'v',
+    'trục xuất, đuổi ra',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'repel' LIMIT 1),
+    'repel',
+    'v',
+    'đẩy lùi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'repel' LIMIT 1),
+    'repellent',
+    'adj',
+    'rất ghét, khó chịu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'impulse' LIMIT 1),
+    'impulse',
+    'n',
+    'sự thúc đẩy',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'impulse' LIMIT 1),
+    'impulsive',
+    'adj',
+    'bốc đồng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'bankrupt' LIMIT 1),
+    'bankrupt',
+    'adj',
+    'phá sản/vỡ nợ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'bankrupt' LIMIT 1),
+    'bankruptcy',
+    'n',
+    'sự phá sản',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abrupt' LIMIT 1),
+    'abrupt',
+    'adj',
+    'đột ngột',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'interrupt' LIMIT 1),
+    'interrupt',
+    'v',
+    'làm gián đoạn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'interrupt' LIMIT 1),
+    'interruption',
+    'n',
+    'sự gián đoạn',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'erupt' LIMIT 1),
+    'erupt',
+    'v',
+    'phun trào, bộc phát',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'erupt' LIMIT 1),
+    'eruption',
+    'n',
+    'sự phun trào, sự bộc phát',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'aspire' LIMIT 1),
+    'aspire',
+    'v',
+    'khao khát, mong muốn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'aspire' LIMIT 1),
+    'aspiration',
+    'n',
+    'khát vọng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'conspire' LIMIT 1),
+    'conspire',
+    'v',
+    'âm mưu, rắp tâm',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'conspire' LIMIT 1),
+    'conspiracy',
+    'n',
+    'âm mưu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expire' LIMIT 1),
+    'expire',
+    'v',
+    'hết hạn, thở hắt ra',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expire' LIMIT 1),
+    'expiration',
+    'n',
+    'kết thúc, mãn hạn',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'perspire' LIMIT 1),
+    'perspire',
+    'v',
+    'ra mồ hôi, toát mồ hôi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'perspire' LIMIT 1),
+    'perspiration',
+    'n',
+    'sự đổ mồ hôi',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recline' LIMIT 1),
+    'recline',
+    'v',
+    'tựa, dựa, có khuynh hướng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'decline' LIMIT 1),
+    'decline',
+    'v',
+    'từ chối',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'decline' LIMIT 1),
+    'decline',
+    'n',
+    'sự suy nhược',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'climate' LIMIT 1),
+    'climate',
+    'n',
+    'thời tiết, khí hậu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'climate' LIMIT 1),
+    'climatic',
+    'adj',
+    '(thuộc) khí hậu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'client' LIMIT 1),
+    'client',
+    'n',
+    'khách hàng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'generate' LIMIT 1),
+    'generate',
+    'v',
+    'phát sinh, xảy ra',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'generate' LIMIT 1),
+    'degenerate',
+    'v',
+    'thoái hóa, suy đồi',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'general' LIMIT 1),
+    'general',
+    'adj',
+    'chung, sơ sài',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'general' LIMIT 1),
+    'generalize',
+    'v',
+    'tổng quát hóa',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'generous' LIMIT 1),
+    'generous',
+    'adj',
+    'rộng lượng, hào phóng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'generous' LIMIT 1),
+    'generosity',
+    'n',
+    'sự rộng lượng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'congenital' LIMIT 1),
+    'congenital',
+    'adj',
+    'bẩm sinh',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'support' LIMIT 1),
+    'support',
+    'v',
+    'hỗ trợ, nuôi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'support' LIMIT 1),
+    'support',
+    'n',
+    'sự hỗ trợ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'export' LIMIT 1),
+    'export',
+    'v',
+    'xuất khẩu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'export' LIMIT 1),
+    'export',
+    'n',
+    '(hàng) xuất khẩu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'export' LIMIT 1),
+    'exportation',
+    'n',
+    'việc xuất khẩu',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transport' LIMIT 1),
+    'transport',
+    'v',
+    'vận chuyển',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transport' LIMIT 1),
+    'transport',
+    'n',
+    '(phương tiện) vận tải',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transport' LIMIT 1),
+    'transportation',
+    'n',
+    'sự vận tải',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'opportunity' LIMIT 1),
+    'opportunity',
+    'n',
+    'cơ hội',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'opportunity' LIMIT 1),
+    'opportune',
+    'adj',
+    'đúng lúc, thích hợp',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pedigree' LIMIT 1),
+    'pedigree',
+    'n',
+    'phả hệ, lịch sử',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pedestrian' LIMIT 1),
+    'pedestrian',
+    'n',
+    'người đi bộ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pedestrian' LIMIT 1),
+    'pedestrian',
+    'adj',
+    '(thuộc) đường đi bộ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expedient' LIMIT 1),
+    'expedient',
+    'adj',
+    'thích hợp, thượng sách',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expedition' LIMIT 1),
+    'expedition',
+    'n',
+    'viễn chinh, chuyến thám hiểm',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'barrier' LIMIT 1),
+    'barrier',
+    'n',
+    'chướng ngại vật, hàng rào',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'barrier' LIMIT 1),
+    'barrier-free',
+    'adj',
+    'không có rào cản',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'barrel' LIMIT 1),
+    'barrel',
+    'n',
+    'thùng, thùng tròn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'barrister' LIMIT 1),
+    'barrister',
+    'n',
+    'luật sư (tòa án)',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'embargo' LIMIT 1),
+    'embargo',
+    'v',
+    'cấm vận',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'embargo' LIMIT 1),
+    'embargo',
+    'n',
+    '(lệnh) cấm vận, sự cấm kinh doanh',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'courage' LIMIT 1),
+    'courage',
+    'n',
+    'sự dũng cảm',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'courage' LIMIT 1),
+    'courageous',
+    'adj',
+    'can đảm',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'discourage' LIMIT 1),
+    'discourage',
+    'v',
+    'làm chán nản',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'accord' LIMIT 1),
+    'accord',
+    'v',
+    'thống nhất, làm cho phù hợp',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'accord' LIMIT 1),
+    'accord',
+    'n',
+    'sự thống nhất, sự hòa hợp',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'cordial' LIMIT 1),
+    'cordial',
+    'adj',
+    'chân thành, thân ái',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exit' LIMIT 1),
+    'exit',
+    'v',
+    'thoát ra',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exit' LIMIT 1),
+    'exit',
+    'n',
+    'lối ra, sự thoát ra',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transit' LIMIT 1),
+    'transit',
+    'n',
+    'sự vận chuyển, sự vượt qua',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transit' LIMIT 1),
+    'transit',
+    'v',
+    'quá cảnh',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'orbit' LIMIT 1),
+    'orbit',
+    'n',
+    'quỹ đạo',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'orbit' LIMIT 1),
+    'orbit',
+    'v',
+    'vòng quanh quỹ đạo',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'itinerary' LIMIT 1),
+    'itinerary',
+    'n',
+    'hành trình, kế hoạch',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expose' LIMIT 1),
+    'expose',
+    'v',
+    'phơi bày, vạch trần',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expose' LIMIT 1),
+    'exposure',
+    'n',
+    'sự phơi bày, sự vạch trần',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'oppose' LIMIT 1),
+    'oppose',
+    'v',
+    'phản đối',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'oppose' LIMIT 1),
+    'opposition',
+    'n',
+    'sự đối lập',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'oppose' LIMIT 1),
+    'opposite',
+    'adj',
+    'đối lập, ngược chiều',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'compose' LIMIT 1),
+    'compose',
+    'v',
+    'cấu tạo, sáng tác',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'compose' LIMIT 1),
+    'composition',
+    'n',
+    'sự cấu thành, tác phẩm',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'compose' LIMIT 1),
+    'composure',
+    'n',
+    'sự bình tĩnh',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suppose' LIMIT 1),
+    'suppose',
+    'v',
+    'nghĩ, tưởng tượng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'construct' LIMIT 1),
+    'construct',
+    'v',
+    'xây dựng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'construct' LIMIT 1),
+    'construction',
+    'n',
+    'sự xây dựng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'construct' LIMIT 1),
+    'constructive',
+    'adj',
+    'mang tính xây dựng',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'destructive' LIMIT 1),
+    'destructive',
+    'adj',
+    'có tính phá hủy',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'destructive' LIMIT 1),
+    'destroy',
+    'v',
+    'phá hủy',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'destructive' LIMIT 1),
+    'destruction',
+    'n',
+    'sự phá hủy',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'obstruct' LIMIT 1),
+    'obstruct',
+    'v',
+    'cản trở, gây trở ngại',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'obstruct' LIMIT 1),
+    'obstruction',
+    'n',
+    'sự cản trở, điều trở ngại',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'structure' LIMIT 1),
+    'structure',
+    'n',
+    'cấu trúc, công trình xây dựng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prevent' LIMIT 1),
+    'prevent',
+    'v',
+    'ngăn chặn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prevent' LIMIT 1),
+    'prevention',
+    'n',
+    'sự ngăn ngừa, sự cản trở',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'convention' LIMIT 1),
+    'convention',
+    'n',
+    'hội nghị, sự triệu tập',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'convention' LIMIT 1),
+    'convene',
+    'v',
+    'tụ họp, triệu tập',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'convenient' LIMIT 1),
+    'convenient',
+    'adj',
+    'lợi, thuận tiện',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'convenient' LIMIT 1),
+    'convenience',
+    'n',
+    'sự tiện lợi',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'souvenir' LIMIT 1),
+    'souvenir',
+    'n',
+    'quà lưu niệm',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'usage' LIMIT 1),
+    'usage',
+    'n',
+    'cách dùng , cách sử dụng , (lượng) sử dụng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'usual' LIMIT 1),
+    'usual',
+    'adj',
+    'thông thường',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'usual' LIMIT 1),
+    'unusual',
+    'adj',
+    'bất thường',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'usual' LIMIT 1),
+    'usually',
+    'prep',
+    'thường xuyên',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'utilize' LIMIT 1),
+    'utilize',
+    'v',
+    'sử dụng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'utensil' LIMIT 1),
+    'utensil',
+    'n',
+    'dụng cụ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
+    'origin',
+    'n',
+    'nguồn gốc',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
+    'original',
+    'adj',
+    ' đầu tiên , độc đáo',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
+    'original',
+    'n',
+    'nguyên bản',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
+    'originality',
+    'n',
+    'tính độc đáo',
+    3);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'originate' LIMIT 1),
+    'originate',
+    'v',
+    'sinh ra , bắt đầu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'aboriginal' LIMIT 1),
+    'aboriginal',
+    'adj',
+    '(thuộc) thổ dân',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'envy' LIMIT 1),
+    'envy',
+    'v',
+    'ghen tị, đố kị',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'envy' LIMIT 1),
+    'envy',
+    'n',
+    'sự ghen tị, sự đố kị',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'envy' LIMIT 1),
+    'envious',
+    'adj',
+    'thèm muốn, đố kị',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'preview' LIMIT 1),
+    'preview',
+    'n',
+    'buối chiếu phim thử, đoạn quảng cáo phim trước (trailer)',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'preview' LIMIT 1),
+    'preview',
+    'v',
+    'xem trước',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'review' LIMIT 1),
+    'review',
+    'n',
+    'việc điều tra lại, sự đánh giá',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'review' LIMIT 1),
+    'review',
+    'v',
+    'điều tra lại, đánh giá',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'purview' LIMIT 1),
+    'purview',
+    'n',
+    'giới hạn, phạm vi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revive' LIMIT 1),
+    'revive',
+    'v',
+    'sống lại, hồi sinh',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revive' LIMIT 1),
+    'revival',
+    'n',
+    'sự hồi sinh',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vivid' LIMIT 1),
+    'vivid',
+    'adj',
+    'sinh động, chói lọi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vivid' LIMIT 1),
+    'vividly',
+    'adv',
+    'chói lọi',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vigorous' LIMIT 1),
+    'vigorous',
+    'adj',
+    'đầy sinh khó, mãnh liệt',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'invigorate' LIMIT 1),
+    'invigorate',
+    'v',
+    'tiếp thêm sinh lực, tạo hăng hái',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'passage' LIMIT 1),
+    'passage',
+    'n',
+    'đường đi, việv đi lại, đoạn(văn), chuyến đi ( đường thủy, đường hàng không).',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'passenger' LIMIT 1),
+    'passenger',
+    'n',
+    'hành khách',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pastime' LIMIT 1),
+    'pastime',
+    'n',
+    'sự giải trí, sự thư thái',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'passer-by' LIMIT 1),
+    'passer-by',
+    'n',
+    'người qua đường',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'advise' LIMIT 1),
+    'advise',
+    'v',
+    'khuyến khích, khuyên răn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'advise' LIMIT 1),
+    'advice',
+    'n',
+    'lời khuyên',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revise' LIMIT 1),
+    'revise',
+    'v',
+    'xem lại, hiệu chỉnh',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revise' LIMIT 1),
+    'revision',
+    'n',
+    '(bản) hiệu chỉnh',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'improvise' LIMIT 1),
+    'improvise',
+    'v',
+    'sáng tác, tạo ra ngẫu hứng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'improvise' LIMIT 1),
+    'improvisation',
+    'n',
+    'ngẫu hứng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
+    'visible',
+    'adj',
+    'hữu hình',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
+    'visibility',
+    'n',
+    'tầm nhìn, việc hữu hình',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
+    'invisible',
+    'adj',
+    'vô hình',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
+    'influence',
+    'n',
+    '(sức) ảnh hưởng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
+    'influence',
+    'v',
+    'gây ảnh hưởng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
+    'influential',
+    'adj',
+    'có tầm ảnh hưởng lớn, có thế lực',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'affluent' LIMIT 1),
+    'affluent',
+    'adj',
+    'phong phú, giàu có',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fluid' LIMIT 1),
+    'fluid',
+    'n',
+    'chất lưu, chất lỏng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fluid' LIMIT 1),
+    'fluid',
+    'adj',
+    'lỏng lẻo, hay thay đổi',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fluctuate' LIMIT 1),
+    'fluctuate',
+    'v',
+    'biến động',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fluctuate' LIMIT 1),
+    'fluctuation',
+    'n',
+    'sự biến động, sự không ổn định',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
+    'succeed',
+    'v',
+    'nối tiếp, thành công',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
+    'success',
+    'n',
+    'sự thành công',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
+    'successful',
+    'adj',
+    'thuận lợi,',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
+    'successive',
+    'adj',
+    'liên tục',
+    3);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'proceed' LIMIT 1),
+    'proceed',
+    'v',
+    'tiến hành, tiếp tục',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'proceed' LIMIT 1),
+    'procedure',
+    'n',
+    'trình tự, thủ tục',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'concede' LIMIT 1),
+    'concede',
+    'v',
+    'nhận, nhường, dung túng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recession' LIMIT 1),
+    'recession',
+    'n',
+    'suy thoải kinh tế',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recession' LIMIT 1),
+    'recess',
+    'n',
+    'giờ giải lao, thời gian ngừng họp, chỗ lõm',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insist' LIMIT 1),
+    'insist',
+    'v',
+    'khăng khăng, nhấn mạnh',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insist' LIMIT 1),
+    'insistent',
+    'adj',
+    'cứ khăng khăng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resist' LIMIT 1),
+    'resist',
+    'v',
+    'phản kháng, chịu đựng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resist' LIMIT 1),
+    'resistance',
+    'n',
+    'sự phản kháng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'persist' LIMIT 1),
+    'persist',
+    'v',
+    'kiên trì, tiếp tục, khăng khăng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'persist' LIMIT 1),
+    'persistent',
+    'adj',
+    'dai dẳng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subsist' LIMIT 1),
+    'subsist',
+    'v',
+    'tính kế sinh nhai',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subsist' LIMIT 1),
+    'subsistence',
+    'n',
+    'kế sinh nhai, lương thực',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'patriotic' LIMIT 1),
+    'patriotic',
+    'adj',
+    'ái quốc',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'patriotic' LIMIT 1),
+    'patriot',
+    'n',
+    'nhà ái quốc',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'compatriot' LIMIT 1),
+    'compatriot',
+    'n',
+    'đồng hương, đồng bào, đồng liêu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'paternal' LIMIT 1),
+    'paternal',
+    'adj',
+    '(thuộc) cha, về phía đằng nội',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'paternal' LIMIT 1),
+    'paternity',
+    'n',
+    'quyền làm cha, tư cách làm cha',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'patronize' LIMIT 1),
+    'patronize',
+    'v',
+    'bảo vệ, bảo trợ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vacant' LIMIT 1),
+    'vacant',
+    'adj',
+    'trống không, vị trí còn trống',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vacant' LIMIT 1),
+    'vacancy',
+    'n',
+    'ghế trống, phòng trống',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vast' LIMIT 1),
+    'vast',
+    'adj',
+    'rộng lớn, mênh mông',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'devastate' LIMIT 1),
+    'devastate',
+    'v',
+    'phá hủy, đập nát',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'devastate' LIMIT 1),
+    'devastating',
+    'adj',
+    'bị tàn phá, gây sốc',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'avoid' LIMIT 1),
+    'avoid',
+    'v',
+    'tránh',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'avoid' LIMIT 1),
+    'avoidance',
+    'n',
+    'tránh né',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manipulate' LIMIT 1),
+    'manipulate',
+    'v',
+    'thao tác, xử lý',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manipulate' LIMIT 1),
+    'manipulation',
+    'n',
+    'sự thao tác, sự thao túng thị trường',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manuscript' LIMIT 1),
+    'manuscript',
+    'n',
+    'bản gốc, bản thảo',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
+    'manufacture',
+    'n',
+    'sự chế tạo, sự sản xuất',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
+    'manufacture',
+    'v',
+    'chế tạo, tạo dựng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
+    'manufacturer',
+    'n',
+    'người chế tạo, người sản xuất',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
+    'manage',
+    'v',
+    'quản lý, trông nom, có thể',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
+    'management',
+    'n',
+    'quản lý, điều hành',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
+    'manager',
+    'n',
+    'nhà quản lý, giám đốc',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'emotion' LIMIT 1),
+    'emotion',
+    'n',
+    'cảm xúc, cảm nhận',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'emotion' LIMIT 1),
+    'emotional',
+    'adj',
+    'dễ xúc động',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
+    'remote',
+    'adj',
+    'xa xôi, xa cách',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
+    'remove',
+    'v',
+    'lấy ra khỏi, loại bỏ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
+    'removal',
+    'n',
+    'sự loại bỏ, sự bãi bỏ',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'demote' LIMIT 1),
+    'demote',
+    'v',
+    'giáng chức xuống hạng, hạ cấp',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'demote' LIMIT 1),
+    'demotion',
+    'n',
+    'sự giáng chức',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reject' LIMIT 1),
+    'reject',
+    'v',
+    'không chấp thuận, vứt bỏ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reject' LIMIT 1),
+    'reject',
+    'n',
+    'sự bác bỏ, sự không chấp thuận',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
+    'object',
+    'v',
+    'phản đối',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
+    'object',
+    'n',
+    'mục tiêu, đối tượng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
+    'objection',
+    'n',
+    'sự phản đối, sự dị nghị',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
+    'objective',
+    'adj',
+    'mang tính khách quan',
+    3);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
+    'object',
+    'n',
+    'mục tiêu',
+    4);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
+    'subject',
+    'adj',
+    'không trách khỏi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
+    'subject',
+    'v',
+    'bắt phục tùng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
+    'subject',
+    'n',
+    'môn học, chủ đề',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inject' LIMIT 1),
+    'inject',
+    'v',
+    'tiêm, rót, ném vào',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inject' LIMIT 1),
+    'injection',
+    'n',
+    'sự tiêm, sự đổ vào, ném vào',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inspect' LIMIT 1),
+    'inspect',
+    'v',
+    'kiểm tra, kiểm điểm',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inspect' LIMIT 1),
+    'inspector',
+    'n',
+    'thanh tra, người kiểm tra',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
+    'respect',
+    'v',
+    'kính trọng, tôn trọng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
+    'respect',
+    'n',
+    'sự kính trọng, lời nhắn',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
+    'respectful',
+    'adj',
+    'lễ phép',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
+    'respective',
+    'adj',
+    'riêng từng',
+    3);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
+    'respectable',
+    'adj',
+    'chỉnh tề, chỉn chu',
+    4);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
+    'suspect',
+    'v',
+    'hoài nghi, ngờ vực',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
+    'suspect',
+    'n',
+    'đáng ngờ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
+    'suspicious',
+    'adj',
+    'sự nghi ngờ',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
+    'suspicion',
+    'n',
+    'dự đoán, nghĩ, kì vọng',
+    3);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
+    'expect',
+    'v',
+    'dự đóa',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
+    'expectancy',
+    'n',
+    'dự đoán, kỳ vọng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
+    'expectation',
+    'n',
+    'sở hữu, thuộc về',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'belong' LIMIT 1),
+    'belong',
+    'v',
+    'vật sở hữu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'belong' LIMIT 1),
+    'belongings',
+    'n',
+    'kéo dài, làm dài ra',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
+    'lengthen',
+    'v',
+    'độ dài, tổng chiều dài',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
+    'length',
+    'n',
+    'dài dòng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
+    'lengthy',
+    'adj',
+    'dài dòng',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'linger' LIMIT 1),
+    'linger',
+    'v',
+    'kéo dài, nán lại, chần chừ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'longitude' LIMIT 1),
+    'longitude',
+    'n',
+    'kinh độ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'contest' LIMIT 1),
+    'contest',
+    'v',
+    'tranh đấu, tranh luận',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'contest' LIMIT 1),
+    'contest',
+    'n',
+    'cuộc thi, cuộc tranh luận',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'detest' LIMIT 1),
+    'detest',
+    'v',
+    'căm ghét, ghê tởm',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'detest' LIMIT 1),
+    'detestable',
+    'adj',
+    'ghét cay ghét đắng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'testify' LIMIT 1),
+    'testify',
+    'v',
+    'làm chứng, chứng minh',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'attest' LIMIT 1),
+    'attest',
+    'v',
+    'chứng nhận',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reduce' LIMIT 1),
+    'reduce',
+    'v',
+    'giảm nhiều, thay đổi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reduce' LIMIT 1),
+    'reduction',
+    'n',
+    'sự giảm thiểu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'introduce' LIMIT 1),
+    'introduce',
+    'v',
+    'áp dụng, giới thiệu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'introduce' LIMIT 1),
+    'introduction',
+    'n',
+    'sự áp dụng, việc giới thiệu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'educate' LIMIT 1),
+    'educate',
+    'v',
+    'giáo dục, dạy dỗ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'educate' LIMIT 1),
+    'education',
+    'n',
+    'sự giáo dục',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abduct' LIMIT 1),
+    'abduct',
+    'v',
+    'bắt cóc, lừa đem đi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abduct' LIMIT 1),
+    'abduction',
+    'n',
+    'sự bắt cóc, sự lừa đem đi',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
+    'telegram',
+    'n',
+    'bức điện báo',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
+    'telegraph',
+    'n',
+    'bức điện báo',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
+    'telegram',
+    'v',
+    'truyền tin bằng điện báo',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
+    'photograph',
+    'n',
+    'bức ảnh',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
+    'photographer',
+    'n',
+    'nhiếp ảnh gia',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
+    'photogenic',
+    'adj',
+    'ăn ảnh',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'autograph' LIMIT 1),
+    'autograph',
+    'n',
+    'tự tay viết, chữ ký riêng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'geography' LIMIT 1),
+    'geography',
+    'n',
+    'địa lý học',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'geography' LIMIT 1),
+    'geographic',
+    'adj',
+    '(thuộc) địa lý, có tính chất địa lý',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
+    'exhibit',
+    'v',
+    'triển lãm, trưng bày',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
+    'exhibit',
+    'n',
+    'vật triển lãm',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
+    'exhibition',
+    'n',
+    'buổi triển lãm, trưng bày',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
+    'habit',
+    'n',
+    'thói quen',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
+    'habitual',
+    'adj',
+    'quen thói',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
+    'habitate',
+    'v',
+    'tập quen với',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inhabit' LIMIT 1),
+    'inhabit',
+    'v',
+    'sống, ở',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inhabit' LIMIT 1),
+    'inhabitant',
+    'n',
+    'dân cư, động vật sống',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'habitat' LIMIT 1),
+    'habitat',
+    'n',
+    'môi trường sống ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suffer' LIMIT 1),
+    'suffer',
+    'v',
+    'buồn phiền, đau khổ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suffer' LIMIT 1),
+    'suffering',
+    'n',
+    'sự đau khổ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'refer' LIMIT 1),
+    'refer',
+    'v',
+    'nói đến tham khảo',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'refer' LIMIT 1),
+    'reference',
+    'n',
+    'sự nhắc đén, sự tham khảo',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
+    'different',
+    'adj',
+    'khác biệt',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
+    'difference',
+    'n',
+    'sự khác biệt',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
+    'differ',
+    'v',
+    'làm khác',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transfer' LIMIT 1),
+    'transfer',
+    'v',
+    'di chuyển, thuyên chuyển, chuyển xe, chuyển sang',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transfer' LIMIT 1),
+    'transfer',
+    'n',
+    'sự di chuyển',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'addict' LIMIT 1),
+    'addict',
+    'n',
+    'người nghiện',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'addict' LIMIT 1),
+    'addict',
+    'v',
+    'làm gây nghiện',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'contradict' LIMIT 1),
+    'contradict',
+    'v',
+    'phản biện, mâu thuẫn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'contradict' LIMIT 1),
+    'contradiction',
+    'n',
+    'sự phản biện, sự mâu thuẫn',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
+    'dictatorship',
+    'n',
+    'chính quyền độc tài',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
+    'dictate',
+    'v',
+    'đọc chính ta, ra mệnh lệnh',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
+    'dictation',
+    'n',
+    'việc đọc chính tả, sự ra lệnh',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'verdict' LIMIT 1),
+    'verdict',
+    'n',
+    'phán quyết, ý kiến',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
+    'resident',
+    'n',
+    'người cư trú, cư dân',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
+    'reside',
+    'v',
+    'cư trú',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
+    'residence',
+    'n',
+    'nhà ơ',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subside' LIMIT 1),
+    'subside',
+    'v',
+    'rút, rút xuống',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subside' LIMIT 1),
+    'subsidy',
+    'n',
+    'tiền trợ cấp',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'settle' LIMIT 1),
+    'settle',
+    'v',
+    'làm lắng xuống, thanh toán, định cư',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'settle' LIMIT 1),
+    'settlement',
+    'adj',
+    'giải quyết, quyết toán',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'possess' LIMIT 1),
+    'possess',
+    'v',
+    'có, sở hữu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'possess' LIMIT 1),
+    'possession',
+    'n',
+    '(vật) sở hữu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'native' LIMIT 1),
+    'native',
+    'adj',
+    'tự nhiên',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'native' LIMIT 1),
+    'native',
+    'n',
+    'người địa phương',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'naive' LIMIT 1),
+    'naive',
+    'adj',
+    'dễ bị lừa, ngây thơ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'naturalize' LIMIT 1),
+    'naturalize',
+    'v',
+    'nhập tịch',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'innate' LIMIT 1),
+    'innate',
+    'adj',
+    'bẩm sinh',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'effect' LIMIT 1),
+    'effect',
+    'n',
+    'hiệu quả, kết quả',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'effect' LIMIT 1),
+    'effective',
+    'adj',
+    'mang tính hiệu quả, hữu hiệu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
+    'affect',
+    'v',
+    'gây ảnh hưởng, làm cảm động',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
+    'affection',
+    'n',
+    'ảnh hưởng, cảm tình ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
+    'affectionate',
+    'adj',
+    'yêu mến, có cảm tình',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
+    'infect',
+    'v',
+    'bị lấy nhiễm, gây anh hưởng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
+    'infection',
+    'n',
+    'sự truyền nhiễm, sự lây nhiễm',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
+    'infectious',
+    'adj',
+    'dễ lây nhiễm',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
+    'defect',
+    'n',
+    'thiếu sót, khuyết điểm',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
+    'defect',
+    'v',
+    'lưu vong',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
+    'defective',
+    'adj',
+    'có thiếu sót',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'cast' LIMIT 1),
+    'cast',
+    'v',
+    'ném, quăng, phân chia vai',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'cast' LIMIT 1),
+    'cast',
+    'n',
+    'sự phân vai',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'broadcast' LIMIT 1),
+    'broadcast',
+    'v',
+    'phát thanh',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'broadcast' LIMIT 1),
+    'broadcast',
+    'n',
+    'việc phát thanh',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'overcast' LIMIT 1),
+    'overcast',
+    'adj',
+    'phủ mây, u ám',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'castaway' LIMIT 1),
+    'castaway',
+    'n',
+    'người bị trôi dạt sau vụ đắm tàu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'praise' LIMIT 1),
+    'praise',
+    'v',
+    'tán dương, khen ngợi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'praise' LIMIT 1),
+    'praise',
+    'n',
+    'lời tán dương, sự khen ngợi',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'precious' LIMIT 1),
+    'precious',
+    'adj',
+    'quý giá, quan trọng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'appreciate' LIMIT 1),
+    'appreciate',
+    'v',
+    'công nhận giá trị, cảm tạ, tăng giá',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'appreciate' LIMIT 1),
+    'appreciation',
+    'n',
+    'sự cảm tạ, sự tăng giá, sự đánh giá cao',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'depreciate' LIMIT 1),
+    'depreciate',
+    'v',
+    'giảm giá, rớt giá',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'depreciate' LIMIT 1),
+    'depreciation',
+    'n',
+    'sự rớt giá, sự xem thường',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'sect' LIMIT 1),
+    'sect',
+    'n',
+    'giáo phái, phe phái, đảng phái',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insect' LIMIT 1),
+    'insect',
+    'n',
+    'côn trùng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insecticide' LIMIT 1),
+    'insecticide',
+    'n',
+    'thuốc trừ sâu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'segment' LIMIT 1),
+    'segment',
+    'n',
+    'phần, bộ phận, sự phân chia',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'diligent' LIMIT 1),
+    'diligent',
+    'adj',
+    'siêng năng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'diligent' LIMIT 1),
+    'diligence',
+    'n',
+    'sự siêng năng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'eligible' LIMIT 1),
+    'eligible',
+    'adj',
+    'đủ điều kiện, đủ tư cách',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'eligible' LIMIT 1),
+    'ineligible',
+    'adj',
+    'không đủ điều kiện, không đủ tư cách',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'illegal' LIMIT 1),
+    'illegal',
+    'adj',
+    'bất hợp pháp',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'illegal' LIMIT 1),
+    'legal',
+    'adj',
+    'hợp pháp, thuộc pháp luật',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'privilege' LIMIT 1),
+    'privilege',
+    'n',
+    'đặc quyền, vinh dự',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'privilege' LIMIT 1),
+    'privilege',
+    'v',
+    'bạn đặc quyền, cho đặc quyền',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'privilege' LIMIT 1),
+    'privileged',
+    'adj',
+    'có đặc quyền',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ignore' LIMIT 1),
+    'ignore',
+    'v',
+    'phớt lờ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ignore' LIMIT 1),
+    'ignorant',
+    'adj',
+    'không biết',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ignore' LIMIT 1),
+    'ignorance',
+    'n',
+    'sự không biết',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recognize' LIMIT 1),
+    'recognize',
+    'v',
+    'biết, công nhận',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recognize' LIMIT 1),
+    'recognition',
+    'n',
+    'sự nhận thức, sự thừa nhận',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'knowledge' LIMIT 1),
+    'knowledge',
+    'n',
+    'tri thức, có hiểu biết',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'knowledge' LIMIT 1),
+    'knowledgeable',
+    'adj',
+    'thông thạo, có hiểu biết',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acknowledge' LIMIT 1),
+    'acknowledge',
+    'v',
+    'công nhận, thừa nhận',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acknowledge' LIMIT 1),
+    'acknowledgement',
+    'n',
+    'sự công nhận, sự thừa nhận',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'geometry' LIMIT 1),
+    'geometry',
+    'n',
+    'hình học, hình dạng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'geometry' LIMIT 1),
+    'geometric',
+    'adj',
+    'thuộc về hình học, có tính hình học',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'immense' LIMIT 1),
+    'immense',
+    'adj',
+    'rộng lớn, mênh mông',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'immense' LIMIT 1),
+    'immensity',
+    'n',
+    'sự rộng lớn, sự vô hạn',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dimension' LIMIT 1),
+    'dimension',
+    'n',
+    'chiều, kích thước',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'measure' LIMIT 1),
+    'measure',
+    'n',
+    'tiêu chuẩn, mức độ, biện pháp ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'measure' LIMIT 1),
+    'measure',
+    'v',
+    'đo',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'elect' LIMIT 1),
+    'elect',
+    'v',
+    'chọn (bầu cử)',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'elect' LIMIT 1),
+    'election',
+    'n',
+    'sự bầu cử',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'select' LIMIT 1),
+    'select',
+    'v',
+    'tuyển chọn kĩ càng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'select' LIMIT 1),
+    'selective',
+    'adj',
+    'tốt nhất, chất lượng nhất',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'select' LIMIT 1),
+    'selection',
+    'n',
+    'tuyển chọn, người được chọn',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recollect' LIMIT 1),
+    'recollect',
+    'v',
+    'nhớ lại, hồi tưởng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recollect' LIMIT 1),
+    'recollection',
+    'n',
+    'kí ức, hồi ức',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'neglect' LIMIT 1),
+    'neglect',
+    'v',
+    'xao lãng, bỏ bê',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'neglect' LIMIT 1),
+    'negligence',
+    'n',
+    'sự cẩu thả, tính lơ đễnh',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'neglect' LIMIT 1),
+    'negligent',
+    'adj',
+    'cẩu thả',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'anchor' LIMIT 1),
+    'anchor',
+    'n',
+    'mỏ neo, chỗ dựa tinh thần, phát thanh viên',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ankle' LIMIT 1),
+    'ankle',
+    'n',
+    'cổ chân',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'angler' LIMIT 1),
+    'angler',
+    'n',
+    'người đi câu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'angler' LIMIT 1),
+    'angle',
+    'v',
+    'câu (cá)',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'angler' LIMIT 1),
+    'angler fish',
+    'n',
+    'cá cần câu (bộ cá vây chân)',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'rectangle' LIMIT 1),
+    'rectangle',
+    'n',
+    'hình chữ nhật',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'rectangle' LIMIT 1),
+    'rectangular',
+    'adj',
+    'có hình dạng là hình chữ nhật',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remain' LIMIT 1),
+    'remain',
+    'v',
+    'còn lại, ở nguyên đấy',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remain' LIMIT 1),
+    'remain',
+    'n pl',
+    'phần còn lại, di tích',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remainder' LIMIT 1),
+    'remainder',
+    'n',
+    '(phần) còn lại',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remnant' LIMIT 1),
+    'remnant',
+    'n',
+    'vật còn lại, tàn dư, mảnh vụn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manor' LIMIT 1),
+    'manor',
+    'n',
+    'điền viên, biệt thự, trang viên',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prosecute' LIMIT 1),
+    'prosecute',
+    'v',
+    'khởi tố, thi hành',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prosecute' LIMIT 1),
+    'prosecution',
+    'n',
+    'sự khởi tố, sự truy tố hình sự',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prosecute' LIMIT 1),
+    'prosecutor',
+    'n',
+    'công tố viên, kiểm sát viên',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'execute' LIMIT 1),
+    'execute',
+    'v',
+    'hành hình, thực hiện',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'execute' LIMIT 1),
+    'execute',
+    'n',
+    'ban quản trị',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'execute' LIMIT 1),
+    'execute',
+    'adj',
+    'thuộc ban quản trị',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'execute' LIMIT 1),
+    'execution',
+    'n',
+    'sự hành hình, sự thực hiện',
+    3);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'consequence' LIMIT 1),
+    'consequence',
+    'n',
+    'kết quả, tầm quan trọng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'consequence' LIMIT 1),
+    'consequently',
+    'prep',
+    'do đó, vì vậy',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subsequent' LIMIT 1),
+    'subsequent',
+    'adj',
+    'sau đó, theo sau, tiếp theo đó',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subsequent' LIMIT 1),
+    'subsequently',
+    'prep',
+    'sau đó',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'trait' LIMIT 1),
+    'trait',
+    'n',
+    'đặc trưng, đặc tính',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'portrait' LIMIT 1),
+    'portrait',
+    'n',
+    'ảnh chân dung, việc phác họa',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'portrait' LIMIT 1),
+    'portray',
+    'v',
+    'phác họa',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'treaty' LIMIT 1),
+    'treaty',
+    'n',
+    'hiệp ước, hiệp định',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'entreat' LIMIT 1),
+    'entreat',
+    'v',
+    'khẩn cầu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'entreat' LIMIT 1),
+    'entreaty',
+    'n',
+    'sự khẩn cầu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'district' LIMIT 1),
+    'district',
+    'n',
+    'quận, địa phương',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'strain' LIMIT 1),
+    'strain',
+    'v',
+    'làm căng thẳng, bị tổn thương',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'restrain' LIMIT 1),
+    'restrain',
+    'v',
+    'kiểm soát, ngăn trở',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'restrain' LIMIT 1),
+    'restrain',
+    'n',
+    'sự kiềm chế, sự dè dặt',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'constrain' LIMIT 1),
+    'constrain',
+    'v',
+    'cưỡng ép, ngăn chặn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'constrain' LIMIT 1),
+    'constraint',
+    'n',
+    'sự cưỡng ép, ngăn chặn',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assemble' LIMIT 1),
+    'assemble',
+    'v',
+    'tập trung, lắp ghép, tụ tập',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assemble' LIMIT 1),
+    'assembly',
+    'n',
+    'sự tập hợp, sự lắp ghép',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'similar' LIMIT 1),
+    'similar',
+    'adj',
+    'giống nhau, tương tự',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'similar' LIMIT 1),
+    'similarity',
+    'n',
+    'sự giống nhau, sự tương đồng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assimilate' LIMIT 1),
+    'assimilate',
+    'v',
+    'đồng hóa, hấp thu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assimilate' LIMIT 1),
+    'assimilation',
+    'n',
+    'sự đồng hóa, sự hấp thu, sự hiểu biết',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'simultaneous' LIMIT 1),
+    'simultaneous',
+    'adj',
+    'đồng thời',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assault' LIMIT 1),
+    'assault',
+    'n',
+    'sự đột kích, sự bạo hành',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assault' LIMIT 1),
+    'assault',
+    'v',
+    'đột kích, bạo hành',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assail' LIMIT 1),
+    'assail',
+    'v',
+    'đột kích, phê phán',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insult' LIMIT 1),
+    'insult',
+    'v',
+    'lăng mạ/chê bai',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insult' LIMIT 1),
+    'insult',
+    'n',
+    'sự lăng mẹ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exult' LIMIT 1),
+    'exult',
+    'v',
+    'hân hoan, hoan hỉ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exult' LIMIT 1),
+    'exultant',
+    'adj',
+    'hân hoan, hoan hỉ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'enforce' LIMIT 1),
+    'enforce',
+    'v',
+    'thực thi, thúc ép',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'enforce' LIMIT 1),
+    'enforcement',
+    'n',
+    'sự thực thi, sự thực hành',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fortress' LIMIT 1),
+    'fortress',
+    'n',
+    'pháo đài',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
+    'comfortable',
+    'adj',
+    'thoải mái',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
+    'comfort',
+    'n',
+    'sự thoải mái, sự an nhàn',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
+    'discomfort',
+    'n',
+    'sự khó chịu',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fortitude' LIMIT 1),
+    'fortitude',
+    'n',
+    'tinh thần khuất phục',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fortitude' LIMIT 1),
+    'fortify',
+    'v',
+    'tăng cường',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'evolve' LIMIT 1),
+    'evolve',
+    'v',
+    'làm tiến triển, làm tiến hóa',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'evolve' LIMIT 1),
+    'evolution',
+    'n',
+    'tiến hóa, phát triển',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'involve' LIMIT 1),
+    'involve',
+    'v',
+    'bao gồm, quấn vào, tham gia',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'involve' LIMIT 1),
+    'involvement',
+    'n',
+    'quan hệ, sự tham gia',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revolt' LIMIT 1),
+    'revolt',
+    'n',
+    'cuộc nổi loạn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revolt' LIMIT 1),
+    'revolt',
+    'v',
+    'nổi loạn',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'devolve' LIMIT 1),
+    'devolve',
+    'v',
+    'nhượng qua, giao phó',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'modify' LIMIT 1),
+    'modify',
+    'v',
+    'sửa đổi, thay đổi, làm dịu đi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'modify' LIMIT 1),
+    'modificaton',
+    'n',
+    'sự sửa đổi, sự dịu đi',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'moderate' LIMIT 1),
+    'moderate',
+    'adj',
+    'vừa phải, khiêm tốn, nhún nhường',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'moderate' LIMIT 1),
+    'moderate',
+    'v',
+    'làm dịu đi, làm vừa phải',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'accommodate' LIMIT 1),
+    'accommodate',
+    'v',
+    'chứa, cho trọ, làm cho thích hợp',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'accommodate' LIMIT 1),
+    'accommodation',
+    'n',
+    'chỗ trọ, sự chứa đựng, sự thích ứng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'commodity' LIMIT 1),
+    'commodity',
+    'n',
+    'nhu yếu phấm, hàng hóa',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
+    'oblige',
+    'v',
+    'bắt buộc, làm ơn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
+    'obligation',
+    'n',
+    'nghĩa vụ, nghĩa lý',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
+    'obligatory',
+    'adj',
+    'mang tính nghĩa vụ',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'alliance' LIMIT 1),
+    'alliance',
+    'n',
+    'đồng minh, sự hợp tác, nước liên minh',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'alliance' LIMIT 1),
+    'ally',
+    'v',
+    'liên minh, liên kết',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'liable' LIMIT 1),
+    'liable',
+    'adj',
+    'có khả năng bị, có trách nhiệm về pháp lý',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'liable' LIMIT 1),
+    'liability',
+    'n',
+    'trách nhiệm pháp lý, nghĩa vụ pháp lý',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'rally' LIMIT 1),
+    'rally',
+    'v',
+    'tập hợp, khôi phục, lấy lại',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'rally' LIMIT 1),
+    'rally',
+    'n',
+    'đại hội',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'alleviate' LIMIT 1),
+    'alleviate',
+    'v',
+    'làm giảm bớt, làm khuây khỏa',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'alleviate' LIMIT 1),
+    'alleviation',
+    'n',
+    'sự giảm bớt, sự khuây khỏa',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'elevate' LIMIT 1),
+    'elevate',
+    'v',
+    'nâng cao, lên, nâng lên',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'elevate' LIMIT 1),
+    'elevation',
+    'n',
+    'sự nâng lên, sự thăng tiến',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
+    'relevant',
+    'adj',
+    'có liên quan',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
+    'irrelevant',
+    'adj',
+    'không liên quan',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
+    'relevance',
+    'n',
+    'tính liên quan',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'levy' LIMIT 1),
+    'levy',
+    'n',
+    'thuế',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'levy' LIMIT 1),
+    'levy',
+    'v',
+    'thu(thuế), đánh(thuế)',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'brief' LIMIT 1),
+    'brief',
+    'adj',
+    'ngắn, ngắn gọn, vắn tắt',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'brief' LIMIT 1),
+    'brief',
+    'n',
+    'sự tóm lược, (danh từ số nhiều) quần lót',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'brief' LIMIT 1),
+    'brief',
+    'v',
+    'tóm tắt lại',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'brief' LIMIT 1),
+    'briefing',
+    'n',
+    'buổi họp, buổi thảo luận, chỉ thị',
+    3);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abbreviate' LIMIT 1),
+    'abbreviate',
+    'v',
+    'tóm tắt, rút gọn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abbreviate' LIMIT 1),
+    'abbreviation',
+    'n',
+    'sự tóm tắt, chữ viết tắt',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'brevity' LIMIT 1),
+    'brevity',
+    'n',
+    'sự vắn tắt, ngắn gọn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'embrace' LIMIT 1),
+    'embrace',
+    'v',
+    'ôm, chấp nhận',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'embrace' LIMIT 1),
+    'embrace',
+    'n',
+    'sự ôm chặt',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'decay' LIMIT 1),
+    'decay',
+    'v',
+    'suy tàn, thối rữa',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'decay' LIMIT 1),
+    'decay',
+    'n',
+    'sự suy tàn, mục nát',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'coincide' LIMIT 1),
+    'coincide',
+    'v',
+    'xảy ra đồng thời, trùng khớp với nhau',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'coincide' LIMIT 1),
+    'coincidence',
+    'n',
+    'sự trùng khớp ( ngẫu nhiên), sự đồng thời',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'incident' LIMIT 1),
+    'incident',
+    'n',
+    'vụ việc, sự cố, việc xô xát, tranh chấp',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'incident' LIMIT 1),
+    'incidental',
+    'adj',
+    'phụ, kèm theo',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'incident' LIMIT 1),
+    'incidentally',
+    'adv',
+    'nhân tiện, nhân thể',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'occident' LIMIT 1),
+    'occident',
+    'n',
+    'phương Tây, các nước phương Tây',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'occident' LIMIT 1),
+    'occidental',
+    'adj',
+    'thuộc về phương Tây ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equal' LIMIT 1),
+    'equal',
+    'adj',
+    'bằng nhau, bình đẳng, có thể đáp ứng được, đủ khả năng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equal' LIMIT 1),
+    'equal',
+    'n',
+    'người ngang hàng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equal' LIMIT 1),
+    'equal',
+    'v',
+    'sánh với, sánh ngang',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equal' LIMIT 1),
+    'equality',
+    'n',
+    'sự bình đẳng, tính ngang bằng',
+    3);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equation' LIMIT 1),
+    'equation',
+    'n',
+    'phương trình, sự làm cân bằng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equinox' LIMIT 1),
+    'equinox',
+    'n',
+    'xuân phân',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equivalent' LIMIT 1),
+    'equivalent',
+    'adj',
+    'tương đương',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equivalent' LIMIT 1),
+    'equivalent',
+    'n',
+    'vật tương đương',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'companion' LIMIT 1),
+    'companion',
+    'v',
+    'sự bầu bạn, bạn bè',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'companion' LIMIT 1),
+    'company',
+    'v',
+    'công ty, ngồi cùng, cùng ở; bạn bè, bằng hữu',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pastoral' LIMIT 1),
+    'pastoral',
+    'adj',
+    '(thuộc) người chăn súc vật, (thuộc) mục sư; thôn dã, thôn quê, thuộc đồng quê',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pastoral' LIMIT 1),
+    'pastor',
+    'n',
+    'mục sư',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pantry' LIMIT 1),
+    'pantry',
+    'n',
+    'phòng chứa thức ăn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pasture' LIMIT 1),
+    'pasture',
+    'n',
+    'đồng cỏ, bãi cỏ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'firm' LIMIT 1),
+    'firm',
+    'n',
+    'công ty, văn phòng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'firm' LIMIT 1),
+    'firm',
+    'adj',
+    'cứng rắn, vững chắc, kiên định',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'confirm' LIMIT 1),
+    'confirm',
+    'v',
+    'xác nhận, làm vững chắc, củng cố',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'confirm' LIMIT 1),
+    'confirmation',
+    'n',
+    'sự xác nhận',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reconfirm' LIMIT 1),
+    'reconfirm',
+    'v',
+    'xác nhận lại một lần nữa',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reconfirm' LIMIT 1),
+    'reconfirmation',
+    'n',
+    'sự xác nhận lại',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'infirmary' LIMIT 1),
+    'infirmary',
+    'n',
+    'bệnh xá, bệnh viện, nhà viện',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'grave' LIMIT 1),
+    'grave',
+    'adj',
+    'trọng đại, nghiêm trọng, nghiêm trang',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'grief' LIMIT 1),
+    'grief',
+    'n',
+    'nỗi buồn đau',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'grief' LIMIT 1),
+    'grieve',
+    'v',
+    'đau buồn, đau lòng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'grief' LIMIT 1),
+    'grievous',
+    'adj',
+    'đau buồn, đau khổ, trầm trọng',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'gravity' LIMIT 1),
+    'gravity',
+    'n',
+    'trọng lực, lục hấp dẫn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'gravitation' LIMIT 1),
+    'gravitation',
+    'n',
+    'sự hút, sự hấp dẫn, lực hút',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'approach' LIMIT 1),
+    'approach',
+    'v',
+    'đến gần, lại gần',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'approach' LIMIT 1),
+    'approach',
+    'n',
+    'sự đến gần, sự tiếp cận, cách giải quyết',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reproach' LIMIT 1),
+    'reproach',
+    'v',
+    'chỉ trích, trách móc, đổ lỗi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reproach' LIMIT 1),
+    'reproach',
+    'n',
+    'sự trách móc, lời khiển trách, sự đổ lỗi',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'proximity' LIMIT 1),
+    'proximity',
+    'n',
+    'sự gần gũi, trạng thái ở gần',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'proximity' LIMIT 1),
+    'proximate',
+    'adj',
+    'ngay gần, sát gần, trực tiếp',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'proxy' LIMIT 1),
+    'proxy',
+    'n',
+    'người được ủy nhiệm, giấy ủy nhiệm',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prove' LIMIT 1),
+    'prove',
+    'v',
+    'chứng minh, chứng tỏ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prove' LIMIT 1),
+    'proof',
+    'n',
+    'sự chứng minh, bằng chứng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'probe' LIMIT 1),
+    'probe',
+    'v',
+    'điều tra, thăm dò, khám phá',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'probe' LIMIT 1),
+    'probe',
+    'n',
+    'sự điều tra, tàu vũ trụ quan sát không người lái',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'probable' LIMIT 1),
+    'probable',
+    'adj',
+    'có thể có, có khả năng xảy ra, chắc chắn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'probable' LIMIT 1),
+    'probability',
+    'n',
+    'sự dự đoán, xác suất',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'probable' LIMIT 1),
+    'probably',
+    'adv',
+    'có lẽ, gần như chắc chắn',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reprove' LIMIT 1),
+    'reprove',
+    'v',
+    'mắng, khiển trách, nhắc nhở',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reprove' LIMIT 1),
+    'reproof',
+    'n',
+    'sự khiển trách, sự quở trách',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'amount' LIMIT 1),
+    'amount',
+    'v',
+    'lên đến, lên tới',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'amount' LIMIT 1),
+    'amount',
+    'n',
+    'số lượng, tổng số',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dismount' LIMIT 1),
+    'dismount',
+    'v',
+    'xuống (xe)',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'eminent' LIMIT 1),
+    'eminent',
+    'adj',
+    'xuất sắc, xuất chúng, trứ danh, nổi tiếng',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'eminent' LIMIT 1),
+    'eminence',
+    'n',
+    'trứ danh, nổi tiếng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'imminent' LIMIT 1),
+    'imminent',
+    'adj',
+    'sắp xảy ra ( chuyện xấu ), sắp đến nơi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'imminent' LIMIT 1),
+    'imminence',
+    'n',
+    'điều sắp xảy ra',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assume' LIMIT 1),
+    'assume',
+    'v',
+    'đảm đương, cho rằng, giả sử',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assume' LIMIT 1),
+    'assumption',
+    'n',
+    'sự đảm đương, sự gánh vác, sự cho rằng, sự giả định',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'consume' LIMIT 1),
+    'consume',
+    'v',
+    'tiêu thụ, ăn, uống',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'consume' LIMIT 1),
+    'consumption',
+    'n',
+    'sự tiêu thụ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'consume' LIMIT 1),
+    'consumer',
+    'n',
+    'người tiêu dùng, người tiêu thụ',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resume' LIMIT 1),
+    'resume',
+    'v',
+    'quay trở lại, bắt đầu lại',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resume' LIMIT 1),
+    'resumption',
+    'n',
+    'sự bắt đầu lại',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exempt' LIMIT 1),
+    'exempt',
+    'adj',
+    'được miễn ( nhiệm vụ ,thanh toán )',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exempt' LIMIT 1),
+    'exempt',
+    'v',
+    'miễn',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exempt' LIMIT 1),
+    'exemption',
+    'n',
+    'sự miễn',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'clamor' LIMIT 1),
+    'clamor',
+    'n',
+    'tiếng ồn, tiếng kêu la',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'clamor' LIMIT 1),
+    'clamor',
+    'v',
+    'làm ầm lên',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exclaim' LIMIT 1),
+    'exclaim',
+    'v',
+    'kêu lên, la lên',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exclaim' LIMIT 1),
+    'exclaimation',
+    'n',
+    'sự cảm thán, tiếng kiêu lên',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acclaim' LIMIT 1),
+    'acclaim',
+    'v',
+    'hoan hô, hoan nghênh, ca ngợi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acclaim' LIMIT 1),
+    'acclaim',
+    'n',
+    'tiếng vỗ tay tung hô ',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acclaim' LIMIT 1),
+    'acclaimation',
+    'n',
+    'sự hoan hô nhiệt liệt',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reclaim' LIMIT 1),
+    'reclaim',
+    'v',
+    'đòi bồi thường, lấy lại, giành, cải tạo khai hoang ( đất )',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reclaim' LIMIT 1),
+    'reclaimation',
+    'n',
+    'sự khai hoang, sự đòi bồi thường',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'domestic' LIMIT 1),
+    'domestic',
+    'adj',
+    '( thuộc ) gia đình, ( thuộc ) trong nước',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'domesticate' LIMIT 1),
+    'domesticate',
+    'v',
+    'thuần hóa',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dominate' LIMIT 1),
+    'dominate',
+    'v',
+    'thống trị, chiếm ưu thế',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dominate' LIMIT 1),
+    'dominant',
+    'adj',
+    'có ảnh hưởng lớn, có tính thống trị',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dominate' LIMIT 1),
+    'domination',
+    'n',
+    'sự thống trị',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'condominium' LIMIT 1),
+    'condominium',
+    'n',
+    'nhà ở chung cư',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'describe' LIMIT 1),
+    'describe',
+    'v',
+    'miêu tả, giải thích',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'describe' LIMIT 1),
+    'description',
+    'n',
+    'bản mô tả, sự giải thích',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ascribe' LIMIT 1),
+    'ascribe',
+    'v',
+    'đổ tại, quy cho',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ascribe' LIMIT 1),
+    'ascription',
+    'n',
+    'sự quy cho, sự đổ tại',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subscribe' LIMIT 1),
+    'subscribe',
+    'v',
+    'quyên góp, đặt báo định kỳ, kí tên',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subscribe' LIMIT 1),
+    'subscription',
+    'n',
+    'sự mua báo định kỳ, sự quyên góp',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'conscript' LIMIT 1),
+    'conscript',
+    'v',
+    'bắt đi lính',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'conscript' LIMIT 1),
+    'conscription',
+    'n',
+    'chế độ cưỡng bách tòng quân',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'sue' LIMIT 1),
+    'sue',
+    'v',
+    'kiện, nộp đơn kiện',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ensue' LIMIT 1),
+    'ensue',
+    'v',
+    'xảy ra sau đó ( như là một kết quả ), sinh ra',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suitable' LIMIT 1),
+    'suitable',
+    'adj',
+    'phù hợp, thích hợp',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suitable' LIMIT 1),
+    'suit',
+    'n',
+    'trang phục com lê, sự kiện tụng',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suitable' LIMIT 1),
+    'suit',
+    'v',
+    'hợp với, thích hợp với',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suite' LIMIT 1),
+    'suite',
+    'n',
+    'căn phòng cao cấp có các dãy phòng nối tiếp, bộ ( tập hợp các đồ dùng với nhau thành bộ ), đoàn tùy tùng, hộ tống',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fund' LIMIT 1),
+    'fund',
+    'n',
+    'quỹ, tiền vốn, ngân quỹ, nguồn tài chính',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'foundation' LIMIT 1),
+    'foundation',
+    'n',
+    'cơ sở, sự thành lập',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'foundation' LIMIT 1),
+    'found',
+    'v',
+    'thành lập, thiết lập',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fundamental' LIMIT 1),
+    'fundamental',
+    'adj',
+    'cơ bản, chủ yếu',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fundamental' LIMIT 1),
+    'fundamental',
+    'n',
+    'cơ sở',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'refundable' LIMIT 1),
+    'refundable',
+    'adj',
+    'có thể được trả lại tiền',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'refundable' LIMIT 1),
+    'refund',
+    'v',
+    'hoàn trả',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'refundable' LIMIT 1),
+    'refund',
+    'n',
+    'tiền trả lại, sự trả lại',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valid' LIMIT 1),
+    'valid',
+    'adj',
+    'có hiệu quả, hiệu lực, hợp lệ',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valid' LIMIT 1),
+    'invalid',
+    'adj',
+    'không có hiệu lực',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valuable' LIMIT 1),
+    'valuable',
+    'adj',
+    'quý giá, có giá trị lớn',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valuable' LIMIT 1),
+    'valuables',
+    'n pl',
+    'vật quý giá',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valuable' LIMIT 1),
+    'invaluable',
+    'adj',
+    'vô giá ( vô cùng quý giá )',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valuable' LIMIT 1),
+    'value',
+    'n',
+    'giá trị',
+    3);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valuable' LIMIT 1),
+    'value',
+    'v',
+    'đánh giá',
+    4);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'available' LIMIT 1),
+    'available',
+    'adj',
+    'có thể dùng được, sẵn có',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'available' LIMIT 1),
+    'avail',
+    'v',
+    'có ích',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'available' LIMIT 1),
+    'avail',
+    'n',
+    'điều có lợi',
+    2);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'evaluate' LIMIT 1),
+    'evaluate',
+    'v',
+    'đánh giá',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'evaluate' LIMIT 1),
+    'evaluation',
+    'n',
+    'sự đánh giá',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'principle' LIMIT 1),
+    'principle',
+    'n',
+    'nguyên lý, nguyên tắc, nguyên tắc đạo đức',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'municipal' LIMIT 1),
+    'municipal',
+    'adj',
+    'thuộc chính quyền thành phố, thuộc thành phố tự trị, thuộc thành phố',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'anticipate' LIMIT 1),
+    'anticipate',
+    'v',
+    'đoán trước, mong đợi',
+    0);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'anticipate' LIMIT 1),
+    'anticipation',
+    'n',
+    'sự đoán trước, sự mong đợi',
+    1);
+
+INSERT INTO public.sub_vocab_sense
+(id, sub_vocab_id, word, pos, definition, sense_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recipient' LIMIT 1),
+    'recipient',
+    'n',
+    'người nhận',
+    0);
+---
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
@@ -24530,7 +27777,7 @@ VALUES
      (SELECT id FROM public.sub_vocab WHERE word = 'minor' LIMIT 1),
     'The government is working to protect minority rights.',
     'Chính phủ đang làm việc để bảo vệ quyền của các nhóm thiểu số.',
-    0);
+    2);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
@@ -24548,7 +27795,7 @@ VALUES
      (SELECT id FROM public.sub_vocab WHERE word = 'vocation' LIMIT 1),
     'He decided to attend a vocational school to learn carpentry.',
     'Anh ấy quyết định học một trường dạy nghề để học nghề mộc.',
-    0);
+    1);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
@@ -24645,71 +27892,35 @@ INSERT INTO public.sub_vocab_example
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
-    'The jury found her not guilty',
-    'Bồi thẩm đoàn nhận thấy cô ta không có tội',
+    'The jury found the defendant guilty after careful deliberation.',
+    'Bồi thẩm đoàn đã tuyên bố bị cáo có tội sau khi cân nhắc kỹ lưỡng.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
-    'He victims’ families are still waiting for justice.',
-    'Gia đình của các nạn nhân vẫn đang chờ đợi công lý',
+     (SELECT id FROM public.sub_vocab WHERE word = 'justice' LIMIT 1),
+    'The victim''s family sought justice for the crime committed against their loved one.',
+    'Gia đình nạn nhân đã tìm kiếm công lý cho tội ác đã gây ra đối với người thân của họ.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
-    'They protested against social injustice.',
-    'Họ biểu tình phản đối sự bất công trong xã hội.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'justify' LIMIT 1),
+    'You need to justify your expenses with proper receipts.',
+    'Bạn cần phải biện minh cho các khoản chi phí của mình bằng các biên lai hợp lệ.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
-    'He tried to justify his mistake by blaming others.',
-    'Anh ấy cố biện minh cho lỗi của mình bằng cách đổ lỗi cho người khác.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
-    'He made a clear justification for his decision.',
-    'Anh ấy đã đưa ra một lời giải thích rõ ràng cho quyết định của mình.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
-    'We must fight against all forms of prejudice.',
-    'Chúng ta phải đấu tranh chống lại mọi hình thức thành kiến.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'jury' LIMIT 1),
-    'His careless words prejudiced her reputation.',
-    'Những lời nói bất cẩn của anh ta đã làm tổn hại danh tiếng của cô ấy.',
-    1);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'point' LIMIT 1),
-    'Don''t point your finger at me.',
-    'Đừng chỉ tay vào mặt tôi.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'prejudice' LIMIT 1),
+    'His prejudice against people from a different background made it difficult for him to work collaboratively.',
+    'Thành kiến của anh ấy đối với những người có xuất thân khác đã khiến anh ấy khó làm việc hợp tác.',
     0);
 
 INSERT INTO public.sub_vocab_example
@@ -24717,44 +27928,35 @@ INSERT INTO public.sub_vocab_example
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'point' LIMIT 1),
-    'He made a good point during the discussion.',
-    'Anh ấy đã nêu ra một ý kiến hay trong cuộc thảo luận.',
-    1);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'point' LIMIT 1),
-    'I don’t want to disappoint my parents.',
-    'Tôi không muốn làm ba mẹ thất vọng.',
+    'The main point of his presentation was to highlight the benefits of the new software.',
+    'Điểm chính trong bài thuyết trình của anh ấy là nhấn mạnh những lợi ích của phần mềm mới.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'point' LIMIT 1),
-    'She couldn’t hide her disappointment when she failed the exam.',
-    'Cô ấy không thể giấu được sự thất vọng khi trượt kỳ thi.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'disappoint' LIMIT 1),
+    'I hope I don''t disappoint my parents with my exam results.',
+    'Tôi hy vọng tôi không làm cha mẹ mình thất vọng với kết quả thi của tôi.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'point' LIMIT 1),
-    'She is always punctual for meetings, which makes her very reliable.',
-    'Cô ấy luôn đúng giờ cho các cuộc họp, điều đó khiến cô ấy trở nên rất đáng tin cậy',
+     (SELECT id FROM public.sub_vocab WHERE word = 'punctual' LIMIT 1),
+    'He is always punctual for meetings, arriving five minutes before they start.',
+    'Anh ấy luôn đúng giờ trong các cuộc họp, đến sớm năm phút trước khi chúng bắt đầu.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'point' LIMIT 1),
-    'The cheese had a pungent smell that filled the entire room.',
-    'Loại phô mai đó có mùi hăng nồng lan khắp cả căn phòng',
+     (SELECT id FROM public.sub_vocab WHERE word = 'pungent' LIMIT 1),
+    'The pungent smell of garlic filled the kitchen as she chopped it for the stir-fry.',
+    'Mùi tỏi nồng nặc tràn ngập căn bếp khi cô ấy băm tỏi để xào.',
     0);
 
 INSERT INTO public.sub_vocab_example
@@ -24762,89 +27964,35 @@ INSERT INTO public.sub_vocab_example
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
-    'Prices are tending upward',
-    'Giaá cả đang có xu hướng tăng lên',
+    'People tend to eat more when they are stressed.',
+    'Mọi người có xu hướng ăn nhiều hơn khi họ bị căng thẳng.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
-    'She has a tendency to forget things when she’s nervous.',
-    'Cô ấy có xu hướng quên mọi thứ khi cô ấy lo lắng',
+     (SELECT id FROM public.sub_vocab WHERE word = 'extend' LIMIT 1),
+    'The library decided to extend its opening hours during exam season to better support students.',
+    'Thư viện đã quyết định kéo dài thời gian mở cửa trong mùa thi để hỗ trợ sinh viên tốt hơn.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
-    'The peacock is extending its wings.',
-    'Con công đang mở rộng đôi cánh của nó.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'contend' LIMIT 1),
+    'Scientists contend that climate change is the biggest threat facing our planet.',
+    'Các nhà khoa học tranh luận rằng biến đổi khí hậu là mối đe dọa lớn nhất đối với hành tinh của chúng ta.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
-    'The extent of the damage was greater than anyone expected.',
-    'Mức độ thiệt hại lớn hơn nhiều so với dự đoán của mọi người',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
-    'The company is planning an extension of its office building.',
-    'Công ty đang lên kế hoạch mở rộng tòa nhà văn phòng của mình',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
-    'They contended with each other in the contest',
-    'Họ tranh cãi với nhau trong cuộc thi',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
-    'Her main contention is that the new policy will hurt small businesses.',
-    'Lập luận chính của cô ấy là chính sách mới sẽ gây hại cho các doanh nghiệp nhỏ.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
-    'She pretended to be a high school student',
-    'Coô ấy giả vờ là một học sinh trung học',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'tend' LIMIT 1),
-    'She smiled, but it was only a pretense to hide her sadness.',
-    'Cô ấy mỉm cười, nhưng đó chỉ là một sự giả vờ để che giấu nỗi buồn',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
-    'The new medicine can cure many types of infections.',
-    'Loại thuốc mới có thể chữa được nhiều loại nhiễm trùng.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'pretend' LIMIT 1),
+    'The children love to pretend they are superheroes flying through the house.',
+    'Bọn trẻ rất thích giả vờ mình là siêu anh hùng bay lượn khắp nhà.',
     0);
 
 INSERT INTO public.sub_vocab_example
@@ -24853,61 +28001,34 @@ VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
     'Scientists are working hard to find a cure for cancer.',
-    'Các nhà khoa học đang nỗ lực tìm ra phương thuốc chữa ung thư',
-    1);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
-    'The little boy was curious about how the computer works.',
-    'Cậu bé rất tò mò về cách hoạt động của máy tính',
+    'Các nhà khoa học đang nỗ lực tìm ra phương pháp chữa trị ung thư.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
-    'Her curiosity led her to explore new cultures and ideas.',
-    'Sự tò mò đã khiến cô ấy khám phá những nền văn hóa và ý tưởng mới',
+     (SELECT id FROM public.sub_vocab WHERE word = 'curious' LIMIT 1),
+    'The child was curious about how the toy car moved, so he carefully took it apart.',
+    'Đứa trẻ tò mò về cách chiếc xe đồ chơi di chuyển, nên nó đã cẩn thận tháo rời ra.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
-    'This door is not very secure; we should install a better lock.',
-    'Cánh cửa này không được an toàn lắm; chúng ta nên lắp ổ khóa tốt hơn.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'secure' LIMIT 1),
+    'It''s important to secure your personal information online to prevent identity theft.',
+    'Điều quan trọng là phải bảo mật thông tin cá nhân của bạn trực tuyến để ngăn chặn hành vi trộm cắp danh tính.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
-    'The company secured a big contract with a foreign client.',
-    'Công ty đã giành được một hợp đồng lớn với khách hàng nước ngoài',
-    1);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
-    'There is tight security at the airport.',
-    'An ninh ở sân bay rất nghiêm ngặt',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'cure' LIMIT 1),
-    'She scoured the pots and pans until they were shining',
-    'Cô ấy chà rửa nồi niêu đến khi chúng sáng bóng',
+     (SELECT id FROM public.sub_vocab WHERE word = 'scour' LIMIT 1),
+    'The police had to scour the entire area for clues related to the missing artifact.',
+    'Cảnh sát đã phải lục soát toàn bộ khu vực để tìm manh mối liên quan đến cổ vật bị mất.',
     0);
 
 INSERT INTO public.sub_vocab_example
@@ -24915,107 +28036,35 @@ INSERT INTO public.sub_vocab_example
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'Hà Nội is the capital of Vietnam.',
-    'Hà Nội là thủ đô của Việt Nam.',
+    'The company needs more capital to expand its operations.',
+    'Công ty cần thêm vốn để mở rộng hoạt động.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'Tokyo is the capital city of Japan.',
-    'Tokyo là thành phố thủ đô của Nhật Bản.',
-    1);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'You should capitalize the first letter of each sentence.',
-    'Bạn nên viết hoa chữ cái đầu mỗi câu.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'escape' LIMIT 1),
+    'The prisoners managed to escape from the high-security prison.',
+    'Các tù nhân đã tìm cách trốn thoát khỏi nhà tù an ninh cao.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'He is a successful capitalist who owns several companies.',
-    'Ông ấy là một nhà tư bản thành công, sở hữu nhiều công ty.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'occupy' LIMIT 1),
+    'His new hobby began to occupy most of his free time.',
+    'Sở thích mới của anh ấy bắt đầu chiếm phần lớn thời gian rảnh của anh ấy.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'Capitalism encourages competition and innovation.',
-    'Chủ nghĩa tư bản khuyến khích cạnh tranh và đổi mới.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'The prisoner escaped from the jail last night',
-    'Tên tù nhân đã trốn khỏi nhà tù đêm qua.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'The escape of the prisoners shocked everyone.',
-    'Việc các tù nhân trốn thoát khiến mọi người sửng sốt.',
-    1);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'The meeting room is occupied.',
-    'Phòng họp đang có người sử dụng (đang bị chiếm).',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'Teaching is a very rewarding occupation.',
-    'Nghề dạy học là một nghề rất đáng quý.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'She is capable of solving difficult problems.',
-    'Cô ấy có khả năng giải quyết những vấn đề khó',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'The new phone has advanced camera capabilities.',
-    'Chiếc điện thoại mới có khả năng chụp ảnh tiên tiến.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'capital' LIMIT 1),
-    'The stadium has a seating capacity of 50,000.',
-    'Sân vận động có sức chứa 50.000 người.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'capable' LIMIT 1),
+    'He is a highly capable leader, able to inspire his team to achieve great things.',
+    'Anh ấy là một nhà lãnh đạo rất có năng lực, có thể truyền cảm hứng cho đội của mình để đạt được những điều tuyệt vời.',
     0);
 
 INSERT INTO public.sub_vocab_example
@@ -25023,71 +28072,35 @@ INSERT INTO public.sub_vocab_example
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'The concept of freedom is important in every society.',
-    'Khái niệm tự do rất quan trọng trong mọi xã hội.',
+    'The artist developed a new concept for the art exhibition, focusing on sustainability and recycled materials.',
+    'Nghệ sĩ đã phát triển một ý tưởng mới cho triển lãm nghệ thuật, tập trung vào tính bền vững và vật liệu tái chế.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'Everyone passed the test except John.',
-    'Mọi người đều vượt qua bài kiểm tra, trừ John.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'except' LIMIT 1),
+    'Everyone attended the meeting except Sarah, who was on vacation.',
+    'Mọi người đều tham dự cuộc họp trừ Sarah, người đang đi nghỉ mát.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'There are some exceptions to this rule.',
-    'Có vài ngoại lệ cho quy tắc này.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'deceive' LIMIT 1),
+    'He tried to deceive his parents about his grades, hoping they wouldn''t find out.',
+    'Anh ta cố gắng lừa dối cha mẹ về điểm số của mình, hy vọng họ sẽ không phát hiện ra.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'He tried to deceive his parents about his grades',
-    'Anh ta cố lừa cha mẹ về điểm số của mình.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'He was accused of deceit in his business dealings.',
-    'Anh ta bị buộc tội gian dối trong các giao dịch kinh doanh.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'She was deeply hurt by his deception.',
-    'Cô ấy bị tổn thương sâu sắc vì sự lừa dối của anh ta.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'I perceived a strange smell in the room.',
-    'Tôi nhận thấy một mùi lạ trong phòng.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'concept' LIMIT 1),
-    'Your perception of reality may differ from mine.',
-    'Cách bạn nhìn nhận thực tế có thể khác với tôi.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'perceive' LIMIT 1),
+    'Many people perceive him as arrogant, but he''s actually just very shy.',
+    'Nhiều người coi anh ta là kiêu ngạo, nhưng thực ra anh ta chỉ rất nhút nhát.',
     0);
 
 INSERT INTO public.sub_vocab_example
@@ -25095,80 +28108,35 @@ INSERT INTO public.sub_vocab_example
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
-    'The president designated her as the new ambassador.',
-    'Tổng thống chỉ định cô ấy làm đại sứ mới.',
+    'The board decided to designate her as the new CEO.',
+    'Hội đồng quản trị đã quyết định chỉ định cô ấy làm Giám đốc điều hành mới.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
-    'Her official designation is ‘Project Manager’.',
-    'Chức danh chính thức của cô ấy là “Quản lý dự án”.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'signify' LIMIT 1),
+    'The dark clouds in the sky could signify an approaching storm.',
+    'Những đám mây đen trên bầu trời có thể báo hiệu một cơn bão sắp đến.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
-    'A red light signifies danger.',
-    'Đèn đỏ biểu thị sự nguy hiểm.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'resign' LIMIT 1),
+    'The CEO decided to resign from his position after the company reported significant financial losses.',
+    'Giám đốc điều hành đã quyết định từ chức khỏi vị trí của mình sau khi công ty báo cáo thua lỗ tài chính đáng kể.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
-    'She made a significant contribution to the project.',
-    'Cô ấy đã đóng góp quan trọng cho dự án.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
-    'The discovery has great scientific significance.',
-    'Phát hiện này có ý nghĩa khoa học to lớn.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
-    'She decided to resign from the company.',
-    'Cô ấy quyết định từ chức ở công ty.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
-    'He handed in his resignation yesterday.',
-    'Anh ấy đã nộp đơn từ chức hôm qua.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
-    'The goods were consigned to a warehouse in Ho Chi Minh City.',
-    'Hàng hóa được gửi đến một nhà kho ở TP.HCM.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'designate' LIMIT 1),
-    'A large consignment of clothes has just arrived.',
-    'Một lô hàng quần áo lớn vừa đến.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'consign' LIMIT 1),
+    'He decided to consign his valuable art collection to an auction house, hoping to get a good price.',
+    'Anh ấy quyết định ký gửi bộ sưu tập nghệ thuật quý giá của mình cho một nhà đấu giá, hy vọng sẽ bán được giá tốt.',
     0);
 
 INSERT INTO public.sub_vocab_example
@@ -25176,71 +28144,35 @@ INSERT INTO public.sub_vocab_example
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
-    'I’d like to reserve a table for two.',
-    'Tôi muốn đặt bàn cho hai người.',
+    'I need to reserve a room at the hotel for my business trip next month.',
+    'Tôi cần đặt trước một phòng tại khách sạn cho chuyến công tác vào tháng tới.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
-    'I made a reservation at the hotel.',
-    'Tôi đã đặt phòng khách sạn.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'conserve' LIMIT 1),
+    'To conserve water, we should take shorter showers and fix any leaky faucets.',
+    'Để tiết kiệm nước, chúng ta nên tắm vòi sen nhanh hơn và sửa chữa bất kỳ vòi nước rò rỉ nào.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
-    'She is a quiet and reserved person.',
-    'Cô ấy là người trầm tính và kín đáo.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'preserve' LIMIT 1),
+    'We must preserve our planet''s natural resources for future generations.',
+    'Chúng ta phải bảo tồn các nguồn tài nguyên thiên nhiên của hành tinh cho các thế hệ tương lai.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
-    'We must conserve water during the dry season.',
-    'Chúng ta phải tiết kiệm nước trong mùa khô.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
-    'Conservation of energy is important for the planet.',
-    'Việc tiết kiệm năng lượng rất quan trọng cho Trái Đất.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
-    'We must preserve our natural environment.',
-    'Chúng ta phải bảo vệ môi trường tự nhiên của mình.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
-    'The preservation of wildlife is very important to maintain ecological balance.',
-    'Việc bảo tồn động vật hoang dã rất quan trọng để duy trì cân bằng sinh thái.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'reserve' LIMIT 1),
-    'He deserves a reward.',
-    'Anh ấy xứng đáng được thưởng.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'deserve' LIMIT 1),
+    'After all her hard work and dedication, she truly deserves the promotion.',
+    'Sau tất cả sự làm việc chăm chỉ và cống hiến của mình, cô ấy thực sự xứng đáng với vị trí thăng chức.',
     0);
 
 INSERT INTO public.sub_vocab_example
@@ -25248,35 +28180,26 @@ INSERT INTO public.sub_vocab_example
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'currency' LIMIT 1),
-    'The official currency of Japan is the yen.',
-    'Đơn vị tiền tệ chính thức của Nhật Bản là yên.',
+    'The Euro is the official currency of many European countries.',
+    'Đồng Euro là tiền tệ chính thức của nhiều quốc gia châu Âu.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'currency' LIMIT 1),
-    'The current situation is quite serious.',
-    'Tình hình hiện tại khá nghiêm trọng.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'excursion' LIMIT 1),
+    'The students went on an excursion to the local museum.',
+    'Các học sinh đã có một chuyến dã ngoại đến bảo tàng địa phương.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'currency' LIMIT 1),
-    'We went on an excursion to the mountains last weekend.',
-    'Cuối tuần rồi chúng tôi đã đi dã ngoại lên núi.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'currency' LIMIT 1),
-    'He had no recourse but to ask his parents for help.',
-    'Anh ta không còn cách nào khác ngoài việc nhờ cha mẹ giúp đỡ.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'recourse' LIMIT 1),
+    'When the insurance company denied her claim, her only recourse was to appeal the decision.',
+    'Khi công ty bảo hiểm từ chối yêu cầu bồi thường của cô ấy, lựa chọn duy nhất của cô ấy là kháng cáo quyết định đó.',
     0);
 
 INSERT INTO public.sub_vocab_example
@@ -25284,17 +28207,8 @@ INSERT INTO public.sub_vocab_example
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'recur' LIMIT 1),
-    'The same problem recurred after the system update.',
-    'Vấn đề tương tự lại xảy ra sau khi cập nhật hệ thống.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'recur' LIMIT 1),
-    'Doctors are trying to prevent the recurrence of the disease.',
-    'Các bác sĩ đang cố gắng ngăn chặn sự tái phát của căn bệnh.',
+    'If the symptoms recur after you stop taking the medication, please consult your doctor again.',
+    'Nếu các triệu chứng tái phát sau khi bạn ngừng dùng thuốc, vui lòng tham khảo ý kiến bác sĩ của bạn một lần nữa.',
     0);
 
 INSERT INTO public.sub_vocab_example
@@ -25302,35 +28216,17 @@ INSERT INTO public.sub_vocab_example
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'defend' LIMIT 1),
-    'Soldiers must defend their country.',
-    'Những người lính phải bảo vệ đất nước của họ.',
+    'The lawyer will defend his client in court.',
+    'Luật sư sẽ bào chữa cho thân chủ của mình tại tòa.',
     0);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'defend' LIMIT 1),
-    'The country’s defense is very strong.',
-    'Hệ thống phòng thủ của đất nước rất vững chắc.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'defend' LIMIT 1),
-    'The army took a defensive position.',
-    'Quân đội chiếm vị trí phòng thủ.',
-    0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'defend' LIMIT 1),
-    'The defendant pleaded not guilty.',
-    'Bị cáo đã tuyên bố vô tội.',
+     (SELECT id FROM public.sub_vocab WHERE word = 'defendant' LIMIT 1),
+    'The defendant pleaded not guilty to all charges brought against him.',
+    'Bị cáo đã không nhận tội đối với tất cả các cáo buộc chống lại anh ta.',
     0);
 
 INSERT INTO public.sub_vocab_example
@@ -25338,4317 +28234,4740 @@ INSERT INTO public.sub_vocab_example
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'manifest' LIMIT 1),
-    'She manifested great courage during the crisis.',
-    'Cô ấy đã thể hiện lòng dũng cảm to lớn trong thời kỳ khủng hoảng.',
+    'Her artistic talent began to manifest itself at a very young age, as she could draw complex figures with ease.',
+    'Tài năng nghệ thuật của cô ấy bắt đầu bộc lộ từ khi còn rất nhỏ, khi cô ấy có thể vẽ những hình phức tạp một cách dễ dàng.',
     0);
-
-INSERT INTO public.sub_vocab_example
-(id, sub_vocab_id, example_en, example_vi, example_order)
-VALUES
-    (gen_random_uuid(),
-     (SELECT id FROM public.sub_vocab WHERE word = 'manifest' LIMIT 1),
-    'There was a manifest lack of interest in the project.',
-    'Có một sự thiếu quan tâm rõ ràng đối với dự án.',
-    1);
 
 INSERT INTO public.sub_vocab_example
 (id, sub_vocab_id, example_en, example_vi, example_order)
 VALUES
     (gen_random_uuid(),
      (SELECT id FROM public.sub_vocab WHERE word = 'infest' LIMIT 1),
-    'The old house is infested with rats.',
-    'Ngôi nhà cũ bị chuột hoành hành.',
+    'The old abandoned house was infested with rats and cockroaches.',
+    'Ngôi nhà cũ bỏ hoang đã bị chuột và gián xâm chiếm.',
     0);
 
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'Employees must conform to the company’s rules and policies',
---     'Nhân viên phải tuân theo các quy định và chính sách của công ty.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'The chemist discovered a new formula for the medicine.',
---     'Nhà hóa học đã phát hiện ra một công thức mới cho loại thuốc đó',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'The team met to formulate a strategy for the upcoming project.',
---     'Nhóm họp để xây dựng một chiến lược cho dự án sắp tới',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'The government plans to reform the education system next year.',
---     'Chính phủ dự định cải cách hệ thống giáo dục vào năm tới',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'Many citizens demanded reform of the outdated laws.',
---     'Nhiều công dân yêu cầu cải cách các luật lỗi thời',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'Please inform me if there are any changes to the schedule.',
---     'Làm ơn cho tôi biết nếu có bất kỳ thay đổi nào về lịch trình',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'The website provides useful information about local events.',
---     'Trang web cung cấp thông tin hữu ích về các sự kiện địa phương',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'The new manager aims to transform the company culture.',
---     'Người quản lý mới muốn thay đổi văn hóa công ty',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'form' LIMIT 1),
---     'The city has undergone a remarkable transformation over the last decade.',
---     'Thành phố đã trải qua một sự thay đổi đáng kể trong thập kỷ qua.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'The new exhibit is designed to attract more visitors to the museum.',
---     'Cuộc triển lãm mới được thiết kế để thu hút nhiều khách tham quan hơn đến bảo tàng',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'The Eiffel Tower is a major tourist attraction in Paris.',
---     'Tháp Eiffel là một điểm hấp dẫn du lịch chính ở Paris',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'She has an attractive smile that makes everyone feel welcome.',
---     'Cô ấy có nụ cười hấp dẫn khiến mọi người cảm thấy được chào đón',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'The artist uses abstract shapes and colors in his paintings.',
---     'Họa sĩ sử dụng các hình dạng và màu sắc trừu tượng trong tranh của mình',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'Please read the abstract before deciding to read the full article.',
---     'Hãy đọc phần tóm tắt trước khi quyết định đọc toàn bộ bài báo',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'The researcher abstracted the main findings from the report.',
---     'Nhà nghiên cứu đã trích ra những kết quả chính từ báo cáo',
---     2);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'They extract oil from the seeds of the plant.',
---     'Họ chiết xuất dầu từ hạt của cây.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'Vanilla extract is used to add flavor to desserts.',
---     'Tinh chất vani được sử dụng để tạo hương vị cho món tráng miệng',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'The loud noise outside distracted me from my work.',
---     'Tiếng ồn lớn bên ngoài làm tôi mất tập trung vào công việc.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'tra(ct)' LIMIT 1),
---     'Mobile phones can be a major distraction in the classroom.',
---     'Điện thoại di động có thể là một yếu tố gây sao lãng lớn trong lớp học',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'She has made significant progress in learning English.',
---     'Cô ấy đã tiến bộ đáng kể trong việc học tiếng Anh.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'The project is progressing faster than expected.',
---     'Dự án đang tiến triển nhanh hơn dự kiến',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'The country adopted a series of progressive reforms in education.',
---     'Đất nước đã áp dụng một loạt cải cách tiến bộ trong giáo dục',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'There has been a gradual increase in temperature over the week.',
---     'Đã có sự tăng dần dần về nhiệt độ trong tuần',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'She will graduate from university next month.',
---     'Cô ấy sẽ tốt nghiệp đại học vào tháng tới.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'The company hires many recent graduates every year.',
---     'Công ty tuyển dụng nhiều sinh viên mới tốt nghiệp mỗi năm',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'Her graduation ceremony will be held next Saturday.',
---     'Lễ tốt nghiệp của cô ấy sẽ được tổ chức vào thứ Bảy tới',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gre(ss), grad' LIMIT 1),
---     'She earned a degree in Computer Science from Harvard.',
---     'Cô ấy đã nhận bằng cấp ngành Khoa học Máy tính từ Harvard',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'Can you define what success means to you?',
---     'Bạn có thể định nghĩa thành công có ý nghĩa gì với bạn không?',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'The dictionary provides the definition of every word.',
---     'Từ điển cung cấp định nghĩa của từng từ',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'She works in the finance department of a big company.',
---     'Cô ấy làm việc ở phòng tài chính của một công ty lớn',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'He gave me some financial advice about saving money.',
---     'Anh ấy đã cho tôi vài lời khuyên về tài chính liên quan đến việc tiết kiệm tiền',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'We need a definite answer by tomorrow.',
---     'Chúng ta cần một câu trả lời chắc chắn trước ngày mai',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fin' LIMIT 1),
---     'The universe seems infinite.',
---     'Vũ trụ dường như là vô hạn',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'She resented being treated like a child.',
---     'Cô ấy bực tức vì bị đối xử như một đứa trẻ',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'He felt resentful about having to work late every day.',
---     'Anh ấy cảm thấy bực tức vì phải làm thêm giờ mỗi ngày',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'The committee assented to the proposed plan.',
---     'Ủy ban đã tán thành kế hoạch được đề xuất',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'He nodded his assent to the idea.',
---     'Anh ấy gật đầu tán thành ý tưởng đó',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'Several members dissented from the majority opinion.',
---     'Một số thành viên đã phản đối ý kiến của đa số',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'There was strong dissent among the committee members.',
---     'Đã có sự phản đối mạnh mẽ giữa các thành viên trong ủy ban',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'The scent of fresh flowers filled the room.',
---     'Hương thơm của những bông hoa tươi lấp đầy căn phòng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sens, sent' LIMIT 1),
---     'The dog scented danger and started barking.',
---     'Con chó ngửi thấy mối nguy và bắt đầu sủa.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'The artist creates beautiful paintings.',
---     'Họa sĩ tạo ra những bức tranh đẹp',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'She is very creative and always comes up with new ideas.',
---     'Cô ấy rất sáng tạo và luôn đưa ra những ý tưởng mới',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'The sculpture is a creation of a famous artist.',
---     'Bức tượng là một tác phẩm sáng tạo của một nghệ sĩ nổi tiếng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'The forest is home to many strange creatures.',
---     'Khu rừng là nhà của nhiều sinh vật lạ',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'He is the creator of a popular video game.',
---     'Anh ấy là người tạo ra một trò chơi điện tử nổi tiếng',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'The company plans to increase its production next year.',
---     'Công ty dự định tăng sản lượng sản xuất vào năm tới',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'There has been a significant increase in temperature this week.',
---     'Tuần này đã có sự gia tăng đáng kể về nhiệt độ.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'The government plans to decrease taxes next year.',
---     'Chính phủ dự định giảm thuế vào năm tới',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'There was a noticeable decrease in the number of students late for class.',
---     'Đã có một sự giảm rõ rệt về số lượng học sinh đến lớp muộn.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cre(ase), cru' LIMIT 1),
---     'The company is recruiting new employees for the marketing department.',
---     'Công ty đang tuyển dụng nhân viên mới cho phòng marketing',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'Please repeat the question, I didn’t hear it clearly.',
---     'Làm ơn lặp lại câu hỏi, tôi nghe không rõ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'Learning a new language requires repetition and practice.',
---     'Học một ngôn ngữ mới cần sự lặp lại và luyện tập.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'Doing exercise before dinner always increases my appetite.',
---     'Tập thể dục trước bữa tối luôn làm tôi ăn ngon miệng hơn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'She is a competent teacher who always prepares her lessons well.',
---     'Cô ấy là một giáo viên có năng lực, luôn chuẩn bị bài giảng cẩn thận',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'The job requires a high level of competence in English.',
---     'Công việc này đòi hỏi trình độ tiếng Anh cao.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'The students submitted a petition to the principal to extend the library hours.',
---     'Học sinh nộp một đơn kiến nghị lên hiệu trưởng để gia hạn giờ mở thư viện.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pet(e), peat' LIMIT 1),
---     'They petitioned the government for better healthcare services.',
---     'Họ đã kiến nghị chính phủ về việc cải thiện dịch vụ y tế.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'He requested a copy of the report from the manager.',
---     'Anh ấy yêu cầu một bản báo cáo từ quản lý.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'She made a request for extra help with her homework.',
---     'Cô ấy đưa ra yêu cầu được giúp thêm với bài tập về nhà.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'This job requires a lot of experience in marketing.',
---     'Công việc này đòi hỏi nhiều kinh nghiệm trong lĩnh vực marketing.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'Meeting the requirements is necessary to get the scholarship.',
---     'Đáp ứng các yêu cầu là cần thiết để nhận học bổng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'I called the hotel to inquire about room availability.',
---     'Tôi gọi cho khách sạn để hỏi về phòng còn trống không.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'The police launched an inquiry into the theft.',
---     'Cảnh sát đã mở một cuộc điều tra về vụ trộm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'She acquired a good knowledge of French while living in Paris.',
---     'Cô ấy đã tiếp thu được kiến thức tiếng Pháp tốt khi sống ở Paris.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'quest, quire' LIMIT 1),
---     'The acquirement of new skills is important for career growth.',
---     'Việc đạt được các kỹ năng mới rất quan trọng cho sự phát triển nghề nghiệp.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'The club excludes anyone under 18.',
---     'Câu lạc bộ loại trừ tất cả những ai dưới 18 tuổi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'The exclusion of women from the meeting caused controversy.',
---     'Việc loại phụ nữ ra khỏi cuộc họp đã gây tranh cãi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'This restaurant offers exclusive access to VIP members.',
---     'Nhà hàng này chỉ dành quyền truy cập riêng cho các thành viên VIP.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'The price includes breakfast and free Wi-Fi.',
---     'Giá này bao gồm bữa sáng và Wi-Fi miễn phí.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'I have enclosed my résumé with this letter.',
---     'Tôi đã đính kèm sơ yếu lý lịch cùng bức thư này.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'Please check the enclosure for the requested documents.',
---     'Vui lòng kiểm tra phần đính kèm để xem các tài liệu được yêu cầu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'The company refused to disclose the details of the contract.',
---     'Công ty từ chối tiết lộ chi tiết của hợp đồng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'clude,close' LIMIT 1),
---     'The disclosure of confidential information caused serious problems.',
---     'Việc tiết lộ thông tin mật đã gây ra nhiều vấn đề nghiêm trọng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'memo, min(d)' LIMIT 1),
---     'I still remember the day we first met.',
---     'Tôi vẫn nhớ ngày đầu tiên chúng ta gặp nhau.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'memo, min(d)' LIMIT 1),
---     'A moment of silence was held in remembrance of the victims.',
---     'Một phút mặc niệm được tổ chức để tưởng nhớ các nạn nhân.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'memo, min(d)' LIMIT 1),
---     'Please remind me to call my mom tonight.',
---     'Làm ơn nhắc tôi gọi cho mẹ tối nay nhé.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'memo, min(d)' LIMIT 1),
---     'I tried to memorize all the new vocabulary before the test.',
---     'Tôi đã cố học thuộc tất cả từ vựng mới trước bài kiểm tra.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'memo, min(d)' LIMIT 1),
---     'The village has existed since time immemorial.',
---     'Ngôi làng đã tồn tại từ thời xa xưa.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'The boat is propelled by a small electric motor.',
---     'Con thuyền được đẩy đi nhờ một động cơ điện nhỏ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'The student was expelled from school for cheating.',
---     'Học sinh đó bị đuổi học vì gian lận',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'The soldiers repelled the enemy attack.',
---     'Các binh sĩ đã đẩy lùi cuộc tấn công của kẻ thù',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'She found his arrogance quite repellent.',
---     'Cô ấy thấy sự kiêu ngạo của anh ta thật đáng ghét',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'He bought the car on an impulse.',
---     'Anh ta mua chiếc xe đó trong một phút bốc đồng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pel, peal, pul' LIMIT 1),
---     'She’s an impulsive person who often makes quick decisions',
---     'Cô ấy là người bốc đồng, thường ra quyết định nhanh chóng',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'The company went bankrupt after losing several big clients.',
---     'Công ty bị phá sản sau khi mất một vài khách hàng lớn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'He had to declare bankruptcy after years of financial trouble.',
---     'Anh ta phải tuyên bố phá sản sau nhiều năm gặp khó khăn tài chính.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'The car came to an abrupt stop in the middle of the road.',
---     'Chiếc xe dừng lại đột ngột giữa đường.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'Please don’t interrupt me while I’m speaking.',
---     'Làm ơn đừng ngắt lời tôi khi tôi đang nói.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'The speech continued without any interruption.',
---     'Bài phát biểu tiếp tục mà không có bất kỳ sự gián đoạn nào.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'The volcano erupted suddenly last night.',
---     'Ngọn núi lửa đã phun trào đột ngột vào đêm qua.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rupt' LIMIT 1),
---     'The eruption of the volcano destroyed the nearby villages.',
---     'Sự phun trào của núi lửa đã phá hủy các ngôi làng lân cận.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'She aspires to become a doctor in the future.',
---     'Cô ấy khao khát trở thành bác sĩ trong tương lai.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'Her aspiration is to study at a top university.',
---     'Khát vọng của cô ấy là được học tại một trường đại học hàng đầu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'The two men conspired to steal the company’s money.',
---     'Hai người đàn ông âm mưu đánh cắp tiền của công ty.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'The police uncovered a conspiracy to kill the president.',
---     'Cảnh sát đã phát hiện ra một âm mưu ám sát tổng thống.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'My passport will expire next month.',
---     'Hộ chiếu của tôi sẽ hết hạn vào tháng sau.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'Check the expiration date before buying the product.',
---     'Kiểm tra ngày hết hạn trước khi mua sản phẩm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'He started to perspire after running for ten minutes.',
---     'Anh ấy bắt đầu đổ mồ hôi sau khi chạy 10 phút.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'spir(e)' LIMIT 1),
---     'Heavy perspiration is common in hot weather.',
---     'Ra nhiều mồ hôi là chuyện thường khi trời nóng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'She reclined on the sofa and closed her eyes.',
---     'Cô ấy ngả lưng trên ghế sofa và nhắm mắt lại.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'The company’s profits declined sharply last year.',
---     'Lợi nhuận của công ty giảm mạnh vào năm ngoái.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'There has been a decline in birth rates in recent years.',
---     'Có sự sụt giảm trong tỉ lệ sinh trong những năm gần đây.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'Vietnam has a tropical climate with hot and humid weather.',
---     'Việt Nam có khí hậu nhiệt đới nóng ẩm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'The region has many climatic zones.',
---     'Khu vực này có nhiều vùng khí hậu khác nhau.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cli(n), cli(m)' LIMIT 1),
---     'The lawyer met with her client to discuss the case.',
---     'Luật sư gặp khách hàng của cô ấy để thảo luận về vụ kiện.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'Solar panels generate electricity from sunlight.',
---     'Tấm pin mặt trời tạo ra điện từ ánh sáng mặt trời.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'The discussion degenerated into an argument.',
---     'Cuộc thảo luận thoái hóa thành một cuộc cãi vã.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'This is a general rule for everyone.',
---     'Đây là quy tắc chung cho mọi người.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'From these results, we can generalize that exercise improves health.',
---     'Từ kết quả này, ta có thể khái quát rằng tập thể dục giúp cải thiện sức khỏe.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'She’s very generous with her time and money.',
---     'Cô ấy rất hào phóng với thời gian và tiền bạc của mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'I will never forget your generosity.',
---     'Tôi sẽ không bao giờ quên lòng hào phóng của bạn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'gen' LIMIT 1),
---     'He was born with a congenital heart defect.',
---     'Anh ấy sinh ra đã có khuyết tật tim bẩm sinh.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'My friends always support me when I’m in trouble.',
---     'Bạn bè tôi luôn giúp đỡ tôi khi tôi gặp khó khăn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'Thanks for your support during difficult times.',
---     'Cảm ơn bạn vì sự hỗ trợ trong những lúc khó khăn.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'Vietnam exports rice to many countries around the world.',
---     'Việt Nam xuất khẩu gạo đến nhiều quốc gia trên thế giới.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'Exports of coffee have increased this year.',
---     'Xuất khẩu cà phê đã tăng trong năm nay.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'The exportation of weapons is strictly prohibited.',
---     'Việc xuất khẩu vũ khí bị nghiêm cấm nghiêm ngặt.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'The goods are transported by ship.',
---     'Hàng hóa được vận chuyển bằng tàu thủy.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'Public transport in this city is very convenient.',
---     'Giao thông công cộng ở thành phố này rất tiện lợi.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'The transportation of goods by air is very expensive.',
---     'Việc vận chuyển hàng hóa bằng đường hàng không rất tốn kém.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'This job is a great opportunity for you to learn new skills.',
---     'Công việc này là một cơ hội tuyệt vời để bạn học hỏi kỹ năng mới.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'port' LIMIT 1),
---     'Your arrival was very opportune — we needed your help!',
---     'Bạn đến thật đúng lúc — chúng tôi đang cần bạn giúp!',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ped' LIMIT 1),
---     'Horses with good pedigrees are often very expensive.',
---     'Những con ngựa có phả hệ tốt thường rất đắt tiền.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ped' LIMIT 1),
---     'The driver stopped to let the pedestrians cross the street.',
---     'Tài xế dừng lại để cho người đi bộ băng qua đường.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ped' LIMIT 1),
---     'This street is a pedestrian area — cars are not allowed.',
---     'Con đường này là khu vực dành cho người đi bộ — xe hơi không được phép vào.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ped' LIMIT 1),
---     'It might be expedient to postpone the meeting.',
---     'Có lẽ hoãn cuộc họp lại là giải pháp thuận tiện (tạm thời hợp lý',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ped' LIMIT 1),
---     'The team went on an expedition to the Amazon rainforest.',
---     'Đội đã tham gia một chuyến thám hiểm đến rừng mưa Amazon.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'Language is often a barrier to communication.',
---     'Ngôn ngữ thường là rào cản trong giao tiếp.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'The new building is barrier-free and accessible to wheelchair users.',
---     'Tòa nhà mới không có rào cản, phù hợp cho người dùng xe lăn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'They stored wine in oak barrels.',
---     'Họ cất rượu vang trong thùng gỗ sồi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'She works as a barrister in London.',
---     'Cô ấy làm luật sư biện hộ ở London.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'The United Nations imposed an embargo on arms sales to the country.',
---     'Liên Hiệp Quốc áp đặt lệnh cấm vận bán vũ khí với quốc gia đó.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'bar' LIMIT 1),
---     'The US decided to embargo all trade with the country.',
---     'Hoa Kỳ quyết định cấm toàn bộ hoạt động thương mại với quốc gia đó.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'She showed great courage in standing up for her beliefs.',
---     'Cô ấy thể hiện lòng dũng cảm khi bảo vệ niềm tin của mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'The firefighters were very courageous during the rescue.',
---     'Những người lính cứu hỏa đã rất dũng cảm trong lúc cứu hộ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'Don’t let failure discourage you.',
---     'Đừng để thất bại làm bạn nản lòng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'The teacher accorded him the highest praise for his effort.',
---     'Cô giáo trao cho cậu ấy lời khen cao nhất vì sự cố gắng của cậu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'The two countries signed a peace accord.',
---     'Hai quốc gia đã ký một hiệp định hòa bình.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'co(u)r, cord' LIMIT 1),
---     'She gave me a cordial welcome.',
---     'Cô ấy chào đón tôi rất thân mật.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'Please exit the building calmly during the fire drill.',
---     'Vui lòng rời khỏi tòa nhà một cách bình tĩnh trong buổi diễn tập cháy.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'The nearest exit is on your right.',
---     'Lối ra gần nhất ở bên phải bạn.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'The goods were transited through Singapore to Europe.',
---     'Hàng hóa đã được vận chuyển qua Singapore đến châu Âu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'The city has an excellent public transit system.',
---     'Thành phố có hệ thống giao thông công cộng tuyệt vời.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'The Earth orbits the Sun once every year.',
---     'Trái Đất quay quanh Mặt Trời một lần mỗi năm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'The Moon follows an orbit around the Earth.',
---     'Mặt Trăng di chuyển theo quỹ đạo quanh Trái Đất.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'it' LIMIT 1),
---     'Our travel agent sent us the itinerary for our trip to Japan.',
---     'Đại lý du lịch đã gửi cho chúng tôi lịch trình chuyến đi đến Nhật Bản.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'The report exposed the company’s financial problems.',
---     'Bản báo cáo vạch trần các vấn đề tài chính của công ty.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'Long exposure to the sun can damage your skin.',
---     'Tiếp xúc lâu với ánh nắng có thể làm hại da bạn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'Many people oppose the new law.',
---     'Nhiều người phản đối luật mới.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'There is strong opposition to the project.',
---     'Có sự phản đối mạnh mẽ đối với dự án này.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'They have opposite opinions on this issue.',
---     'Họ có ý kiến trái ngược nhau về vấn đề này.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'Mozart composed his first symphony at the age of eight.',
---     'Mozart sáng tác bản giao hưởng đầu tiên khi mới 8 tuổi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'She wrote a short composition about her family.',
---     'Cô ấy viết một bài luận ngắn về gia đình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'She managed to keep her composure during the interview.',
---     'Cô ấy giữ được bình tĩnh trong buổi phỏng vấn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pose' LIMIT 1),
---     'I suppose you’re right.',
---     'Tôi nghĩ là bạn đúng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'They are constructing a new bridge over the river.',
---     'Họ đang xây dựng một cây cầu mới bắc qua sông.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'The construction of the new hospital will take two years.',
---     'Việc xây dựng bệnh viện mới sẽ kéo dài hai năm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'She gave me some constructive feedback on my essay.',
---     'Cô ấy đã cho tôi những góp ý mang tính xây dựng về bài luận.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'He has a very destructive attitude.',
---     'Anh ta có thái độ tiêu cực, phá hoại.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'The fire destroyed their house.',
---     'Ngọn lửa thiêu rụi ngôi nhà của họ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'The storm caused massive destruction across the city.',
---     'Cơn bão đã gây ra sự tàn phá nghiêm trọng khắp thành phố.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'A fallen tree obstructed the road.',
---     'Cây đổ chắn đường, gây tắc nghẽn giao thông.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'The obstruction in the pipe caused a water leak.',
---     'Vật cản trong ống nước đã gây rò rỉ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'struct' LIMIT 1),
---     'The structure of the building is very strong.',
---     'Cấu trúc của tòa nhà rất vững chắc.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'We must take action to prevent pollution.',
---     'Chúng ta phải hành động để ngăn chặn ô nhiễm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'Doctors emphasize the importance of disease prevention.',
---     'Các bác sĩ nhấn mạnh tầm quan trọng của việc phòng bệnh.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'Hundreds of doctors attended the medical convention.',
---     'Hàng trăm bác sĩ tham dự hội nghị y khoa.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'The manager convened a meeting to discuss the plan.',
---     'Quản lý triệu tập một cuộc họp để thảo luận kế hoạch.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'This time is convenient for me.',
---     'Thời gian này thuận tiện cho tôi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'For your convenience, we offer online payment.',
---     'Vì sự tiện lợi của bạn, chúng tôi cung cấp thanh toán online.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vent' LIMIT 1),
---     'I bought a souvenir from Paris.',
---     'Tôi mua một món quà lưu niệm từ Paris.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'usage' LIMIT 1),
---     'The correct usage of this word is often misunderstood.',
---     'The correct usage of this word is often misunderstood.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'usual' LIMIT 1),
---     'He arrived at the office earlier than usual today.',
---     'Hôm nay anh ấy đến văn phòng sớm hơn bình thường.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'usual' LIMIT 1),
---     'It’s unusual to see snow in this city.',
---     'Thật bất thường khi thấy tuyết ở thành phố này.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'usual' LIMIT 1),
---     'I usually drink coffee in the morning.',
---     'Tôi thường uống cà phê vào buổi sáng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'utilize' LIMIT 1),
---     'should utilize renewable energy sources to protect the environment.',
---     'Chúng ta nên tận dụng các nguồn năng lượng tái tạo để bảo vệ môi trường.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'utensil' LIMIT 1),
---     'Please put all the kitchen utensils back in the drawer.',
---     'Hãy cất tất cả dụng cụ nhà bếp vào ngăn kéo.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
---     'This is the original version of the painting.',
---     'Đây là phiên bản gốc của bức tranh',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
---     'This is the original design of the building.',
---     'Đây là bản thiết kế gốc của tòa nhà.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
---     'The origin of this tradition is still unknown',
---     'Nguồn gốc của truyền thống này vẫn chưa được biết rõ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
---     'Her artwork is praised for its creativity and originality.',
---     'Tác phẩm nghệ thuật của cô ấy được khen ngợi vì sự sáng tạo và tính độc đáo.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'originate' LIMIT 1),
---     'The idea originated from a student’s suggestion.',
---     'Ý tưởng này bắt nguồn từ một gợi ý của sinh viên.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'aboriginal' LIMIT 1),
---     'Many aboriginal people live in this area.',
---     'Nhiều người bản địa sống ở khu vực này.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'envy' LIMIT 1),
---     'He watched his colleague accept the award with a feeling of envy.',
---     'Anh ấy nhìn đồng nghiệp của mình nhận giải thưởng với cảm giác ghen tị.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'envy' LIMIT 1),
---     'She was envious of her sister''s beautiful new coat.',
---     'Cô ấy ghen tị với chiếc áo khoác mới xinh đẹp của chị gái mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'preview' LIMIT 1),
---     'We saw a preview of the new movie before it was released.',
---     'Chúng tôi đã xem một bản xem trước của bộ phim mới trước khi nó được phát hành.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'review' LIMIT 1),
---     'The manager will review your performance at the end of the month.',
---     'Người quản lý sẽ xem xét hiệu suất của bạn vào cuối tháng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'purview' LIMIT 1),
---     'That decision is outside the purview of this department.',
---     'Quyết định đó nằm ngoài phạm vi thẩm quyền của bộ phận này.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revive' LIMIT 1),
---     'They tried to revive the old tradition.',
---     'Họ đã cố gắng phục hồi truyền thống cũ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revive' LIMIT 1),
---     'There has been a revival in the popularity of vinyl records.',
---     'Đã có một sự hồi sinh về sự phổ biến của đĩa than.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vivid' LIMIT 1),
---     'He has vivid memories of his childhood.',
---     'Anh ấy có những ký ức sống động về thời thơ ấu của mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vivid' LIMIT 1),
---     'I vividly remember the day we first met.',
---     'Tôi nhớ rất rõ ngày đầu tiên chúng ta gặp nhau.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vigorous' LIMIT 1),
---     'The doctor recommended vigorous exercise to improve his health.',
---     'Bác sĩ khuyên nên tập thể dục hăng hái để cải thiện sức khỏe.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'invigorate' LIMIT 1),
---     'A cold shower in the morning always invigorates me.',
---     'Tắm nước lạnh vào buổi sáng luôn làm tôi cảm thấy hăng hái.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'passage' LIMIT 1),
---     'The book opens with a passage describing the main character.',
---     'Cuốn sách mở đầu bằng một đoạn văn mô tả nhân vật chính.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'passenger' LIMIT 1),
---     'All passengers must show their tickets before boarding.',
---     'Tất cả hành khách phải xuất trình vé trước khi lên tàu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'pastime' LIMIT 1),
---     'Reading is her favorite pastime.',
---     'Đọc sách là trò tiêu khiển yêu thích của cô ấy.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'passer-by' LIMIT 1),
---     'A passer-by stopped to help the injured cyclist.',
---     'Một người qua đường đã dừng lại để giúp người đi xe đạp bị thương.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'advise' LIMIT 1),
---     'I would advise you to reconsider your decision.',
---     'Tôi khuyên bạn nên xem xét lại quyết định của mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'advise' LIMIT 1),
---     'He gave me some useful advice on finding a job.',
---     'Anh ấy đã cho tôi một số lời khuyên hữu ích về việc tìm việc.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revise' LIMIT 1),
---     'You need to revise your essay to fix the grammar mistakes.',
---     'Bạn cần sửa lại bài luận của mình để sửa các lỗi ngữ pháp.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revise' LIMIT 1),
---     'The author made several revisions to the manuscript.',
---     'Tác giả đã thực hiện một số sửa đổi đối với bản thảo.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'improvise' LIMIT 1),
---     'When the speaker didn''t show up, we had to improvise.',
---     'Khi diễn giả không xuất hiện, chúng tôi đã phải ứng biến.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'improvise' LIMIT 1),
---     'Jazz music often features a lot of improvisation.',
---     'Nhạc Jazz thường có rất nhiều sự ngẫu hứng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
---     'The mountains were barely visible through the fog.',
---     'Hầu như không thể nhìn thấy những ngọn núi qua màn sương mù.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
---     'Visibility was poor due to the heavy rain.',
---     'Tầm nhìn kém do mưa lớn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
---     'Germs are invisible to the naked eye.',
---     'Vi trùng vô hình đối với mắt thường.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
---     'Her teacher was a positive influence in her life.',
---     'Giáo viên của cô ấy là một ảnh hưởng tích cực trong cuộc đời cô ấy.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
---     'Don''t let your personal feelings influence your decision.',
---     'Đừng để cảm xúc cá nhân ảnh hưởng đến quyết định của bạn.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
---     'He is one of the most influential figures in modern politics.',
---     'Ông là một trong những nhân vật có ảnh hưởng nhất trong chính trị hiện đại.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'affluent' LIMIT 1),
---     'They live in an affluent neighborhood.',
---     'Họ sống trong một khu dân cư giàu có.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fluid' LIMIT 1),
---     'Drink plenty of fluids when you are sick.',
---     'Hãy uống nhiều chất lỏng khi bạn bị ốm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fluid' LIMIT 1),
---     'The dancer''s movements were smooth and fluid.',
---     'Những chuyển động của vũ công rất mượt mà và uyển chuyển.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fluctuate' LIMIT 1),
---     'Prices tend to fluctuate based on demand.',
---     'Giá cả có xu hướng dao động dựa trên nhu cầu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fluctuate' LIMIT 1),
---     'The market experienced a wild fluctuation this week.',
---     'Thị trường đã trải qua một sự biến động dữ dội trong tuần này.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
---     'With hard work, you will eventually succeed.',
---     'Với sự chăm chỉ, cuối cùng bạn sẽ thành công.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
---     'Success is the result of preparation and opportunity.',
---     'Thành công là kết quả của sự chuẩn bị và cơ hội.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
---     'She runs a very successful business.',
---     'Cô ấy điều hành một doanh nghiệp rất thành công.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
---     'The team has won five successive games.',
---     'Đội đã thắng năm trận liên tiếp.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'proceed' LIMIT 1),
---     'Please proceed to the boarding gate.',
---     'Xin vui lòng tiếp tục đi đến cổng lên máy bay.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'proceed' LIMIT 1),
---     'You must follow the standard safety procedure.',
---     'Bạn phải tuân theo quy trình an toàn tiêu chuẩn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'concede' LIMIT 1),
---     'The candidate called his opponent to concede the election.',
---     'Ứng cử viên đã gọi cho đối thủ của mình để thừa nhận thất bại trong cuộc bầu cử.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'recession' LIMIT 1),
---     'The country is facing a severe economic recession.',
---     'Đất nước đang phải đối mặt với một cuộc suy thoái kinh tế nghiêm trọng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'recession' LIMIT 1),
---     'The children play outside during recess.',
---     'Bọn trẻ chơi bên ngoài trong giờ giải lao.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insist' LIMIT 1),
---     'He insisted on paying for dinner.',
---     'Anh ấy khăng khăng đòi trả tiền cho bữa tối.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insist' LIMIT 1),
---     'Her insistent questions made him uncomfortable.',
---     'Những câu hỏi kiên trì của cô ấy khiến anh ấy không thoải mái.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'resist' LIMIT 1),
---     'I couldn''t resist eating the last piece of chocolate.',
---     'Tôi không thể cưỡng lại việc ăn miếng sô cô la cuối cùng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'resist' LIMIT 1),
---     'The new policy met with strong resistance from the staff.',
---     'Chính sách mới vấp phải sự phản đối mạnh mẽ từ nhân viên.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'persist' LIMIT 1),
---     'If the symptoms persist, you should see a doctor.',
---     'Nếu các triệu chứng vẫn tiếp diễn, bạn nên đi khám bác sĩ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'persist' LIMIT 1),
---     'A persistent cough kept him awake all night.',
---     'Một cơn ho dai dẳng khiến anh ấy thức cả đêm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subsist' LIMIT 1),
---     'The small tribe subsists entirely on hunting and gathering.',
---     'Bộ lạc nhỏ bé này sinh tồn hoàn toàn bằng săn bắn và hái lượm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subsist' LIMIT 1),
---     'Farming is their main means of subsistence.',
---     'Nông nghiệp là phương tiện sinh kế chính của họ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'patriotic' LIMIT 1),
---     'Waving the flag is a patriotic gesture.',
---     'Vẫy cờ là một cử chỉ yêu nước.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'patriotic' LIMIT 1),
---     'He was considered a great patriot who fought for his country''s freedom.',
---     'Ông được coi là một nhà ái quốc vĩ đại, người đã chiến đấu cho tự do của đất nước mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'compatriot' LIMIT 1),
---     'He celebrated the victory with his fellow compatriots.',
---     'Anh ấy ăn mừng chiến thắng cùng với những người đồng bào của mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'paternal' LIMIT 1),
---     'He gave the young boy a look of paternal kindness.',
---     'Ông ấy nhìn cậu bé bằng ánh mắt nhân từ của một người cha.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'paternal' LIMIT 1),
---     'The man denied paternity of the child.',
---     'Người đàn ông phủ nhận quan hệ cha con với đứa trẻ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'patronize' LIMIT 1),
---     'We patronize the local bakery every Sunday morning.',
---     'Chúng tôi thường xuyên lui tới tiệm bánh địa phương vào mỗi sáng Chủ nhật.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vacant' LIMIT 1),
---     'The seat next to him was vacant.',
---     'Chiếc ghế bên cạnh anh ấy còn trống.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vacant' LIMIT 1),
---     'The hotel has a vacancy for a receptionist.',
---     'Khách sạn có một vị trí tuyển dụng cho nhân viên lễ tân.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'vast' LIMIT 1),
---     'The Sahara is a vast desert.',
---     'Sahara là một sa mạc rộng lớn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'devastate' LIMIT 1),
---     'The hurricane devastated the coastal town.',
---     'Cơn bão đã tàn phá thị trấn ven biển.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'devastate' LIMIT 1),
---     'The news of the accident was devastating.',
---     'Tin tức về vụ tai nạn thật sự tàn khốc.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'avoid' LIMIT 1),
---     'You should avoid driving during rush hour.',
---     'Bạn nên tránh lái xe vào giờ cao điểm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'avoid' LIMIT 1),
---     'His avoidance of the subject made me suspicious.',
---     'Việc anh ta né tránh chủ đề này khiến tôi nghi ngờ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manipulate' LIMIT 1),
---     'He tried to manipulate the data to support his theory.',
---     'Anh ta đã cố gắng thao túng dữ liệu để hỗ trợ lý thuyết của mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manipulate' LIMIT 1),
---     'She was skilled in the art of political manipulation.',
---     'Cô ấy rất thành thạo nghệ thuật thao túng chính trị.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manuscript' LIMIT 1),
---     'The author submitted the manuscript to the publisher.',
---     'Tác giả đã nộp bản thảo cho nhà xuất bản.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
---     'This factory manufactures computer chips.',
---     'Nhà máy này sản xuất chip máy tính.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
---     'The manufacture of glass is a complex process.',
---     'Việc sản xuất thủy tinh là một quá trình phức tạp.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
---     'We contacted the manufacturer about the faulty product.',
---     'Chúng tôi đã liên hệ với nhà sản xuất về sản phẩm bị lỗi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
---     'She needs to learn how to manage her time better.',
---     'Cô ấy cần học cách quản lý thời gian tốt hơn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
---     'The company is suffering from poor management.',
---     'Công ty đang phải gánh chịu hậu quả từ sự quản lý yếu kém.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
---     'The manager will interview all the candidates.',
---     'Người quản lý sẽ phỏng vấn tất cả các ứng viên.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'emotion' LIMIT 1),
---     'She tried to hide her emotions during the speech.',
---     'Cô ấy cố giấu cảm xúc trong bài phát biểu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'emotion' LIMIT 1),
---     'It was an emotional moment for everyone.',
---     'Đó là khoảnh khắc đầy cảm xúc với mọi người.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
---     'He lives in a remote village.',
---     'Anh ta sống ở một ngôi làng hẻo lánh.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
---     'Please remove your shoes before entering.',
---     'Vui lòng cởi giày trước khi vào.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
---     'The removal of the statue caused controversy.',
---     'Việc dỡ bỏ bức tượng gây tranh cãi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'demote' LIMIT 1),
---     'He was demoted for poor performance.',
---     'Anh ta bị giáng chức vì hiệu suất kém.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'demote' LIMIT 1),
---     'His demotion surprised everyone.',
---     'Việc giáng chức của anh ta khiến mọi người bất ngờ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'reject' LIMIT 1),
---     'She rejected his job offer.',
---     'Cô ấy từ chối lời mời làm việc của anh ta.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rejection' LIMIT 1),
---     'The factory sells rejects at a discount.',
---     'Nhà máy bán hàng lỗi với giá giảm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
---     'I object to being treated unfairly.',
---     'Tôi phản đối việc bị đối xử bất công.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
---     'That strange object is floating in the water.',
---     'Vật thể lạ đó đang trôi trên nước.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
---     'Vật thể lạ đó đang trôi trên nước.',
---     'Anh ấy phản đối kế hoạch đó.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
---     'Try to stay objective during discussions.',
---     'Hãy cố giữ khách quan trong thảo luận.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
---     'Our main objective is to increase sales.',
---     'Mục tiêu chính của chúng ta là tăng doanh số.',
---     2);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
---     'All citizens are subject to the law.',
---     'Mọi công dân đều phải tuân theo pháp luật.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
---     'The prisoners were subjected to harsh treatment.',
---     'Tù nhân bị đối xử tàn nhẫn.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
---     'Math is my favorite subject.',
---     'Toán là môn tôi thích nhất.',
---     2);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inject' LIMIT 1),
---     'The nurse injected the patient with medicine.',
---     'Y tá tiêm thuốc cho bệnh nhân.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inject' LIMIT 1),
---     'He received a flu injection yesterday.',
---     'Anh ấy đã tiêm phòng cúm hôm qua.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inspect' LIMIT 1),
---     'The teacher inspected the students’ work.',
---     'Giáo viên kiểm tra bài của học sinh.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inspect' LIMIT 1),
---     'The safety inspector found several problems.',
---     'Thanh tra an toàn phát hiện vài vấn đề.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
---     'You should respect your parents.',
---     'Bạn nên tôn trọng cha mẹ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
---     'She has great respect for her teacher.',
---     'Cô ấy rất kính trọng giáo viên của mình.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
---     'He was very respectful to the elders.',
---     'Anh ấy rất lễ phép với người lớn tuổi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
---     'The students returned to their respective seats.',
---     'Học sinh quay lại chỗ ngồi của mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
---     'They live in a respectable neighborhood.',
---     'Họ sống ở khu phố đàng hoàng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
---     'I suspect he’s lying.',
---     'Tôi nghi ngờ anh ta đang nói dối.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
---     'The police arrested the main suspect.',
---     'Cảnh sát bắt giữ nghi phạm chính.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
---     'He looked suspicious when asked questions.',
---     'Anh ta trông đáng ngờ khi bị hỏi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
---     'There’s a suspicion of fraud in this case.',
---     'Có nghi ngờ gian lận trong vụ này.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
---     'I expect to finish this today.',
---     'Tôi mong sẽ hoàn thành việc này hôm nay.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
---     'The country’s life expectancy has increased.',
---     'Tuổi thọ trung bình của đất nước đã tăng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
---     'The results met our expectations.',
---     'Kết quả đáp ứng kỳ vọng của chúng tôi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'belong' LIMIT 1),
---     'This book belongs to me.',
---     'Cuốn sách này là của tôi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'belong' LIMIT 1),
---     'He packed his belongings and left.',
---     'Anh ta thu dọn đồ đạc và rời đi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
---     'They plan to lengthen the bridge.',
---     'Họ dự định kéo dài cây cầu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
---     'The length of the table is two meters.',
---     'Chiều dài của cái bàn là hai mét.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
---     'It was a lengthy discussion.',
---     'Đó là một cuộc thảo luận dài dòng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'linger' LIMIT 1),
---     'The smell lingered for hours.',
---     'Mùi hương còn vương lại hàng giờ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'longitude' LIMIT 1),
---     'The island lies at 120° east longitude.',
---     'Hòn đảo nằm ở kinh độ 120° đông.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'contest' LIMIT 1),
---     'She decided to contest the election results.',
---     'Cô ấy quyết định phản đối kết quả bầu cử.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'contest' LIMIT 1),
---     'He won first place in the singing contest.',
---     'Anh ấy thắng giải nhất trong cuộc thi hát.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'detest' LIMIT 1),
---     'I detest lying.',
---     'Tôi ghét việc nói dối.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'detest' LIMIT 1),
---     'His behavior was detestable.',
---     'Hành vi của anh ta thật đáng ghét.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'testify' LIMIT 1),
---     'She testified in court yesterday.',
---     'Cô ấy đã làm chứng tại tòa hôm qua.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'attest' LIMIT 1),
---     'The results attest to his hard work.',
---     'Kết quả chứng minh cho sự chăm chỉ của anh ấy.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'reduce' LIMIT 1),
---     'We need to reduce costs.',
---     'Chúng ta cần giảm chi phí.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'reduce' LIMIT 1),
---     'There’s been a reduction in traffic accidents.',
---     'Tai nạn giao thông đã giảm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'introduce' LIMIT 1),
---     'Let me introduce my friend to you.',
---     'Hãy để tôi giới thiệu bạn tôi với bạn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'introduce' LIMIT 1),
---     'The teacher gave an introduction to the topic.',
---     'Giáo viên đã giới thiệu về chủ đề.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'educate' LIMIT 1),
---     'Parents should educate their children about honesty.',
---     'Cha mẹ nên dạy con cái về sự trung thực.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'educate' LIMIT 1),
---     'Education is the key to success.',
---     'Giáo dục là chìa khóa thành công.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'abduct' LIMIT 1),
---     'The child was abducted near the park.',
---     'Đứa trẻ bị bắt cóc gần công viên.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'abduct' LIMIT 1),
---     'The police are investigating the abduction case.',
---     'Cảnh sát đang điều tra vụ bắt cóc.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
---     'He sent a telegram to his family.',
---     'Anh ấy gửi điện tín cho gia đình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
---     'The message was sent by telegraph.',
---     'Thông điệp được gửi bằng điện báo.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
---     'They telegrammed the news to London.',
---     'Họ gửi điện tín thông báo tin đó đến London.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
---     'She took a photograph of the sunset.',
---     'Cô ấy chụp một bức ảnh hoàng hôn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
---     'He’s a professional photographer.',
---     'Anh ấy là nhiếp ảnh gia chuyên nghiệp.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
---     'She looks very photogenic in pictures.',
---     'Cô ấy lên hình rất ăn ảnh.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'autograph' LIMIT 1),
---     'I got the singer’s autograph.',
---     'Tôi đã xin được chữ ký của ca sĩ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'geography' LIMIT 1),
---     'Geography teaches us about the Earth.',
---     'Môn địa lý dạy chúng ta về Trái Đất.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'geography' LIMIT 1),
---     'This map shows the geographic features of Asia.',
---     'Bản đồ này thể hiện đặc điểm địa lý của châu Á.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
---     'The museum will exhibit ancient artifacts.',
---     'Bảo tàng sẽ trưng bày các cổ vật.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
---     'The dinosaur exhibit was fascinating.',
---     'Khu trưng bày khủng long rất thú vị.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
---     'We visited a modern art exhibition.',
---     'Chúng tôi đã tham quan triển lãm nghệ thuật hiện đại.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
---     'Smoking is a bad habit.',
---     'Hút thuốc là thói quen xấu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
---     'He’s a habitual latecomer.',
---     'Anh ta là người thường xuyên đến muộn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
---     'These birds habit the forest area.',
---     'Loài chim này sinh sống ở vùng rừng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inhabit' LIMIT 1),
---     'Polar bears inhabit the Arctic region.',
---     'Gấu Bắc Cực sống ở vùng Bắc Cực.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'inhabit' LIMIT 1),
---     'The island has about 500 inhabitants.',
---     'Hòn đảo có khoảng 500 cư dân.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'habitat' LIMIT 1),
---     'The forest is the natural habitat of many animals.',
---     'Rừng là môi trường sống tự nhiên của nhiều loài vật.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suffer' LIMIT 1),
---     'Many people suffer from stress.',
---     'Nhiều người bị căng thẳng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'suffer' LIMIT 1),
---     'He endured years of suffering.',
---     'Anh ấy chịu đựng nhiều năm đau khổ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'refer' LIMIT 1),
---     'Please refer to the notes for details.',
---     'Vui lòng tham khảo ghi chú để biết chi tiết.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'refer' LIMIT 1),
---     'I used this book as a reference.',
---     'Tôi dùng cuốn sách này làm tài liệu tham khảo.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
---     'They have different opinions.',
---     'Họ có quan điểm khác nhau.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
---     'What’s the difference between these two?',
---     'Sự khác biệt giữa hai cái này là gì?',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
---     'Our ideas differ slightly.',
---     'Ý tưởng của chúng ta hơi khác nhau.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'transfer' LIMIT 1),
---     'She transferred to another department.',
---     'Cô ấy được chuyển sang phòng ban khác.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'transfer' LIMIT 1),
---     'The bank transfer was completed successfully.',
---     'Giao dịch chuyển tiền đã hoàn tất thành công.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'addict' LIMIT 1),
---     'He’s a video game addict.',
---     'Anh ấy là người nghiện trò chơi điện tử.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'addict' LIMIT 1),
---     'She became addicted to coffee.',
---     'Cô ấy bị nghiện cà phê.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'contradict' LIMIT 1),
---     'His actions contradict his words.',
---     'Hành động của anh ta mâu thuẫn với lời nói.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'contradict' LIMIT 1),
---     'There’s a contradiction in his statement.',
---     'Có một mâu thuẫn trong lời khai của anh ta.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
---     'The country suffered under a dictatorship.',
---     'Đất nước phải chịu đựng dưới chế độ độc tài.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
---     'The teacher dictated a paragraph to the students.',
---     'Giáo viên đọc cho học sinh chép một đoạn văn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
---     'We have an English dictation test today.',
---     'Hôm nay chúng ta có bài kiểm tra chính tả tiếng Anh.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'verdict' LIMIT 1),
---     'The jury gave a verdict of “not guilty.”',
---     'Bồi thẩm đoàn đưa ra phán quyết “không có tội.”',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
---     'The residents protested against the noise.',
---     'Cư dân phản đối tiếng ồn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
---     'They reside in a small village.',
---     'Họ sinh sống trong một ngôi làng nhỏ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
---     'His official residence is in Hanoi.',
---     'Nơi ở chính thức của anh ta là ở Hà Nội.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subside' LIMIT 1),
---     'The pain began to subside after the treatment.',
---     'Cơn đau bắt đầu giảm sau khi điều trị.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subside' LIMIT 1),
---     'The government provides subsidies for farmers.',
---     'Chính phủ trợ cấp cho nông dân.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'settle' LIMIT 1),
---     'They decided to settle in Canada.',
---     'Họ quyết định định cư ở Canada.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'settle' LIMIT 1),
---     'The settlers built a small settlement near the river.',
---     'Những người định cư xây một khu định cư nhỏ gần sông.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'possess' LIMIT 1),
---     'He possesses great musical talent.',
---     'Anh ấy có tài năng âm nhạc tuyệt vời.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'possess' LIMIT 1),
---     'This house is my most valuable possession.',
---     'Ngôi nhà này là tài sản quý giá nhất của tôi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'native' LIMIT 1),
---     'English is her native language.',
---     'Tiếng Anh là ngôn ngữ mẹ đẻ của cô ấy.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'native' LIMIT 1),
---     'The natives welcomed the explorers.',
---     'Người bản địa đã chào đón các nhà thám hiểm.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'naive' LIMIT 1),
---     'She’s too naive to see his lies.',
---     'Cô ấy quá ngây thơ để nhận ra lời nói dối của anh ta.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'naturalize' LIMIT 1),
---     'He was naturalized as a U.S. citizen.',
---     'Anh ta được nhập quốc tịch Mỹ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'innate' LIMIT 1),
---     'She has an innate sense of rhythm.',
---     'Cô ấy có cảm nhận nhịp điệu bẩm sinh.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'effect' LIMIT 1),
---     'The new law takes effect next month.',
---     'Luật mới có hiệu lực vào tháng tới.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'effect' LIMIT 1),
---     'The medicine is very effective.',
---     'Loại thuốc này rất hiệu quả.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
---     'The weather can affect your mood.',
---     'Thời tiết có thể ảnh hưởng đến tâm trạng của bạn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
---     'She showed deep affection for her dog.',
---     'Cô ấy thể hiện tình yêu thương sâu sắc với con chó của mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
---     'He’s very affectionate toward his children.',
---     'Anh ấy rất tình cảm với con cái.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
---     'The virus can infect many people quickly.',
---     'Virus có thể lây nhiễm nhiều người rất nhanh.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
---     'He’s being treated for a lung infection.',
---     'Anh ấy đang được điều trị bệnh nhiễm trùng phổi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
---     'Her laughter is infectious.',
---     'Tiếng cười của cô ấy lan tỏa và dễ lây sang người khác.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
---     'There’s a small defect in this phone.',
---     'Có một lỗi nhỏ trong chiếc điện thoại này.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
---     'He defected to the other side during the war.',
---     'Anh ta đào ngũ sang phe đối phương trong chiến tranh.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
---     'The product was found to be defective.',
---     'Sản phẩm bị phát hiện là có lỗi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cast' LIMIT 1),
---     'They cast a vote for the new leader.',
---     'Họ bỏ phiếu chọn lãnh đạo mới.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'cast' LIMIT 1),
---     'The movie has a great cast.',
---     'Bộ phim có dàn diễn viên tuyệt vời.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'broadcast' LIMIT 1),
---     'The show was broadcast live.',
---     'Chương trình được phát sóng trực tiếp.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'broadcast' LIMIT 1),
---     'I watched the morning broadcast.',
---     'Tôi đã xem bản tin buổi sáng.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'overcast' LIMIT 1),
---     'The sky is overcast today.',
---     'Trời hôm nay âm u.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'castaway' LIMIT 1),
---     'The castaway survived on the island for years.',
---     'Người bị đắm tàu sống sót trên đảo suốt nhiều năm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'praise' LIMIT 1),
---     '',
---     'Anh ấy được khen ngợi vì sự dũng cảm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'precious' LIMIT 1),
---     'What is the most precious thing in life.',
---     'Điều gì là quan trọng nhất trong cuộc đời này?',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'appreciate' LIMIT 1),
---     'The yen is appreciating these days.',
---     'Gần đây, đồng yên đang tăng giá.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'depreciate' LIMIT 1),
---     'The dollar is depreciating against the euro.',
---     'Đồng đô la giảm so với đồng euro.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'sect' LIMIT 1),
---     'Islam has two sects: the Sunnis and the Shias.',
---     'Hồi giáo có 2 giáo phái chính là Sunni và Shia.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insect' LIMIT 1),
---     'I got a lot of insect bites.',
---     'Tôi bị nhiều vết côn trùng cắn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insecticide' LIMIT 1),
---     'We use no insecticides or herbicides.',
---     'Chúng tôi không sử dụng thuốc trừ sâu hoặc thuốc diệt cỏ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'segment' LIMIT 1),
---     'One segment of this jigsaw puzzle is missing.',
---     'Bộ ghép hình này bị thiếu mất một miếng ghép.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'diligent' LIMIT 1),
---     'The Japanese are known as a diligent people.',
---     'Người Nhật Bản được biết đến là rất siêng năng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'eligible' LIMIT 1),
---     'People over 18 are eligible to vote in Japan.',
---     'Ở Nhật Bản, người trên 18 tuổi đủ điều kiện đi bỏ phiếu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'illegal' LIMIT 1),
---     'It''s illegal to park cars in this area.',
---     'Đỗ xe ở đây là bất hợp pháp.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'privilege' LIMIT 1),
---     'It''s a privilege to meet you.',
---     'Thật vinh dự khi được gặp bạn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ignore' LIMIT 1),
---     'Don''t ignore the facts.',
---     'Đừng phớt lờ sự thật.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'recognize' LIMIT 1),
---     'I couldn''t recognize him at first.',
---     'Tôi không thể nhận ra anh ấy ngay lần đầu tiên.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'knowledge' LIMIT 1),
---     'He has knowledge of the Latin language.',
---     'Anh ấy có hiểu biết về tiếng Latinh.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'acknowledge' LIMIT 1),
---     'He acknowledged having lied to me.',
---     'Anh ấy thừa nhận là đã nói dối tôi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'geometry' LIMIT 1),
---     'I was good at geometry.',
---     'Tôi đã rất giỏi về hình học.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'immense' LIMIT 1),
---     'He left an immense fortune for his family.',
---     'Ông ta đã để lại một gia tài lớn cho gia đình mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'dimension' LIMIT 1),
---     'I measured each dimension of the room.',
---     'Tôi đo từng chiều của căn phòng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'measure' LIMIT 1),
---     'Can you measure the length of the bed?',
---     'Bạn có thể đo chiều dài của chiếc giường này không?',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'elect' LIMIT 1),
---     'He was elected mayor of this city last year.',
---     'Năm ngoái, ông ấy đã được bầu làm thị trường.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'select' LIMIT 1),
---     'He was selected for the national team.',
---     'Anh ấy đã được chọn vào đội tuyển quốc gia.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'recollect' LIMIT 1),
---     'I cannot recollect my phone number.',
---     'Tôi không thể nhớ lại được số điện thoại của mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'neglect' LIMIT 1),
---     'Don''t neglect your studies.',
---     'Đừng có bỏ bê việc học.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'anchor' LIMIT 1),
---     'A huge passenger liner is at anchor.',
---     'Một tàu chở khách khổng lồ đang neo đậu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'ankle' LIMIT 1),
---     'I twisted my right ankle.',
---     'Tôi vặn cổ chân phải.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'angler' LIMIT 1),
---     'There were many anglers on the lake.',
---     'Có rất nhiều người câu cá trên hồ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rectangle' LIMIT 1),
---     'That rectangle is 10 cm long and 20 cm wide.',
---     'Hình chữ nhật đó có chiều rộng là 10 cm, chiều dài 20 cm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remain' LIMIT 1),
---     'The problem remains unsolved.',
---     'Vấn đề vẫn chưa được giải quyết.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remainder' LIMIT 1),
---     'You must pay the remainder of your invoice.',
---     'Bạn phải thanh toán nốt số tiền còn lại trong hoá đơn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'remnant' LIMIT 1),
---     'The remnants of the meal are frozen.',
---     'Phần bỏ thừa của bữa ăn đã được cấp đông.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'manor' LIMIT 1),
---     'The lord lived in a manor house.',
---     'Vị chúa sống trong một trang viên.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'prosecute' LIMIT 1),
---     'The suspect was prosecuted.',
---     'Nghi phạm đã bị khởi tố.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'execute' LIMIT 1),
---     'The queen was executed.',
---     'Nữ hoàng đã bị hành hình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'consequence' LIMIT 1),
---     'It caused a serious consequence.',
---     'Nó đã gây ra một hậu quả nghiêm trọng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'subsequent' LIMIT 1),
---     'Two subsequent meetings were held.',
---     'Hai cuộc họp tiếp theo đã được tổ chức.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'trait' LIMIT 1),
---     'Honesty is one of her best traits.',
---     'Sự trung thực là một trong những đặc điểm tốt nhất của cô ấy.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'portrait' LIMIT 1),
---     'The artist painted a portrait of the king.',
---     'Người họa sĩ vẽ một bức chân dung của nhà vua.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'portrait' LIMIT 1),
---     'The movie portrays her as a brave woman.',
---     'Bộ phim khắc họa cô ấy là một người phụ nữ dũng cảm.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'treaty' LIMIT 1),
---     'The two countries signed a peace treaty.',
---     'Hai quốc gia ký một hiệp ước hòa bình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'entreat' LIMIT 1),
---     'She entreated him to stay a little longer.',
---     'Cô ấy khẩn cầu anh ở lại thêm một chút.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'entreat' LIMIT 1),
---     'Despite his entreaties, she left.',
---     'Mặc dù anh ta van nài, cô vẫn rời đi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'district' LIMIT 1),
---     'He lives in the financial district.',
---     'Anh ấy sống trong khu tài chính.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'strain' LIMIT 1),
---     'Don’t strain your eyes by reading in the dark.',
---     'Đừng căng mắt đọc trong bóng tối.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'restrain' LIMIT 1),
---     'He couldn’t restrain his anger.',
---     'Anh ta không thể kiềm chế cơn giận',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'restrain' LIMIT 1),
---     'She spoke with calm restraint.',
---     'Cô ấy nói với sự kiềm chế bình tĩnh.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'constrain' LIMIT 1),
---     'The rules constrain our freedom.',
---     'Các quy định hạn chế tự do của chúng ta.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'constrain' LIMIT 1),
---     'Time constraints forced us to hurry.',
---     'Sự hạn chế về thời gian khiến chúng tôi phải vội.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assemble' LIMIT 1),
---     'The workers assembled in the hall.',
---     'Công nhân tập hợp trong hội trường.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assemble' LIMIT 1),
---     'The students gathered for the morning assembly.',
---     'Học sinh tập trung cho buổi chào cờ sáng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'similar' LIMIT 1),
---     'These two paintings are very similar.',
---     'Hai bức tranh này rất giống nhau.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'similar' LIMIT 1),
---     'There is a strong similarity between them.',
---     'Có một sự tương đồng rõ rệt giữa họ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assimilate' LIMIT 1),
---     'Immigrants often take time to assimilate into a new culture.',
---     'Người nhập cư thường mất thời gian để hòa nhập vào nền văn hóa mới.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assimilate' LIMIT 1),
---     'Cultural assimilation can take several generations.',
---     'Sự hòa nhập văn hóa có thể mất vài thế hệ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'simultaneous' LIMIT 1),
---     'The two explosions were simultaneous.',
---     'Hai vụ nổ xảy ra đồng thời.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assault' LIMIT 1),
---     'He was charged with assault.',
---     'Anh ta bị buộc tội hành hung',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assault' LIMIT 1),
---     'The man assaulted a police officer.',
---     'Người đàn ông đó đã tấn công một cảnh sát.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'assail' LIMIT 1),
---     'Reporters assailed him with questions.',
---     'Các phóng viên dồn dập hỏi anh ta.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insult' LIMIT 1),
---     'Don’t insult her intelligence.',
---     'Đừng xúc phạm trí thông minh của cô ấy.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'insult' LIMIT 1),
---     'His comment was an insult to everyone.',
---     'Bình luận của anh ta là một sự xúc phạm với mọi người.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'exult' LIMIT 1),
---     'Fans exulted after their team’s victory.',
---     'Người hâm mộ hò reo vui mừng sau chiến thắng của đội mình.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'exult' LIMIT 1),
---     'She gave an exultant shout of joy.',
---     'Cô ấy reo lên vui sướng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'enforce' LIMIT 1),
---     'The police enforce the law strictly.',
---     'Cảnh sát thực thi pháp luật nghiêm khắc.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'enforce' LIMIT 1),
---     'Law enforcement is essential for safety.',
---     'Việc thực thi pháp luật rất cần thiết cho an toàn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fortress' LIMIT 1),
---     'The fortress was built on a hill.',
---     'Pháo đài được xây trên đồi.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
---     'This sofa is very comfortable.',
---     'Chiếc ghế sofa này rất thoải mái.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
---     'She gave him comfort during hard times.',
---     'Cô ấy an ủi anh trong lúc khó khăn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
---     'He felt some discomfort in his back.',
---     'Anh ấy cảm thấy hơi khó chịu ở lưng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fortitude' LIMIT 1),
---     'She showed great fortitude during the crisis.',
---     'Cô ấy thể hiện sự kiên cường lớn trong khủng hoảng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'fortitude' LIMIT 1),
---     'The soldiers fortified the camp before nightfall.',
---     'Những người lính củng cố trại trước khi trời tối.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'evolve' LIMIT 1),
---     'Humans evolved from ancient ancestors.',
---     'Loài người tiến hóa từ tổ tiên cổ xưa.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'evolve' LIMIT 1),
---     'Darwin’s theory of evolution changed science.',
---     'Thuyết tiến hóa của Darwin đã thay đổi khoa học.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'involve' LIMIT 1),
---     'The project involves many experts.',
---     'Dự án này có sự tham gia của nhiều chuyên gia.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'involve' LIMIT 1),
---     'His involvement in the case surprised everyone.',
---     'Sự tham gia của anh ta trong vụ việc khiến mọi người ngạc nhiên.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revolt' LIMIT 1),
---     'The peasants started a revolt against the king.',
---     'Nông dân nổi dậy chống lại nhà vua.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'revolt' LIMIT 1),
---     'The people revolted against the corrupt government.',
---     'Người dân nổi dậy chống lại chính phủ tham nhũng.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'devolve' LIMIT 1),
---     'Power was devolved to local authorities.',
---     'Quyền lực được chuyển giao cho chính quyền địa phương.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'modify' LIMIT 1),
---     'We had to modify the plan slightly.',
---     'Chúng tôi phải chỉnh sửa kế hoạch một chút.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'modify' LIMIT 1),
---     'The design needs some modifications.',
---     'Bản thiết kế cần một vài điều chỉnh.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'moderate' LIMIT 1),
---     'She has moderate political views.',
---     'Cô ấy có quan điểm chính trị ôn hòa.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'moderate' LIMIT 1),
---     'He moderated the debate between the candidates.',
---     'Anh ta điều phối cuộc tranh luận giữa các ứng viên.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'accommodate' LIMIT 1),
---     'The hotel can accommodate 200 guests.',
---     'Khách sạn có thể chứa 200 khách.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'accommodate' LIMIT 1),
---     'We are looking for cheap accommodation.',
---     'Chúng tôi đang tìm chỗ ở giá rẻ.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'commodity' LIMIT 1),
---     'Gold is a valuable commodity.',
---     'Vàng là một mặt hàng có giá trị.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
---     'He was obliged to pay the fine.',
---     'Anh ta buộc phải nộp tiền phạt.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
---     'Parents have an obligation to care for their children.',
---     'Cha mẹ có nghĩa vụ chăm sóc con cái.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
---     'Wearing helmets is obligatory for motorcyclists.',
---     'Đội mũ bảo hiểm là bắt buộc đối với người đi xe máy.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'alliance' LIMIT 1),
---     'The countries formed a military alliance.',
---     'Các quốc gia lập liên minh quân sự.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'alliance' LIMIT 1),
---     'They allied with neighboring states.',
---     'Họ liên minh với các bang láng giềng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'liable' LIMIT 1),
---     'You are liable for any damage caused.',
---     'Bạn phải chịu trách nhiệm cho mọi thiệt hại gây ra.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'liable' LIMIT 1),
---     'The company’s liabilities exceed its assets',
---     'Các khoản nợ của công ty vượt quá tài sản của nó.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rally' LIMIT 1),
---     'The crowd rallied in front of the city hall.',
---     'Đám đông tụ tập trước tòa thị chính.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'rally' LIMIT 1),
---     'Thousands attended the political rally.',
---     'Hàng nghìn người tham dự cuộc biểu tình chính trị.',
---     1);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'alleviate' LIMIT 1),
---     'The medicine will alleviate your pain.',
---     'Thuốc sẽ làm giảm cơn đau của bạn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'alleviate' LIMIT 1),
---     'The alleviation of poverty is a global goal.',
---     'Giảm nghèo là mục tiêu toàn cầu.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'elevate' LIMIT 1),
---     'Regular exercise elevates your mood.',
---     'Tập thể dục thường xuyên giúp nâng cao tâm trạng.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'elevate' LIMIT 1),
---     'The city is at a high elevation.',
---     'Thành phố nằm ở độ cao lớn.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
---     'Your question is not relevant to the topic.',
---     'Câu hỏi của bạn không liên quan đến chủ đề.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
---     'That comment is completely irrelevant.',
---     'Nhận xét đó hoàn toàn không liên quan.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
---     'The teacher questioned the relevance of his answer.',
---     'Giáo viên đặt nghi vấn về tính liên quan trong câu trả lời của anh ta.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'levy' LIMIT 1),
---     'The government imposed a new tax levy.',
---     'Chính phủ áp đặt một loại thuế mới.',
---     0);
---
--- INSERT INTO public.sub_vocab_example
--- (id, sub_vocab_id, example_en, example_vi, example_order)
--- VALUES
---     (gen_random_uuid(),
---      (SELECT id FROM public.sub_vocab WHERE word = 'levy' LIMIT 1),
---     'The state levied a fine on the company.',
---     'Nhà nước đánh thuế/phạt công ty.',
---     1);
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'conform' LIMIT 1),
+    'Many people feel pressure to conform to societal expectations regarding career and family.',
+    'Nhiều người cảm thấy áp lực phải tuân theo những kỳ vọng của xã hội liên quan đến sự nghiệp và gia đình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'formula' LIMIT 1),
+    'There''s no magic formula for success; it requires hard work and dedication.',
+    'Không có công thức ma thuật nào cho thành công; nó đòi hỏi sự chăm chỉ và cống hiến.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reform' LIMIT 1),
+    'The government announced plans to reform the education system to better prepare students for the future.',
+    'Chính phủ đã công bố kế hoạch cải cách hệ thống giáo dục để chuẩn bị tốt hơn cho học sinh trong tương lai.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inform' LIMIT 1),
+    'Please inform the front desk if you need any assistance.',
+    'Làm ơn thông báo cho quầy lễ tân nếu bạn cần bất kỳ sự hỗ trợ nào.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transform' LIMIT 1),
+    'The new technology will transform the way we do business.',
+    'Công nghệ mới sẽ biến đổi cách chúng ta kinh doanh.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'attract' LIMIT 1),
+    'The new marketing campaign aims to attract more customers.',
+    'Chiến dịch tiếp thị mới nhằm mục đích thu hút thêm nhiều khách hàng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abstract' LIMIT 1),
+    'Love is an abstract concept that is difficult to define precisely.',
+    'Tình yêu là một khái niệm trừu tượng rất khó định nghĩa một cách chính xác.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'extract' LIMIT 1),
+    'The scientists used a special chemical to extract the rare compound from the plant.',
+    'Các nhà khoa học đã sử dụng một hóa chất đặc biệt để chiết xuất hợp chất quý hiếm từ thực vật.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'distract' LIMIT 1),
+    'The loud music in the cafe began to distract me from my work.',
+    'Tiếng nhạc lớn trong quán cà phê bắt đầu làm tôi mất tập trung vào công việc.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'progress' LIMIT 1),
+    'The team made significant progress on the project after implementing the new strategy.',
+    'Nhóm đã đạt được tiến bộ đáng kể trong dự án sau khi thực hiện chiến lược mới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'gradual' LIMIT 1),
+    'The gradual increase in temperature is causing the glaciers to melt.',
+    'Sự tăng nhiệt độ dần dần đang khiến các sông băng tan chảy.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'graduate' LIMIT 1),
+    'She plans to graduate with a degree in computer science next spring.',
+    'Cô ấy dự định sẽ tốt nghiệp với bằng khoa học máy tính vào mùa xuân tới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'degree' LIMIT 1),
+    'She earned her Bachelor''s degree in Computer Science from a prestigious university.',
+    'Cô ấy đã lấy bằng Cử nhân Khoa học Máy tính từ một trường đại học danh tiếng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'define' LIMIT 1),
+    'Before we start the project, we need to clearly define our goals and objectives.',
+    'Trước khi chúng ta bắt đầu dự án, chúng ta cần xác định rõ ràng các mục tiêu và đích đến của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'finance' LIMIT 1),
+    'She decided to pursue a career in finance, hoping to work as a financial analyst for a major investment bank.',
+    'Cô ấy quyết định theo đuổi sự nghiệp trong lĩnh vực tài chính, với hy vọng làm việc như một nhà phân tích tài chính cho một ngân hàng đầu tư lớn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'definite' LIMIT 1),
+    'We need a definite answer by tomorrow so we can finalize the plans.',
+    'Chúng ta cần một câu trả lời dứt khoát trước ngày mai để có thể hoàn tất kế hoạch.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'infinite' LIMIT 1),
+    'The number of stars in the universe seems infinite.',
+    'Số lượng các ngôi sao trong vũ trụ dường như là vô tận.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resent' LIMIT 1),
+    'She began to resent her colleague''s promotion, feeling she had worked harder and deserved it more.',
+    'Cô ấy bắt đầu ấm ức về việc đồng nghiệp được thăng chức, cảm thấy mình đã làm việc chăm chỉ hơn và xứng đáng hơn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assent' LIMIT 1),
+    'After much debate, the committee finally gave its assent to the new policy.',
+    'Sau nhiều cuộc tranh luận, ủy ban cuối cùng đã đồng ý với chính sách mới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dissent' LIMIT 1),
+    'Three judges wrote a dissenting opinion, disagreeing with the majority''s verdict.',
+    'Ba thẩm phán đã viết một ý kiến bất đồng, không đồng ý với phán quyết của đa số.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'scent' LIMIT 1),
+    'The sweet scent of jasmine filled the evening air.',
+    'Mùi hương ngọt ngào của hoa nhài tràn ngập không khí buổi tối.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'create' LIMIT 1),
+    'The artist used vibrant colors to create a beautiful landscape painting.',
+    'Người nghệ sĩ đã sử dụng những màu sắc rực rỡ để tạo ra một bức tranh phong cảnh tuyệt đẹp.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'increase' LIMIT 1),
+    'The company decided to increase the salaries of all its employees.',
+    'Công ty đã quyết định tăng lương cho tất cả nhân viên của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'decrease' LIMIT 1),
+    'The government aims to decrease unemployment rates by investing in new industries.',
+    'Chính phủ đặt mục tiêu giảm tỷ lệ thất nghiệp bằng cách đầu tư vào các ngành công nghiệp mới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recruit' LIMIT 1),
+    'The company plans to recruit 50 new employees next quarter to support its expansion.',
+    'Công ty dự định tuyển dụng 50 nhân viên mới vào quý tới để hỗ trợ việc mở rộng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'repeat' LIMIT 1),
+    'Could you please repeat the instructions? I didn''t quite understand the first time.',
+    'Bạn có thể vui lòng lặp lại hướng dẫn được không? Tôi chưa hiểu rõ lắm lần đầu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'appetite' LIMIT 1),
+    'The fresh air gave him a healthy appetite.',
+    'Không khí trong lành đã khiến anh ấy có cảm giác thèm ăn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'competent' LIMIT 1),
+    'He is a competent doctor, and his patients trust him.',
+    'Anh ấy là một bác sĩ có năng lực, và bệnh nhân của anh ấy tin tưởng anh ấy.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'petition' LIMIT 1),
+    'The local residents organized a petition to demand a new traffic light at the dangerous intersection.',
+    'Người dân địa phương đã tổ chức một bản kiến nghị để yêu cầu lắp đặt đèn giao thông mới tại ngã tư nguy hiểm.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'request' LIMIT 1),
+    'I would like to request a copy of your latest report.',
+    'Tôi muốn yêu cầu một bản sao báo cáo mới nhất của bạn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'require' LIMIT 1),
+    'This advanced course will require a strong foundation in mathematics.',
+    'Khóa học nâng cao này sẽ đòi hỏi một nền tảng vững chắc về toán học.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inquire' LIMIT 1),
+    'I need to inquire about the status of my flight before heading to the airport.',
+    'Tôi cần hỏi về tình trạng chuyến bay của mình trước khi đến sân bay.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acquire' LIMIT 1),
+    'The museum managed to acquire a rare painting from the 17th century.',
+    'Bảo tàng đã mua được một bức tranh quý hiếm từ thế kỷ 17.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exclude' LIMIT 1),
+    'The new rules will exclude anyone who hasn''t submitted their application on time.',
+    'Các quy tắc mới sẽ loại trừ bất kỳ ai chưa nộp đơn đúng thời hạn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'include' LIMIT 1),
+    'Does the tour package include flights and accommodation?',
+    'Gói tour du lịch có bao gồm vé máy bay và chỗ ở không?',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'enclose' LIMIT 1),
+    'Please enclose a copy of your resume with your application.',
+    'Vui lòng đính kèm một bản sao sơ yếu lý lịch của bạn cùng với đơn đăng ký.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'disclose' LIMIT 1),
+    'The company was legally obligated to disclose its financial records to the government.',
+    'Công ty có nghĩa vụ pháp lý phải công bố hồ sơ tài chính của mình cho chính phủ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remember' LIMIT 1),
+    'Please remember to turn off the lights when you leave.',
+    'Xin hãy nhớ tắt đèn khi bạn rời đi.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remind' LIMIT 1),
+    'Please remind me to call my mom tomorrow morning.',
+    'Làm ơn nhắc tôi gọi điện cho mẹ vào sáng mai.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'memorize' LIMIT 1),
+    'Students often need to memorize historical dates for their exams.',
+    'Học sinh thường cần phải ghi nhớ các ngày lịch sử cho kỳ thi của họ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'immemorial' LIMIT 1),
+    'The custom of offering prayers at the ancient temple has been practiced in this community from time immemorial.',
+    'Tập tục dâng lời cầu nguyện tại ngôi đền cổ đã được cộng đồng này thực hiện từ ngàn xưa.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'propel' LIMIT 1),
+    'The strong winds helped to propel the sailboat across the bay.',
+    'Những cơn gió mạnh đã giúp đẩy thuyền buồm băng qua vịnh.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expel' LIMIT 1),
+    'The university decided to expel the student for plagiarism after a thorough investigation.',
+    'Trường đại học đã quyết định đuổi học sinh viên đó vì đạo văn sau một cuộc điều tra kỹ lưỡng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'repel' LIMIT 1),
+    'The strong scent of citronella can effectively repel mosquitoes.',
+    'Mùi sả nồng có thể xua đuổi muỗi một cách hiệu quả.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'impulse' LIMIT 1),
+    'She bought the expensive shoes on an impulse, and later wished she had thought about it more.',
+    'Cô ấy mua đôi giày đắt tiền theo một ý thích bất chợt, và sau đó ước gì mình đã suy nghĩ kỹ hơn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'bankrupt' LIMIT 1),
+    'The company declared itself bankrupt after several years of significant financial losses.',
+    'Công ty đã tuyên bố phá sản sau nhiều năm thua lỗ tài chính đáng kể.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abrupt' LIMIT 1),
+    'His abrupt departure from the meeting left everyone surprised.',
+    'Việc anh ấy đột ngột rời khỏi cuộc họp đã khiến mọi người ngạc nhiên.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'interrupt' LIMIT 1),
+    'Please don''t interrupt me while I''m speaking.',
+    'Xin đừng ngắt lời tôi khi tôi đang nói.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'erupt' LIMIT 1),
+    'The volcano has been dormant for decades, but scientists warn it could erupt at any moment.',
+    'Ngọn núi lửa đã ngủ yên hàng thập kỷ, nhưng các nhà khoa học cảnh báo nó có thể phun trào bất cứ lúc nào.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'aspire' LIMIT 1),
+    'Many young people aspire to become successful entrepreneurs.',
+    'Nhiều người trẻ khao khát trở thành những doanh nhân thành đạt.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'conspire' LIMIT 1),
+    'The two rivals were accused of conspiring to undermine the company''s new project.',
+    'Hai đối thủ bị buộc tội âm mưu phá hoại dự án mới của công ty.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expire' LIMIT 1),
+    'Your passport will expire next month, so make sure to renew it.',
+    'Hộ chiếu của bạn sẽ hết hạn vào tháng tới, vì vậy hãy đảm bảo gia hạn nó.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'perspire' LIMIT 1),
+    'After a long run, he began to perspire heavily, his shirt clinging to his back.',
+    'Sau một chặng chạy dài, anh ấy bắt đầu đổ mồ hôi rất nhiều, chiếc áo sơ mi dính chặt vào lưng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recline' LIMIT 1),
+    'After a long day of work, he just wanted to recline on the sofa and watch TV.',
+    'Sau một ngày dài làm việc, anh ấy chỉ muốn ngả lưng trên ghế sofa và xem TV.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'decline' LIMIT 1),
+    'He had to decline the job offer because the salary was too low.',
+    'Anh ấy phải từ chối lời đề nghị công việc vì mức lương quá thấp.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'climate' LIMIT 1),
+    'The changing global climate is a major concern for scientists worldwide.',
+    'Khí hậu toàn cầu đang thay đổi là một mối lo ngại lớn đối với các nhà khoa học trên toàn thế giới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'client' LIMIT 1),
+    'The lawyer met with her new client to discuss the case details.',
+    'Luật sư đã gặp gỡ khách hàng mới của mình để thảo luận chi tiết vụ án.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'generate' LIMIT 1),
+    'The new marketing campaign aims to generate more leads for the company.',
+    'Chiến dịch tiếp thị mới nhằm mục đích tạo ra nhiều khách hàng tiềm năng hơn cho công ty.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'general' LIMIT 1),
+    'The general consensus is that the new policy will benefit most employees.',
+    'Quan điểm chung là chính sách mới sẽ mang lại lợi ích cho hầu hết nhân viên.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'generous' LIMIT 1),
+    'My uncle is very generous; he always buys us gifts when he visits.',
+    'Chú tôi rất hào phóng; ông ấy luôn mua quà cho chúng tôi mỗi khi đến thăm.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'congenital' LIMIT 1),
+    'Congenital heart defects are the most common type of birth defect.',
+    'Dị tật tim bẩm sinh là loại dị tật bẩm sinh phổ biến nhất.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'support' LIMIT 1),
+    'Many charities rely on public support to continue their important work.',
+    'Nhiều tổ chức từ thiện dựa vào sự ủng hộ của công chúng để tiếp tục công việc quan trọng của họ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'export' LIMIT 1),
+    'Many countries rely on the export of their natural resources to boost their economy.',
+    'Nhiều quốc gia phụ thuộc vào việc xuất khẩu tài nguyên thiên nhiên của họ để thúc đẩy nền kinh tế.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transport' LIMIT 1),
+    'The city council is investing heavily in improving public transport to reduce traffic congestion.',
+    'Hội đồng thành phố đang đầu tư mạnh vào việc cải thiện giao thông công cộng để giảm tắc nghẽn giao thông.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'opportunity' LIMIT 1),
+    'This new project offers a great opportunity for us to expand our market share.',
+    'Dự án mới này mang lại một cơ hội tuyệt vời để chúng ta mở rộng thị phần của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pedigree' LIMIT 1),
+    'The breeder proudly showed off the puppy''s impressive pedigree, tracing its lineage back several generations of champions.',
+    'Người nhân giống tự hào khoe phả hệ ấn tượng của chú chó con, truy tìm dòng dõi của nó qua nhiều thế hệ vô địch.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pedestrian' LIMIT 1),
+    'The new city regulations aim to improve safety for pedestrians crossing busy streets.',
+    'Các quy định mới của thành phố nhằm mục đích cải thiện an toàn cho người đi bộ khi băng qua những con phố đông đúc.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expedient' LIMIT 1),
+    'Given the urgent need for a solution, the committee decided to take the most expedient action, even if it wasn''t the ideal long-term plan.',
+    'Với nhu cầu cấp bách về một giải pháp, ủy ban đã quyết định thực hiện hành động thích hợp nhất, ngay cả khi đó không phải là kế hoạch dài hạn lý tưởng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expedition' LIMIT 1),
+    'The scientific team launched an expedition to the Antarctic to gather data on climate change.',
+    'Đội khoa học đã phát động một cuộc thám hiểm đến Nam Cực để thu thập dữ liệu về biến đổi khí hậu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'barrier' LIMIT 1),
+    'The language barrier made it difficult for the tourists to understand the local customs.',
+    'Rào cản ngôn ngữ khiến du khách khó hiểu các phong tục địa phương.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'barrel' LIMIT 1),
+    'The old woman carefully collected rainwater in a large wooden barrel.',
+    'Bà cụ cẩn thận hứng nước mưa vào một thùng gỗ lớn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'barrister' LIMIT 1),
+    'The experienced barrister skillfully cross-examined the witness, uncovering crucial inconsistencies in their testimony.',
+    'Luật sư tranh tụng giàu kinh nghiệm đã khéo léo chất vấn chéo nhân chứng, phát hiện ra những điểm không nhất quán quan trọng trong lời khai của họ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'embargo' LIMIT 1),
+    'The United Nations imposed an arms embargo on the warring nation to prevent further escalation of the conflict.',
+    'Liên Hợp Quốc đã áp đặt lệnh cấm vận vũ khí đối với quốc gia đang có chiến tranh để ngăn chặn xung đột leo thang thêm.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'courage' LIMIT 1),
+    'It takes great courage to speak up against injustice, especially when you are the only one.',
+    'Cần rất nhiều lòng dũng cảm để lên tiếng chống lại sự bất công, đặc biệt khi bạn là người duy nhất.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'discourage' LIMIT 1),
+    'Don''t let a few setbacks discourage you from pursuing your dreams.',
+    'Đừng để một vài thất bại làm bạn nản lòng theo đuổi ước mơ của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'accord' LIMIT 1),
+    'The two nations finally reached an accord on the new trade agreement after months of negotiations.',
+    'Hai quốc gia cuối cùng đã đạt được một thỏa thuận về hiệp định thương mại mới sau nhiều tháng đàm phán.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'cordial' LIMIT 1),
+    'Despite their business rivalry, the two CEOs maintained a surprisingly cordial relationship.',
+    'Mặc dù có sự cạnh tranh trong kinh doanh, hai CEO vẫn duy trì mối quan hệ thân mật (hoặc thân thiện) đáng ngạc nhiên.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exit' LIMIT 1),
+    'He made a quick exit after the meeting, avoiding any further questions.',
+    'Anh ấy đã nhanh chóng rời đi sau cuộc họp, tránh mọi câu hỏi thêm.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transit' LIMIT 1),
+    'The package is currently in transit and is expected to arrive tomorrow.',
+    'Gói hàng hiện đang được vận chuyển và dự kiến sẽ đến vào ngày mai.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'orbit' LIMIT 1),
+    'The Earth orbits the sun, completing one revolution approximately every 365 days.',
+    'Trái đất quay quanh Mặt trời, hoàn thành một vòng quay khoảng mỗi 365 ngày.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'itinerary' LIMIT 1),
+    'The travel agency provided us with a detailed itinerary for our trip to Japan, including flight times, hotel bookings, and daily activities.',
+    'Công ty du lịch đã cung cấp cho chúng tôi một lịch trình chi tiết cho chuyến đi Nhật Bản của chúng tôi, bao gồm thời gian bay, đặt phòng khách sạn và các hoạt động hàng ngày.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expose' LIMIT 1),
+    'The journalist worked tirelessly to expose the corruption within the government.',
+    'Phóng viên đã làm việc không mệt mỏi để phanh phui nạn tham nhũng trong chính phủ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'oppose' LIMIT 1),
+    'Many residents oppose the construction of the new highway, citing environmental concerns.',
+    'Nhiều cư dân phản đối việc xây dựng đường cao tốc mới, với lý do lo ngại về môi trường.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'compose' LIMIT 1),
+    'The famous composer took several months to compose his latest symphony.',
+    'Nhà soạn nhạc nổi tiếng đã mất vài tháng để sáng tác bản giao hưởng mới nhất của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suppose' LIMIT 1),
+    'Suppose we miss the last train, what will we do then?',
+    'Giả sử chúng ta lỡ chuyến tàu cuối cùng, lúc đó chúng ta sẽ làm gì?',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'construct' LIMIT 1),
+    'They plan to construct a new bridge over the river to ease traffic congestion.',
+    'Họ dự định xây dựng một cây cầu mới bắc qua sông để giảm ùn tắc giao thông.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'destructive' LIMIT 1),
+    'The hurricane was incredibly destructive, causing widespread damage to homes and infrastructure.',
+    'Cơn bão đã gây ra sự tàn phá khủng khiếp, làm hư hại trên diện rộng nhà cửa và cơ sở hạ tầng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'obstruct' LIMIT 1),
+    'The fallen tree obstructed the road, preventing cars from passing.',
+    'Cây đổ đã cản trở con đường, ngăn không cho ô tô đi qua.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'structure' LIMIT 1),
+    'The new manager proposed a more flexible team structure to encourage innovation.',
+    'Người quản lý mới đã đề xuất một cơ cấu đội nhóm linh hoạt hơn để khuyến khích sự đổi mới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prevent' LIMIT 1),
+    'Regular exercise and a balanced diet can help prevent many health problems.',
+    'Tập thể dục thường xuyên và chế độ ăn uống cân bằng có thể giúp ngăn ngừa nhiều vấn đề sức khỏe.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'convention' LIMIT 1),
+    'The annual comic book convention attracted thousands of fans to the city.',
+    'Hội nghị truyện tranh thường niên đã thu hút hàng nghìn người hâm mộ đến thành phố.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'convenient' LIMIT 1),
+    'Online shopping is very convenient because you can do it from anywhere, anytime.',
+    'Mua sắm trực tuyến rất tiện lợi vì bạn có thể thực hiện nó từ bất cứ đâu, bất cứ lúc nào.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'souvenir' LIMIT 1),
+    'I bought a small Eiffel Tower as a souvenir from my trip to Paris.',
+    'Tôi đã mua một mô hình tháp Eiffel nhỏ làm kỷ niệm từ chuyến đi Paris của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'usage' LIMIT 1),
+    'The manual provides detailed instructions on the proper usage of the new equipment.',
+    'Sách hướng dẫn cung cấp chỉ dẫn chi tiết về cách sử dụng đúng thiết bị mới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'usual' LIMIT 1),
+    'It''s usual for him to have a cup of coffee before starting work.',
+    'Anh ấy thường uống một tách cà phê trước khi bắt đầu làm việc.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'utilize' LIMIT 1),
+    'We need to utilize all available resources to complete the project on schedule.',
+    'Chúng ta cần tận dụng tất cả các nguồn lực sẵn có để hoàn thành dự án đúng tiến độ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'utensil' LIMIT 1),
+    'Remember to wash all the cooking utensils thoroughly after dinner.',
+    'Hãy nhớ rửa sạch tất cả các dụng cụ nấu ăn sau bữa tối.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'origin' LIMIT 1),
+    'The origin of the tradition dates back to the 17th century.',
+    'Nguồn gốc của truyền thống này bắt nguồn từ thế kỷ 17.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'originate' LIMIT 1),
+    'Many of the traditions we celebrate today actually originate from ancient pagan rituals.',
+    'Nhiều truyền thống chúng ta kỷ niệm ngày nay thực sự bắt nguồn từ các nghi lễ ngoại giáo cổ đại.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'aboriginal' LIMIT 1),
+    'The museum features a dedicated section on the history and culture of the Aboriginal peoples of Australia.',
+    'Bảo tàng có một khu vực riêng biệt trưng bày lịch sử và văn hóa của các dân tộc bản địa (Thổ dân) Úc.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'envy' LIMIT 1),
+    'He watched his colleague accept the award with a feeling of envy.',
+    'Anh ấy nhìn đồng nghiệp của mình nhận giải thưởng với cảm giác ghen tị.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'envy' LIMIT 1),
+    'She was envious of her sister''s beautiful new coat.',
+    'Cô ấy ghen tị với chiếc áo khoác mới xinh đẹp của chị gái mình.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'preview' LIMIT 1),
+    'We saw a preview of the new movie before it was released.',
+    'Chúng tôi đã xem một bản xem trước của bộ phim mới trước khi nó được phát hành.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'review' LIMIT 1),
+    'The manager will review your performance at the end of the month.',
+    'Người quản lý sẽ xem xét hiệu suất của bạn vào cuối tháng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'purview' LIMIT 1),
+    'That decision is outside the purview of this department.',
+    'Quyết định đó nằm ngoài phạm vi thẩm quyền của bộ phận này.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revive' LIMIT 1),
+    'They tried to revive the old tradition.',
+    'Họ đã cố gắng phục hồi truyền thống cũ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revive' LIMIT 1),
+    'There has been a revival in the popularity of vinyl records.',
+    'Đã có một sự hồi sinh về sự phổ biến của đĩa than.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vivid' LIMIT 1),
+    'He has vivid memories of his childhood.',
+    'Anh ấy có những ký ức sống động về thời thơ ấu của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vivid' LIMIT 1),
+    'I vividly remember the day we first met.',
+    'Tôi nhớ rất rõ ngày đầu tiên chúng ta gặp nhau.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vigorous' LIMIT 1),
+    'The doctor recommended vigorous exercise to improve his health.',
+    'Bác sĩ khuyên nên tập thể dục hăng hái để cải thiện sức khỏe.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'invigorate' LIMIT 1),
+    'A cold shower in the morning always invigorates me.',
+    'Tắm nước lạnh vào buổi sáng luôn làm tôi cảm thấy hăng hái.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'passage' LIMIT 1),
+    'The book opens with a passage describing the main character.',
+    'Cuốn sách mở đầu bằng một đoạn văn mô tả nhân vật chính.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'passenger' LIMIT 1),
+    'All passengers must show their tickets before boarding.',
+    'Tất cả hành khách phải xuất trình vé trước khi lên tàu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pastime' LIMIT 1),
+    'Reading is her favorite pastime.',
+    'Đọc sách là trò tiêu khiển yêu thích của cô ấy.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'passer-by' LIMIT 1),
+    'A passer-by stopped to help the injured cyclist.',
+    'Một người qua đường đã dừng lại để giúp người đi xe đạp bị thương.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'advise' LIMIT 1),
+    'I would advise you to reconsider your decision.',
+    'Tôi khuyên bạn nên xem xét lại quyết định của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'advise' LIMIT 1),
+    'He gave me some useful advice on finding a job.',
+    'Anh ấy đã cho tôi một số lời khuyên hữu ích về việc tìm việc.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revise' LIMIT 1),
+    'You need to revise your essay to fix the grammar mistakes.',
+    'Bạn cần sửa lại bài luận của mình để sửa các lỗi ngữ pháp.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revise' LIMIT 1),
+    'The author made several revisions to the manuscript.',
+    'Tác giả đã thực hiện một số sửa đổi đối với bản thảo.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'improvise' LIMIT 1),
+    'When the speaker didn''t show up, we had to improvise.',
+    'Khi diễn giả không xuất hiện, chúng tôi đã phải ứng biến.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'improvise' LIMIT 1),
+    'Jazz music often features a lot of improvisation.',
+    'Nhạc Jazz thường có rất nhiều sự ngẫu hứng.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
+    'The mountains were barely visible through the fog.',
+    'Hầu như không thể nhìn thấy những ngọn núi qua màn sương mù.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
+    'Visibility was poor due to the heavy rain.',
+    'Tầm nhìn kém do mưa lớn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'visible' LIMIT 1),
+    'Germs are invisible to the naked eye.',
+    'Vi trùng vô hình đối với mắt thường.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
+    'Her teacher was a positive influence in her life.',
+    'Giáo viên của cô ấy là một ảnh hưởng tích cực trong cuộc đời cô ấy.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
+    'Don''t let your personal feelings influence your decision.',
+    'Đừng để cảm xúc cá nhân ảnh hưởng đến quyết định của bạn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'influence' LIMIT 1),
+    'He is one of the most influential figures in modern politics.',
+    'Ông là một trong những nhân vật có ảnh hưởng nhất trong chính trị hiện đại.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'affluent' LIMIT 1),
+    'They live in an affluent neighborhood.',
+    'Họ sống trong một khu dân cư giàu có.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fluid' LIMIT 1),
+    'Drink plenty of fluids when you are sick.',
+    'Hãy uống nhiều chất lỏng khi bạn bị ốm.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fluid' LIMIT 1),
+    'The dancer''s movements were smooth and fluid.',
+    'Những chuyển động của vũ công rất mượt mà và uyển chuyển.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fluctuate' LIMIT 1),
+    'Prices tend to fluctuate based on demand.',
+    'Giá cả có xu hướng dao động dựa trên nhu cầu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fluctuate' LIMIT 1),
+    'The market experienced a wild fluctuation this week.',
+    'Thị trường đã trải qua một sự biến động dữ dội trong tuần này.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
+    'With hard work, you will eventually succeed.',
+    'Với sự chăm chỉ, cuối cùng bạn sẽ thành công.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
+    'Success is the result of preparation and opportunity.',
+    'Thành công là kết quả của sự chuẩn bị và cơ hội.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
+    'She runs a very successful business.',
+    'Cô ấy điều hành một doanh nghiệp rất thành công.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'succeed' LIMIT 1),
+    'The team has won five successive games.',
+    'Đội đã thắng năm trận liên tiếp.',
+    3);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'proceed' LIMIT 1),
+    'Please proceed to the boarding gate.',
+    'Xin vui lòng tiếp tục đi đến cổng lên máy bay.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'proceed' LIMIT 1),
+    'You must follow the standard safety procedure.',
+    'Bạn phải tuân theo quy trình an toàn tiêu chuẩn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'concede' LIMIT 1),
+    'The candidate called his opponent to concede the election.',
+    'Ứng cử viên đã gọi cho đối thủ của mình để thừa nhận thất bại trong cuộc bầu cử.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recession' LIMIT 1),
+    'The country is facing a severe economic recession.',
+    'Đất nước đang phải đối mặt với một cuộc suy thoái kinh tế nghiêm trọng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recession' LIMIT 1),
+    'The children play outside during recess.',
+    'Bọn trẻ chơi bên ngoài trong giờ giải lao.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insist' LIMIT 1),
+    'He insisted on paying for dinner.',
+    'Anh ấy khăng khăng đòi trả tiền cho bữa tối.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insist' LIMIT 1),
+    'Her insistent questions made him uncomfortable.',
+    'Những câu hỏi kiên trì của cô ấy khiến anh ấy không thoải mái.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resist' LIMIT 1),
+    'I couldn''t resist eating the last piece of chocolate.',
+    'Tôi không thể cưỡng lại việc ăn miếng sô cô la cuối cùng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resist' LIMIT 1),
+    'The new policy met with strong resistance from the staff.',
+    'Chính sách mới vấp phải sự phản đối mạnh mẽ từ nhân viên.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'persist' LIMIT 1),
+    'If the symptoms persist, you should see a doctor.',
+    'Nếu các triệu chứng vẫn tiếp diễn, bạn nên đi khám bác sĩ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'persist' LIMIT 1),
+    'A persistent cough kept him awake all night.',
+    'Một cơn ho dai dẳng khiến anh ấy thức cả đêm.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subsist' LIMIT 1),
+    'The small tribe subsists entirely on hunting and gathering.',
+    'Bộ lạc nhỏ bé này sinh tồn hoàn toàn bằng săn bắn và hái lượm.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subsist' LIMIT 1),
+    'Farming is their main means of subsistence.',
+    'Nông nghiệp là phương tiện sinh kế chính của họ.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'patriotic' LIMIT 1),
+    'Waving the flag is a patriotic gesture.',
+    'Vẫy cờ là một cử chỉ yêu nước.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'patriotic' LIMIT 1),
+    'He was considered a great patriot who fought for his country''s freedom.',
+    'Ông được coi là một nhà ái quốc vĩ đại, người đã chiến đấu cho tự do của đất nước mình.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'compatriot' LIMIT 1),
+    'He celebrated the victory with his fellow compatriots.',
+    'Anh ấy ăn mừng chiến thắng cùng với những người đồng bào của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'paternal' LIMIT 1),
+    'He gave the young boy a look of paternal kindness.',
+    'Ông ấy nhìn cậu bé bằng ánh mắt nhân từ của một người cha.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'paternal' LIMIT 1),
+    'The man denied paternity of the child.',
+    'Người đàn ông phủ nhận quan hệ cha con với đứa trẻ.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'patronize' LIMIT 1),
+    'We patronize the local bakery every Sunday morning.',
+    'Chúng tôi thường xuyên lui tới tiệm bánh địa phương vào mỗi sáng Chủ nhật.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vacant' LIMIT 1),
+    'The seat next to him was vacant.',
+    'Chiếc ghế bên cạnh anh ấy còn trống.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vacant' LIMIT 1),
+    'The hotel has a vacancy for a receptionist.',
+    'Khách sạn có một vị trí tuyển dụng cho nhân viên lễ tân.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'vast' LIMIT 1),
+    'The Sahara is a vast desert.',
+    'Sahara là một sa mạc rộng lớn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'devastate' LIMIT 1),
+    'The hurricane devastated the coastal town.',
+    'Cơn bão đã tàn phá thị trấn ven biển.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'devastate' LIMIT 1),
+    'The news of the accident was devastating.',
+    'Tin tức về vụ tai nạn thật sự tàn khốc.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'avoid' LIMIT 1),
+    'You should avoid driving during rush hour.',
+    'Bạn nên tránh lái xe vào giờ cao điểm.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'avoid' LIMIT 1),
+    'His avoidance of the subject made me suspicious.',
+    'Việc anh ta né tránh chủ đề này khiến tôi nghi ngờ.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manipulate' LIMIT 1),
+    'He tried to manipulate the data to support his theory.',
+    'Anh ta đã cố gắng thao túng dữ liệu để hỗ trợ lý thuyết của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manipulate' LIMIT 1),
+    'She was skilled in the art of political manipulation.',
+    'Cô ấy rất thành thạo nghệ thuật thao túng chính trị.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manuscript' LIMIT 1),
+    'The author submitted the manuscript to the publisher.',
+    'Tác giả đã nộp bản thảo cho nhà xuất bản.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
+    'This factory manufactures computer chips.',
+    'Nhà máy này sản xuất chip máy tính.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
+    'The manufacture of glass is a complex process.',
+    'Việc sản xuất thủy tinh là một quá trình phức tạp.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manufacture' LIMIT 1),
+    'We contacted the manufacturer about the faulty product.',
+    'Chúng tôi đã liên hệ với nhà sản xuất về sản phẩm bị lỗi.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
+    'She needs to learn how to manage her time better.',
+    'Cô ấy cần học cách quản lý thời gian tốt hơn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
+    'The company is suffering from poor management.',
+    'Công ty đang phải gánh chịu hậu quả từ sự quản lý yếu kém.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manage' LIMIT 1),
+    'The manager will interview all the candidates.',
+    'Người quản lý sẽ phỏng vấn tất cả các ứng viên.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'emotion' LIMIT 1),
+    'She tried to hide her emotions during the speech.',
+    'Cô ấy cố giấu cảm xúc trong bài phát biểu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'emotion' LIMIT 1),
+    'It was an emotional moment for everyone.',
+    'Đó là khoảnh khắc đầy cảm xúc với mọi người.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
+    'He lives in a remote village.',
+    'Anh ta sống ở một ngôi làng hẻo lánh.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
+    'Please remove your shoes before entering.',
+    'Vui lòng cởi giày trước khi vào.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remote' LIMIT 1),
+    'The removal of the statue caused controversy.',
+    'Việc dỡ bỏ bức tượng gây tranh cãi.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'demote' LIMIT 1),
+    'He was demoted for poor performance.',
+    'Anh ta bị giáng chức vì hiệu suất kém.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'demote' LIMIT 1),
+    'His demotion surprised everyone.',
+    'Việc giáng chức của anh ta khiến mọi người bất ngờ.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reject' LIMIT 1),
+    'She rejected his job offer.',
+    'Cô ấy từ chối lời mời làm việc của anh ta.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reject' LIMIT 1),
+    'The factory sells rejects at a discount.',
+    'Nhà máy bán hàng lỗi với giá giảm.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
+    'I object to being treated unfairly.',
+    'Tôi phản đối việc bị đối xử bất công.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
+    'That strange object is floating in the water.',
+    'Vật thể lạ đó đang trôi trên nước.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
+    'Vật thể lạ đó đang trôi trên nước.',
+    'Anh ấy phản đối kế hoạch đó.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
+    'Try to stay objective during discussions.',
+    'Hãy cố giữ khách quan trong thảo luận.',
+    3);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'object' LIMIT 1),
+    'Our main objective is to increase sales.',
+    'Mục tiêu chính của chúng ta là tăng doanh số.',
+    4);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
+    'All citizens are subject to the law.',
+    'Mọi công dân đều phải tuân theo pháp luật.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
+    'The prisoners were subjected to harsh treatment.',
+    'Tù nhân bị đối xử tàn nhẫn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subject' LIMIT 1),
+    'Math is my favorite subject.',
+    'Toán là môn tôi thích nhất.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inject' LIMIT 1),
+    'The nurse injected the patient with medicine.',
+    'Y tá tiêm thuốc cho bệnh nhân.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inject' LIMIT 1),
+    'He received a flu injection yesterday.',
+    'Anh ấy đã tiêm phòng cúm hôm qua.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inspect' LIMIT 1),
+    'The teacher inspected the students’ work.',
+    'Giáo viên kiểm tra bài của học sinh.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inspect' LIMIT 1),
+    'The safety inspector found several problems.',
+    'Thanh tra an toàn phát hiện vài vấn đề.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
+    'You should respect your parents.',
+    'Bạn nên tôn trọng cha mẹ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
+    'She has great respect for her teacher.',
+    'Cô ấy rất kính trọng giáo viên của mình.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
+    'He was very respectful to the elders.',
+    'Anh ấy rất lễ phép với người lớn tuổi.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
+    'The students returned to their respective seats.',
+    'Học sinh quay lại chỗ ngồi của mình.',
+    3);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'respect' LIMIT 1),
+    'They live in a respectable neighborhood.',
+    'Họ sống ở khu phố đàng hoàng.',
+    4);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
+    'I suspect he’s lying.',
+    'Tôi nghi ngờ anh ta đang nói dối.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
+    'The police arrested the main suspect.',
+    'Cảnh sát bắt giữ nghi phạm chính.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
+    'He looked suspicious when asked questions.',
+    'Anh ta trông đáng ngờ khi bị hỏi.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suspect' LIMIT 1),
+    'There’s a suspicion of fraud in this case.',
+    'Có nghi ngờ gian lận trong vụ này.',
+    3);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
+    'I expect to finish this today.',
+    'Tôi mong sẽ hoàn thành việc này hôm nay.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
+    'The country’s life expectancy has increased.',
+    'Tuổi thọ trung bình của đất nước đã tăng.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'expect' LIMIT 1),
+    'The results met our expectations.',
+    'Kết quả đáp ứng kỳ vọng của chúng tôi.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'belong' LIMIT 1),
+    'This book belongs to me.',
+    'Cuốn sách này là của tôi.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'belong' LIMIT 1),
+    'He packed his belongings and left.',
+    'Anh ta thu dọn đồ đạc và rời đi.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
+    'They plan to lengthen the bridge.',
+    'Họ dự định kéo dài cây cầu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
+    'The length of the table is two meters.',
+    'Chiều dài của cái bàn là hai mét.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'lengthen' LIMIT 1),
+    'It was a lengthy discussion.',
+    'Đó là một cuộc thảo luận dài dòng.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'linger' LIMIT 1),
+    'The smell lingered for hours.',
+    'Mùi hương còn vương lại hàng giờ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'longitude' LIMIT 1),
+    'The island lies at 120° east longitude.',
+    'Hòn đảo nằm ở kinh độ 120° đông.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'contest' LIMIT 1),
+    'She decided to contest the election results.',
+    'Cô ấy quyết định phản đối kết quả bầu cử.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'contest' LIMIT 1),
+    'He won first place in the singing contest.',
+    'Anh ấy thắng giải nhất trong cuộc thi hát.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'detest' LIMIT 1),
+    'I detest lying.',
+    'Tôi ghét việc nói dối.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'detest' LIMIT 1),
+    'His behavior was detestable.',
+    'Hành vi của anh ta thật đáng ghét.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'testify' LIMIT 1),
+    'She testified in court yesterday.',
+    'Cô ấy đã làm chứng tại tòa hôm qua.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'attest' LIMIT 1),
+    'The results attest to his hard work.',
+    'Kết quả chứng minh cho sự chăm chỉ của anh ấy.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reduce' LIMIT 1),
+    'We need to reduce costs.',
+    'Chúng ta cần giảm chi phí.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reduce' LIMIT 1),
+    'There’s been a reduction in traffic accidents.',
+    'Tai nạn giao thông đã giảm.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'introduce' LIMIT 1),
+    'Let me introduce my friend to you.',
+    'Hãy để tôi giới thiệu bạn tôi với bạn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'introduce' LIMIT 1),
+    'The teacher gave an introduction to the topic.',
+    'Giáo viên đã giới thiệu về chủ đề.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'educate' LIMIT 1),
+    'Parents should educate their children about honesty.',
+    'Cha mẹ nên dạy con cái về sự trung thực.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'educate' LIMIT 1),
+    'Education is the key to success.',
+    'Giáo dục là chìa khóa thành công.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abduct' LIMIT 1),
+    'The child was abducted near the park.',
+    'Đứa trẻ bị bắt cóc gần công viên.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abduct' LIMIT 1),
+    'The police are investigating the abduction case.',
+    'Cảnh sát đang điều tra vụ bắt cóc.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
+    'He sent a telegram to his family.',
+    'Anh ấy gửi điện tín cho gia đình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
+    'The message was sent by telegraph.',
+    'Thông điệp được gửi bằng điện báo.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'telegram' LIMIT 1),
+    'They telegrammed the news to London.',
+    'Họ gửi điện tín thông báo tin đó đến London.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
+    'She took a photograph of the sunset.',
+    'Cô ấy chụp một bức ảnh hoàng hôn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
+    'He’s a professional photographer.',
+    'Anh ấy là nhiếp ảnh gia chuyên nghiệp.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'photograph' LIMIT 1),
+    'She looks very photogenic in pictures.',
+    'Cô ấy lên hình rất ăn ảnh.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'autograph' LIMIT 1),
+    'I got the singer’s autograph.',
+    'Tôi đã xin được chữ ký của ca sĩ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'geography' LIMIT 1),
+    'Geography teaches us about the Earth.',
+    'Môn địa lý dạy chúng ta về Trái Đất.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'geography' LIMIT 1),
+    'This map shows the geographic features of Asia.',
+    'Bản đồ này thể hiện đặc điểm địa lý của châu Á.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
+    'The museum will exhibit ancient artifacts.',
+    'Bảo tàng sẽ trưng bày các cổ vật.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
+    'The dinosaur exhibit was fascinating.',
+    'Khu trưng bày khủng long rất thú vị.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exhibit' LIMIT 1),
+    'We visited a modern art exhibition.',
+    'Chúng tôi đã tham quan triển lãm nghệ thuật hiện đại.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
+    'Smoking is a bad habit.',
+    'Hút thuốc là thói quen xấu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
+    'He’s a habitual latecomer.',
+    'Anh ta là người thường xuyên đến muộn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'habit' LIMIT 1),
+    'These birds habit the forest area.',
+    'Loài chim này sinh sống ở vùng rừng.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inhabit' LIMIT 1),
+    'Polar bears inhabit the Arctic region.',
+    'Gấu Bắc Cực sống ở vùng Bắc Cực.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'inhabit' LIMIT 1),
+    'The island has about 500 inhabitants.',
+    'Hòn đảo có khoảng 500 cư dân.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'habitat' LIMIT 1),
+    'The forest is the natural habitat of many animals.',
+    'Rừng là môi trường sống tự nhiên của nhiều loài vật.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suffer' LIMIT 1),
+    'Many people suffer from stress.',
+    'Nhiều người bị căng thẳng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suffer' LIMIT 1),
+    'He endured years of suffering.',
+    'Anh ấy chịu đựng nhiều năm đau khổ.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'refer' LIMIT 1),
+    'Please refer to the notes for details.',
+    'Vui lòng tham khảo ghi chú để biết chi tiết.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'refer' LIMIT 1),
+    'I used this book as a reference.',
+    'Tôi dùng cuốn sách này làm tài liệu tham khảo.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
+    'They have different opinions.',
+    'Họ có quan điểm khác nhau.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
+    'What’s the difference between these two?',
+    'Sự khác biệt giữa hai cái này là gì?',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'different' LIMIT 1),
+    'Our ideas differ slightly.',
+    'Ý tưởng của chúng ta hơi khác nhau.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transfer' LIMIT 1),
+    'She transferred to another department.',
+    'Cô ấy được chuyển sang phòng ban khác.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'transfer' LIMIT 1),
+    'The bank transfer was completed successfully.',
+    'Giao dịch chuyển tiền đã hoàn tất thành công.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'addict' LIMIT 1),
+    'He’s a video game addict.',
+    'Anh ấy là người nghiện trò chơi điện tử.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'addict' LIMIT 1),
+    'She became addicted to coffee.',
+    'Cô ấy bị nghiện cà phê.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'contradict' LIMIT 1),
+    'His actions contradict his words.',
+    'Hành động của anh ta mâu thuẫn với lời nói.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'contradict' LIMIT 1),
+    'There’s a contradiction in his statement.',
+    'Có một mâu thuẫn trong lời khai của anh ta.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
+    'The country suffered under a dictatorship.',
+    'Đất nước phải chịu đựng dưới chế độ độc tài.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
+    'The teacher dictated a paragraph to the students.',
+    'Giáo viên đọc cho học sinh chép một đoạn văn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dictatorship' LIMIT 1),
+    'We have an English dictation test today.',
+    'Hôm nay chúng ta có bài kiểm tra chính tả tiếng Anh.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'verdict' LIMIT 1),
+    'The jury gave a verdict of “not guilty.”',
+    'Bồi thẩm đoàn đưa ra phán quyết “không có tội.”',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
+    'The residents protested against the noise.',
+    'Cư dân phản đối tiếng ồn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
+    'They reside in a small village.',
+    'Họ sinh sống trong một ngôi làng nhỏ.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resident' LIMIT 1),
+    'His official residence is in Hanoi.',
+    'Nơi ở chính thức của anh ta là ở Hà Nội.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subside' LIMIT 1),
+    'The pain began to subside after the treatment.',
+    'Cơn đau bắt đầu giảm sau khi điều trị.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subside' LIMIT 1),
+    'The government provides subsidies for farmers.',
+    'Chính phủ trợ cấp cho nông dân.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'settle' LIMIT 1),
+    'They decided to settle in Canada.',
+    'Họ quyết định định cư ở Canada.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'settle' LIMIT 1),
+    'The settlers built a small settlement near the river.',
+    'Những người định cư xây một khu định cư nhỏ gần sông.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'possess' LIMIT 1),
+    'He possesses great musical talent.',
+    'Anh ấy có tài năng âm nhạc tuyệt vời.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'possess' LIMIT 1),
+    'This house is my most valuable possession.',
+    'Ngôi nhà này là tài sản quý giá nhất của tôi.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'native' LIMIT 1),
+    'English is her native language.',
+    'Tiếng Anh là ngôn ngữ mẹ đẻ của cô ấy.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'native' LIMIT 1),
+    'The natives welcomed the explorers.',
+    'Người bản địa đã chào đón các nhà thám hiểm.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'naive' LIMIT 1),
+    'She’s too naive to see his lies.',
+    'Cô ấy quá ngây thơ để nhận ra lời nói dối của anh ta.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'naturalize' LIMIT 1),
+    'He was naturalized as a U.S. citizen.',
+    'Anh ta được nhập quốc tịch Mỹ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'innate' LIMIT 1),
+    'She has an innate sense of rhythm.',
+    'Cô ấy có cảm nhận nhịp điệu bẩm sinh.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'effect' LIMIT 1),
+    'The new law takes effect next month.',
+    'Luật mới có hiệu lực vào tháng tới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'effect' LIMIT 1),
+    'The medicine is very effective.',
+    'Loại thuốc này rất hiệu quả.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
+    'The weather can affect your mood.',
+    'Thời tiết có thể ảnh hưởng đến tâm trạng của bạn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
+    'She showed deep affection for her dog.',
+    'Cô ấy thể hiện tình yêu thương sâu sắc với con chó của mình.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'affect' LIMIT 1),
+    'He’s very affectionate toward his children.',
+    'Anh ấy rất tình cảm với con cái.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
+    'The virus can infect many people quickly.',
+    'Virus có thể lây nhiễm nhiều người rất nhanh.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
+    'He’s being treated for a lung infection.',
+    'Anh ấy đang được điều trị bệnh nhiễm trùng phổi.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'infect' LIMIT 1),
+    'Her laughter is infectious.',
+    'Tiếng cười của cô ấy lan tỏa và dễ lây sang người khác.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
+    'There’s a small defect in this phone.',
+    'Có một lỗi nhỏ trong chiếc điện thoại này.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
+    'He defected to the other side during the war.',
+    'Anh ta đào ngũ sang phe đối phương trong chiến tranh.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'defect' LIMIT 1),
+    'The product was found to be defective.',
+    'Sản phẩm bị phát hiện là có lỗi.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'cast' LIMIT 1),
+    'They cast a vote for the new leader.',
+    'Họ bỏ phiếu chọn lãnh đạo mới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'cast' LIMIT 1),
+    'The movie has a great cast.',
+    'Bộ phim có dàn diễn viên tuyệt vời.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'broadcast' LIMIT 1),
+    'The show was broadcast live.',
+    'Chương trình được phát sóng trực tiếp.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'broadcast' LIMIT 1),
+    'I watched the morning broadcast.',
+    'Tôi đã xem bản tin buổi sáng.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'overcast' LIMIT 1),
+    'The sky is overcast today.',
+    'Trời hôm nay âm u.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'castaway' LIMIT 1),
+    'The castaway survived on the island for years.',
+    'Người bị đắm tàu sống sót trên đảo suốt nhiều năm.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'praise' LIMIT 1),
+    'He was praised for his bravery.',
+    'Anh ấy được khen ngợi vì sự dũng cảm.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'precious' LIMIT 1),
+    'What is the most precious thing in life.',
+    'Điều gì là quan trọng nhất trong cuộc đời này?',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'appreciate' LIMIT 1),
+    'The yen is appreciating these days.',
+    'Gần đây, đồng yên đang tăng giá.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'depreciate' LIMIT 1),
+    'The dollar is depreciating against the euro.',
+    'Đồng đô la giảm so với đồng euro.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'sect' LIMIT 1),
+    'Islam has two sects: the Sunnis and the Shias.',
+    'Hồi giáo có 2 giáo phái chính là Sunni và Shia.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insect' LIMIT 1),
+    'I got a lot of insect bites.',
+    'Tôi bị nhiều vết côn trùng cắn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insecticide' LIMIT 1),
+    'We use no insecticides or herbicides.',
+    'Chúng tôi không sử dụng thuốc trừ sâu hoặc thuốc diệt cỏ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'segment' LIMIT 1),
+    'One segment of this jigsaw puzzle is missing.',
+    'Bộ ghép hình này bị thiếu mất một miếng ghép.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'diligent' LIMIT 1),
+    'The Japanese are known as a diligent people.',
+    'Người Nhật Bản được biết đến là rất siêng năng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'eligible' LIMIT 1),
+    'People over 18 are eligible to vote in Japan.',
+    'Ở Nhật Bản, người trên 18 tuổi đủ điều kiện đi bỏ phiếu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'illegal' LIMIT 1),
+    'It''s illegal to park cars in this area.',
+    'Đỗ xe ở đây là bất hợp pháp.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'privilege' LIMIT 1),
+    'It''s a privilege to meet you.',
+    'Thật vinh dự khi được gặp bạn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ignore' LIMIT 1),
+    'Don''t ignore the facts.',
+    'Đừng phớt lờ sự thật.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recognize' LIMIT 1),
+    'I couldn''t recognize him at first.',
+    'Tôi không thể nhận ra anh ấy ngay lần đầu tiên.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'knowledge' LIMIT 1),
+    'He has knowledge of the Latin language.',
+    'Anh ấy có hiểu biết về tiếng Latinh.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acknowledge' LIMIT 1),
+    'He acknowledged having lied to me.',
+    'Anh ấy thừa nhận là đã nói dối tôi.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'geometry' LIMIT 1),
+    'I was good at geometry.',
+    'Tôi đã rất giỏi về hình học.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'immense' LIMIT 1),
+    'He left an immense fortune for his family.',
+    'Ông ta đã để lại một gia tài lớn cho gia đình mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dimension' LIMIT 1),
+    'I measured each dimension of the room.',
+    'Tôi đo từng chiều của căn phòng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'measure' LIMIT 1),
+    'Can you measure the length of the bed?',
+    'Bạn có thể đo chiều dài của chiếc giường này không?',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'elect' LIMIT 1),
+    'He was elected mayor of this city last year.',
+    'Năm ngoái, ông ấy đã được bầu làm thị trường.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'select' LIMIT 1),
+    'He was selected for the national team.',
+    'Anh ấy đã được chọn vào đội tuyển quốc gia.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recollect' LIMIT 1),
+    'I cannot recollect my phone number.',
+    'Tôi không thể nhớ lại được số điện thoại của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'neglect' LIMIT 1),
+    'Don''t neglect your studies.',
+    'Đừng có bỏ bê việc học.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'anchor' LIMIT 1),
+    'A huge passenger liner is at anchor.',
+    'Một tàu chở khách khổng lồ đang neo đậu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ankle' LIMIT 1),
+    'I twisted my right ankle.',
+    'Tôi vặn cổ chân phải.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'angler' LIMIT 1),
+    'There were many anglers on the lake.',
+    'Có rất nhiều người câu cá trên hồ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'rectangle' LIMIT 1),
+    'That rectangle is 10 cm long and 20 cm wide.',
+    'Hình chữ nhật đó có chiều rộng là 10 cm, chiều dài 20 cm.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remain' LIMIT 1),
+    'The problem remains unsolved.',
+    'Vấn đề vẫn chưa được giải quyết.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remainder' LIMIT 1),
+    'You must pay the remainder of your invoice.',
+    'Bạn phải thanh toán nốt số tiền còn lại trong hoá đơn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'remnant' LIMIT 1),
+    'The remnants of the meal are frozen.',
+    'Phần bỏ thừa của bữa ăn đã được cấp đông.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'manor' LIMIT 1),
+    'The lord lived in a manor house.',
+    'Vị chúa sống trong một trang viên.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prosecute' LIMIT 1),
+    'The suspect was prosecuted.',
+    'Nghi phạm đã bị khởi tố.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'execute' LIMIT 1),
+    'The queen was executed.',
+    'Nữ hoàng đã bị hành hình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'consequence' LIMIT 1),
+    'It caused a serious consequence.',
+    'Nó đã gây ra một hậu quả nghiêm trọng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subsequent' LIMIT 1),
+    'Two subsequent meetings were held.',
+    'Hai cuộc họp tiếp theo đã được tổ chức.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'trait' LIMIT 1),
+    'Honesty is one of her best traits.',
+    'Sự trung thực là một trong những đặc điểm tốt nhất của cô ấy.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'portrait' LIMIT 1),
+    'The artist painted a portrait of the king.',
+    'Người họa sĩ vẽ một bức chân dung của nhà vua.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'portrait' LIMIT 1),
+    'The movie portrays her as a brave woman.',
+    'Bộ phim khắc họa cô ấy là một người phụ nữ dũng cảm.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'treaty' LIMIT 1),
+    'The two countries signed a peace treaty.',
+    'Hai quốc gia ký một hiệp ước hòa bình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'entreat' LIMIT 1),
+    'She entreated him to stay a little longer.',
+    'Cô ấy khẩn cầu anh ở lại thêm một chút.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'entreat' LIMIT 1),
+    'Despite his entreaties, she left.',
+    'Mặc dù anh ta van nài, cô vẫn rời đi.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'district' LIMIT 1),
+    'He lives in the financial district.',
+    'Anh ấy sống trong khu tài chính.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'strain' LIMIT 1),
+    'Don’t strain your eyes by reading in the dark.',
+    'Đừng căng mắt đọc trong bóng tối.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'restrain' LIMIT 1),
+    'He couldn’t restrain his anger.',
+    'Anh ta không thể kiềm chế cơn giận',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'restrain' LIMIT 1),
+    'She spoke with calm restraint.',
+    'Cô ấy nói với sự kiềm chế bình tĩnh.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'constrain' LIMIT 1),
+    'The rules constrain our freedom.',
+    'Các quy định hạn chế tự do của chúng ta.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'constrain' LIMIT 1),
+    'Time constraints forced us to hurry.',
+    'Sự hạn chế về thời gian khiến chúng tôi phải vội.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assemble' LIMIT 1),
+    'The workers assembled in the hall.',
+    'Công nhân tập hợp trong hội trường.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assemble' LIMIT 1),
+    'The students gathered for the morning assembly.',
+    'Học sinh tập trung cho buổi chào cờ sáng.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'similar' LIMIT 1),
+    'These two paintings are very similar.',
+    'Hai bức tranh này rất giống nhau.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'similar' LIMIT 1),
+    'There is a strong similarity between them.',
+    'Có một sự tương đồng rõ rệt giữa họ.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assimilate' LIMIT 1),
+    'Immigrants often take time to assimilate into a new culture.',
+    'Người nhập cư thường mất thời gian để hòa nhập vào nền văn hóa mới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assimilate' LIMIT 1),
+    'Cultural assimilation can take several generations.',
+    'Sự hòa nhập văn hóa có thể mất vài thế hệ.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'simultaneous' LIMIT 1),
+    'The two explosions were simultaneous.',
+    'Hai vụ nổ xảy ra đồng thời.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assault' LIMIT 1),
+    'He was charged with assault.',
+    'Anh ta bị buộc tội hành hung',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assault' LIMIT 1),
+    'The man assaulted a police officer.',
+    'Người đàn ông đó đã tấn công một cảnh sát.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assail' LIMIT 1),
+    'Reporters assailed him with questions.',
+    'Các phóng viên dồn dập hỏi anh ta.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insult' LIMIT 1),
+    'Don’t insult her intelligence.',
+    'Đừng xúc phạm trí thông minh của cô ấy.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'insult' LIMIT 1),
+    'His comment was an insult to everyone.',
+    'Bình luận của anh ta là một sự xúc phạm với mọi người.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exult' LIMIT 1),
+    'Fans exulted after their team’s victory.',
+    'Người hâm mộ hò reo vui mừng sau chiến thắng của đội mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exult' LIMIT 1),
+    'She gave an exultant shout of joy.',
+    'Cô ấy reo lên vui sướng.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'enforce' LIMIT 1),
+    'The police enforce the law strictly.',
+    'Cảnh sát thực thi pháp luật nghiêm khắc.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'enforce' LIMIT 1),
+    'Law enforcement is essential for safety.',
+    'Việc thực thi pháp luật rất cần thiết cho an toàn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fortress' LIMIT 1),
+    'The fortress was built on a hill.',
+    'Pháo đài được xây trên đồi.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
+    'This sofa is very comfortable.',
+    'Chiếc ghế sofa này rất thoải mái.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
+    'She gave him comfort during hard times.',
+    'Cô ấy an ủi anh trong lúc khó khăn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'comfortable' LIMIT 1),
+    'He felt some discomfort in his back.',
+    'Anh ấy cảm thấy hơi khó chịu ở lưng.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fortitude' LIMIT 1),
+    'She showed great fortitude during the crisis.',
+    'Cô ấy thể hiện sự kiên cường lớn trong khủng hoảng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fortitude' LIMIT 1),
+    'The soldiers fortified the camp before nightfall.',
+    'Những người lính củng cố trại trước khi trời tối.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'evolve' LIMIT 1),
+    'Humans evolved from ancient ancestors.',
+    'Loài người tiến hóa từ tổ tiên cổ xưa.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'evolve' LIMIT 1),
+    'Darwin’s theory of evolution changed science.',
+    'Thuyết tiến hóa của Darwin đã thay đổi khoa học.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'involve' LIMIT 1),
+    'The project involves many experts.',
+    'Dự án này có sự tham gia của nhiều chuyên gia.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'involve' LIMIT 1),
+    'His involvement in the case surprised everyone.',
+    'Sự tham gia của anh ta trong vụ việc khiến mọi người ngạc nhiên.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revolt' LIMIT 1),
+    'The peasants started a revolt against the king.',
+    'Nông dân nổi dậy chống lại nhà vua.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'revolt' LIMIT 1),
+    'The people revolted against the corrupt government.',
+    'Người dân nổi dậy chống lại chính phủ tham nhũng.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'devolve' LIMIT 1),
+    'Power was devolved to local authorities.',
+    'Quyền lực được chuyển giao cho chính quyền địa phương.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'modify' LIMIT 1),
+    'We had to modify the plan slightly.',
+    'Chúng tôi phải chỉnh sửa kế hoạch một chút.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'modify' LIMIT 1),
+    'The design needs some modifications.',
+    'Bản thiết kế cần một vài điều chỉnh.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'moderate' LIMIT 1),
+    'She has moderate political views.',
+    'Cô ấy có quan điểm chính trị ôn hòa.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'moderate' LIMIT 1),
+    'He moderated the debate between the candidates.',
+    'Anh ta điều phối cuộc tranh luận giữa các ứng viên.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'accommodate' LIMIT 1),
+    'The hotel can accommodate 200 guests.',
+    'Khách sạn có thể chứa 200 khách.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'accommodate' LIMIT 1),
+    'We are looking for cheap accommodation.',
+    'Chúng tôi đang tìm chỗ ở giá rẻ.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'commodity' LIMIT 1),
+    'Gold is a valuable commodity.',
+    'Vàng là một mặt hàng có giá trị.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
+    'He was obliged to pay the fine.',
+    'Anh ta buộc phải nộp tiền phạt.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
+    'Parents have an obligation to care for their children.',
+    'Cha mẹ có nghĩa vụ chăm sóc con cái.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'oblige' LIMIT 1),
+    'Wearing helmets is obligatory for motorcyclists.',
+    'Đội mũ bảo hiểm là bắt buộc đối với người đi xe máy.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'alliance' LIMIT 1),
+    'The countries formed a military alliance.',
+    'Các quốc gia lập liên minh quân sự.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'alliance' LIMIT 1),
+    'They allied with neighboring states.',
+    'Họ liên minh với các bang láng giềng.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'liable' LIMIT 1),
+    'You are liable for any damage caused.',
+    'Bạn phải chịu trách nhiệm cho mọi thiệt hại gây ra.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'liable' LIMIT 1),
+    'The company’s liabilities exceed its assets',
+    'Các khoản nợ của công ty vượt quá tài sản của nó.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'rally' LIMIT 1),
+    'The crowd rallied in front of the city hall.',
+    'Đám đông tụ tập trước tòa thị chính.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'rally' LIMIT 1),
+    'Thousands attended the political rally.',
+    'Hàng nghìn người tham dự cuộc biểu tình chính trị.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'alleviate' LIMIT 1),
+    'The medicine will alleviate your pain.',
+    'Thuốc sẽ làm giảm cơn đau của bạn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'alleviate' LIMIT 1),
+    'The alleviation of poverty is a global goal.',
+    'Giảm nghèo là mục tiêu toàn cầu.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'elevate' LIMIT 1),
+    'Regular exercise elevates your mood.',
+    'Tập thể dục thường xuyên giúp nâng cao tâm trạng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'elevate' LIMIT 1),
+    'The city is at a high elevation.',
+    'Thành phố nằm ở độ cao lớn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
+    'Your question is not relevant to the topic.',
+    'Câu hỏi của bạn không liên quan đến chủ đề.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
+    'That comment is completely irrelevant.',
+    'Nhận xét đó hoàn toàn không liên quan.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'relevant' LIMIT 1),
+    'The teacher questioned the relevance of his answer.',
+    'Giáo viên đặt nghi vấn về tính liên quan trong câu trả lời của anh ta.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'levy' LIMIT 1),
+    'The government imposed a new tax levy.',
+    'Chính phủ áp đặt một loại thuế mới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'levy' LIMIT 1),
+    'The state levied a fine on the company.',
+    'Nhà nước đánh thuế/phạt công ty.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'brief' LIMIT 1),
+    'The meeting was brief and to the point.',
+    'Cuộc họp diễn ra ngắn gọn và đi thẳng vào vấn đề.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'brief' LIMIT 1),
+    'The lawyer prepared a brief for the case.',
+    'Luật sư đã chuẩn bị một bản tóm tắt cho vụ án.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'brief' LIMIT 1),
+    'The manager will brief the team on the new project.',
+    'Giám đốc sẽ phổ biến (tóm tắt) cho nhóm về dự án mới.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'brief' LIMIT 1),
+    'There is a press briefing at 10 AM.',
+    'Có một cuộc họp báo lúc 10 giờ sáng.',
+    3);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abbreviate' LIMIT 1),
+    'We abbreviate "United States of America" to "USA".',
+    'Chúng ta viết tắt "United States of America" thành "USA".',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'abbreviate' LIMIT 1),
+    '"ASAP" is the abbreviation for "as soon as possible".',
+    '"ASAP" là chữ viết tắt của "càng sớm càng tốt".',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'brevity' LIMIT 1),
+    'The brevity of his speech was appreciated by all.',
+    'Sự ngắn gọn trong bài phát biểu của ông được mọi người đánh giá cao.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'embrace' LIMIT 1),
+    'She embraced her son after his long trip.',
+    'Cô ấy ôm chầm lấy con trai mình sau chuyến đi dài của cậu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'embrace' LIMIT 1),
+    'He greeted his friend with a warm embrace.',
+    'Anh ấy chào bạn mình bằng một cái ôm nồng nhiệt.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'decay' LIMIT 1),
+    'Sugar can cause your teeth to decay.',
+    'Đường có thể khiến răng bạn bị sâu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'decay' LIMIT 1),
+    'The old wooden bridge is in a state of decay.',
+    'Cây cầu gỗ cũ đang trong tình trạng mục nát.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'coincide' LIMIT 1),
+    'My vacation plans coincide with his.',
+    'Kế hoạch nghỉ mát của tôi trùng với kế hoạch của anh ấy.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'coincide' LIMIT 1),
+    'We met at the airport by pure coincidence.',
+    'Chúng tôi gặp nhau ở sân bay hoàn toàn là do tình cờ.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'incident' LIMIT 1),
+    'The police are investigating the incident.',
+    'Cảnh sát đang điều tra vụ việc.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'incident' LIMIT 1),
+    'We need to budget for incidental expenses on the trip.',
+    'Chúng ta cần dự trù kinh phí cho các chi phí phát sinh trong chuyến đi.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'incident' LIMIT 1),
+    'Incidentally, I saw your sister at the mall today.',
+    'À, nhân tiện, hôm nay tôi thấy chị gái bạn ở trung tâm thương mại.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'occident' LIMIT 1),
+    'This philosophy originated in the Occident.',
+    'Triết lý này bắt nguồn từ phương Tây.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'occident' LIMIT 1),
+    'He is a scholar of Occidental art.',
+    'Ông ấy là một học giả về nghệ thuật phương Tây.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equal' LIMIT 1),
+    'All employees should have equal opportunities.',
+    'Mọi nhân viên nên có cơ hội bình đẳng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equal' LIMIT 1),
+    'As a scientist, she has no equal.',
+    'Là một nhà khoa học, bà ấy không có đối thủ (người ngang hàng).',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equal' LIMIT 1),
+    'Two plus two equals four.',
+    'Hai cộng hai bằng bốn.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equal' LIMIT 1),
+    'They are fighting for gender equality.',
+    'Họ đang đấu tranh cho bình đẳng giới.',
+    3);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equation' LIMIT 1),
+    'Please solve this mathematical equation.',
+    'Vui lòng giải phương trình toán học này.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equinox' LIMIT 1),
+    'The spring equinox occurs around March 21st.',
+    'Ngày xuân phân xảy ra vào khoảng 21 tháng Ba.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equivalent' LIMIT 1),
+    'His new role has an equivalent level of responsibility.',
+    'Vai trò mới của anh ấy có mức độ trách nhiệm tương đương.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'equivalent' LIMIT 1),
+    'A centimeter is the equivalent of 0.39 inches.',
+    'Một centimet tương đương với 0.39 inch.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'companion' LIMIT 1),
+    'He traveled with his loyal dog, his faithful companion.',
+    'Anh ấy đi du lịch cùng chú chó trung thành, người bạn đồng hành của mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'companion' LIMIT 1),
+    'I enjoy your company.',
+    'Tôi thích ở bên cạnh bạn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pastoral' LIMIT 1),
+    'The painting showed a peaceful pastoral scene.',
+    'Bức tranh thể hiện một khung cảnh đồng quê yên bình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pastoral' LIMIT 1),
+    'The pastor delivered a sermon on Sunday.',
+    'Vị mục sư đã thuyết giảng vào Chủ nhật.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pantry' LIMIT 1),
+    'We keep flour and sugar in the pantry.',
+    'Chúng tôi giữ bột mì và đường trong tủ đựng thức ăn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'pasture' LIMIT 1),
+    'The cows are grazing in the pasture.',
+    'Đàn bò đang gặm cỏ trên đồng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'firm' LIMIT 1),
+    'He works for a major accounting firm.',
+    'Anh ấy làm việc cho một công ty kế toán lớn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'firm' LIMIT 1),
+    'This mattress is very firm.',
+    'Tấm nệm này rất cứng.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'confirm' LIMIT 1),
+    'Please confirm your attendance by email.',
+    'Vui lòng xác nhận sự tham dự của bạn qua email.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'confirm' LIMIT 1),
+    'We are still waiting for confirmation of our booking.',
+    'Chúng tôi vẫn đang chờ xác nhận đặt phòng.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reconfirm' LIMIT 1),
+    'You need to reconfirm your flight 48 hours in advance.',
+    'Bạn cần tái xác nhận chuyến bay của mình trước 48 giờ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reconfirm' LIMIT 1),
+    'Reconfirmation of the hotel reservation is required.',
+    'Việc tái xác nhận đặt phòng khách sạn là bắt buộc.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'infirmary' LIMIT 1),
+    'The student felt sick and went to the school infirmary.',
+    'Học sinh đó cảm thấy mệt và đã đến phòng y tế của trường.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'grave' LIMIT 1),
+    'The situation is grave, but there is still hope.',
+    'Tình hình rất nghiêm trọng, nhưng vẫn còn hy vọng.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'grief' LIMIT 1),
+    'He was filled with grief after his friend moved away.',
+    'Anh ấy tràn ngập nỗi đau buồn sau khi bạn mình chuyển đi.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'grief' LIMIT 1),
+    'The entire country grieved the loss of its leader.',
+    'Cả đất nước đau buồn trước sự mất mát của nhà lãnh đạo.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'grief' LIMIT 1),
+    'He suffered a grievous injury in the accident.',
+    'Anh ấy bị một chấn thương rất nghiêm trọng trong vụ tai nạn.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'gravity' LIMIT 1),
+    'The moon''s gravity causes the tides.',
+    'Trọng lực của mặt trăng gây ra thủy triều.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'gravitation' LIMIT 1),
+    'Newton''s law of universal gravitation is fundamental to physics.',
+    'Định luật vạn vật hấp dẫn của Newton là nền tảng của vật lý.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'approach' LIMIT 1),
+    'The train is approaching the station.',
+    'Tàu hỏa đang tiến vào nhà ga.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'approach' LIMIT 1),
+    'We need a new approach to this problem.',
+    'Chúng ta cần một phương pháp tiếp cận mới cho vấn đề này.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reproach' LIMIT 1),
+    'She reproached him for forgetting her birthday.',
+    'Cô ấy trách mắng anh ta vì đã quên sinh nhật mình.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reproach' LIMIT 1),
+    'His actions are beyond reproach.',
+    'Hành động của anh ấy không có gì đáng trách cả.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'proximity' LIMIT 1),
+    'The proximity of the house to the airport makes it noisy.',
+    'Sự gần gũi của ngôi nhà với sân bay khiến nó ồn ào.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'proximity' LIMIT 1),
+    'The proximate cause of the fire was faulty wiring.',
+    'Nguyên nhân trực tiếp (gần nhất) của vụ hỏa hoạn là do chập điện.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'proxy' LIMIT 1),
+    'You can vote by proxy if you cannot attend.',
+    'Bạn có thể bỏ phiếu ủy quyền nếu bạn không thể tham dự.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prove' LIMIT 1),
+    'You must prove your identity to enter.',
+    'Bạn phải chứng minh danh tính của mình để vào cửa.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'prove' LIMIT 1),
+    'Do you have any proof of purchase?',
+    'Bạn có bằng chứng mua hàng không?',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'probe' LIMIT 1),
+    'The committee will probe the cause of the accident.',
+    'Ủy ban sẽ thăm dò nguyên nhân của vụ tai nạn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'probe' LIMIT 1),
+    'NASA sent a probe to study the surface of Mars.',
+    'NASA đã gửi một tàu thăm dò để nghiên cứu bề mặt sao Hỏa.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'probable' LIMIT 1),
+    'It is probable that it will rain tomorrow.',
+    'Có khả năng cao là ngày mai trời sẽ mưa.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'probable' LIMIT 1),
+    'The probability of winning the lottery is very low.',
+    'Xác suất trúng xổ số là rất thấp.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'probable' LIMIT 1),
+    'I will probably be home late tonight.',
+    'Tôi có lẽ sẽ về nhà muộn tối nay.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reprove' LIMIT 1),
+    'The teacher gently reproved the child for talking.',
+    'Cô giáo nhẹ nhàng khiển trách đứa trẻ vì đã nói chuyện.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reprove' LIMIT 1),
+    'He ignored his father''s words of reproof.',
+    'Cậu ấy phớt lờ những lời khiển trách của cha mình.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'amount' LIMIT 1),
+    'His debts amount to thousands of dollars.',
+    'Nợ của anh ấy lên tới hàng ngàn đô la.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'amount' LIMIT 1),
+    'A large amount of money was stolen.',
+    'Một số tiền lớn đã bị đánh cắp.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dismount' LIMIT 1),
+    'The rider dismounted from the horse.',
+    'Người cưỡi ngựa đã xuống ngựa.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'eminent' LIMIT 1),
+    'He is an eminent scholar of history.',
+    'Ông ấy là một học giả lỗi lạc về lịch sử.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'eminent' LIMIT 1),
+    'She rose to eminence in her field.',
+    'Bà ấy đã vươn lên vị trí nổi bật trong lĩnh vực của mình.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'imminent' LIMIT 1),
+    'A storm is imminent.',
+    'Một cơn bão sắp xảy ra.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'imminent' LIMIT 1),
+    'They were unaware of the imminence of the danger.',
+    'Họ không nhận thức được sự nguy hiểm sắp xảy ra.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assume' LIMIT 1),
+    'I assume you know why I am here.',
+    'Tôi cho rằng bạn biết tại sao tôi ở đây.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'assume' LIMIT 1),
+    'Your assumption is based on incorrect data.',
+    'Giả định của bạn dựa trên dữ liệu không chính xác.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'consume' LIMIT 1),
+    'This car consumes too much fuel.',
+    'Chiếc xe này tiêu thụ quá nhiều nhiên liệu.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'consume' LIMIT 1),
+    'We need to reduce our energy consumption.',
+    'Chúng ta cần giảm lượng tiêu thụ năng lượng.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'consume' LIMIT 1),
+    'Consumer confidence has dropped.',
+    'Niềm tin của người tiêu dùng đã sụt giảm.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resume' LIMIT 1),
+    'The talks will resume tomorrow morning.',
+    'Các cuộc đàm phán sẽ tiếp tục vào sáng mai.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'resume' LIMIT 1),
+    'We hope for a quick resumption of normal service.',
+    'Chúng tôi hy vọng dịch vụ bình thường sẽ sớm được khôi phục lại.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exempt' LIMIT 1),
+    'The organization is exempt from taxes.',
+    'Tổ chức này được miễn thuế.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exempt' LIMIT 1),
+    'The judge exempted her from jury duty.',
+    'Thẩm phán đã miễn cho cô ấy nghĩa vụ bồi thẩm đoàn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exempt' LIMIT 1),
+    'He applied for a tax exemption.',
+    'Anh ấy đã nộp đơn xin miễn thuế.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'clamor' LIMIT 1),
+    'A clamor of angry voices rose from the crowd.',
+    'Một tiếng la ó giận dữ vang lên từ đám đông.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'clamor' LIMIT 1),
+    'The children were clamoring for ice cream.',
+    'Bọn trẻ đang la hét đòi kem.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exclaim' LIMIT 1),
+    '"What a surprise!" she exclaimed.',
+    '"Thật bất ngờ!" cô ấy thốt lên.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'exclaim' LIMIT 1),
+    'He shouted an exclamation of pain.',
+    'Anh ta hét lên một tiếng kêu đau đớn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acclaim' LIMIT 1),
+    'The book was critically acclaimed.',
+    'Cuốn sách đã được giới phê bình ca ngợi.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acclaim' LIMIT 1),
+    'She received international acclaim for her performance.',
+    'Cô đã nhận được sự hoan nghênh quốc tế cho màn trình diễn của mình.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'acclaim' LIMIT 1),
+    'The hero was greeted with loud acclamation.',
+    'Người anh hùng được chào đón bằng những tiếng hoan hô vang dội.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reclaim' LIMIT 1),
+    'They plan to reclaim the land from the sea.',
+    'Họ dự định cải tạo (lấy lại) đất từ biển.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'reclaim' LIMIT 1),
+    'Land reclamation is an expensive process.',
+    'Việc cải tạo đất là một quá trình tốn kém.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'domestic' LIMIT 1),
+    'This airline only offers domestic flights.',
+    'Hãng hàng không này chỉ cung cấp các chuyến bay nội địa.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'domestic' LIMIT 1),
+    'Humans domesticated dogs thousands of years ago.',
+    'Con người đã thuần hóa chó hàng ngàn năm trước.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dominate' LIMIT 1),
+    'The team dominated the game from start to finish.',
+    'Đội đã thống trị trận đấu từ đầu đến cuối.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dominate' LIMIT 1),
+    'Blue is the dominant color in the painting.',
+    'Màu xanh là màu chủ đạo trong bức tranh.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'dominate' LIMIT 1),
+    'The company is fighting for market domination.',
+    'Công ty đang chiến đấu để giành sự thống trị thị trường.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'condominium' LIMIT 1),
+    'They bought a new condominium downtown.',
+    'Họ đã mua một căn hộ chung cư mới ở trung tâm thành phố.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'describe' LIMIT 1),
+    'Can you describe the man you saw?',
+    'Bạn có thể mô tả người đàn ông bạn đã thấy không?',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'describe' LIMIT 1),
+    'The police issued a description of the suspect.',
+    'Cảnh sát đã đưa ra bản mô tả về nghi phạm.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ascribe' LIMIT 1),
+    'He ascribed his success to luck.',
+    'Anh ấy cho rằng thành công của mình là do may mắn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ascribe' LIMIT 1),
+    'The ascription of this quote to Einstein is incorrect.',
+    'Việc gán câu nói này cho Einstein là không chính xác.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subscribe' LIMIT 1),
+    'I subscribe to several magazines.',
+    'Tôi đăng ký (mua dài hạn) một vài tạp chí.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'subscribe' LIMIT 1),
+    'My Netflix subscription expires next week.',
+    'Gói đăng ký Netflix của tôi sẽ hết hạn vào tuần tới.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'conscript' LIMIT 1),
+    'He was conscripted into the army.',
+    'Anh ấy bị bắt đi lính (nhập ngũ).',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'conscript' LIMIT 1),
+    'South Korea has mandatory military conscription.',
+    'Hàn Quốc có chế độ nghĩa vụ quân sự bắt buộc.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'sue' LIMIT 1),
+    'She is planning to sue the company for damages.',
+    'Cô ấy đang lên kế hoạch kiện công ty đòi bồi thường thiệt hại.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'ensue' LIMIT 1),
+    'A heated argument ensued.',
+    'Một cuộc tranh luận nảy lửa đã xảy ra (theo sau đó).',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suitable' LIMIT 1),
+    'This film is not suitable for children.',
+    'Bộ phim này không phù hợp với trẻ em.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suitable' LIMIT 1),
+    'He wore a new suit to the wedding.',
+    'Anh ấy mặc một bộ com-lê mới đến đám cưới.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suitable' LIMIT 1),
+    'That color doesn''t suit you.',
+    'Màu đó không hợp với bạn.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'suite' LIMIT 1),
+    'We stayed in the presidential suite at the hotel.',
+    'Chúng tôi đã ở trong phòng tổng thống (phòng suite) tại khách sạn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fund' LIMIT 1),
+    'The hospital is raising funds for new equipment.',
+    'Bệnh viện đang gây quỹ cho thiết bị mới.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'foundation' LIMIT 1),
+    'The house is built on strong foundations.',
+    'Ngôi nhà được xây trên một nền móng vững chắc.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'foundation' LIMIT 1),
+    'The city was founded in 1788.',
+    'Thành phố được thành lập vào năm 1788.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fundamental' LIMIT 1),
+    'This is a fundamental error in your logic.',
+    'Đây là một lỗi cơ bản trong logic của bạn.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'fundamental' LIMIT 1),
+    'We need to learn the fundamentals of coding.',
+    'Chúng ta cần học những điều cơ bản về lập trình.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'refundable' LIMIT 1),
+    'The deposit is non-refundable.',
+    'Tiền đặt cọc không được hoàn lại.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'refundable' LIMIT 1),
+    'The store refunded my money.',
+    'Cửa hàng đã hoàn lại tiền cho tôi.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'refundable' LIMIT 1),
+    'I asked for a full refund.',
+    'Tôi đã yêu cầu hoàn tiền đầy đủ.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valid' LIMIT 1),
+    'This ticket is valid for 24 hours.',
+    'Vé này có hiệu lực trong 24 giờ.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valid' LIMIT 1),
+    'Your password is invalid.',
+    'Mật khẩu của bạn không hợp lệ.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valuable' LIMIT 1),
+    'He gave me some valuable advice.',
+    'Anh ấy đã cho tôi một số lời khuyên quý giá.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valuable' LIMIT 1),
+    'Keep your valuables in the hotel safe.',
+    'Hãy giữ những đồ vật có giá trị của bạn trong két sắt của khách sạn.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valuable' LIMIT 1),
+    'Her contribution to the team was invaluable.',
+    'Sự đóng góp của cô ấy cho đội là vô giá.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valuable' LIMIT 1),
+    'The value of this painting is over a million dollars.',
+    'Giá trị của bức tranh này là hơn một triệu đô la.',
+    3);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'valuable' LIMIT 1),
+    'I value your opinion.',
+    'Tôi trân trọng ý kiến của bạn.',
+    4);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'available' LIMIT 1),
+    'The manager is not available right now.',
+    'Giám đốc không có mặt (không rảnh) ngay lúc này.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'available' LIMIT 1),
+    'You should avail yourself of this opportunity.',
+    'Bạn nên tận dụng cơ hội này.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'available' LIMIT 1),
+    'His apologies were of no avail.',
+    'Lời xin lỗi của anh ta cũng vô ích.',
+    2);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'evaluate' LIMIT 1),
+    'We need to evaluate the results of the test.',
+    'Chúng ta cần đánh giá kết quả của bài kiểm tra.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'evaluate' LIMIT 1),
+    'He received a positive performance evaluation.',
+    'Anh ấy đã nhận được một bản đánh giá hiệu suất tích cực.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'principle' LIMIT 1),
+    'It is against my principles to lie.',
+    'Nói dối là đi ngược lại nguyên tắc của tôi.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'municipal' LIMIT 1),
+    'We pay municipal taxes to the city.',
+    'Chúng tôi đóng thuế thành phố (thuộc đô thị) cho thành phố.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'anticipate' LIMIT 1),
+    'We anticipate a large crowd at the concert.',
+    'Chúng tôi dự đoán sẽ có một đám đông lớn tại buổi hòa nhạc.',
+    0);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'anticipate' LIMIT 1),
+    'She waited in anticipation for the results.',
+    'Cô ấy chờ đợi kết quả trong sự mong đợi.',
+    1);
+
+INSERT INTO public.sub_vocab_example
+(id, sub_vocab_id, example_en, example_vi, example_order)
+VALUES
+    (gen_random_uuid(),
+     (SELECT id FROM public.sub_vocab WHERE word = 'recipient' LIMIT 1),
+    'He was the recipient of the ''Best Actor'' award.',
+    'Anh ấy là người nhận giải "Nam diễn viên xuất sắc nhất".',
+    0);
